@@ -1,0 +1,90 @@
+{
+  "verifiedAt": "2026-10-30T09:32:38.161Z",
+  "signature": "61768328aea230ff61aa2c7b8aad735d812bd79071bc3d051e46a848c96166c2",
+  "geometry": {
+    "dock": {
+      "x": 0,
+      "y": 520,
+      "w": 700,
+      "h": 104,
+      "name": "GuideDock"
+    },
+    "overlaps": [],
+    "shade": 0
+  },
+  "appearance": {
+    "background": "153e3b",
+    "whiteBoldText": true,
+    "cue": true
+  },
+  "chefSamples": [
+    {
+      "scale": 1.0550921842354228,
+      "x": -195,
+      "y": -195,
+      "opacity": 179.5775994511663
+    },
+    {
+      "scale": 1.0824988320089364,
+      "x": -195,
+      "y": -195,
+      "opacity": 219.16497956846365
+    },
+    {
+      "scale": 1.0897247846898792,
+      "x": -195,
+      "y": -195,
+      "opacity": 229.6024667742699
+    },
+    {
+      "scale": 1.0741294929211072,
+      "x": -195,
+      "y": -195,
+      "opacity": 207.075934219377
+    },
+    {
+      "scale": 1.04068694113659,
+      "x": -195,
+      "y": -195,
+      "opacity": 158.7700260861855
+    },
+    {
+      "scale": 1.0121426975520662,
+      "x": -195,
+      "y": -195,
+      "opacity": 117.53945201965118
+    },
+    {
+      "scale": 1,
+      "x": -195,
+      "y": -195,
+      "opacity": 100
+    },
+    {
+      "scale": 1.0088357869437121,
+      "x": -195,
+      "y": -195,
+      "opacity": 112.76280336313974
+    },
+    {
+      "scale": 1.0363056854312318,
+      "x": -195,
+      "y": -195,
+      "opacity": 152.44154562289032
+    },
+    {
+      "scale": 1.068391780437128,
+      "x": -195,
+      "y": -195,
+      "opacity": 198.78812729807362
+    }
+  ],
+  "checks": [
+    "high-contrast-action-guide-without-continue",
+    "chef-breathes-and-halo-pulses-without-moving-cell",
+    "two-consecutive-real-swipes-win-with-no-dialogue-clicks",
+    "prop-and-device-guides-advance-by-target-click",
+    "recipe-action-guide-opens-real-panel"
+  ],
+  "errors": []
+}

@@ -1,0 +1,2 @@
+import {registerHooks} from 'node:module';
+registerHooks({resolve(specifier,context,next){if(specifier==='cc')return {url:new URL('./fixtures/cc-audio.mjs',import.meta.url).href,shortCircuit:true};try{return next(specifier,context);}catch(e){if(e.code==='ERR_MODULE_NOT_FOUND'&&(specifier.startsWith('./')||specifier.startsWith('../'))&&!specifier.endsWith('.ts'))return next(specifier+'.ts',context);throw e;}}});

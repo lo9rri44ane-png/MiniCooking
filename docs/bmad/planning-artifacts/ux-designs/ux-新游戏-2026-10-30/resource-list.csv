@@ -1,0 +1,74 @@
+﻿id,category,name,suggested_size,pivot,target_prefab,priority,status,notes
+food_leaf,食材,生菜,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_tomato,食材,番茄,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_bread,食材,面包,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_cheese,食材,芝士,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_water,食材,水,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_berry,食材,莓果,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_meat,食材,牛肉,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_egg,食材,鸡蛋,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_milk,食材,牛奶,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_coffee,食材,咖啡豆,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_fish,食材,鱼肉,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+food_rice,食材,米饭,128x128,中心,IngredientTile / IngredientChip / BagSlot,P0,待制作,透明PNG；订单/菜谱/背包共用同一SpriteFrame；文字数量保留Label
+device_table,厨房设备,料理台,256x256,中心,DeviceTile / RequiredDevice,P0,待制作,本体与设备需求图标共享识别特征
+device_pan,厨房设备,煎锅,256x256,中心,DeviceTile / RequiredDevice,P0,待制作,本体与设备需求图标共享识别特征
+device_drink,厨房设备,饮料机,256x256,中心,DeviceTile / RequiredDevice,P0,待制作,本体与设备需求图标共享识别特征
+board_floor_a,棋盘,地面A,128x128,中心,BoardCell / Wall / Station,P0,待制作,不可遮挡相邻格，停靠位必须明显区别于设备
+board_floor_b,棋盘,地面B,128x128,中心,BoardCell / Wall / Station,P0,待制作,不可遮挡相邻格，停靠位必须明显区别于设备
+board_wall,棋盘,障碍,128x128,中心,BoardCell / Wall / Station,P0,待制作,不可遮挡相邻格，停靠位必须明显区别于设备
+board_station,棋盘,停靠位,128x128,中心,BoardCell / Wall / Station,P0,待制作,不可遮挡相邻格，停靠位必须明显区别于设备
+chef_idle,角色动画,仓鼠厨师-待机,256x256/帧,脚底中心,Chef / ChefBody,P0,待制作,首版可序列帧；四向滑动可共用姿态；具体帧数以节奏样片确认
+chef_slide,角色动画,仓鼠厨师-滑行,256x256/帧,脚底中心,Chef / ChefBody,P0,待制作,首版可序列帧；四向滑动可共用姿态；具体帧数以节奏样片确认
+chef_cook,角色动画,仓鼠厨师-制作,256x256/帧,脚底中心,Chef / ChefBody,P0,待制作,首版可序列帧；四向滑动可共用姿态；具体帧数以节奏样片确认
+chef_win,角色动画,仓鼠厨师-下班胜利,256x256/帧,脚底中心,Chef / ChefBody,P1,待制作,首版可序列帧；四向滑动可共用姿态；具体帧数以节奏样片确认
+chef_fail,角色动画,仓鼠厨师-失败,256x256/帧,脚底中心,Chef / ChefBody,P1,待制作,首版可序列帧；四向滑动可共用姿态；具体帧数以节奏样片确认
+customer_1,客人,人类客人外观1,256x256,底部中心,CustomerOrderCard,P1,待制作,三种可复用外观，不绑定客人编号
+customer_2,客人,人类客人外观2,256x256,底部中心,CustomerOrderCard,P1,待制作,三种可复用外观，不绑定客人编号
+customer_3,客人,人类客人外观3,256x256,底部中心,CustomerOrderCard,P1,待制作,三种可复用外观，不绑定客人编号
+bg_home,背景,主界面,720x1280,中心,HomePage / KitchenPage,P1,待制作,棋盘区域低纹理；保留SafeArea与动态文字
+bg_breakfast,背景,早餐店厨房,720x1280,中心,HomePage / KitchenPage,P1,待制作,棋盘区域低纹理；保留SafeArea与动态文字
+bg_diner,背景,简餐店厨房,720x1280,中心,HomePage / KitchenPage,P1,待制作,棋盘区域低纹理；保留SafeArea与动态文字
+ui_button,UI通用,按钮底,128x128,中心,PrimaryButton / Panel / CustomerOrderCard / BagSlot / AdBagSlot / LevelCard,P0,待制作,支持九宫格拉伸；不烘焙文字；常态/按下/禁用通过色调或独立帧
+ui_panel,UI通用,面板底,128x128,中心,PrimaryButton / Panel / CustomerOrderCard / BagSlot / AdBagSlot / LevelCard,P0,待制作,支持九宫格拉伸；不烘焙文字；常态/按下/禁用通过色调或独立帧
+ui_card,UI通用,订单卡,128x128,中心,PrimaryButton / Panel / CustomerOrderCard / BagSlot / AdBagSlot / LevelCard,P0,待制作,支持九宫格拉伸；不烘焙文字；常态/按下/禁用通过色调或独立帧
+ui_bag,UI通用,背包格,128x128,中心,PrimaryButton / Panel / CustomerOrderCard / BagSlot / AdBagSlot / LevelCard,P0,待制作,支持九宫格拉伸；不烘焙文字；常态/按下/禁用通过色调或独立帧
+ui_ad_bag,UI通用,广告背包格,128x128,中心,PrimaryButton / Panel / CustomerOrderCard / BagSlot / AdBagSlot / LevelCard,P0,待制作,支持九宫格拉伸；不烘焙文字；常态/按下/禁用通过色调或独立帧
+ui_level,UI通用,关卡卡片,128x128,中心,PrimaryButton / Panel / CustomerOrderCard / BagSlot / AdBagSlot / LevelCard,P0,待制作,支持九宫格拉伸；不烘焙文字；常态/按下/禁用通过色调或独立帧
+icon_energy,UI图标,体力,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_undo,UI图标,撤回,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_overtime,UI图标,加班,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_ad,UI图标,广告,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_settings,UI图标,设置,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_pause,UI图标,暂停,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_recipe,UI图标,菜谱,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_back,UI图标,返回,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_close,UI图标,关闭,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_lock,UI图标,锁,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_check,UI图标,完成,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_music,UI图标,音乐,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_sound,UI图标,音效,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_arrow,UI图标,滑动箭头,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+icon_hand,UI图标,引导手势,96x96,中心,PrimaryButton / EnergyWidget / GuideDock / GuideTarget,P1,待制作,保留文字标签，不仅靠图标识别
+fx_pickup,特效,收集,256x256/帧,中心,Effects,P2,待制作,短时、不遮路线；正式动效尚未制作
+fx_cook,特效,制作蒸汽,256x256/帧,中心,Effects,P2,待制作,短时、不遮路线；正式动效尚未制作
+fx_order,特效,订单完成,256x256/帧,中心,Effects,P2,待制作,短时、不遮路线；正式动效尚未制作
+fx_win,特效,胜利,256x256/帧,中心,Effects,P2,待制作,短时、不遮路线；正式动效尚未制作
+audio_move,音频,移动,ogg/mp3,不适用,AudioService,P2,待制作,统一响度与授权；当前无默认音频文件
+audio_pickup,音频,收集,ogg/mp3,不适用,AudioService,P2,待制作,统一响度与授权；当前无默认音频文件
+audio_cook,音频,制作,ogg/mp3,不适用,AudioService,P2,待制作,统一响度与授权；当前无默认音频文件
+audio_button,音频,按钮,ogg/mp3,不适用,AudioService,P2,待制作,统一响度与授权；当前无默认音频文件
+audio_win,音频,胜利,ogg/mp3,不适用,AudioService,P2,待制作,统一响度与授权；当前无默认音频文件
+audio_fail,音频,失败,ogg/mp3,不适用,AudioService,P2,待制作,统一响度与授权；当前无默认音频文件
+audio_bgm,音频,厨房背景乐,ogg/mp3,不适用,AudioService,P2,待制作,统一响度与授权；当前无默认音频文件
+dish_salad,菜品成品,蔬菜沙拉,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备table；正式美术阶段新增图标展示，当前为文本
+dish_toast,菜品成品,芝士吐司,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备pan；正式美术阶段新增图标展示，当前为文本
+dish_deluxe,菜品成品,丰盛沙拉,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备table；正式美术阶段新增图标展示，当前为文本
+dish_juice,菜品成品,莓果饮料,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备drink；正式美术阶段新增图标展示，当前为文本
+dish_burger,菜品成品,牛肉汉堡,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备pan；正式美术阶段新增图标展示，当前为文本
+dish_eggtoast,菜品成品,鸡蛋吐司,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备pan；正式美术阶段新增图标展示，当前为文本
+dish_coffee,菜品成品,牛奶咖啡,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备drink；正式美术阶段新增图标展示，当前为文本
+dish_fishrice,菜品成品,香煎鱼饭,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备pan；正式美术阶段新增图标展示，当前为文本
+dish_platter,菜品成品,田园饭碗,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备table；正式美术阶段新增图标展示，当前为文本
+dish_milkberry,菜品成品,莓果奶昔,128x128,中心,CustomerOrderCard / RecipeCard,P1,待制作,来自当前关卡菜谱；制作设备drink；正式美术阶段新增图标展示，当前为文本
+ui_placeholders,现有实现,45个预制体色块与Label占位,720x1280基准,中心,resources/prefabs,P0,已实现,准确数量与内容见prefab-inventory.csv；不是正式美术

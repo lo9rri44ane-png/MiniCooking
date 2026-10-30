@@ -1,0 +1,41 @@
+{
+  "verifiedAt": "2026-10-30T07:13:18.633Z",
+  "signature": "bb52c03a77658924727f036c7825d404e36a69fd1ff4565948abf014bc4bfae2",
+  "checks": [
+    "order-tool-badges-match-board",
+    "unconfigured-ad-never-unlocks",
+    "visual-recipes-show-tools",
+    "gm-expansion-preserves-seven-ingredients-and-revives",
+    "undo-preserves-unlocked-entitlement",
+    "gm-reset-original-capacity-and-replay-win",
+    "new-attempt-relocks-ad-slot"
+  ],
+  "equipment": [
+    {
+      "name": "RequiredDevice-table",
+      "color": "a18261",
+      "board": "a18261",
+      "labels": [
+        "需用 料理台"
+      ]
+    },
+    {
+      "name": "RequiredDevice-pan",
+      "color": "a18261",
+      "board": "a18261",
+      "labels": [
+        "需用 煎锅"
+      ]
+    },
+    {
+      "name": "RequiredDevice-drink",
+      "color": "6da6b7",
+      "board": "6da6b7",
+      "labels": [
+        "需用 饮料机"
+      ]
+    }
+  ],
+  "errors": [],
+  "adIntegration": "unsupported in preview; no ad reward granted; unlock verified with explicitly labelled GM"
+}

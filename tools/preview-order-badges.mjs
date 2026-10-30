@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';import {createRequire} from 'node:module';import {writeFile} from 'node:fs/promises';
+import {sourceSignature} from './source-signature.mjs';
+import {chromium} from 'playwright';
+const browser=await chromium.launch({...(process.env.PLAYWRIGHT_CHANNEL?{channel:process.env.PLAYWRIGHT_CHANNEL}:{}),headless:true,args:['--use-gl=angle','--use-angle=swiftshader','--enable-webgl']});
+try{const page=await browser.newPage({viewport:{width:900,height:1440}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://localhost:7456/');await page.waitForTimeout(5000);
+async function click(value,nth=0){const p=await page.evaluate(async({value,nth})=>{const cc=await window.System.import('cc'),scene=cc.director.getScene(),node=scene.getComponentsInChildren(cc.Button).filter(b=>b.node.getComponentInChildren(cc.Label)?.string===value)[nth].node,c=document.querySelector('#GameCanvas'),r=c.getBoundingClientRect(),cam=scene.getChildByName('Canvas').getComponent(cc.Canvas).cameraComponent,s=cam.worldToScreen(node.worldPosition);return{x:r.x+s.x*r.width/c.width,y:r.y+(c.height-s.y)*r.height/c.height};},{value,nth});await page.mouse.click(p.x,p.y);await page.waitForTimeout(200);}
+await click('开始试玩 · 选择关卡');await click('开工',4);
+const badges=await page.evaluate(async()=>{const cc=await window.System.import('cc'),all=cc.director.getScene().getComponentsInChildren(cc.Graphics);return all.filter(g=>g.node.name.startsWith('OrderIngredient-')).map(g=>({name:g.node.name,color:g.fillColor.toHEX(),labels:g.node.getComponentsInChildren(cc.Label).map(l=>l.string),width:g.node.getComponent(cc.UITransform).width}));});
+assert.equal(badges.length,6);for(const b of badges){assert.ok(b.labels.includes('×1'));assert.ok(b.width>=80);}
+assert.deepEqual(badges.map(b=>b.labels[0]),['菜','茄','包','酪','水','莓']);
+await page.screenshot({path:'docs/verification/kitchen-order-badges.png'});await page.keyboard.press('ArrowLeft');await page.waitForTimeout(750);
+assert.equal(await page.evaluate(async()=>{const cc=await window.System.import('cc');return cc.director.getScene().getComponentsInChildren(cc.Graphics).filter(g=>g.node.name.startsWith('OrderIngredient-')).length;}),6);
+assert.deepEqual(errors,[]);await writeFile('docs/verification/kitchen-order-badges.json',JSON.stringify({verifiedAt:new Date().toISOString(),signature:await sourceSignature(),checks:['order-six-color-text-badges','same-food-short-labels','quantity-visible','badge-render-after-move'],badges,errors},null,2));console.log(JSON.stringify({badges,errors}));}finally{await browser.close();}

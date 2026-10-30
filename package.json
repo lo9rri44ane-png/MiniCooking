@@ -1,0 +1,26 @@
+{
+  "name": "mini-cooking",
+  "uuid": "73d619d6-46a5-44e2-82f2-1f2712cf6e91",
+  "version": "3.0.0",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --import ./tests/register.mjs --test tests/*.test.mjs",
+    "typecheck": "node tools/typecheck.mjs",
+    "setup": "node tools/setup.mjs",
+    "setup:browser": "playwright install chromium",
+    "verify:ui": "node tools/preview-prefabs.mjs",
+    "verify:tutorial": "node tools/preview-tutorial-action.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "typescript": "5.8.3"
+  },
+  "description": "小小厨房，下班啦！Cocos Creator 3.8.8 2D cooking puzzle",
+  "engines": {
+    "node": ">=22"
+  }
+}

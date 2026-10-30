@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-10-30T07:03:41.158Z",
+  "signature": "0117f94ba43de9cdf3dc7d73461745623a67dfbc0cf89a2c98bc63d7ca4d7730",
+  "checks": [
+    "three-props-real-buttons",
+    "quit-costs-one",
+    "normal-win-free",
+    "failed-overtime-quit-no-double-charge",
+    "full-bag-stash-revive-and-undo",
+    "energy-gm-clamped-to-ten",
+    "gm-level-1-reset-and-autoplay",
+    "level-gm-add-steps",
+    "gm-level-2-reset-and-autoplay",
+    "gm-level-3-reset-and-autoplay",
+    "gm-level-4-reset-and-autoplay",
+    "gm-level-5-reset-and-autoplay",
+    "gm-level-6-reset-and-autoplay",
+    "gm-does-not-write-normal-best",
+    "zero-energy-blocks-entry",
+    "offline-recovery-timestamp-fixture",
+    "reload-quit-charged-once"
+  ],
+  "errors": [],
+  "offlineRecovery": "persisted timestamp fixture, no ten-minute wall-clock wait"
+}

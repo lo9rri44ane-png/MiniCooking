@@ -1,0 +1,45 @@
+{
+  "verifiedAt": "2026-10-30T04:09:03.317Z",
+  "signature": "357dfc83f0b66f1bcf2e67cf82a2390e39e577c381b92adad9ae2588bf5f38b8",
+  "checks": [
+    "native-preview",
+    "orthographic-camera",
+    "settings-physical-click",
+    "save-toggle",
+    "route-roundtrip",
+    "event",
+    "popup-close"
+  ],
+  "state": {
+    "scene": "",
+    "roots": [
+      "Canvas"
+    ],
+    "canvasComponents": [
+      "UITransform",
+      "Canvas",
+      "MinigameApplication",
+      "AudioSource",
+      "AudioSource"
+    ],
+    "labels": [
+      "小游戏开发框架",
+      "Cocos Creator 3.8.8\n通用基础已就绪 · 玩法尚未接入",
+      "框架检查",
+      "音频与设置",
+      "平台能力说明",
+      "具体玩法请放入 assets/scripts/features\n开发阶段使用 Creator 预览，无需打包"
+    ],
+    "camera": [
+      {
+        "projection": 0,
+        "visibility": 33554432
+      }
+    ],
+    "size": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "errors": []
+}

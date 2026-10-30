@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-10-30T08:14:17.551Z",
+  "signature": "c682e76264bd50ae7a461e143ab1253ac0ba12ab9bfbe2db397651c10c495382",
+  "geometry": {
+    "dock": {
+      "x": 0,
+      "y": 520,
+      "w": 700,
+      "h": 104,
+      "name": "GuideDock"
+    },
+    "overlaps": [],
+    "shade": 0
+  },
+  "checks": [
+    "tap-key-short-and-wrong-direction-do-not-advance",
+    "guide-hidden-during-real-movement",
+    "post-move-board-and-bag-uncovered",
+    "real-board-swipes-win-in-two-steps",
+    "prop-click-guide-target-not-obscured",
+    "recipe-click-guide-still-opens-real-panel",
+    "old-guide-completion-does-not-skip-new-swipe-version"
+  ],
+  "errors": []
+}

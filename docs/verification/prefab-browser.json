@@ -1,0 +1,307 @@
+{
+  "verifiedAt": "2026-10-30T09:32:18.336Z",
+  "signature": "61768328aea230ff61aa2c7b8aad735d812bd79071bc3d051e46a848c96166c2",
+  "checks": [
+    "home-settings-restaurants-levels-game-recipes-pause-failure-win-use-prefabs",
+    "all-live-ui-nodes-linked-no-duplicate-render-or-input-components"
+  ],
+  "instances": [
+    {
+      "name": "KitchenHome",
+      "asset": "HomePage",
+      "children": 11
+    },
+    {
+      "name": "Action-开始营业 · 选择餐厅",
+      "asset": "PrimaryButton",
+      "children": 1
+    },
+    {
+      "name": "SettingsPage",
+      "asset": "SettingsPage",
+      "children": 8
+    },
+    {
+      "name": "Restaurants",
+      "asset": "RestaurantsPage",
+      "children": 9
+    },
+    {
+      "name": "CampaignSelect",
+      "asset": "LevelSelectPage",
+      "children": 22
+    },
+    {
+      "name": "KitchenGame",
+      "asset": "KitchenPage",
+      "children": 18
+    },
+    {
+      "name": "Chef",
+      "asset": "Chef",
+      "children": 2
+    },
+    {
+      "name": "CustomerSlot-0",
+      "asset": "CustomerOrderCard",
+      "children": 5
+    },
+    {
+      "name": "RecipePanel",
+      "asset": "RecipePanel",
+      "children": 4
+    },
+    {
+      "name": "Modal",
+      "asset": "PausePanel",
+      "children": 4
+    },
+    {
+      "name": "Modal",
+      "asset": "FailResult",
+      "children": 6
+    },
+    {
+      "name": "Modal",
+      "asset": "WinResult",
+      "children": 5
+    }
+  ],
+  "live": {
+    "count": 94,
+    "linked": 92,
+    "unlinked": [
+      "Canvas",
+      "UICamera"
+    ],
+    "duplicateComponents": []
+  },
+  "inventory": [
+    {
+      "id": "AdBagSlot",
+      "uuid": "d9f0bebb-0878-46e5-abdb-4c82e433b503",
+      "nodes": 2
+    },
+    {
+      "id": "BagSlot",
+      "uuid": "bfa71b2a-048e-4e85-a7a7-2fd5233b3616",
+      "nodes": 2
+    },
+    {
+      "id": "Board",
+      "uuid": "7b245c0c-7359-4228-803b-44ce56d68739",
+      "nodes": 1
+    },
+    {
+      "id": "BoardCell",
+      "uuid": "c4edde7d-448f-4238-a82a-a0ca180e48ef",
+      "nodes": 1
+    },
+    {
+      "id": "Chef",
+      "uuid": "990b179f-98c3-4afa-8735-0cd795947f31",
+      "nodes": 4
+    },
+    {
+      "id": "ChefBody",
+      "uuid": "0e9f05b6-10fe-468e-b3c0-c7e03da1eebb",
+      "nodes": 2
+    },
+    {
+      "id": "ChefHalo",
+      "uuid": "afa69f88-b963-4b6a-83e4-43d2c9d7e5d1",
+      "nodes": 1
+    },
+    {
+      "id": "ChoicePanel",
+      "uuid": "75015af4-b810-419f-8721-d13820ae9a72",
+      "nodes": 5
+    },
+    {
+      "id": "Container",
+      "uuid": "d564106d-4754-44b4-acd6-faed0cfd4c78",
+      "nodes": 1
+    },
+    {
+      "id": "CustomerOrderCard",
+      "uuid": "921dcbfc-3ac8-4eff-a838-c96a16e3dbad",
+      "nodes": 11
+    },
+    {
+      "id": "DeviceTile",
+      "uuid": "003f61bd-0a7a-4a55-bbb9-e242e8e3661e",
+      "nodes": 2
+    },
+    {
+      "id": "DiagnosticsPage",
+      "uuid": "6ddfbb27-6357-4702-9f9d-7b557842931a",
+      "nodes": 11
+    },
+    {
+      "id": "Effects",
+      "uuid": "568315b9-68a6-473c-ac35-f0e0e00cf3e9",
+      "nodes": 1
+    },
+    {
+      "id": "EmptyState",
+      "uuid": "7bf2838d-26c1-4568-a407-5566e07b525a",
+      "nodes": 2
+    },
+    {
+      "id": "EnergyWidget",
+      "uuid": "7096e1af-9de9-4166-9e79-6fb4b0195f8e",
+      "nodes": 1
+    },
+    {
+      "id": "ErrorState",
+      "uuid": "267ffbe1-e5d3-4f91-9885-94a52cc8b4a1",
+      "nodes": 2
+    },
+    {
+      "id": "FailResult",
+      "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f",
+      "nodes": 7
+    },
+    {
+      "id": "FrameworkButton",
+      "uuid": "af6873a9-831d-49cd-b356-5a6f7b78b476",
+      "nodes": 2
+    },
+    {
+      "id": "GuideDock",
+      "uuid": "aaba0599-a3a6-4d66-b196-117aad52ae2b",
+      "nodes": 7
+    },
+    {
+      "id": "GuideFocus",
+      "uuid": "d723ac31-d748-489f-ad57-437d5bf618cf",
+      "nodes": 1
+    },
+    {
+      "id": "GuideTarget",
+      "uuid": "7adb7304-7060-453f-b968-06f9e30896c1",
+      "nodes": 1
+    },
+    {
+      "id": "HomePage",
+      "uuid": "b3af17e5-8b4b-4649-a0c9-8386683d6fe0",
+      "nodes": 20
+    },
+    {
+      "id": "HUD",
+      "uuid": "edde457c-6ec8-49df-91ff-866ed7a86bea",
+      "nodes": 1
+    },
+    {
+      "id": "IngredientChip",
+      "uuid": "49efc4a2-77c1-477d-aa93-e289e44ca126",
+      "nodes": 3
+    },
+    {
+      "id": "IngredientTile",
+      "uuid": "91b3da60-26a7-413a-96ca-004f37a6369f",
+      "nodes": 2
+    },
+    {
+      "id": "KitchenPage",
+      "uuid": "7f2ad1c6-f0d9-4f09-b189-f4da919f9a10",
+      "nodes": 5
+    },
+    {
+      "id": "LevelCard",
+      "uuid": "27326863-9ee7-4d61-841d-c9b4a3e2f77e",
+      "nodes": 4
+    },
+    {
+      "id": "LevelSelectPage",
+      "uuid": "3b375872-2e8d-4d6d-bd0c-f055e5383319",
+      "nodes": 59
+    },
+    {
+      "id": "LoadingState",
+      "uuid": "69266929-134c-42cc-a0f5-361c7c466500",
+      "nodes": 2
+    },
+    {
+      "id": "Panel",
+      "uuid": "2f3ee4ca-b6e8-4a4d-9eb9-fbf0871cbf4c",
+      "nodes": 1
+    },
+    {
+      "id": "PausePanel",
+      "uuid": "693fd668-cec7-4934-83c9-505caddfafb2",
+      "nodes": 7
+    },
+    {
+      "id": "Popup",
+      "uuid": "94ed1526-07e9-48c8-a2ee-01761d4c6543",
+      "nodes": 5
+    },
+    {
+      "id": "PrimaryButton",
+      "uuid": "8001f7ed-2382-4df8-ae34-f6b79a41e9b4",
+      "nodes": 2
+    },
+    {
+      "id": "RecipeCard",
+      "uuid": "a684bca0-f21d-4e6b-89ed-5609b807a601",
+      "nodes": 8
+    },
+    {
+      "id": "RecipePanel",
+      "uuid": "87b14093-f64c-42a8-928f-9cf179088106",
+      "nodes": 13
+    },
+    {
+      "id": "RequiredDevice",
+      "uuid": "3bb955f4-5eb9-4641-aa73-f6f30778d38a",
+      "nodes": 2
+    },
+    {
+      "id": "RestaurantCard",
+      "uuid": "d95a151f-f09c-4484-a14f-bebdc6ecec8c",
+      "nodes": 6
+    },
+    {
+      "id": "RestaurantsPage",
+      "uuid": "4329fda4-77bf-4a65-9ba8-e6df64afacd9",
+      "nodes": 23
+    },
+    {
+      "id": "SettingsPage",
+      "uuid": "c04e48bc-fe48-410a-9bfc-c6c694370119",
+      "nodes": 12
+    },
+    {
+      "id": "Station",
+      "uuid": "ede10d21-9b23-4b74-b66e-75f063bd8656",
+      "nodes": 2
+    },
+    {
+      "id": "TextLabel",
+      "uuid": "c7f31fc8-1d57-4d0b-93ee-83d5dfbf485b",
+      "nodes": 1
+    },
+    {
+      "id": "Toast",
+      "uuid": "67962914-e39b-4afd-97cf-20a482ac0b3b",
+      "nodes": 1
+    },
+    {
+      "id": "TutorialOverlay",
+      "uuid": "90d71f9e-4e9d-438d-b000-3998cc110547",
+      "nodes": 1
+    },
+    {
+      "id": "Wall",
+      "uuid": "c04c0397-1ac7-4a15-b1cd-7ce891369b71",
+      "nodes": 2
+    },
+    {
+      "id": "WinResult",
+      "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a",
+      "nodes": 9
+    }
+  ],
+  "errors": []
+}

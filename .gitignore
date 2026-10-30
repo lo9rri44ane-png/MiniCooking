@@ -1,0 +1,29 @@
+# Cocos generated caches and device-local configuration
+library/
+temp/
+local/
+build/
+profiles/
+.checks/
+node_modules/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+config.local.json
+_bmad/config.user.toml
+_bmad/custom/config.user.toml
+# Build MCP extension locally with npm run setup.
+extensions/cocos-mcp-server/dist/

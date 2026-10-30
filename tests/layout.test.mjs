@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {fitWithin,toastLayout} from '../assets/scripts/framework/core/UILayout.ts';
+test('dialogs and toast bounds fit narrow, square and landscape safe areas',()=>{for(const [w,h] of [[320,320],[320,720],[1280,720],[720,1280]]){const scale=fitWithin(680,720,w,h,24);assert.ok(680*scale<=w-48+.001);assert.ok(720*scale<=h-48+.001);const toast=toastLayout(w,h);assert.ok(610*toast.scale<=w-48+.001);assert.ok(toast.y-50*toast.scale>=-h/2);assert.ok(toast.y+50*toast.scale<=h/2);}});

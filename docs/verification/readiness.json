@@ -1,0 +1,9 @@
+{
+  "engine": "3.8.8",
+  "workflowSkills": 42,
+  "pendingEditorImports": [],
+  "logicTests": "run npm test",
+  "typecheck": "run npm run typecheck",
+  "enginePreviewVerified": true,
+  "buildPerformed": false
+}

@@ -1,0 +1,10 @@
+{
+  "port": 31388,
+  "autoStart": true,
+  "enableDebugLog": false,
+  "allowedOrigins": [
+    "http://127.0.0.1:31388",
+    "http://localhost:31388"
+  ],
+  "maxConnections": 10
+}

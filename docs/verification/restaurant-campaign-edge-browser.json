@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-10-30T07:54:01.243Z",
+  "signature": "28fb5c51c0df8bd97bb4f6226a101b50d200ad4ca667c0ee19d4ed8793e1a971",
+  "checks": [
+    "win-saved-before-cooking-animation-can-be-interrupted",
+    "skipped-guide-reappears-until-completed",
+    "overtime-availability-and-guide",
+    "ad-slot-guide-does-not-play-or-reward-an-ad",
+    "guided-recipe-click-opens-and-waits-for-real-panel-close"
+  ],
+  "errors": [],
+  "scope": "focused regression after early-win persistence change; full chain in restaurant-campaign-browser.json"
+}

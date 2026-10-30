@@ -1,0 +1,50 @@
+{
+  "verifiedAt": "2026-10-30T06:25:03.467Z",
+  "signature": "d583ca741bb4949db922cc675bfc6f17a19966d54574d8b30eb0a58ec88c292e",
+  "preview": "http://localhost:7456/",
+  "checks": [
+    "pause-and-recipes",
+    "level-1-physical-input-win",
+    "level-2-physical-input-win",
+    "level-3-physical-input-win",
+    "level-4-physical-input-win",
+    "level-5-physical-input-win",
+    "level-6-physical-input-win",
+    "steps-failure",
+    "full-failure",
+    "route-listener-cleanup"
+  ],
+  "errors": [],
+  "levels": [
+    {
+      "id": 1,
+      "minimum": 2,
+      "budget": 5
+    },
+    {
+      "id": 2,
+      "minimum": 6,
+      "budget": 9
+    },
+    {
+      "id": 3,
+      "minimum": 8,
+      "budget": 10
+    },
+    {
+      "id": 4,
+      "minimum": 9,
+      "budget": 11
+    },
+    {
+      "id": 5,
+      "minimum": 11,
+      "budget": 12
+    },
+    {
+      "id": 6,
+      "minimum": 15,
+      "budget": 16
+    }
+  ]
+}

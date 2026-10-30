@@ -1,0 +1,24 @@
+installation:
+  version: 6.12.4
+  installDate: 2026-10-30T03:01:54.578Z
+  lastUpdated: 2026-10-30T03:01:54.578Z
+  installShims: false
+modules:
+  - name: core
+    version: 6.12.4
+    installDate: 2026-10-30T03:01:54.080Z
+    lastUpdated: 2026-10-30T03:01:54.575Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+  - name: gds
+    version: main
+    installDate: 2026-10-30T03:01:54.505Z
+    lastUpdated: 2026-10-30T03:01:54.578Z
+    source: external
+    npmPackage: bmad-game-dev-studio
+    repoUrl: https://github.com/bmad-code-org/bmad-module-game-dev-studio.git
+    channel: next
+    sha: ff8870955203e1665f4bf75a64049078e6d4080c
+ides:
+  - codex

@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-10-30T06:13:31.628Z",
+  "method": "BFS with shared deterministic rules; minimum slide count within budget",
+  "levels": [
+    {
+      "level": 1,
+      "name": "第一份沙拉",
+      "minimum": 2,
+      "budget": 5,
+      "customers": 1,
+      "ingredients": 2,
+      "capacity": 7,
+      "visited": 4,
+      "path": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "绕个弯开饭",
+      "minimum": 6,
+      "budget": 9,
+      "customers": 2,
+      "ingredients": 4,
+      "capacity": 7,
+      "visited": 23,
+      "path": [
+        "up",
+        "down",
+        "right",
+        "up",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "两种厨房设备",
+      "minimum": 8,
+      "budget": 10,
+      "customers": 3,
+      "ingredients": 6,
+      "capacity": 7,
+      "visited": 46,
+      "path": [
+        "right",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "饮料也要准备",
+      "minimum": 9,
+      "budget": 11,
+      "customers": 3,
+      "ingredients": 6,
+      "capacity": 7,
+      "visited": 237,
+      "path": [
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "down",
+        "left",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "客人接着来",
+      "minimum": 11,
+      "budget": 12,
+      "customers": 4,
+      "ingredients": 8,
+      "capacity": 7,
+      "visited": 188,
+      "path": [
+        "left",
+        "down",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left",
+        "right",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "下班前的高峰",
+      "minimum": 15,
+      "budget": 16,
+      "customers": 5,
+      "ingredients": 10,
+      "capacity": 7,
+      "visited": 161,
+      "path": [
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "right",
+        "left",
+        "down",
+        "right",
+        "up",
+        "right"
+      ]
+    }
+  ]
+}

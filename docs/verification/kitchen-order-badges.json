@@ -1,0 +1,67 @@
+{
+  "verifiedAt": "2026-10-30T06:30:38.789Z",
+  "signature": "b93633c2112cab43e1b2916c3f4320d50d56d5bdb82632c9a7bdff5ede3213d6",
+  "checks": [
+    "order-six-color-text-badges",
+    "same-food-short-labels",
+    "quantity-visible",
+    "badge-render-after-move"
+  ],
+  "badges": [
+    {
+      "name": "OrderIngredient-leaf",
+      "color": "79b56a",
+      "labels": [
+        "菜",
+        "×1"
+      ],
+      "width": 86
+    },
+    {
+      "name": "OrderIngredient-tomato",
+      "color": "e47c62",
+      "labels": [
+        "茄",
+        "×1"
+      ],
+      "width": 86
+    },
+    {
+      "name": "OrderIngredient-bread",
+      "color": "dcad65",
+      "labels": [
+        "包",
+        "×1"
+      ],
+      "width": 86
+    },
+    {
+      "name": "OrderIngredient-cheese",
+      "color": "f0cd62",
+      "labels": [
+        "酪",
+        "×1"
+      ],
+      "width": 86
+    },
+    {
+      "name": "OrderIngredient-water",
+      "color": "87bfcc",
+      "labels": [
+        "水",
+        "×1"
+      ],
+      "width": 86
+    },
+    {
+      "name": "OrderIngredient-berry",
+      "color": "b788ba",
+      "labels": [
+        "莓",
+        "×1"
+      ],
+      "width": 86
+    }
+  ],
+  "errors": []
+}

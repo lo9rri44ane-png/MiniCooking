@@ -1,0 +1,38 @@
+{
+  "verifiedAt": "2026-10-30T07:51:20.050Z",
+  "signature": "872e424e45649fa87339b0461c483b866be3b3c55d676739183077ceb771240b",
+  "checks": [
+    "next-restaurant-locked",
+    "sequential-level-lock",
+    "dialogue-highlight-real-click-and-demo-free",
+    "normal-six-level-chain-and-new-pan-guide",
+    "completed-guide-not-repeated-and-gm-replay",
+    "backpack-guide-and-gm-not-progress",
+    "drink-and-queue-content-guides",
+    "guided-recipes-opens-real-panel",
+    "multi-order-guide-and-play",
+    "real-stage-80-completion-unlocks-next-restaurant-from-79-clear-fixture",
+    "second-restaurant-new-ingredients-guided-and-playable",
+    "campaign-and-guides-persist-after-reload"
+  ],
+  "errors": [],
+  "levels": 160,
+  "restaurants": 2,
+  "boundaryTest": "79-clear storage fixture, actual normal input wins stage80 and unlocks next store",
+  "realInputWins": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    80,
+    81
+  ],
+  "gmInputWins": [
+    11,
+    16,
+    21,
+    41
+  ]
+}
