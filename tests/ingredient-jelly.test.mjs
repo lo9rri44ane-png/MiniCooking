@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{nextJellyIngredient}from'../assets/scripts/features/kitchen/IngredientJelly.ts';
+test('ingredient jelly selects one surviving identity excluding previous, including single survivor',()=>{assert.equal(nextJellyIngredient([],null),null);assert.equal(nextJellyIngredient([3],null),3);assert.equal(nextJellyIngredient([3],3),null);assert.equal(nextJellyIngredient([3,4],3,()=>0),4);assert.equal(nextJellyIngredient([3,4],4,()=>.99),3);assert.equal(nextJellyIngredient([5],3),5);});

@@ -1,0 +1,9 @@
+{
+  "builtModule": "index.91820.js",
+  "missingValue": "empty string, matching wx.getStorageSync adapter",
+  "initializesWithoutCorruption": true,
+  "localWriteAndReload": true,
+  "settingsPersisted": true,
+  "nonemptyCorruptionPreserved": true,
+  "userStorageAccessed": false
+}

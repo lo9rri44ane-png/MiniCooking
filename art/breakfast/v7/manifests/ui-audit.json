@@ -1,0 +1,246 @@
+{
+  "version": 7,
+  "limitation": "Margins alone do not prove uncut artwork; source and export silhouettes require manual review.",
+  "assets": [
+    {
+      "key": "ui/dialog_panel",
+      "source": "art/breakfast/v7/source/ui/dialog-panel-v7.png",
+      "sourceBounds": {
+        "left": 90,
+        "top": 104,
+        "width": 965,
+        "height": 1156,
+        "component": 1,
+        "threshold": 220,
+        "padding": 58,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/dialog_panel.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/dialog_panel.png",
+      "width": 760,
+      "height": 908,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 40,
+        "y": 48
+      },
+      "sha256": "04d5ffb6088d69703f527d812b83412a00756e92925922968d8d20bc234e6ddd",
+      "coreAspect": 0.8347750865051903,
+      "lowAlphaPixelCount": 9937,
+      "edgeAlpha": 0,
+      "minimumMargin": 34,
+      "reviewedSha256": "04d5ffb6088d69703f527d812b83412a00756e92925922968d8d20bc234e6ddd",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/close_button",
+      "source": "art/breakfast/v7/source/ui/controls-v7.png",
+      "sourceBounds": {
+        "left": 229,
+        "top": 325,
+        "width": 306,
+        "height": 303,
+        "component": 3,
+        "threshold": 220,
+        "padding": 24,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/close_button.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/close_button.png",
+      "width": 347,
+      "height": 345,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 13,
+        "y": 13
+      },
+      "sha256": "53d6432154dda8acc8966703c3db342b234dbeef088e6d5acc378f8222776e73",
+      "coreAspect": 1.00990099009901,
+      "lowAlphaPixelCount": 3675,
+      "edgeAlpha": 0,
+      "minimumMargin": 18,
+      "reviewedSha256": "53d6432154dda8acc8966703c3db342b234dbeef088e6d5acc378f8222776e73",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/pause_button",
+      "source": "art/breakfast/v7/source/ui/controls-v7.png",
+      "sourceBounds": {
+        "left": 1001,
+        "top": 325,
+        "width": 305,
+        "height": 302,
+        "component": 4,
+        "threshold": 220,
+        "padding": 24,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/pause_button.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/pause_button.png",
+      "width": 349,
+      "height": 345,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 13,
+        "y": 13
+      },
+      "sha256": "ea46686a9662da3a8d99d08da173c32ed42d00a02839c9e3140dbccafb3b9856",
+      "coreAspect": 1.009933774834437,
+      "lowAlphaPixelCount": 4089,
+      "edgeAlpha": 0,
+      "minimumMargin": 18,
+      "reviewedSha256": "ea46686a9662da3a8d99d08da173c32ed42d00a02839c9e3140dbccafb3b9856",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/bag_locked",
+      "source": "art/breakfast/v7/source/ui/controls-v7.png",
+      "sourceBounds": {
+        "left": 223,
+        "top": 665,
+        "width": 323,
+        "height": 308,
+        "component": 5,
+        "threshold": 220,
+        "padding": 24,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/bag_locked.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/bag_locked.png",
+      "width": 367,
+      "height": 348,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 14,
+        "y": 13
+      },
+      "sha256": "032b77d23ff3756f15dc8742437659de9974c05bbd56eb6e9cc221606e9fb9c4",
+      "coreAspect": 1.0487012987012987,
+      "lowAlphaPixelCount": 4913,
+      "edgeAlpha": 0,
+      "minimumMargin": 15,
+      "reviewedSha256": "032b77d23ff3756f15dc8742437659de9974c05bbd56eb6e9cc221606e9fb9c4",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/primary_button",
+      "source": "art/breakfast/v7/source/ui/wide-buttons-v7.png",
+      "sourceBounds": {
+        "left": 125,
+        "top": 114,
+        "width": 1369,
+        "height": 201,
+        "component": 1,
+        "threshold": 220,
+        "padding": 69,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/primary_button.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/primary_button.png",
+      "width": 760,
+      "height": 120,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 56,
+        "y": 9
+      },
+      "sha256": "ba1be4d1eb0caf28ec91523d1b56364abcb6431c7382eaed2f81a31cfde87d4d",
+      "coreAspect": 6.810945273631841,
+      "lowAlphaPixelCount": 3404,
+      "edgeAlpha": 0,
+      "minimumMargin": 7,
+      "reviewedSha256": "ba1be4d1eb0caf28ec91523d1b56364abcb6431c7382eaed2f81a31cfde87d4d",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/secondary_button",
+      "source": "art/breakfast/v7/source/ui/wide-buttons-v7.png",
+      "sourceBounds": {
+        "left": 125,
+        "top": 387,
+        "width": 1369,
+        "height": 202,
+        "component": 2,
+        "threshold": 220,
+        "padding": 69,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/secondary_button.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/secondary_button.png",
+      "width": 760,
+      "height": 122,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 56,
+        "y": 9
+      },
+      "sha256": "49bfc2e3ab303d8c4dabab8c3a8eaf07c0ff66524274bb95f0ad586e1eb0f37e",
+      "coreAspect": 6.7772277227722775,
+      "lowAlphaPixelCount": 4488,
+      "edgeAlpha": 0,
+      "minimumMargin": 8,
+      "reviewedSha256": "49bfc2e3ab303d8c4dabab8c3a8eaf07c0ff66524274bb95f0ad586e1eb0f37e",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/tertiary_button",
+      "source": "art/breakfast/v7/source/ui/wide-buttons-v7.png",
+      "sourceBounds": {
+        "left": 125,
+        "top": 667,
+        "width": 1369,
+        "height": 202,
+        "component": 3,
+        "threshold": 220,
+        "padding": 69,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/tertiary_button.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/tertiary_button.png",
+      "width": 760,
+      "height": 121,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 56,
+        "y": 9
+      },
+      "sha256": "6a400c32807233f6e0127c89882c42c7de27e7b898ced1a01d09cdad6df77de6",
+      "coreAspect": 6.7772277227722775,
+      "lowAlphaPixelCount": 3503,
+      "edgeAlpha": 0,
+      "minimumMargin": 7,
+      "reviewedSha256": "6a400c32807233f6e0127c89882c42c7de27e7b898ced1a01d09cdad6df77de6",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/end_banner",
+      "source": "art/breakfast/v7/source/ui/end-banner-v7.png",
+      "sourceBounds": {
+        "left": 54,
+        "top": 143,
+        "width": 2066,
+        "height": 440,
+        "component": 1,
+        "threshold": 220,
+        "padding": 104,
+        "method": "complete-global-connected-contour-with-original-soft-neighbourhood"
+      },
+      "backup": "art/breakfast/v7/exports/ui/end_banner.png",
+      "runtime": "assets/resources/art/breakfast-v7/ui/end_banner.png",
+      "width": 760,
+      "height": 169,
+      "transparentPaddingRatio": 0.04,
+      "transparentPaddingSource": {
+        "x": 83,
+        "y": 19
+      },
+      "sha256": "93bbedf89471b3e6ef6d8adb1257f5db10fe1e7dd5c344c4a8f15b44c221bbc6",
+      "coreAspect": 4.695454545454545,
+      "lowAlphaPixelCount": 2158,
+      "edgeAlpha": 0,
+      "minimumMargin": 9,
+      "reviewedSha256": "93bbedf89471b3e6ef6d8adb1257f5db10fe1e7dd5c344c4a8f15b44c221bbc6",
+      "visualReview": "complete"
+    }
+  ]
+}

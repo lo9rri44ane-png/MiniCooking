@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-31T21:35:00.969Z",
+  "checks": [
+    {
+      "name": "exterior-unchanged-home"
+    },
+    {
+      "name": "exterior-unchanged-settings"
+    },
+    {
+      "name": "exterior-unchanged-rules"
+    },
+    {
+      "name": "exterior-unchanged-restaurants"
+    },
+    {
+      "name": "exterior-unchanged-levels"
+    },
+    {
+      "name": "battle-energy-live-value-and-formal-illustration"
+    },
+    {
+      "name": "exterior-unchanged-return-levels"
+    },
+    {
+      "name": "exterior-unchanged-outside-energy-popup"
+    }
+  ],
+  "errors": [],
+  "isolated": true
+}

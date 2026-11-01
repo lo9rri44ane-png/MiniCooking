@@ -260,18 +260,23 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 4,
     "height": 4,
     "start": [
-      1,
+      3,
       3
     ],
-    "walls": [],
+    "walls": [
+      [
+        1,
+        1
+      ]
+    ],
     "items": [
       {
-        "x": 0,
+        "x": 2,
         "y": 2,
         "type": "leaf"
       },
       {
-        "x": 2,
+        "x": 1,
         "y": 3,
         "type": "tomato"
       }
@@ -321,11 +326,12 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 2,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 5,
+    "optimal": 6,
     "solution": [
       "up",
       "left",
       "down",
+      "left",
       "right",
       "up"
     ]
@@ -418,8 +424,8 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 4,
     "height": 4,
     "start": [
-      0,
-      1
+      2,
+      2
     ],
     "walls": [
       [
@@ -429,13 +435,13 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "items": [
       {
-        "x": 3,
-        "y": 2,
+        "x": 2,
+        "y": 1,
         "type": "leaf"
       },
       {
         "x": 0,
-        "y": 0,
+        "y": 2,
         "type": "tomato"
       }
     ],
@@ -486,9 +492,10 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 4,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 4,
+    "optimal": 5,
     "solution": [
       "up",
+      "left",
       "down",
       "right",
       "up"
@@ -501,19 +508,28 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 4,
     "height": 4,
     "start": [
-      2,
-      0
+      1,
+      2
     ],
-    "walls": [],
+    "walls": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
     "items": [
       {
-        "x": 2,
-        "y": 3,
+        "x": 0,
+        "y": 2,
         "type": "leaf"
       },
       {
         "x": 1,
-        "y": 0,
+        "y": 1,
         "type": "tomato"
       }
     ],
@@ -567,9 +583,9 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "optimal": 4,
     "solution": [
       "left",
-      "down",
       "right",
-      "up"
+      "up",
+      "right"
     ]
   },
   {
@@ -709,38 +725,38 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 5,
     "height": 5,
     "start": [
-      1,
+      2,
       1
     ],
     "walls": [
       [
-        2,
-        2
+        0,
+        1
       ],
       [
-        0,
+        1,
         2
       ]
     ],
     "items": [
       {
-        "x": 1,
-        "y": 0,
+        "x": 4,
+        "y": 3,
         "type": "leaf"
       },
       {
         "x": 2,
-        "y": 4,
+        "y": 3,
         "type": "tomato"
       },
       {
-        "x": 4,
-        "y": 2,
+        "x": 3,
+        "y": 0,
         "type": "bread"
       },
       {
         "x": 3,
-        "y": 4,
+        "y": 3,
         "type": "cheese"
       }
     ],
@@ -822,14 +838,15 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 7,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 6,
+    "optimal": 7,
     "solution": [
       "up",
-      "down",
       "right",
-      "up",
       "down",
-      "left"
+      "left",
+      "up",
+      "right",
+      "up"
     ]
   },
   {
@@ -978,34 +995,46 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 5,
     "height": 5,
     "start": [
-      3,
-      3
+      0,
+      1
     ],
     "walls": [
       [
         3,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        2,
         1
       ]
     ],
     "items": [
       {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 2,
+        "x": 3,
+        "y": 0,
         "type": "tomato"
       },
       {
-        "x": 2,
-        "y": 4,
+        "x": 3,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "type": "cheese"
       }
     ],
@@ -1088,17 +1117,18 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 9,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 9,
+    "optimal": 10,
     "solution": [
-      "left",
       "up",
       "right",
+      "down",
       "left",
+      "up",
       "down",
       "right",
       "up",
-      "down",
-      "left"
+      "right",
+      "up"
     ]
   },
   {
@@ -1109,41 +1139,41 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "height": 5,
     "start": [
       0,
-      3
+      2
     ],
     "walls": [
       [
         3,
-        3
+        1
       ],
       [
         4,
-        4
+        3
       ],
       [
-        0,
+        2,
         0
       ]
     ],
     "items": [
       {
-        "x": 4,
+        "x": 0,
         "y": 3,
         "type": "leaf"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "tomato"
       },
       {
-        "x": 3,
-        "y": 4,
+        "x": 0,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "type": "cheese"
       }
     ],
@@ -1228,17 +1258,17 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 11,
     "solution": [
+      "down",
+      "right",
+      "up",
+      "left",
       "right",
       "up",
       "down",
-      "right",
       "left",
       "up",
       "right",
-      "down",
-      "right",
-      "down",
-      "up"
+      "down"
     ]
   },
   {
@@ -1248,38 +1278,46 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 5,
     "height": 5,
     "start": [
-      1,
-      1
+      0,
+      3
     ],
     "walls": [
       [
-        3,
-        0
+        1,
+        1
       ],
       [
-        1,
+        0,
+        2
+      ],
+      [
+        2,
         3
+      ],
+      [
+        3,
+        2
       ]
     ],
     "items": [
       {
-        "x": 0,
+        "x": 1,
         "y": 2,
         "type": "leaf"
       },
       {
-        "x": 4,
+        "x": 3,
         "y": 4,
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 3,
+        "y": 1,
         "type": "cheese"
       },
       {
-        "x": 3,
-        "y": 4,
+        "x": 2,
+        "y": 2,
         "type": "bread"
       },
       {
@@ -1288,8 +1326,8 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "cheese"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "type": "leaf"
       },
       {
@@ -1401,16 +1439,17 @@ export const CAMPAIGN_LEVELS:Level[]=[
       "bag-pressure",
       "ad-slot"
     ],
-    "optimal": 13,
+    "optimal": 14,
     "solution": [
-      "up",
       "right",
-      "down",
+      "up",
       "right",
       "up",
       "left",
       "down",
       "up",
+      "right",
+      "down",
       "right",
       "down",
       "left",
@@ -1425,61 +1464,57 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 5,
     "height": 5,
     "start": [
-      0,
-      1
+      4,
+      2
     ],
     "walls": [
       [
-        3,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        3,
+        0,
         2
       ],
       [
-        2,
+        4,
+        3
+      ],
+      [
+        1,
         0
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 4,
+        "x": 1,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 2,
+        "x": 2,
+        "y": 1,
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 1,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 3,
+        "y": 1,
         "type": "cheese"
       },
       {
         "x": 3,
-        "y": 4,
+        "y": 2,
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 4,
+        "x": 0,
+        "y": 1,
         "type": "tomato"
       }
     ],
@@ -1583,14 +1618,13 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 12,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 6,
+    "optimal": 5,
     "solution": [
+      "left",
+      "down",
       "up",
-      "down",
-      "right",
-      "down",
-      "right",
-      "up"
+      "left",
+      "right"
     ]
   },
   {
@@ -1600,53 +1634,53 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 5,
     "height": 5,
     "start": [
-      0,
-      0
+      4,
+      2
     ],
     "walls": [
       [
-        1,
-        1
+        3,
+        3
       ],
       [
         2,
-        1
+        3
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 3,
         "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "tomato"
       },
       {
         "x": 0,
         "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 0,
+        "x": 1,
         "y": 3,
         "type": "bread"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 0,
+        "x": 3,
         "y": 1,
         "type": "leaf"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 1,
         "type": "tomato"
       }
     ],
@@ -1750,17 +1784,16 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 13,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 9,
+    "optimal": 8,
     "solution": [
-      "right",
       "left",
+      "down",
+      "right",
       "down",
       "right",
       "up",
-      "down",
       "left",
-      "right",
-      "up"
+      "right"
     ]
   },
   {
@@ -1770,13 +1803,21 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 5,
     "height": 5,
     "start": [
-      3,
-      0
+      2,
+      2
     ],
     "walls": [
       [
-        3,
-        3
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
       ],
       [
         2,
@@ -1785,38 +1826,38 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "items": [
       {
-        "x": 2,
-        "y": 4,
+        "x": 1,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 4,
+        "y": 4,
         "type": "tomato"
       },
       {
-        "x": 4,
+        "x": 0,
         "y": 3,
         "type": "cheese"
       },
       {
-        "x": 4,
+        "x": 2,
         "y": 4,
         "type": "bread"
       },
       {
         "x": 3,
-        "y": 4,
+        "y": 3,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 2,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 2,
+        "y": 3,
         "type": "tomato"
       }
     ],
@@ -1920,18 +1961,19 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 14,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 10,
+    "optimal": 11,
     "solution": [
+      "up",
       "down",
+      "left",
+      "up",
       "right",
       "down",
       "left",
       "up",
       "left",
-      "down",
       "right",
-      "up",
-      "right"
+      "up"
     ]
   },
   {
@@ -1941,65 +1983,69 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 5,
     "height": 5,
     "start": [
-      0,
-      2
+      2,
+      4
     ],
     "walls": [
       [
+        0,
+        1
+      ],
+      [
         3,
-        0
+        4
       ],
       [
         0,
-        3
-      ],
-      [
-        2,
-        3
+        0
       ],
       [
         2,
         2
       ],
       [
-        0,
-        1
+        3,
+        2
+      ],
+      [
+        3,
+        0
       ]
     ],
     "items": [
       {
         "x": 1,
-        "y": 0,
+        "y": 2,
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 4,
+        "x": 2,
+        "y": 3,
         "type": "tomato"
       },
       {
-        "x": 3,
-        "y": 4,
+        "x": 1,
+        "y": 0,
         "type": "cheese"
       },
       {
         "x": 2,
-        "y": 4,
+        "y": 1,
         "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "cheese"
       },
       {
         "x": 4,
         "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 3,
+        "y": 1,
         "type": "tomato"
       }
     ],
@@ -2105,16 +2151,16 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 10,
     "solution": [
+      "up",
       "right",
       "up",
       "left",
-      "right",
-      "down",
-      "right",
-      "down",
       "up",
       "down",
-      "left"
+      "up",
+      "right",
+      "down",
+      "right"
     ]
   },
   {
@@ -2124,60 +2170,48 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      0,
-      2
+      1,
+      0
     ],
     "walls": [
-      [
-        2,
-        0
-      ],
-      [
-        5,
-        4
-      ],
       [
         3,
         1
       ],
       [
-        4,
-        0
-      ],
-      [
-        5,
-        3
+        2,
+        1
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 0,
+        "x": 4,
+        "y": 4,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 4,
+        "y": 3,
         "type": "tomato"
       },
       {
         "x": 0,
-        "y": 4,
+        "y": 0,
         "type": "bread"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "cheese"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 0,
         "type": "berry"
       }
     ],
@@ -2294,17 +2328,18 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [
       "drink"
     ],
-    "optimal": 9,
+    "optimal": 10,
     "solution": [
+      "right",
       "down",
       "up",
-      "right",
-      "down",
-      "right",
       "left",
+      "down",
       "right",
       "up",
-      "right"
+      "left",
+      "down",
+      "left"
     ]
   },
   {
@@ -2314,52 +2349,52 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      2
+      4,
+      0
     ],
     "walls": [
       [
-        5,
-        3
-      ],
-      [
-        1,
-        1
-      ],
-      [
         4,
         3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        2
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 5,
+        "x": 1,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 0,
+        "y": 2,
         "type": "tomato"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 1,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "type": "cheese"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "type": "berry"
       }
     ],
@@ -2476,17 +2511,17 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 11,
     "solution": [
-      "down",
-      "up",
-      "left",
-      "right",
-      "down",
-      "right",
-      "up",
       "left",
       "down",
       "right",
-      "left"
+      "down",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "right",
+      "up"
     ]
   },
   {
@@ -2496,48 +2531,56 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      5,
+      0,
       2
     ],
     "walls": [
       [
-        1,
-        1
+        5,
+        4
       ],
       [
-        3,
+        1,
         4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        0
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 4,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 1,
+        "y": 1,
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 3,
+        "y": 5,
         "type": "bread"
       },
       {
-        "x": 2,
+        "x": 3,
         "y": 0,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 3,
+        "y": 3,
         "type": "water"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 1,
         "type": "berry"
       }
     ],
@@ -2652,17 +2695,18 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 18,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 9,
+    "optimal": 10,
     "solution": [
-      "left",
-      "down",
       "up",
       "right",
       "down",
       "left",
-      "up",
       "right",
-      "up"
+      "up",
+      "down",
+      "up",
+      "left",
+      "right"
     ]
   },
   {
@@ -2677,43 +2721,47 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "walls": [
       [
-        3,
-        4
+        4,
+        3
       ],
       [
-        1,
-        0
+        0,
+        1
+      ],
+      [
+        3,
+        4
       ]
     ],
     "items": [
       {
-        "x": 0,
+        "x": 2,
         "y": 4,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 4,
+        "y": 0,
         "type": "tomato"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 5,
+        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 5,
+        "x": 3,
         "y": 2,
         "type": "water"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 2,
         "type": "berry"
       }
     ],
@@ -2828,23 +2876,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 19,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 14,
     "solution": [
       "left",
       "up",
       "right",
       "down",
-      "up",
       "left",
-      "up",
+      "down",
+      "right",
       "down",
       "right",
       "up",
       "right",
-      "down",
-      "left",
       "up",
-      "right"
+      "left",
+      "down"
     ]
   },
   {
@@ -2854,21 +2901,33 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      3
+      2,
+      5
     ],
     "walls": [
       [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
         0,
+        2
+      ],
+      [
+        2,
         1
       ],
       [
-        1,
+        3,
         1
-      ],
-      [
-        0,
-        4
       ]
     ],
     "items": [
@@ -2878,28 +2937,28 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 1,
+        "y": 2,
         "type": "tomato"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 1,
+        "y": 4,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 2,
+        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 4,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 0,
+        "y": 4,
         "type": "berry"
       }
     ],
@@ -3014,22 +3073,21 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 20,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 14,
+    "optimal": 13,
     "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
       "right",
       "up",
-      "down",
       "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "up",
       "down",
-      "right"
+      "right",
+      "up",
+      "right",
+      "up"
     ]
   },
   {
@@ -3039,70 +3097,58 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      3
+      4,
+      2
     ],
     "walls": [
       [
-        5,
-        4
-      ],
-      [
-        2,
-        5
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        4,
+        3,
         2
       ],
       [
-        0,
-        3
+        1,
+        2
       ]
     ],
     "items": [
       {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
         "x": 3,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 2,
+        "y": 3,
         "type": "leaf"
       },
       {
         "x": 0,
         "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 3,
         "type": "tomato"
       }
     ],
@@ -3229,21 +3275,20 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [
       "queue"
     ],
-    "optimal": 13,
+    "optimal": 12,
     "solution": [
       "up",
+      "down",
+      "left",
       "right",
       "left",
-      "down",
-      "right",
-      "down",
-      "right",
       "up",
       "right",
       "up",
-      "down",
       "left",
-      "down"
+      "down",
+      "right",
+      "up"
     ]
   },
   {
@@ -3253,70 +3298,66 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      1,
+      0,
       3
     ],
     "walls": [
       [
-        5,
-        3
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        4,
+        2,
         0
       ],
       [
-        1,
+        2,
+        3
+      ],
+      [
+        0,
         2
       ],
       [
-        3,
-        4
+        4,
+        1
       ]
     ],
     "items": [
       {
-        "x": 2,
+        "x": 3,
         "y": 0,
         "type": "leaf"
       },
       {
         "x": 1,
-        "y": 0,
+        "y": 1,
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 1,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 4,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 1,
+        "y": 0,
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 2,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 1,
+        "y": 3,
         "type": "tomato"
       }
     ],
@@ -3441,23 +3482,24 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 22,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 16,
     "solution": [
-      "left",
-      "down",
-      "up",
       "right",
       "down",
       "right",
       "up",
-      "right",
-      "down",
       "left",
       "down",
+      "up",
       "left",
+      "down",
       "right",
       "up",
-      "right"
+      "down",
+      "right",
+      "up",
+      "right",
+      "up"
     ]
   },
   {
@@ -3467,58 +3509,62 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      4,
+      2,
       0
     ],
     "walls": [
       [
-        1,
-        3
+        0,
+        4
       ],
       [
-        3,
+        4,
         0
+      ],
+      [
+        0,
+        2
       ]
     ],
     "items": [
       {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
         "x": 1,
-        "y": 0,
-        "type": "bread"
+        "y": 1,
+        "type": "leaf"
       },
       {
         "x": 0,
         "y": 0,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 1,
         "type": "cheese"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 1,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 1,
+        "y": 0,
         "type": "berry"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 0,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 3,
+        "y": 0,
         "type": "tomato"
       }
     ],
@@ -3646,17 +3692,17 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "optimal": 12,
     "solution": [
       "down",
-      "left",
       "up",
       "left",
-      "up",
       "right",
       "down",
       "right",
-      "left",
       "up",
+      "left",
       "right",
-      "up"
+      "down",
+      "left",
+      "down"
     ]
   },
   {
@@ -3666,28 +3712,40 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      1,
-      0
+      0,
+      1
     ],
     "walls": [
       [
-        4,
+        1,
+        0
+      ],
+      [
+        0,
         3
       ],
       [
-        1,
+        4,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
         2
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 5,
+        "x": 0,
+        "y": 0,
         "type": "leaf"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 3,
         "type": "tomato"
       },
       {
@@ -3696,28 +3754,28 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "bread"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 3,
+        "y": 1,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 2,
+        "y": 3,
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 1,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 2,
+        "y": 5,
         "type": "tomato"
       }
     ],
@@ -3842,19 +3900,18 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 24,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 14,
     "solution": [
+      "up",
+      "down",
+      "right",
+      "up",
       "left",
       "down",
       "right",
       "up",
       "left",
-      "up",
-      "right",
       "down",
-      "left",
-      "down",
-      "left",
       "right",
       "up",
       "right",
@@ -3868,32 +3925,32 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      0,
-      4
+      5,
+      2
     ],
     "walls": [
       [
-        2,
+        0,
+        4
+      ],
+      [
+        1,
         1
       ],
       [
-        4,
-        0
-      ],
-      [
-        4,
-        3
+        1,
+        2
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 2,
+        "x": 1,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "type": "tomato"
       },
       {
@@ -3902,28 +3959,28 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 3,
+        "y": 5,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 4,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 5,
+        "x": 4,
         "y": 4,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 0,
         "type": "tomato"
       }
     ],
@@ -4050,11 +4107,11 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 8,
     "solution": [
+      "left",
       "up",
       "right",
       "down",
       "left",
-      "right",
       "up",
       "right",
       "up"
@@ -4067,66 +4124,66 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      5,
+      0,
       2
     ],
     "walls": [
       [
-        3,
-        1
+        2,
+        2
       ],
       [
-        2,
-        3
+        3,
+        2
       ],
       [
         4,
         3
       ],
       [
-        0,
-        2
+        1,
+        4
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 0,
+        "x": 3,
+        "y": 4,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 1,
+        "y": 1,
         "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
       },
       {
         "x": 1,
         "y": 0,
-        "type": "leaf"
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "cheese"
       },
       {
         "x": 3,
         "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 4,
         "type": "tomato"
       }
     ],
@@ -4251,20 +4308,21 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 26,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 14,
+    "optimal": 15,
     "solution": [
-      "down",
-      "up",
-      "left",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "down",
       "right",
       "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "up",
+      "down",
       "left",
+      "down",
+      "left",
+      "right",
+      "up",
       "right",
       "up"
     ]
@@ -4276,58 +4334,66 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      1
+      5,
+      4
     ],
     "walls": [
       [
         0,
-        3
+        0
       ],
       [
-        2,
+        4,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        1,
         3
       ]
     ],
     "items": [
       {
-        "x": 5,
+        "x": 3,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 0,
         "y": 3,
         "type": "leaf"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
         "y": 1,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 4,
-        "y": 0,
         "type": "tomato"
       }
     ],
@@ -4455,16 +4521,16 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "optimal": 11,
     "solution": [
       "left",
-      "up",
       "right",
-      "down",
-      "left",
       "up",
       "left",
       "down",
       "right",
-      "down",
-      "up"
+      "left",
+      "up",
+      "left",
+      "up",
+      "right"
     ]
   },
   {
@@ -4474,56 +4540,48 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      5,
-      2
+      2,
+      1
     ],
     "walls": [
       [
-        4,
-        4
-      ],
-      [
-        2,
-        3
+        3,
+        2
       ],
       [
         1,
-        3
-      ],
-      [
-        3,
         2
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 0,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 4,
+        "y": 3,
         "type": "tomato"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 5,
+        "y": 3,
         "type": "bread"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 1,
+        "y": 3,
         "type": "cheese"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 2,
+        "y": 0,
         "type": "berry"
       },
       {
@@ -4532,8 +4590,8 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 1,
+        "y": 4,
         "type": "tomato"
       }
     ],
@@ -4658,23 +4716,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 28,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 14,
     "solution": [
       "up",
+      "right",
+      "down",
       "left",
-      "down",
-      "up",
-      "right",
-      "down",
-      "right",
-      "down",
       "up",
       "left",
       "down",
       "right",
-      "down",
+      "up",
       "left",
-      "right"
+      "up",
+      "right",
+      "down",
+      "left"
     ]
   },
   {
@@ -4684,16 +4741,12 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      4
+      1,
+      0
     ],
     "walls": [
       [
-        4,
-        3
-      ],
-      [
-        0,
+        3,
         0
       ],
       [
@@ -4701,49 +4754,61 @@ export const CAMPAIGN_LEVELS:Level[]=[
         4
       ],
       [
-        3,
+        2,
         0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        1
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 2,
+        "x": 5,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 5,
+        "x": 0,
         "y": 2,
         "type": "tomato"
       },
       {
-        "x": 5,
+        "x": 4,
         "y": 4,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 1,
+        "y": 3,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 3,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 3,
         "type": "berry"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 5,
+        "y": 2,
         "type": "leaf"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 3,
         "type": "tomato"
       }
     ],
@@ -4868,22 +4933,21 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 29,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 14,
     "solution": [
+      "down",
+      "right",
+      "left",
       "up",
+      "right",
       "down",
       "right",
       "up",
       "right",
       "up",
+      "down",
       "left",
       "down",
-      "up",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
       "left"
     ]
   },
@@ -4894,70 +4958,74 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      4
+      1,
+      3
     ],
     "walls": [
       [
-        1,
-        3
-      ],
-      [
-        3,
+        4,
         1
       ],
       [
-        1,
+        3,
+        2
+      ],
+      [
+        2,
         4
       ],
       [
         4,
-        3
+        0
+      ],
+      [
+        4,
+        2
       ],
       [
         3,
-        3
+        0
       ]
     ],
     "items": [
       {
         "x": 5,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "berry"
+      },
+      {
+        "x": 1,
         "y": 2,
         "type": "leaf"
       },
       {
         "x": 0,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 4,
+        "y": 2,
         "type": "tomato"
       }
     ],
@@ -5084,21 +5152,21 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 15,
     "solution": [
-      "up",
+      "right",
       "left",
-      "down",
       "up",
       "right",
-      "down",
-      "right",
-      "up",
-      "down",
-      "up",
       "down",
       "left",
       "down",
       "right",
-      "left"
+      "down",
+      "up",
+      "down",
+      "right",
+      "up",
+      "right",
+      "up"
     ]
   },
   {
@@ -5108,31 +5176,31 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      5
+      0,
+      4
     ],
     "walls": [
+      [
+        2,
+        0
+      ],
+      [
+        4,
+        0
+      ],
       [
         0,
         1
       ],
       [
-        5,
-        4
-      ],
-      [
-        0,
+        2,
         2
-      ],
-      [
-        4,
-        0
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 4,
+        "x": 5,
+        "y": 2,
         "type": "leaf"
       },
       {
@@ -5141,38 +5209,38 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 4,
+        "y": 3,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 5,
+        "y": 4,
         "type": "water"
       },
       {
         "x": 3,
-        "y": 0,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 0,
+        "x": 1,
         "y": 3,
         "type": "bread"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 4,
+        "y": 4,
         "type": "meat"
       }
     ],
@@ -5311,19 +5379,19 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "optimal": 13,
     "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
       "right",
       "up",
-      "right",
-      "down",
       "left",
       "down",
       "right",
+      "up",
       "down",
-      "left"
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "right"
     ]
   },
   {
@@ -5333,53 +5401,61 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      5,
-      3
+      3,
+      2
     ],
     "walls": [
       [
         1,
-        1
+        4
       ],
       [
-        4,
+        0,
         2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        0
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 1,
+        "x": 3,
+        "y": 4,
         "type": "leaf"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 4,
+        "y": 2,
         "type": "tomato"
       },
       {
         "x": 0,
-        "y": 3,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 2,
+        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 1,
+        "y": 1,
         "type": "water"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 2,
+        "y": 3,
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 2,
+        "y": 1,
         "type": "bread"
       },
       {
@@ -5388,8 +5464,8 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "meat"
       }
     ],
@@ -5524,15 +5600,16 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 32,
     "chapter": "共享食材",
     "introductions": [],
-    "optimal": 12,
+    "optimal": 13,
     "solution": [
+      "right",
+      "down",
       "left",
       "up",
       "right",
-      "down",
+      "left",
       "right",
       "down",
-      "up",
       "left",
       "down",
       "left",
@@ -5547,63 +5624,79 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      2
+      2,
+      4
     ],
     "walls": [
       [
         1,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
         1
       ],
       [
+        4,
+        2
+      ],
+      [
+        5,
+        4
+      ],
+      [
         1,
-        0
+        4
       ]
     ],
     "items": [
       {
         "x": 0,
-        "y": 1,
+        "y": 0,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
       },
       {
         "x": 5,
         "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 1,
         "type": "cheese"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 1,
+        "y": 0,
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 4,
+        "y": 4,
         "type": "bread"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 3,
+        "y": 1,
         "type": "leaf"
       },
       {
         "x": 3,
-        "y": 5,
+        "y": 4,
         "type": "meat"
       }
     ],
@@ -5740,20 +5833,20 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 16,
     "solution": [
+      "up",
+      "left",
+      "up",
+      "left",
       "right",
+      "down",
+      "right",
+      "down",
       "up",
       "left",
       "down",
       "left",
-      "up",
-      "left",
-      "up",
-      "down",
       "right",
       "up",
-      "left",
-      "up",
-      "right",
       "down",
       "left"
     ]
@@ -5766,70 +5859,70 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "height": 6,
     "start": [
       2,
-      0
+      5
     ],
     "walls": [
       [
-        0,
-        3
-      ],
-      [
-        0,
+        2,
         2
       ],
       [
-        3,
-        3
+        4,
+        2
       ],
       [
-        1,
-        3
+        4,
+        0
+      ],
+      [
+        5,
+        4
       ]
     ],
     "items": [
       {
         "x": 3,
-        "y": 5,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 4,
+        "y": 3,
         "type": "tomato"
       },
       {
         "x": 1,
-        "y": 0,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 3,
+        "y": 2,
         "type": "cheese"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "type": "berry"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 3,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 1,
+        "y": 3,
         "type": "meat"
       }
     ],
@@ -5966,13 +6059,13 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 12,
     "solution": [
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
       "right",
       "down",
-      "left",
-      "up",
-      "left",
-      "right",
-      "up",
       "left",
       "up",
       "right",
@@ -5987,74 +6080,62 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      1,
-      3
+      2,
+      1
     ],
     "walls": [
       [
-        5,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        0,
+        4,
         2
       ],
       [
         2,
         4
-      ],
-      [
-        3,
-        2
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 1,
+        "x": 4,
+        "y": 0,
         "type": "leaf"
       },
       {
         "x": 0,
-        "y": 4,
+        "y": 0,
         "type": "tomato"
       },
       {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "cheese"
-      },
-      {
         "x": 3,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "berry"
-      },
-      {
-        "x": 2,
         "y": 0,
         "type": "bread"
       },
       {
         "x": 1,
-        "y": 0,
-        "type": "leaf"
+        "y": 3,
+        "type": "cheese"
       },
       {
         "x": 5,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
         "y": 2,
         "type": "meat"
       }
@@ -6190,21 +6271,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 35,
     "chapter": "共享食材",
     "introductions": [],
-    "optimal": 13,
+    "optimal": 14,
     "solution": [
+      "down",
+      "right",
       "left",
-      "down",
-      "right",
-      "down",
-      "right",
       "up",
-      "left",
+      "right",
       "down",
       "right",
       "down",
       "left",
       "down",
-      "left"
+      "left",
+      "up",
+      "down",
+      "right"
     ]
   },
   {
@@ -6214,63 +6296,63 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      1,
+      4,
       3
     ],
     "walls": [
       [
-        4,
-        2
+        2,
+        1
       ],
       [
-        4,
-        0
+        0,
+        2
       ]
     ],
     "items": [
       {
         "x": 5,
-        "y": 2,
+        "y": 4,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 4,
         "type": "tomato"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
         "x": 3,
-        "y": 0,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 2,
+        "y": 4,
         "type": "berry"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 3,
+        "y": 5,
         "type": "bread"
       },
       {
-        "x": 0,
+        "x": 1,
         "y": 3,
         "type": "leaf"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "type": "meat"
       }
     ],
@@ -6407,14 +6489,14 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 9,
     "solution": [
+      "left",
+      "down",
       "right",
       "up",
-      "down",
       "left",
       "up",
       "right",
       "down",
-      "right",
       "left"
     ]
   },
@@ -6425,66 +6507,62 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      2
+      0,
+      0
     ],
     "walls": [
       [
-        0,
-        2
-      ],
-      [
-        1,
+        2,
         4
       ],
       [
-        3,
-        4
+        4,
+        0
       ]
     ],
     "items": [
       {
-        "x": 0,
+        "x": 3,
         "y": 0,
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "tomato"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 3,
+        "y": 4,
         "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "water"
       },
       {
         "x": 3,
         "y": 5,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 0,
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 1,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 5,
+        "x": 3,
         "y": 2,
         "type": "meat"
       }
@@ -6622,15 +6700,15 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 9,
     "solution": [
+      "right",
+      "down",
+      "right",
+      "left",
       "up",
-      "right",
-      "left",
       "down",
       "right",
-      "down",
-      "left",
-      "down",
-      "left"
+      "up",
+      "right"
     ]
   },
   {
@@ -6640,57 +6718,65 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      5
+      1,
+      1
     ],
     "walls": [
       [
-        4,
-        1
-      ],
-      [
-        5,
+        3,
         4
       ],
       [
         3,
         1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        2
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 0,
+        "x": 1,
+        "y": 2,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 2,
+        "y": 0,
         "type": "tomato"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 4,
+        "y": 4,
         "type": "bread"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 0,
         "type": "cheese"
       },
       {
         "x": 0,
-        "y": 2,
+        "y": 1,
         "type": "water"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 3,
         "type": "berry"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "type": "bread"
       },
       {
@@ -6700,7 +6786,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       },
       {
         "x": 1,
-        "y": 0,
+        "y": 3,
         "type": "meat"
       }
     ],
@@ -6835,24 +6921,23 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 38,
     "chapter": "共享食材",
     "introductions": [],
-    "optimal": 18,
+    "optimal": 17,
     "solution": [
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "down",
-      "up",
-      "right",
-      "up",
       "down",
       "left",
       "up",
       "right",
-      "left",
       "down",
       "right",
+      "down",
+      "left",
+      "up",
+      "down",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left",
       "down",
       "left"
     ]
@@ -6864,13 +6949,17 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      5,
-      3
+      3,
+      2
     ],
     "walls": [
       [
-        2,
-        2
+        0,
+        0
+      ],
+      [
+        4,
+        0
       ],
       [
         0,
@@ -6878,57 +6967,57 @@ export const CAMPAIGN_LEVELS:Level[]=[
       ],
       [
         3,
-        2
+        4
       ],
       [
         2,
-        1
+        3
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 4,
+        "x": 3,
+        "y": 1,
         "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "cheese"
       },
       {
         "x": 5,
         "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 3,
         "type": "water"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 3,
+        "y": 3,
         "type": "berry"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 4,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "meat"
       }
     ],
@@ -7063,20 +7152,19 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 39,
     "chapter": "共享食材",
     "introductions": [],
-    "optimal": 12,
+    "optimal": 11,
     "solution": [
-      "left",
       "down",
       "right",
       "up",
       "left",
-      "up",
       "right",
+      "down",
       "left",
       "down",
-      "right",
-      "down",
-      "right"
+      "left",
+      "up",
+      "down"
     ]
   },
   {
@@ -7086,67 +7174,79 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      5
+      1,
+      4
     ],
     "walls": [
       [
+        0,
+        3
+      ],
+      [
         4,
-        4
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        0
       ],
       [
         3,
-        4
+        1
       ],
       [
-        1,
-        0
+        5,
+        2
       ]
     ],
     "items": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 1,
+        "y": 3,
         "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "cheese"
       },
       {
         "x": 2,
         "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 2,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 4,
+        "y": 3,
         "type": "berry"
       },
       {
         "x": 3,
-        "y": 5,
+        "y": 3,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 3,
+        "y": 5,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 2,
+        "y": 5,
         "type": "meat"
       }
     ],
@@ -7287,131 +7387,56 @@ export const CAMPAIGN_LEVELS:Level[]=[
       "right",
       "down",
       "right",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
       "down",
       "up",
       "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "left",
-      "right",
-      "left"
+      "down"
     ]
   },
   {
     "id": 41,
     "name": "多道菜订单·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 4,
+    "height": 4,
     "start": [
-      4,
-      2
+      0,
+      0
     ],
     "walls": [
       [
         3,
         3
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        0,
-        0
       ]
     ],
     "items": [
       {
-        "x": 1,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 2,
+        "y": 2,
         "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
             1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
+            3
           ]
         ]
       }
@@ -7425,74 +7450,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
+        "id": "lesson-41",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
-            "count": 1
-          },
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "burger",
             "count": 1
           }
         ]
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 10,
     "availableProps": [
       "undo",
       "overtime",
@@ -7503,138 +7476,61 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 41,
     "chapter": "多道菜订单",
     "introductions": [
-      "multi-order"
+      "stop-pad"
     ],
-    "optimal": 17,
+    "optimal": 5,
     "solution": [
-      "right",
-      "left",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
       "down",
       "right",
-      "up",
       "left",
-      "up",
-      "right",
       "down",
-      "left"
+      "right"
+    ],
+    "stopPads": [
+      [
+        0,
+        2
+      ]
     ]
   },
   {
     "id": 42,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 4,
+    "height": 4,
     "start": [
-      1,
-      0
+      3,
+      2
     ],
     "walls": [
       [
-        1,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        5,
-        4
-      ],
-      [
-        0,
-        0
+        3,
+        3
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 2,
+        "x": 1,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 0,
+        "y": 3,
         "type": "tomato"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 2,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
             1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
+            0
           ]
         ]
       }
@@ -7648,74 +7544,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
+        "id": "lesson-42",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
-            "count": 1
-          },
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "burger",
             "count": 1
           }
         ]
       }
     ],
     "capacity": 7,
-    "budget": 15,
+    "budget": 10,
     "availableProps": [
       "undo",
       "overtime",
@@ -7726,124 +7570,59 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 42,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 13,
+    "optimal": 5,
     "solution": [
-      "right",
-      "down",
-      "left",
       "up",
       "left",
-      "right",
+      "down",
       "up",
-      "down",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left"
+      "right"
+    ],
+    "stopPads": [
+      [
+        3,
+        1
+      ]
     ]
   },
   {
     "id": 43,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 4,
+    "height": 4,
     "start": [
       1,
-      2
+      1
     ],
     "walls": [
       [
-        2,
-        0
-      ],
-      [
-        2,
-        4
+        1,
+        2
       ]
     ],
     "items": [
       {
-        "x": 5,
+        "x": 2,
         "y": 2,
         "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "bread"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 4,
         "y": 0,
-        "type": "meat"
+        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 0,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
             1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
           ]
         ]
       }
@@ -7857,74 +7636,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
+        "id": "lesson-43",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
-            "count": 1
-          },
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "burger",
             "count": 1
           }
         ]
       }
     ],
     "capacity": 7,
-    "budget": 15,
+    "budget": 12,
     "availableProps": [
       "undo",
       "overtime",
@@ -7935,124 +7662,61 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 43,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 13,
+    "optimal": 7,
     "solution": [
+      "up",
+      "right",
+      "down",
       "left",
-      "right",
       "down",
-      "up",
       "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left"
+      "up"
+    ],
+    "stopPads": [
+      [
+        3,
+        2
+      ]
     ]
   },
   {
     "id": 44,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 4,
+    "height": 4,
     "start": [
-      4,
-      1
+      0,
+      0
     ],
     "walls": [
       [
-        0,
-        1
-      ],
-      [
-        1,
-        4
+        3,
+        3
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "tomato"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "cheese"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
+        "x": 1,
         "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 0,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 3,
-        "type": "meat"
+        "x": 1,
+        "y": 1,
+        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
+            0,
+            2
           ]
         ]
       }
@@ -8066,74 +7730,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
+        "id": "lesson-44",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
-            "count": 1
-          },
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "burger",
             "count": 1
           }
         ]
       }
     ],
     "capacity": 7,
-    "budget": 14,
+    "budget": 11,
     "availableProps": [
       "undo",
       "overtime",
@@ -8144,123 +7756,61 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 44,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 12,
+    "optimal": 6,
     "solution": [
-      "left",
-      "down",
-      "left",
       "right",
       "down",
-      "up",
-      "left",
-      "up",
       "left",
       "right",
       "down",
       "left"
-    ]
+    ],
+    "stopPads": [
+      [
+        3,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 45,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 4,
+    "height": 4,
     "start": [
-      1,
-      1
+      3,
+      3
     ],
     "walls": [
       [
-        0,
-        3
-      ],
-      [
         3,
-        3
+        2
       ]
     ],
     "items": [
       {
         "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 0,
         "y": 1,
-        "type": "bread"
+        "type": "leaf"
       },
       {
         "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "meat"
+        "y": 2,
+        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            2,
             1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
           ]
         ]
       }
@@ -8274,74 +7824,22 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
+        "id": "lesson-45",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
-            "count": 1
-          },
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "burger",
             "count": 1
           }
         ]
       }
     ],
     "capacity": 7,
-    "budget": 13,
+    "budget": 12,
     "availableProps": [
       "undo",
       "overtime",
@@ -8352,130 +7850,124 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 45,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 11,
+    "optimal": 7,
     "solution": [
-      "up",
       "left",
-      "down",
+      "up",
       "right",
-      "down",
-      "up",
-      "left",
       "up",
       "right",
       "down",
       "left"
+    ],
+    "stopPads": [
+      [
+        0,
+        2
+      ]
     ]
   },
   {
     "id": 46,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      5,
+      0,
       3
     ],
     "walls": [
       [
+        0,
+        1
+      ],
+      [
         4,
         0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        2,
-        1
       ]
     ],
     "items": [
       {
-        "x": 5,
+        "x": 4,
         "y": 4,
         "type": "leaf"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "bread"
+        "y": 1,
+        "type": "leaf"
       },
       {
         "x": 3,
-        "y": 0,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 3,
         "type": "cheese"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 2,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 1,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
-      },
-      {
         "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
+        "y": 4,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            4,
+            2
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            2
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 2,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            3
           ]
         ]
       }
@@ -8556,7 +8048,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 17,
     "availableProps": [
       "undo",
       "overtime",
@@ -8566,129 +8058,143 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "restaurantName": "暖心早餐店",
     "stageNumber": 46,
     "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 17,
+    "introductions": [
+      "multi-order"
+    ],
+    "optimal": 14,
     "solution": [
-      "left",
-      "up",
       "down",
       "right",
-      "down",
-      "left",
-      "down",
       "right",
       "up",
-      "right",
       "left",
       "up",
       "left",
-      "right",
       "down",
-      "right",
-      "left"
-    ]
+      "left",
+      "up",
+      "down",
+      "left",
+      "up",
+      "right"
+    ],
+    "stopPads": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 47,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      1,
-      4
+      3,
+      2
     ],
     "walls": [
       [
-        2,
+        0,
         4
       ],
       [
-        4,
-        4
+        0,
+        2
       ]
     ],
     "items": [
       {
-        "x": 4,
+        "x": 0,
         "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 3,
         "type": "leaf"
       },
       {
         "x": 2,
-        "y": 5,
+        "y": 3,
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 4,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 3,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 1,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 3,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 1,
+        "x": 3,
         "y": 0,
         "type": "berry"
       },
       {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 5,
+        "x": 4,
         "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 5,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            2,
+            4
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 1,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            1
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            3
           ]
         ]
       }
@@ -8769,7 +8275,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 24,
     "availableProps": [
       "undo",
       "overtime",
@@ -8780,349 +8286,138 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 47,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 17,
+    "optimal": 21,
     "solution": [
+      "down",
       "up",
       "right",
+      "down",
+      "left",
       "down",
       "right",
       "up",
       "left",
-      "down",
       "right",
       "down",
+      "left",
+      "down",
+      "left",
+      "right",
+      "down",
+      "left",
       "right",
       "left",
       "up",
-      "right",
-      "down",
-      "right",
-      "down",
-      "up"
+      "left"
+    ],
+    "stopPads": [
+      [
+        2,
+        1
+      ]
     ]
   },
   {
     "id": 48,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      0,
-      3
+      2,
+      4
     ],
     "walls": [
       [
-        1,
-        1
-      ],
-      [
-        1,
+        2,
         2
       ],
       [
-        2,
-        3
-      ],
-      [
-        3,
-        3
+        1,
+        0
       ]
     ],
     "items": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          },
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 19,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 48,
-    "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 17,
-    "solution": [
-      "down",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 49,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      3
-    ],
-    "walls": [
-      [
-        3,
-        1
-      ],
-      [
-        4,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
       {
         "x": 1,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
+        "y": 4,
+        "type": "leaf"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 0,
+        "x": 3,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
         "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 2,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 4,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            4,
             1
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 4,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            0,
+            3
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            4
           ]
         ]
       }
@@ -9211,134 +8506,371 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "restaurantId": "breakfast",
     "restaurantName": "暖心早餐店",
-    "stageNumber": 49,
+    "stageNumber": 48,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 15,
     "solution": [
-      "up",
       "right",
-      "down",
-      "right",
-      "up",
       "left",
+      "up",
+      "right",
       "down",
       "left",
       "up",
       "down",
-      "right",
-      "down",
-      "right",
       "left",
       "up",
-      "down"
-    ]
+      "up",
+      "down",
+      "right",
+      "down",
+      "right"
+    ],
+    "stopPads": [
+      [
+        3,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
-    "id": 50,
-    "name": "多道菜订单·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "id": 49,
+    "name": "多道菜订单·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      1,
+      0,
       1
     ],
     "walls": [
       [
-        3,
-        5
-      ],
-      [
-        3,
+        0,
         4
       ],
       [
-        4,
+        2,
         0
       ]
     ],
     "items": [
       {
-        "x": 1,
+        "x": 3,
         "y": 0,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 1,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 5,
+        "x": 4,
         "y": 2,
         "type": "leaf"
       },
       {
         "x": 3,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 4,
         "y": 0,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            2,
+            2
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            1
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          },
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 23,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 49,
+    "chapter": "多道菜订单",
+    "introductions": [],
+    "optimal": 20,
+    "solution": [
+      "right",
+      "down",
+      "right",
+      "up",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "down",
+      "right",
+      "left",
+      "up"
+    ],
+    "stopPads": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 50,
+    "name": "多道菜订单·挑战关",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      4,
+      1
+    ],
+    "walls": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 1,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            2
           ]
         ]
       }
@@ -9430,136 +8962,140 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 50,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 13,
     "solution": [
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
       "down",
       "left",
-      "down",
+      "right",
       "up",
       "left",
-      "down",
+      "up",
+      "left",
       "right",
       "down",
-      "left"
+      "left",
+      "up",
+      "left",
+      "up"
+    ],
+    "stopPads": [
+      [
+        3,
+        3
+      ]
     ]
   },
   {
     "id": 51,
     "name": "批量出餐·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      1,
+      0,
       2
     ],
     "walls": [
       [
         3,
-        2
+        4
       ],
       [
-        3,
+        0,
         1
       ]
     ],
     "items": [
       {
-        "x": 0,
+        "x": 2,
         "y": 4,
         "type": "leaf"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 1,
-        "type": "tomato"
+        "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 3,
         "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
       },
       {
         "x": 2,
         "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "berry"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
+        "type": "tomato"
       },
       {
         "x": 0,
         "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 1,
+        "y": 0,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 3,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            3
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            4
           ]
         ]
       }
@@ -9646,7 +9182,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 17,
+    "budget": 29,
     "availableProps": [
       "undo",
       "overtime",
@@ -9659,140 +9195,158 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [
       "portions"
     ],
-    "optimal": 15,
+    "optimal": 26,
     "solution": [
-      "left",
-      "up",
       "down",
       "right",
       "up",
-      "left",
+      "right",
+      "down",
+      "down",
+      "right",
       "down",
       "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
       "left",
       "down",
       "right",
-      "up",
-      "left",
       "down",
-      "left"
-    ]
+      "right",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "up"
+    ],
+    "stopPads": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 52,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      4,
-      4
+      3,
+      2
     ],
     "walls": [
       [
-        0,
+        3,
         0
       ],
       [
-        1,
-        4
-      ],
-      [
-        0,
-        4
+        3,
+        3
       ]
     ],
     "items": [
       {
         "x": 3,
-        "y": 5,
+        "y": 4,
         "type": "leaf"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "tomato"
       },
       {
         "x": 2,
         "y": 0,
-        "type": "bread"
+        "type": "leaf"
       },
       {
         "x": 0,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 4,
         "y": 2,
         "type": "cheese"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 5,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 0,
+        "x": 1,
         "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 5,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 0,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 4,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            4,
+            1
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 1,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            0
           ]
         ]
       }
@@ -9879,7 +9433,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 16,
+    "budget": 21,
     "availableProps": [
       "undo",
       "overtime",
@@ -9890,135 +9444,154 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 52,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 14,
+    "optimal": 18,
     "solution": [
       "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "left",
-      "up",
       "right",
       "down",
+      "down",
+      "up",
+      "left",
       "left",
       "up",
-      "right",
       "down",
+      "left",
+      "down",
+      "up",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
       "left"
-    ]
+    ],
+    "stopPads": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 53,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
       2,
-      4
+      2
     ],
     "walls": [
       [
-        0,
-        4
+        4,
+        3
       ],
       [
-        4,
+        3,
         3
       ]
     ],
     "items": [
       {
-        "x": 5,
-        "y": 2,
+        "x": 1,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 4,
+        "y": 4,
         "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "tomato"
       },
       {
         "x": 1,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
         "y": 0,
-        "type": "bread"
+        "type": "tomato"
       },
       {
         "x": 0,
+        "y": 0,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 1,
         "y": 0,
         "type": "cheese"
       },
       {
         "x": 0,
-        "y": 3,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 2,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 4,
+        "x": 3,
+        "y": 1,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 3,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
             1
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            1
           ]
         ]
       }
@@ -10105,7 +9678,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 17,
+    "budget": 26,
     "availableProps": [
       "undo",
       "overtime",
@@ -10116,144 +9689,150 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 53,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 23,
     "solution": [
-      "up",
-      "left",
-      "down",
-      "right",
       "down",
       "right",
       "left",
       "up",
       "right",
+      "up",
+      "left",
+      "up",
+      "right",
       "down",
+      "right",
+      "left",
+      "up",
+      "right",
+      "up",
       "right",
       "up",
       "down",
       "left",
-      "down"
+      "down",
+      "up",
+      "left",
+      "right"
+    ],
+    "stopPads": [
+      [
+        3,
+        4
+      ]
     ]
   },
   {
     "id": 54,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      3,
-      0
+      4,
+      2
     ],
     "walls": [
       [
         0,
-        4
+        0
       ],
       [
-        3,
+        2,
         2
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        5,
-        4
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 5,
+        "x": 3,
+        "y": 4,
         "type": "leaf"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 1,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "tomato"
+        "x": 1,
+        "y": 3,
+        "type": "leaf"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 5,
         "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "berry"
+        "type": "tomato"
       },
       {
         "x": 1,
         "y": 0,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 4,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
+        "x": 4,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "water"
       },
       {
         "x": 4,
-        "y": 3,
+        "y": 1,
+        "type": "berry"
+      },
+      {
+        "x": 3,
+        "y": 2,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            2,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
+        "x": 1,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            0,
+            4
           ]
         ]
       }
@@ -10340,7 +9919,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 17,
+    "budget": 34,
     "availableProps": [
       "undo",
       "overtime",
@@ -10351,34 +9930,61 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 54,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 31,
     "solution": [
-      "right",
       "left",
       "down",
-      "right",
-      "down",
-      "up",
-      "down",
       "left",
-      "right",
       "up",
       "left",
       "up",
       "right",
+      "up",
       "down",
-      "left"
-    ]
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down"
+    ],
+    "stopPads": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 55,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 5,
+    "height": 5,
     "start": [
-      4,
-      2
+      2,
+      1
     ],
     "walls": [
       [
@@ -10386,105 +9992,101 @@ export const CAMPAIGN_LEVELS:Level[]=[
         1
       ],
       [
-        1,
-        0
-      ],
-      [
         3,
-        0
+        3
       ]
     ],
     "items": [
       {
-        "x": 4,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
+        "x": 1,
         "y": 4,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "bread"
+        "type": "leaf"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "cheese"
+        "y": 2,
+        "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 2,
-        "type": "water"
+        "x": 1,
+        "y": 0,
+        "type": "leaf"
       },
       {
         "x": 2,
         "y": 0,
-        "type": "berry"
+        "type": "tomato"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 1,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 2,
         "type": "bread"
       },
       {
         "x": 0,
         "y": 2,
-        "type": "leaf"
+        "type": "bread"
       },
       {
         "x": 0,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 3,
         "y": 1,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            4,
+            2
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 4,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            4
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            3
           ]
         ]
       }
@@ -10571,7 +10173,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 22,
     "availableProps": [
       "undo",
       "overtime",
@@ -10582,138 +10184,163 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 55,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 17,
+    "optimal": 19,
     "solution": [
-      "left",
       "right",
       "down",
-      "up",
-      "down",
       "left",
-      "up",
-      "down",
       "right",
-      "up",
       "left",
       "up",
       "down",
       "right",
+      "left",
       "up",
+      "right",
+      "left",
       "down",
-      "left"
-    ]
-  },
-  {
-    "id": 56,
-    "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      4
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down"
     ],
-    "walls": [
+    "stopPads": [
       [
-        4,
-        4
+        1,
+        3
+      ],
+      [
+        0,
+        1
       ],
       [
         2,
         3
       ]
     ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 56,
+    "name": "批量出餐·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      2,
+      2
+    ],
+    "walls": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
     "items": [
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "tomato"
-      },
       {
         "x": 0,
         "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 0,
         "type": "tomato"
       },
       {
         "x": 0,
         "y": 4,
-        "type": "bread"
+        "type": "tomato"
       },
       {
-        "x": 1,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "berry"
-      },
-      {
-        "x": 3,
+        "x": 2,
         "y": 5,
         "type": "bread"
       },
       {
         "x": 5,
-        "y": 3,
-        "type": "leaf"
+        "y": 0,
+        "type": "bread"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 4,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "berry"
+      },
+      {
+        "x": 0,
+        "y": 2,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 2,
+        "y": 4,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            2,
+            3
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            1
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 2,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            2,
+            1
           ]
         ]
       }
@@ -10800,7 +10427,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 16,
+    "budget": 38,
     "availableProps": [
       "undo",
       "overtime",
@@ -10811,135 +10438,171 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 56,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 14,
+    "optimal": 36,
     "solution": [
+      "down",
+      "left",
+      "down",
+      "left",
+      "right",
+      "up",
+      "right",
+      "up",
+      "right",
+      "up",
+      "down",
+      "left",
+      "down",
+      "up",
+      "left",
       "up",
       "right",
       "down",
       "right",
       "down",
+      "down",
+      "left",
+      "right",
       "up",
       "left",
+      "up",
       "right",
+      "down",
       "left",
       "down",
-      "right",
+      "up",
+      "left",
       "down",
+      "up",
       "right",
-      "left"
+      "down"
+    ],
+    "stopPads": [
+      [
+        3,
+        4
+      ]
     ]
   },
   {
     "id": 57,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      3
+      4,
+      4
     ],
     "walls": [
       [
         0,
-        3
+        4
       ],
       [
-        3,
+        4,
+        0
+      ],
+      [
+        1,
         4
+      ],
+      [
+        4,
+        3
       ]
     ],
     "items": [
+      {
+        "x": 2,
+        "y": 4,
+        "type": "leaf"
+      },
       {
         "x": 0,
         "y": 1,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 4,
+        "y": 5,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
         "x": 5,
-        "y": 4,
+        "y": 5,
         "type": "tomato"
       },
       {
-        "x": 4,
+        "x": 1,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
         "y": 0,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 5,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 3,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "type": "berry"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 0,
+        "y": 4,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            0,
+            2
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            0
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            2
           ]
         ]
       }
@@ -11026,7 +10689,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 14,
+    "budget": 17,
     "availableProps": [
       "undo",
       "overtime",
@@ -11037,121 +10700,139 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 57,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 12,
+    "optimal": 15,
     "solution": [
-      "up",
       "left",
       "down",
+      "up",
       "right",
-      "up",
-      "down",
-      "up",
       "left",
+      "down",
       "up",
       "right",
       "down",
-      "left"
-    ]
+      "right",
+      "up",
+      "left",
+      "left",
+      "down",
+      "right"
+    ],
+    "stopPads": [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 58,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      5
+      2,
+      0
     ],
     "walls": [
       [
         1,
-        2
+        4
       ],
       [
-        1,
+        0,
         3
+      ],
+      [
+        5,
+        4
       ]
     ],
     "items": [
       {
-        "x": 0,
+        "x": 5,
         "y": 3,
         "type": "leaf"
       },
       {
         "x": 5,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
         "y": 4,
         "type": "leaf"
       },
       {
+        "x": 1,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
         "x": 0,
-        "y": 4,
+        "y": 5,
         "type": "tomato"
       },
       {
         "x": 3,
         "y": 0,
-        "type": "tomato"
+        "type": "bread"
       },
       {
         "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "water"
-      },
-      {
-        "x": 0,
         "y": 2,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
         "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
       },
       {
         "x": 2,
         "y": 5,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 1,
+        "y": 0,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 0,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 3,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            3
           ]
         ]
       },
@@ -11250,7 +10931,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 16,
+    "budget": 28,
     "availableProps": [
       "undo",
       "overtime",
@@ -11261,151 +10942,170 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 58,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 14,
+    "optimal": 26,
     "solution": [
+      "right",
+      "left",
+      "down",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
       "up",
       "left",
+      "down",
       "right",
       "down",
       "left",
       "up",
-      "left",
+      "down",
+      "right",
       "up",
       "right",
       "down",
-      "left",
       "up",
+      "left",
+      "down",
       "right",
-      "up"
-    ]
+      "up",
+      "left"
+    ],
+    "stopPads": [
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 59,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      2
+      4,
+      4
     ],
     "walls": [
       [
-        5,
+        0,
         4
       ],
       [
-        2,
+        4,
+        3
+      ],
+      [
+        4,
         0
-      ],
-      [
-        3,
-        5
-      ],
-      [
-        3,
-        4
       ],
       [
         3,
         3
-      ],
-      [
-        0,
-        0
       ]
     ],
     "items": [
-      {
-        "x": 0,
-        "y": 2,
-        "type": "leaf"
-      },
       {
         "x": 3,
         "y": 0,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
         "x": 2,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "berry"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
         "y": 3,
         "type": "leaf"
       },
       {
+        "x": 3,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
         "x": 1,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 0,
         "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 5,
         "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 3,
+        "y": 5,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
+            4,
             5
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 2,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            2
           ]
         ]
       }
@@ -11492,7 +11192,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 21,
+    "budget": 22,
     "availableProps": [
       "undo",
       "overtime",
@@ -11503,2570 +11203,40 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 59,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 19,
+    "optimal": 20,
     "solution": [
+      "left",
       "up",
       "left",
       "down",
       "right",
-      "down",
-      "left",
       "up",
       "down",
+      "left",
       "right",
+      "up",
+      "left",
       "up",
       "right",
       "down",
-      "left",
-      "down",
-      "up",
-      "left",
-      "down",
       "right",
-      "up"
+      "down",
+      "left",
+      "right",
+      "down",
+      "left"
+    ],
+    "stopPads": [
+      [
+        5,
+        2
+      ]
     ]
   },
   {
     "id": 60,
     "name": "批量出餐·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      4
-    ],
-    "walls": [
-      [
-        2,
-        3
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        5,
-        4
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 2
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 21,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 60,
-    "chapter": "批量出餐",
-    "introductions": [],
-    "optimal": 20,
-    "solution": [
-      "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "left",
-      "right",
-      "up",
-      "right",
-      "up",
-      "down",
-      "left",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "right",
-      "up"
-    ]
-  },
-  {
-    "id": 61,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      1
-    ],
-    "walls": [
-      [
-        1,
-        0
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 3,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 20,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 61,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 18,
-    "solution": [
-      "up",
-      "right",
-      "left",
-      "down",
-      "left",
-      "up",
-      "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "right",
-      "up"
-    ]
-  },
-  {
-    "id": 62,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      5,
-      3
-    ],
-    "walls": [
-      [
-        3,
-        4
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        4,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 18,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 62,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 16,
-    "solution": [
-      "up",
-      "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "right",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "down",
-      "left",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 63,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      5,
-      3
-    ],
-    "walls": [
-      [
-        2,
-        4
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 1,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 17,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 63,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 15,
-    "solution": [
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "up",
-      "right",
-      "down",
-      "left",
-      "right",
-      "up",
-      "right",
-      "up"
-    ]
-  },
-  {
-    "id": 64,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      2
-    ],
-    "walls": [
-      [
-        2,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        4,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 17,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 64,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 15,
-    "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 65,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      0
-    ],
-    "walls": [
-      [
-        0,
-        4
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        3,
-        5
-      ],
-      [
-        3,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 20,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 65,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 18,
-    "solution": [
-      "down",
-      "up",
-      "left",
-      "right",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down",
-      "up",
-      "left",
-      "down",
-      "up",
-      "right",
-      "down",
-      "left",
-      "down"
-    ]
-  },
-  {
-    "id": 66,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      0
-    ],
-    "walls": [
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "berry"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 18,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 66,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 16,
-    "solution": [
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "left",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 67,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      4
-    ],
-    "walls": [
-      [
-        0,
-        4
-      ],
-      [
-        3,
-        5
-      ],
-      [
-        5,
-        4
-      ],
-      [
-        0,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 16,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 67,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 14,
-    "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down",
-      "right",
-      "left"
-    ]
-  },
-  {
-    "id": 68,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      4
-    ],
-    "walls": [
-      [
-        4,
-        4
-      ],
-      [
-        3,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 19,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 68,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 17,
-    "solution": [
-      "up",
-      "right",
-      "down",
-      "left",
-      "right",
-      "down",
-      "up",
-      "left",
-      "right",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left",
-      "up",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 69,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      2
-    ],
-    "walls": [
-      [
-        4,
-        0
-      ],
-      [
-        5,
-        4
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        1,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 16,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 69,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 14,
-    "solution": [
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "left",
-      "up",
-      "left",
-      "right",
-      "down"
-    ]
-  },
-  {
-    "id": 70,
-    "name": "路线组合·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      5
-    ],
-    "walls": [
-      [
-        2,
-        0
-      ],
-      [
-        0,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "meat"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "toast",
-        "name": "芝士吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "deluxe",
-        "name": "丰盛沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1,
-          "cheese": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "juice",
-        "name": "莓果饮料",
-        "ingredients": {
-          "water": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "burger",
-        "name": "牛肉汉堡",
-        "ingredients": {
-          "bread": 1,
-          "leaf": 1,
-          "meat": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "deluxe",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "toast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "juice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "burger",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 19,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "breakfast",
-    "restaurantName": "暖心早餐店",
-    "stageNumber": 70,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 18,
-    "solution": [
-      "up",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 71,
-    "name": "下班大挑战·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
@@ -14079,8 +11249,2007 @@ export const CAMPAIGN_LEVELS:Level[]=[
         4
       ],
       [
+        5,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 4,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 5,
+        "y": 1,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 20,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 60,
+    "chapter": "批量出餐",
+    "introductions": [],
+    "optimal": 18,
+    "solution": [
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "up",
+      "left",
+      "right",
+      "down",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "right",
+      "right",
+      "up",
+      "right"
+    ],
+    "stopPads": [
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 61,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      4,
+      2
+    ],
+    "walls": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 5,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 25,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 61,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 23,
+    "solution": [
+      "left",
+      "down",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "down",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left"
+    ],
+    "stopPads": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 62,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      5,
+      5
+    ],
+    "walls": [
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 1,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 1,
+        "y": 3,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 25,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 62,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 23,
+    "solution": [
+      "left",
+      "up",
+      "right",
+      "up",
+      "down",
+      "left",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up"
+    ],
+    "stopPads": [
+      [
+        4,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 63,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      4,
+      4
+    ],
+    "walls": [
+      [
         2,
         0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            5
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 20,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 63,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 18,
+    "solution": [
+      "left",
+      "up",
+      "up",
+      "down",
+      "right",
+      "down",
+      "up",
+      "left",
+      "down",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "stopPads": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 64,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      5
+    ],
+    "walls": [
+      [
+        5,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 4,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 1,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 26,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 64,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 24,
+    "solution": [
+      "up",
+      "right",
+      "up",
+      "down",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "right",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "right",
+      "down",
+      "up",
+      "left",
+      "down",
+      "left"
+    ],
+    "stopPads": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 65,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      4
+    ],
+    "walls": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 5,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            5,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 23,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 65,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 21,
+    "solution": [
+      "left",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left"
+    ],
+    "stopPads": [
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  {
+    "id": 66,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      5
+    ],
+    "walls": [
+      [
+        4,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "items": [
+      {
+        "x": 3,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "berry"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 5,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 31,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 66,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 29,
+    "solution": [
+      "right",
+      "right",
+      "up",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right"
+    ],
+    "stopPads": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 67,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      2,
+      0
+    ],
+    "walls": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 18,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 67,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 16,
+    "solution": [
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "down",
+      "right",
+      "up",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up"
+    ],
+    "stopPads": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 68,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      0,
+      2
+    ],
+    "walls": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
       ],
       [
         3,
@@ -14089,65 +13258,316 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "items": [
       {
-        "x": 0,
+        "x": 1,
         "y": 2,
         "type": "leaf"
       },
       {
-        "x": 3,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
+        "x": 2,
         "y": 3,
-        "type": "water"
+        "type": "leaf"
       },
       {
         "x": 4,
         "y": 0,
-        "type": "berry"
+        "type": "tomato"
       },
       {
-        "x": 2,
+        "x": 4,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 5,
         "y": 5,
         "type": "bread"
       },
       {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
+        "x": 5,
+        "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "water"
       },
       {
         "x": 5,
-        "y": 2,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 4,
         "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            2,
+            5
+          ]
+        ]
       },
       {
         "x": 0,
+        "y": 5,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            5
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 32,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 68,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 30,
+    "solution": [
+      "down",
+      "right",
+      "up",
+      "right",
+      "up",
+      "right",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "down",
+      "right"
+    ],
+    "stopPads": [
+      [
+        4,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 69,
+    "name": "路线组合·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      2
+    ],
+    "walls": [
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
         "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 4,
         "type": "leaf"
       },
       {
         "x": 0,
         "y": 1,
         "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "berry"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "meat"
       }
     ],
     "devices": [
       {
         "x": 5,
-        "y": 0,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
@@ -14164,20 +13584,526 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "name": "煎锅",
         "stations": [
           [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
             1,
-            5
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 21,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 69,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 19,
+    "solution": [
+      "up",
+      "right",
+      "left",
+      "down",
+      "left",
+      "down",
+      "down",
+      "right",
+      "right",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "right",
+      "left",
+      "down",
+      "right",
+      "left"
+    ],
+    "stopPads": [
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  {
+    "id": 70,
+    "name": "路线组合·挑战关",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      5,
+      4
+    ],
+    "walls": [
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 1,
+        "y": 1,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "toast",
+        "name": "芝士吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "deluxe",
+        "name": "丰盛沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1,
+          "cheese": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "juice",
+        "name": "莓果饮料",
+        "ingredients": {
+          "water": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "burger",
+        "name": "牛肉汉堡",
+        "ingredients": {
+          "bread": 1,
+          "leaf": 1,
+          "meat": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "deluxe",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "toast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "juice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "burger",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 24,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "breakfast",
+    "restaurantName": "暖心早餐店",
+    "stageNumber": 70,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 22,
+    "solution": [
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "right",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up"
+    ],
+    "stopPads": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 71,
+    "name": "下班大挑战·新内容",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      0,
+      3
+    ],
+    "walls": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 3,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "meat"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            0
           ]
         ]
       },
       {
         "x": 5,
-        "y": 5,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            2
           ]
         ]
       }
@@ -14274,7 +14200,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 20,
+    "budget": 29,
     "availableProps": [
       "undo",
       "overtime",
@@ -14287,53 +14213,92 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [
       "tight-budget"
     ],
-    "optimal": 18,
+    "optimal": 28,
     "solution": [
       "right",
-      "down",
+      "up",
       "left",
       "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "right",
+      "left",
       "right",
       "up",
       "left",
       "right",
       "down",
       "left",
-      "up",
-      "left",
       "down",
+      "left",
       "right",
       "up",
       "left",
       "down",
+      "right",
+      "down",
+      "right",
+      "down",
+      "up",
       "right"
+    ],
+    "stopPads": [
+      [
+        1,
+        3
+      ]
     ]
   },
   {
     "id": 72,
     "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      5,
-      2
+      1,
+      0
     ],
     "walls": [
       [
-        3,
-        3
+        2,
+        0
       ],
       [
         3,
-        1
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        3
       ]
     ],
     "items": [
       {
-        "x": 5,
+        "x": 3,
         "y": 3,
         "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "tomato"
       },
       {
         "x": 0,
@@ -14341,85 +14306,70 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "tomato"
       },
       {
-        "x": 5,
+        "x": 1,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 1,
         "y": 4,
         "type": "bread"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 1,
         "type": "cheese"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 3,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 3,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 4,
+        "x": 5,
+        "y": 1,
         "type": "meat"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 0,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
             1
           ]
         ]
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 5,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
+            5,
             5
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 0,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            2
           ]
         ]
       }
@@ -14516,7 +14466,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 18,
+    "budget": 28,
     "availableProps": [
       "undo",
       "overtime",
@@ -14527,70 +14477,119 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 72,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 27,
     "solution": [
-      "left",
       "down",
       "right",
+      "up",
+      "right",
+      "up",
       "up",
       "left",
       "down",
       "left",
-      "up",
       "right",
+      "down",
+      "up",
       "left",
       "down",
+      "left",
+      "down",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "left",
       "right",
       "up",
       "left",
       "down",
       "left"
+    ],
+    "stopPads": [
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        5
+      ]
     ]
   },
   {
     "id": 73,
     "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
       2,
-      3
+      2
     ],
     "walls": [
       [
         3,
-        0
+        2
       ],
       [
-        0,
+        5,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
         4
       ]
     ],
     "items": [
       {
-        "x": 5,
+        "x": 4,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
         "y": 4,
         "type": "leaf"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 3,
         "type": "tomato"
       },
       {
         "x": 0,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 3,
         "y": 1,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 2,
+        "y": 0,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "type": "water"
       },
       {
@@ -14599,53 +14598,33 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "berry"
       },
       {
-        "x": 2,
-        "y": 5,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
         "x": 0,
-        "y": 2,
+        "y": 1,
         "type": "meat"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "tomato"
       }
     ],
     "devices": [
       {
         "x": 5,
-        "y": 0,
+        "y": 4,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
             5,
-            1
+            3
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            0
           ]
         ]
       },
@@ -14754,7 +14733,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 20,
+    "budget": 17,
     "availableProps": [
       "undo",
       "overtime",
@@ -14765,146 +14744,162 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 73,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 18,
+    "optimal": 16,
     "solution": [
       "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "down",
       "left",
       "down",
+      "up",
       "right",
       "up",
-      "down",
       "left",
-      "up",
+      "down",
       "right",
       "left",
       "down",
       "right",
-      "up"
+      "right",
+      "up",
+      "up",
+      "left"
+    ],
+    "stopPads": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        2
+      ]
     ]
   },
   {
     "id": 74,
     "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
       1,
-      0
+      2
     ],
     "walls": [
       [
-        5,
+        3,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
         4
       ],
       [
         0,
-        0
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        1,
-        3
+        1
       ]
     ],
     "items": [
       {
-        "x": 5,
+        "x": 3,
         "y": 2,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "bread"
-      },
-      {
         "x": 5,
-        "y": 3,
+        "y": 5,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 3,
-        "type": "meat"
-      },
-      {
-        "x": 0,
+        "x": 2,
         "y": 4,
         "type": "leaf"
       },
       {
         "x": 0,
-        "y": 2,
+        "y": 3,
         "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "meat"
       }
     ],
     "devices": [
       {
         "x": 5,
-        "y": 0,
+        "y": 4,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
             5,
-            1
+            3
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            0
           ]
         ]
       },
       {
-        "x": 5,
+        "x": 1,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
+            2,
             5
           ]
         ]
@@ -15013,117 +15008,132 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 74,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 17,
     "solution": [
-      "right",
       "down",
-      "left",
-      "right",
-      "up",
-      "left",
       "down",
-      "left",
       "right",
-      "down",
       "up",
       "left",
       "down",
       "right",
       "down",
+      "right",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "right",
+      "up",
       "left"
+    ],
+    "stopPads": [
+      [
+        1,
+        3
+      ]
     ]
   },
   {
     "id": 75,
     "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      1,
-      2
+      5,
+      4
     ],
     "walls": [
       [
-        0,
-        1
+        4,
+        5
       ],
       [
         4,
-        0
+        4
       ],
       [
         2,
         1
-      ],
-      [
-        2,
-        3
       ]
     ],
     "items": [
       {
-        "x": 2,
+        "x": 1,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
         "y": 0,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
+        "x": 3,
+        "y": 4,
+        "type": "leaf"
       },
       {
         "x": 5,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "bread"
+      },
+      {
+        "x": 4,
         "y": 3,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "water"
-      },
-      {
         "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
+        "y": 2,
+        "type": "cheese"
       },
       {
         "x": 2,
         "y": 5,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 2,
         "type": "meat"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "type": "table",
         "name": "料理台",
+        "stations": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
         "stations": [
           [
             5,
@@ -15132,26 +15142,14 @@ export const CAMPAIGN_LEVELS:Level[]=[
         ]
       },
       {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
+        "x": 1,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            2,
+            0
           ]
         ]
       }
@@ -15259,136 +15257,155 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 75,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 17,
     "solution": [
+      "down",
+      "up",
       "left",
+      "down",
+      "right",
+      "left",
+      "up",
       "down",
       "right",
       "up",
       "left",
+      "right",
       "down",
       "left",
       "up",
-      "down",
-      "up",
-      "left",
       "right",
-      "down",
-      "right",
-      "up",
-      "right"
+      "up"
+    ],
+    "stopPads": [
+      [
+        0,
+        4
+      ],
+      [
+        5,
+        3
+      ]
     ]
   },
   {
     "id": 76,
     "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      0,
-      2
+      2,
+      4
     ],
     "walls": [
       [
-        4,
+        5,
+        3
+      ],
+      [
+        3,
         0
       ],
       [
-        4,
+        3,
         1
+      ],
+      [
+        5,
+        5
       ]
     ],
     "items": [
       {
+        "x": 2,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
         "x": 0,
         "y": 1,
-        "type": "leaf"
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "tomato"
       },
       {
         "x": 5,
         "y": 2,
-        "type": "tomato"
+        "type": "bread"
       },
       {
-        "x": 3,
+        "x": 4,
         "y": 0,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 2,
+        "y": 1,
         "type": "cheese"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 3,
+        "x": 0,
         "y": 5,
         "type": "berry"
       },
       {
-        "x": 5,
+        "x": 4,
         "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 0,
         "type": "meat"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 1,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            1,
             1
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            2
           ]
         ]
       },
       {
-        "x": 5,
+        "x": 3,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
+            2,
             5
           ]
         ]
@@ -15486,7 +15503,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 18,
+    "budget": 27,
     "availableProps": [
       "undo",
       "overtime",
@@ -15497,140 +15514,169 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 76,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 26,
     "solution": [
-      "up",
-      "right",
-      "down",
-      "right",
       "left",
       "up",
-      "left",
-      "down",
-      "right",
       "up",
+      "right",
       "down",
       "left",
       "up",
       "right",
+      "up",
+      "right",
       "down",
-      "left"
-    ]
-  },
-  {
-    "id": 77,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      4
+      "left",
+      "up",
+      "left",
+      "right",
+      "up",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up"
     ],
-    "walls": [
+    "stopPads": [
       [
-        0,
-        4
-      ],
-      [
-        0,
+        4,
         1
       ],
       [
         1,
-        1
+        4
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 77,
+    "name": "下班大挑战·路线练习",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      2,
+      0
+    ],
+    "walls": [
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        5
       ]
     ],
     "items": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "tomato"
       },
       {
         "x": 1,
         "y": 0,
-        "type": "tomato"
+        "type": "bread"
       },
       {
-        "x": 0,
+        "x": 2,
         "y": 3,
         "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "berry"
       },
       {
         "x": 3,
         "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
         "type": "meat"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 4,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
+        "x": 2,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
+            3,
             5
           ]
         ]
@@ -15728,7 +15774,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 21,
+    "budget": 26,
     "availableProps": [
       "undo",
       "overtime",
@@ -15739,140 +15785,160 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 77,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 19,
+    "optimal": 25,
     "solution": [
-      "up",
-      "left",
+      "right",
       "down",
+      "left",
       "right",
       "down",
       "up",
       "left",
-      "up",
       "down",
-      "left",
-      "right",
       "up",
-      "left",
       "right",
       "down",
       "left",
       "up",
+      "down",
+      "up",
+      "left",
+      "down",
       "right",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
       "up"
+    ],
+    "stopPads": [
+      [
+        1,
+        4
+      ]
     ]
   },
   {
     "id": 78,
     "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      5,
-      4
+      2,
+      5
     ],
     "walls": [
       [
         4,
-        3
+        1
       ],
       [
-        2,
-        4
+        0,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        1
       ]
     ],
     "items": [
       {
         "x": 3,
-        "y": 0,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 3,
         "type": "leaf"
       },
       {
         "x": 5,
         "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
+        "type": "leaf"
       },
       {
         "x": 0,
         "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "meat"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "leaf"
+        "type": "tomato"
       },
       {
         "x": 0,
         "y": 2,
         "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "meat"
       }
     ],
     "devices": [
       {
         "x": 5,
-        "y": 0,
+        "y": 5,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            4,
+            5
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            3
           ]
         ]
       },
       {
         "x": 5,
-        "y": 5,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            5,
+            1
           ]
         ]
       }
@@ -15969,7 +16035,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 35,
     "availableProps": [
       "undo",
       "overtime",
@@ -15980,146 +16046,178 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 78,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 17,
+    "optimal": 34,
     "solution": [
+      "left",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
       "up",
       "left",
       "right",
       "down",
       "left",
+      "up",
       "down",
-      "left",
+      "right",
       "up",
       "right",
       "left",
+      "up",
+      "left",
       "down",
       "right",
       "down",
       "right",
+      "up",
+      "left",
+      "down",
+      "left",
       "up",
       "right",
       "up"
-    ]
+    ],
+    "stopPads": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 79,
     "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      2
+      2,
+      5
     ],
     "walls": [
       [
-        3,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
+        5,
         2
       ],
       [
+        0,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
         4,
-        3
+        2
+      ],
+      [
+        3,
+        5
       ]
     ],
     "items": [
       {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 2,
         "type": "leaf"
       },
       {
         "x": 3,
-        "y": 0,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 3,
         "type": "tomato"
       },
       {
         "x": 2,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 5,
         "y": 5,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 2,
+        "y": 1,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 5,
         "type": "water"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 0,
+        "y": 4,
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "meat"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
         "x": 5,
-        "y": 4,
-        "type": "tomato"
+        "y": 3,
+        "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
             1
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            0,
+            2
           ]
         ]
       }
@@ -16216,7 +16314,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 20,
+    "budget": 26,
     "availableProps": [
       "undo",
       "overtime",
@@ -16227,146 +16325,163 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 79,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 18,
+    "optimal": 25,
     "solution": [
-      "up",
       "left",
-      "right",
-      "down",
-      "right",
       "up",
       "down",
-      "left",
-      "down",
-      "up",
       "right",
       "up",
       "left",
+      "up",
+      "right",
+      "left",
       "down",
       "right",
+      "up",
+      "right",
+      "left",
       "down",
       "right",
-      "left"
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up"
+    ],
+    "stopPads": [
+      [
+        4,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        4
+      ]
     ]
   },
   {
     "id": 80,
     "name": "下班大挑战·挑战关",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "踩停步垫会停下，之后垫子消耗。",
     "width": 6,
     "height": 6,
     "start": [
       3,
-      2
+      1
     ],
     "walls": [
       [
-        2,
-        0
+        5,
+        4
       ],
       [
-        2,
-        1
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        2,
+        5,
         5
+      ],
+      [
+        2,
+        3
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 2,
+        "x": 2,
+        "y": 5,
         "type": "leaf"
       },
       {
         "x": 5,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 3,
         "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "water"
+        "type": "leaf"
       },
       {
         "x": 0,
-        "y": 4,
-        "type": "berry"
+        "y": 0,
+        "type": "leaf"
       },
       {
         "x": 3,
         "y": 5,
-        "type": "bread"
+        "type": "tomato"
       },
       {
         "x": 1,
         "y": 0,
-        "type": "leaf"
+        "type": "tomato"
       },
       {
         "x": 0,
-        "y": 0,
-        "type": "meat"
+        "y": 3,
+        "type": "bread"
       },
       {
-        "x": 0,
-        "y": 1,
-        "type": "leaf"
+        "x": 2,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "cheese"
       },
       {
         "x": 5,
-        "y": 4,
-        "type": "tomato"
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "meat"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
+        "x": 1,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
+            0,
             5
           ]
         ]
@@ -16477,89 +16592,73 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 21,
     "solution": [
+      "down",
+      "left",
+      "right",
+      "up",
+      "right",
+      "up",
       "left",
       "down",
       "right",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
       "up",
       "left",
       "up",
-      "down",
-      "right",
-      "up",
-      "right",
-      "down",
       "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "up",
-      "right",
       "down"
+    ],
+    "stopPads": [
+      [
+        1,
+        1
+      ]
     ]
   },
   {
     "id": 81,
     "name": "开店第一课·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
-    "width": 5,
-    "height": 5,
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 4,
+    "height": 4,
     "start": [
-      1,
+      3,
       2
     ],
-    "walls": [],
+    "walls": [
+      [
+        0,
+        3
+      ]
+    ],
     "items": [
       {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
+        "x": 2,
         "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "egg"
-      },
-      {
-        "x": 0,
-        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 1,
+        "y": 1,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
             1,
-            4
+            2
           ]
         ]
       }
@@ -16573,32 +16672,12 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
+        "id": "lesson-81",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
@@ -16608,7 +16687,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 12,
+    "budget": 11,
     "availableProps": [
       "undo",
       "overtime",
@@ -16620,85 +16699,75 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "chapter": "开店第一课",
     "introductions": [
       "restaurant:street",
-      "egg"
+      "switch-door"
     ],
-    "optimal": 8,
+    "optimal": 6,
     "solution": [
+      "down",
+      "left",
       "up",
-      "right",
       "left",
       "down",
-      "right",
-      "up",
-      "down",
-      "left"
-    ]
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 82,
     "name": "开店第一课·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 4,
+    "height": 4,
     "start": [
       2,
       2
     ],
     "walls": [
       [
-        2,
-        1
+        3,
+        2
       ]
     ],
     "items": [
       {
         "x": 0,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 4,
-        "type": "egg"
-      },
-      {
-        "x": 2,
-        "y": 0,
+        "y": 3,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 4,
+        "x": 1,
+        "y": 1,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
+            2,
+            3
           ]
         ]
       }
@@ -16712,32 +16781,12 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
+        "id": "lesson-82",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
@@ -16758,78 +16807,74 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 2,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 8,
+    "optimal": 7,
     "solution": [
       "left",
       "up",
       "right",
       "down",
-      "right",
       "left",
-      "right",
-      "up"
-    ]
+      "down",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 83,
     "name": "开店第一课·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 4,
+    "height": 4,
     "start": [
-      1,
-      1
+      0,
+      3
     ],
-    "walls": [],
+    "walls": [
+      [
+        2,
+        1
+      ]
+    ],
     "items": [
       {
         "x": 3,
         "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 3,
-        "y": 4,
         "type": "leaf"
       },
       {
-        "x": 0,
+        "x": 1,
         "y": 1,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
+            2,
+            3
           ]
         ]
       }
@@ -16843,32 +16888,12 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
+        "id": "lesson-83",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
@@ -16889,49 +16914,57 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 3,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 9,
+    "optimal": 8,
     "solution": [
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
       "left",
       "down",
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left"
-    ]
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 84,
     "name": "开店第一课·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 4,
+    "height": 4,
     "start": [
       1,
       0
     ],
-    "walls": [],
+    "walls": [
+      [
+        0,
+        3
+      ]
+    ],
     "items": [
       {
-        "x": 0,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "type": "leaf"
       },
       {
@@ -16942,26 +16975,14 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "devices": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 3,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
+            3,
+            3
           ]
         ]
       }
@@ -16975,32 +16996,12 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
+        "id": "lesson-84",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
@@ -17021,82 +17022,73 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 4,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 7,
+    "optimal": 6,
     "solution": [
-      "right",
       "left",
       "down",
       "right",
       "up",
       "down",
-      "left"
-    ]
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 85,
     "name": "开店第一课·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 4,
+    "height": 4,
     "start": [
-      3,
+      2,
       3
     ],
     "walls": [
       [
-        3,
-        2
+        2,
+        1
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "egg"
-      },
-      {
         "x": 1,
-        "y": 0,
+        "y": 2,
         "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 3,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            4,
+            3,
             1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
           ]
         ]
       }
@@ -17110,32 +17102,12 @@ export const CAMPAIGN_LEVELS:Level[]=[
           "tomato": 1
         },
         "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
       }
     ],
     "customers": [
       {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
+        "id": "lesson-85",
+        "name": "小狗",
         "orders": [
           {
             "recipe": "salad",
@@ -17145,7 +17117,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 13,
+    "budget": 10,
     "availableProps": [
       "undo",
       "overtime",
@@ -17156,40 +17128,51 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 5,
     "chapter": "开店第一课",
     "introductions": [],
-    "optimal": 9,
+    "optimal": 5,
     "solution": [
-      "down",
+      "up",
       "left",
       "up",
       "right",
-      "down",
-      "left",
-      "right",
-      "down",
-      "left"
-    ]
+      "down"
+    ],
+    "switches": [
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 86,
     "name": "开店第一课·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 5,
     "height": 5,
     "start": [
-      2,
-      3
+      3,
+      1
     ],
     "walls": [
       [
-        0,
-        0
+        2,
+        4
       ],
       [
         0,
-        1
-      ],
-      [
-        4,
         2
       ]
     ],
@@ -17200,13 +17183,13 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 3,
+        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "type": "egg"
       },
       {
@@ -17215,38 +17198,38 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "water"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "milk"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "type": "coffee"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 4,
+        "x": 3,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            4
+            4,
+            0
           ]
         ]
       },
       {
         "x": 4,
-        "y": 4,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            3,
-            4
+            4,
+            3
           ]
         ]
       }
@@ -17307,1302 +17290,122 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 6,
     "chapter": "开店第一课",
     "introductions": [
-      "coffee"
+      "coffee",
+      "egg"
     ],
-    "optimal": 10,
+    "optimal": 11,
     "solution": [
       "left",
       "up",
       "right",
-      "up",
+      "down",
+      "left",
       "right",
       "down",
-      "up",
       "left",
-      "down",
-      "right"
-    ]
+      "up",
+      "right",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 87,
     "name": "开店第一课·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
-    "start": [
-      0,
-      0
-    ],
-    "walls": [
-      [
-        3,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 4,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 1,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 4,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            3,
-            4
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 14,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 7,
-    "chapter": "开店第一课",
-    "introductions": [],
-    "optimal": 10,
-    "solution": [
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "left"
-    ]
-  },
-  {
-    "id": 88,
-    "name": "开店第一课·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 5,
     "height": 5,
     "start": [
       2,
-      0
-    ],
-    "walls": [
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 2,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 1,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            3,
-            4
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 15,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 8,
-    "chapter": "开店第一课",
-    "introductions": [],
-    "optimal": 11,
-    "solution": [
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 89,
-    "name": "开店第一课·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
-    "start": [
-      1,
-      3
-    ],
-    "walls": [
-      [
-        0,
-        3
-      ],
-      [
-        2,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 1,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 4,
-        "type": "egg"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            3,
-            4
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 14,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 9,
-    "chapter": "开店第一课",
-    "introductions": [],
-    "optimal": 10,
-    "solution": [
-      "up",
-      "right",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "left"
-    ]
-  },
-  {
-    "id": 90,
-    "name": "开店第一课·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
-    "start": [
-      2,
-      0
+      2
     ],
     "walls": [
       [
         4,
-        3
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 2,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "egg"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 1,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            3,
-            4
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 9,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 10,
-    "chapter": "开店第一课",
-    "introductions": [],
-    "optimal": 8,
-    "solution": [
-      "right",
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 91,
-    "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
-    "start": [
-      0,
-      3
-    ],
-    "walls": [
-      [
-        2,
-        1
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        1,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 4,
-        "type": "egg"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "coffee"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 1,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 4,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            3,
-            4
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 15,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 11,
-    "chapter": "背包与设备",
-    "introductions": [],
-    "optimal": 12,
-    "solution": [
-      "up",
-      "right",
-      "down",
-      "up",
-      "left",
-      "right",
-      "left",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 92,
-    "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
-    "start": [
-      0,
-      2
-    ],
-    "walls": [
-      [
-        0,
-        3
-      ],
-      [
-        3,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "egg"
-      },
-      {
-        "x": 4,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "coffee"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 3,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 4,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            3,
-            4
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 13,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 12,
-    "chapter": "背包与设备",
-    "introductions": [],
-    "optimal": 10,
-    "solution": [
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 93,
-    "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
-    "start": [
-      0,
-      3
-    ],
-    "walls": [
-      [
-        2,
-        3
-      ],
-      [
-        3,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 2,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "egg"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 2,
-        "type": "coffee"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 4,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            3,
-            4
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 11,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 13,
-    "chapter": "背包与设备",
-    "introductions": [],
-    "optimal": 8,
-    "solution": [
-      "up",
-      "right",
-      "down",
-      "right",
-      "down",
-      "left",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 94,
-    "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 5,
-    "height": 5,
-    "start": [
-      2,
-      2
-    ],
-    "walls": [
-      [
-        0,
         0
       ],
       [
         3,
-        2
-      ],
-      [
-        3,
-        3
+        4
       ]
     ],
     "items": [
       {
-        "x": 4,
-        "y": 3,
+        "x": 0,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 1,
         "type": "cheese"
       },
       {
         "x": 0,
-        "y": 1,
+        "y": 0,
         "type": "egg"
       },
       {
         "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 4,
         "y": 2,
-        "type": "milk"
+        "type": "water"
       },
       {
         "x": 3,
         "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 2,
         "type": "coffee"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 4,
-        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 4,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
+        "x": 0,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
         "stations": [
           [
-            4,
+            1,
             1
           ]
         ]
       },
       {
         "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            4
-          ]
-        ]
-      },
-      {
-        "x": 4,
-        "y": 4,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            3,
+            0,
             4
           ]
         ]
       }
     ],
     "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
       {
         "id": "eggtoast",
         "name": "鸡蛋吐司",
@@ -18641,16 +17444,6 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "orders": [
           {
             "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "salad",
             "count": 1
           }
         ]
@@ -18665,111 +17458,617 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "restaurantId": "street",
     "restaurantName": "街角简餐店",
-    "stageNumber": 14,
-    "chapter": "背包与设备",
+    "stageNumber": 7,
+    "chapter": "开店第一课",
     "introductions": [],
     "optimal": 14,
     "solution": [
-      "down",
-      "up",
-      "right",
-      "down",
-      "right",
-      "down",
-      "up",
       "left",
-      "down",
       "right",
       "up",
       "left",
       "down",
-      "right"
-    ]
+      "up",
+      "left",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
-    "id": 95,
-    "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "id": 88,
+    "name": "开店第一课·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 5,
     "height": 5,
     "start": [
-      1,
-      3
+      2,
+      2
     ],
     "walls": [
       [
-        1,
-        2
-      ],
-      [
-        0,
+        3,
         3
       ],
       [
-        0,
+        4,
         2
       ]
     ],
     "items": [
       {
         "x": 0,
-        "y": 0,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 0,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 2,
+        "y": 3,
         "type": "egg"
       },
       {
-        "x": 4,
-        "y": 2,
+        "x": 3,
+        "y": 0,
         "type": "water"
       },
       {
-        "x": 4,
-        "y": 3,
+        "x": 1,
+        "y": 2,
         "type": "milk"
       },
       {
         "x": 2,
         "y": 4,
         "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            4
+          ]
+        ]
       },
       {
         "x": 2,
         "y": 0,
-        "type": "leaf"
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 14,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 8,
+    "chapter": "开店第一课",
+    "introductions": [],
+    "optimal": 11,
+    "solution": [
+      "down",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 89,
+    "name": "开店第一课·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      3,
+      4
+    ],
+    "walls": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "cheese"
       },
       {
         "x": 3,
+        "y": 3,
+        "type": "egg"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 13,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 9,
+    "chapter": "开店第一课",
+    "introductions": [],
+    "optimal": 9,
+    "solution": [
+      "up",
+      "right",
+      "up",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 90,
+    "name": "开店第一课·挑战关",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      1,
+      1
+    ],
+    "walls": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "egg"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            3,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 15,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 10,
+    "chapter": "开店第一课",
+    "introductions": [],
+    "optimal": 12,
+    "solution": [
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 91,
+    "name": "背包与设备·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      0,
+      1
+    ],
+    "walls": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "egg"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
         "y": 0,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "type": "table",
         "name": "料理台",
-        "stations": [
-          [
-            4,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "pan",
-        "name": "煎锅",
         "stations": [
           [
             1,
@@ -18778,14 +18077,26 @@ export const CAMPAIGN_LEVELS:Level[]=[
         ]
       },
       {
+        "x": 2,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
         "x": 4,
-        "y": 4,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            3,
-            4
+            4,
+            3
           ]
         ]
       }
@@ -18854,7 +18165,870 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 13,
+    "budget": 19,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 11,
+    "chapter": "背包与设备",
+    "introductions": [],
+    "optimal": 16,
+    "solution": [
+      "right",
+      "left",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 92,
+    "name": "背包与设备·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      2,
+      3
+    ],
+    "walls": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "egg"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "coffee"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 1,
+        "y": 3,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 28,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 12,
+    "chapter": "背包与设备",
+    "introductions": [],
+    "optimal": 26,
+    "solution": [
+      "down",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "right",
+      "left",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "down",
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          4,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 93,
+    "name": "背包与设备·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      2,
+      0
+    ],
+    "walls": [
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "egg"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "coffee"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            3,
+            2
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 14,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 13,
+    "chapter": "背包与设备",
+    "introductions": [],
+    "optimal": 11,
+    "solution": [
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "left",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 94,
+    "name": "背包与设备·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      4,
+      0
+    ],
+    "walls": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "egg"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "coffee"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 21,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 14,
+    "chapter": "背包与设备",
+    "introductions": [],
+    "optimal": 18,
+    "solution": [
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up",
+      "down",
+      "right",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 95,
+    "name": "背包与设备·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      0,
+      3
+    ],
+    "walls": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 4,
+        "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "egg"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "coffee"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            3,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 21,
     "availableProps": [
       "undo",
       "overtime",
@@ -18865,112 +19039,135 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 15,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 10,
+    "optimal": 18,
     "solution": [
+      "right",
       "down",
+      "left",
+      "up",
       "right",
       "up",
+      "right",
+      "down",
+      "up",
       "left",
+      "right",
       "down",
       "right",
       "down",
       "left",
-      "down",
-      "right"
-    ]
+      "up",
+      "left",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 96,
     "name": "背包与设备·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      0,
-      4
+      3,
+      1
     ],
     "walls": [
       [
-        4,
-        2
+        1,
+        4
+      ],
+      [
+        2,
+        5
       ],
       [
         5,
         4
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        1,
-        1
       ]
     ],
     "items": [
       {
-        "x": 1,
-        "y": 0,
+        "x": 3,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
         "x": 3,
-        "y": 0,
+        "y": 3,
         "type": "egg"
       },
       {
-        "x": 0,
+        "x": 5,
         "y": 3,
         "type": "water"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 0,
+        "y": 1,
         "type": "milk"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 4,
+        "y": 3,
         "type": "coffee"
       },
       {
-        "x": 5,
-        "y": 1,
+        "x": 0,
+        "y": 4,
         "type": "fish"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 5,
+        "y": 2,
         "type": "rice"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 4,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            4,
+            1
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 3,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            2,
+            0
           ]
         ]
       }
@@ -19039,7 +19236,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 16,
+    "budget": 20,
     "availableProps": [
       "undo",
       "overtime",
@@ -19052,107 +19249,150 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [
       "rice"
     ],
-    "optimal": 13,
+    "optimal": 18,
     "solution": [
-      "up",
-      "right",
       "down",
-      "right",
       "up",
-      "right",
-      "up",
-      "down",
       "left",
       "up",
       "right",
       "down",
-      "left"
-    ]
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          5,
+          1
+        ],
+        "group": "a"
+      },
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 97,
     "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      5
+      2,
+      2
     ],
     "walls": [
       [
+        2,
+        3
+      ],
+      [
         1,
+        0
+      ],
+      [
+        0,
         2
       ],
       [
-        2,
-        4
+        0,
+        0
+      ],
+      [
+        1,
+        5
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 2,
+        "x": 5,
+        "y": 0,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 0,
+        "y": 5,
         "type": "egg"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 1,
         "type": "water"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 3,
+        "y": 1,
         "type": "milk"
       },
       {
         "x": 5,
-        "y": 4,
+        "y": 1,
         "type": "coffee"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 5,
+        "y": 5,
         "type": "fish"
       },
       {
         "x": 0,
-        "y": 4,
+        "y": 1,
         "type": "rice"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            0
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            3
           ]
         ]
       }
@@ -19221,7 +19461,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 15,
+    "budget": 25,
     "availableProps": [
       "undo",
       "overtime",
@@ -19232,110 +19472,140 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 17,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 12,
+    "optimal": 23,
     "solution": [
+      "left",
+      "down",
+      "right",
+      "down",
       "up",
       "left",
       "right",
-      "down",
-      "left",
-      "down",
-      "right",
       "up",
       "left",
       "down",
       "right",
-      "down"
-    ]
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 98,
     "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      4
+      5,
+      1
     ],
     "walls": [
       [
         3,
-        2
-      ],
-      [
-        4,
-        0
+        1
       ],
       [
         5,
-        1
+        2
+      ],
+      [
+        0,
+        5
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 1,
+        "y": 5,
         "type": "egg"
       },
       {
-        "x": 5,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 5,
+        "x": 2,
         "y": 4,
-        "type": "milk"
+        "type": "water"
       },
       {
         "x": 2,
         "y": 5,
-        "type": "coffee"
+        "type": "milk"
       },
       {
-        "x": 0,
-        "y": 1,
-        "type": "fish"
+        "x": 2,
+        "y": 3,
+        "type": "coffee"
       },
       {
         "x": 1,
         "y": 0,
+        "type": "fish"
+      },
+      {
+        "x": 1,
+        "y": 1,
         "type": "rice"
       }
     ],
     "devices": [
       {
         "x": 0,
-        "y": 5,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            0,
+            1
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 0,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            3
           ]
         ]
       }
@@ -19404,7 +19674,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 16,
+    "budget": 13,
     "availableProps": [
       "undo",
       "overtime",
@@ -19415,107 +19685,128 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 18,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 13,
+    "optimal": 11,
     "solution": [
+      "left",
       "down",
+      "left",
       "up",
-      "right",
-      "down",
       "left",
       "down",
       "right",
-      "up",
-      "left",
       "down",
-      "left",
+      "right",
       "up",
-      "down"
-    ]
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 99,
     "name": "背包与设备·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      0,
+      2,
       2
     ],
     "walls": [
       [
-        0,
-        4
+        4,
+        3
       ],
       [
-        4,
-        1
+        1,
+        0
+      ],
+      [
+        3,
+        5
       ]
     ],
     "items": [
       {
         "x": 4,
-        "y": 0,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
         "x": 5,
-        "y": 3,
+        "y": 1,
         "type": "egg"
       },
       {
-        "x": 0,
+        "x": 1,
         "y": 1,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 3,
+        "y": 4,
         "type": "milk"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 0,
+        "y": 3,
         "type": "coffee"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 0,
+        "y": 1,
         "type": "fish"
       },
       {
-        "x": 5,
+        "x": 3,
         "y": 2,
         "type": "rice"
       }
     ],
     "devices": [
       {
-        "x": 0,
+        "x": 1,
         "y": 5,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
+            0,
             5
           ]
         ]
       },
       {
         "x": 5,
-        "y": 5,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            0
           ]
         ]
       }
@@ -19595,114 +19886,134 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 19,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 13,
+    "optimal": 14,
     "solution": [
+      "left",
+      "up",
+      "down",
+      "right",
+      "left",
+      "up",
+      "right",
       "up",
       "right",
       "down",
-      "left",
-      "down",
+      "right",
       "up",
       "left",
-      "down",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right"
-    ]
+      "down"
+    ],
+    "switches": [
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 100,
     "name": "背包与设备·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
       1,
-      1
+      4
     ],
     "walls": [
       [
-        2,
-        5
+        3,
+        3
       ],
       [
-        2,
+        0,
         4
       ],
       [
-        2,
-        2
+        0,
+        5
       ],
       [
-        3,
-        0
+        4,
+        1
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 5,
+        "x": 5,
+        "y": 3,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "cheese"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 1,
         "type": "egg"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 2,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "milk"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 4,
         "type": "coffee"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 2,
+        "y": 4,
         "type": "fish"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 0,
         "type": "rice"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 1,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            2
           ]
         ]
       },
       {
-        "x": 5,
+        "x": 2,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
+            3,
             5
           ]
         ]
@@ -19772,7 +20083,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 16,
+    "budget": 19,
     "availableProps": [
       "undo",
       "overtime",
@@ -19783,138 +20094,155 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 20,
     "chapter": "背包与设备",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 17,
     "solution": [
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "down",
-      "up",
-      "left",
-      "down",
-      "left",
       "up",
       "left",
       "down",
       "right",
-      "down"
-    ]
+      "up",
+      "down",
+      "right",
+      "down",
+      "left",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 101,
     "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      1
+      2,
+      3
     ],
     "walls": [
+      [
+        5,
+        3
+      ],
       [
         1,
         3
       ],
       [
-        0,
-        3
-      ],
-      [
-        3,
+        1,
         1
-      ],
-      [
-        3,
-        2
       ]
     ],
     "items": [
       {
         "x": 0,
-        "y": 4,
+        "y": 5,
         "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "egg"
       },
       {
         "x": 0,
         "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "egg"
-      },
-      {
-        "x": 2,
-        "y": 5,
         "type": "water"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 5,
+        "y": 5,
         "type": "milk"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 4,
         "type": "coffee"
       },
       {
-        "x": 0,
+        "x": 2,
         "y": 2,
         "type": "fish"
       },
       {
-        "x": 1,
+        "x": 4,
         "y": 0,
         "type": "rice"
       },
       {
         "x": 5,
-        "y": 2,
+        "y": 0,
         "type": "leaf"
       },
       {
         "x": 5,
-        "y": 4,
+        "y": 1,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
+            0,
+            2
           ]
         ]
       },
       {
         "x": 5,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 1,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
+            2,
             5
           ]
         ]
@@ -20003,7 +20331,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 18,
+    "budget": 24,
     "availableProps": [
       "undo",
       "overtime",
@@ -20014,139 +20342,169 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 21,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 22,
     "solution": [
       "up",
+      "right",
       "left",
       "down",
       "right",
       "down",
-      "left",
-      "right",
-      "left",
-      "up",
-      "left",
       "right",
       "up",
       "left",
       "down",
-      "left"
-    ]
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          4,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 102,
     "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      1,
-      3
+      2,
+      4
     ],
     "walls": [
       [
+        3,
+        5
+      ],
+      [
         2,
-        4
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        5,
-        4
+        5
       ],
       [
         1,
-        1
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        3
       ]
     ],
     "items": [
       {
-        "x": 1,
-        "y": 0,
+        "x": 5,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 1,
         "type": "cheese"
       },
       {
-        "x": 0,
+        "x": 3,
         "y": 0,
         "type": "egg"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 5,
         "type": "milk"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 1,
+        "y": 1,
         "type": "coffee"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 5,
+        "y": 4,
         "type": "fish"
       },
       {
         "x": 3,
-        "y": 5,
+        "y": 4,
         "type": "rice"
       },
       {
-        "x": 2,
+        "x": 0,
         "y": 5,
         "type": "leaf"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            0,
+            2
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            0
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 2,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            2
           ]
         ]
       }
@@ -20234,7 +20592,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 28,
     "availableProps": [
       "undo",
       "overtime",
@@ -20245,30 +20603,66 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 22,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 26,
     "solution": [
+      "up",
       "right",
       "up",
+      "right",
+      "down",
+      "up",
       "left",
+      "right",
+      "down",
+      "left",
+      "down",
+      "left",
+      "down",
+      "up",
+      "down",
+      "right",
       "up",
       "right",
       "down",
       "left",
       "up",
       "left",
-      "up",
+      "down",
       "right",
       "down",
-      "left",
-      "up",
-      "right",
-      "up"
-    ]
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "group": "a"
+      },
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 103,
     "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
@@ -20277,112 +20671,104 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "walls": [
       [
-        5,
-        4
+        0,
+        5
       ],
       [
-        2,
-        4
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        3,
+        0,
         3
       ],
       [
-        1,
-        0
+        5,
+        3
       ]
     ],
     "items": [
       {
-        "x": 5,
-        "y": 3,
+        "x": 3,
+        "y": 4,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 1,
+        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 5,
+        "y": 4,
         "type": "egg"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 2,
         "type": "water"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 2,
+        "y": 4,
         "type": "milk"
       },
       {
         "x": 3,
-        "y": 0,
+        "y": 2,
         "type": "coffee"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 2,
+        "y": 2,
         "type": "fish"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 1,
+        "y": 3,
         "type": "rice"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 2,
+        "y": 1,
         "type": "leaf"
       },
       {
         "x": 0,
-        "y": 3,
+        "y": 2,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            4,
+            3
           ]
         ]
       },
       {
         "x": 0,
-        "y": 5,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            0,
+            1
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 1,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            2,
+            0
           ]
         ]
       }
@@ -20470,7 +20856,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 25,
     "availableProps": [
       "undo",
       "overtime",
@@ -20481,1404 +20867,74 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 23,
     "chapter": "候场客人",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 23,
     "solution": [
-      "up",
-      "left",
-      "down",
       "left",
       "down",
       "right",
+      "up",
+      "left",
+      "down",
+      "up",
       "down",
       "right",
       "up",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "down",
       "right",
       "up",
       "left",
       "up",
-      "down",
-      "right",
-      "down"
-    ]
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          5,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 104,
     "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      1
-    ],
-    "walls": [
-      [
-        4,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        2,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "egg"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 15,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 24,
-    "chapter": "候场客人",
-    "introductions": [],
-    "optimal": 12,
-    "solution": [
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "right",
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "down"
-    ]
-  },
-  {
-    "id": 105,
-    "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      4
-    ],
-    "walls": [
-      [
-        4,
-        0
-      ],
-      [
-        5,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "coffee"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "fish"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 18,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 25,
-    "chapter": "候场客人",
-    "introductions": [],
-    "optimal": 15,
-    "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "right",
-      "up",
-      "right",
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 106,
-    "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      1
-    ],
-    "walls": [
-      [
-        0,
-        4
-      ],
-      [
-        3,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "egg"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 16,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 26,
-    "chapter": "候场客人",
-    "introductions": [],
-    "optimal": 13,
-    "solution": [
-      "up",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 107,
-    "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
+      3,
       5
     ],
     "walls": [
       [
-        5,
-        3
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        5,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "coffee"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 18,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 27,
-    "chapter": "候场客人",
-    "introductions": [],
-    "optimal": 15,
-    "solution": [
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 108,
-    "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      5,
-      4
-    ],
-    "walls": [
-      [
-        0,
-        4
-      ],
-      [
         1,
-        1
-      ],
-      [
-        1,
-        0
+        2
       ],
       [
         0,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 3,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "egg"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "coffee"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 19,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 28,
-    "chapter": "候场客人",
-    "introductions": [],
-    "optimal": 16,
-    "solution": [
-      "up",
-      "left",
-      "down",
-      "right",
-      "left",
-      "up",
-      "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 109,
-    "name": "候场客人·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      4
-    ],
-    "walls": [
-      [
-        2,
         5
       ],
       [
-        0,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 3,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "fish"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 16,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 29,
-    "chapter": "候场客人",
-    "introductions": [],
-    "optimal": 13,
-    "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down"
-    ]
-  },
-  {
-    "id": 110,
-    "name": "候场客人·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      0,
-      1
-    ],
-    "walls": [
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        2,
-        3
+        3,
+        0
       ],
       [
         5,
@@ -21887,43 +20943,43 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "items": [
       {
-        "x": 2,
-        "y": 5,
+        "x": 0,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 0,
+        "x": 2,
         "y": 3,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 3,
+        "y": 2,
         "type": "egg"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 5,
+        "y": 5,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 1,
+        "y": 1,
         "type": "milk"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "coffee"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 4,
+        "y": 3,
         "type": "fish"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 0,
+        "y": 3,
         "type": "rice"
       },
       {
@@ -21932,45 +20988,45 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "leaf"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 4,
+        "y": 2,
         "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 0,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            3,
+            4
           ]
         ]
       },
       {
         "x": 5,
-        "y": 5,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            5,
+            0
           ]
         ]
       }
@@ -22052,398 +21108,6 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "orders": [
           {
             "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 19,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 30,
-    "chapter": "候场客人",
-    "introductions": [],
-    "optimal": 18,
-    "solution": [
-      "up",
-      "down",
-      "right",
-      "down",
-      "left",
-      "up",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "down",
-      "up"
-    ]
-  },
-  {
-    "id": 111,
-    "name": "共享食材·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      5
-    ],
-    "walls": [
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 17,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 31,
-    "chapter": "共享食材",
-    "introductions": [
-      "platter"
-    ],
-    "optimal": 14,
-    "solution": [
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 112,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      1
-    ],
-    "walls": [
-      [
-        0,
-        1
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
             "count": 1
           }
         ]
@@ -22458,1234 +21122,54 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "restaurantId": "street",
     "restaurantName": "街角简餐店",
-    "stageNumber": 32,
-    "chapter": "共享食材",
+    "stageNumber": 24,
+    "chapter": "候场客人",
     "introductions": [],
-    "optimal": 17,
+    "optimal": 18,
     "solution": [
-      "down",
-      "left",
-      "up",
-      "left",
       "right",
-      "up",
       "left",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up"
-    ]
-  },
-  {
-    "id": 113,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      4
-    ],
-    "walls": [
-      [
-        4,
-        3
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 1,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 17,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 33,
-    "chapter": "共享食材",
-    "introductions": [],
-    "optimal": 14,
-    "solution": [
       "up",
       "right",
       "left",
       "down",
       "right",
-      "down",
+      "up",
+      "left",
       "right",
       "up",
       "right",
-      "up",
+      "left",
       "down",
       "left",
+      "up",
       "down",
       "right"
-    ]
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
-    "id": 114,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      5
-    ],
-    "walls": [
-      [
-        1,
-        3
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        5,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 1,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 16,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 34,
-    "chapter": "共享食材",
-    "introductions": [],
-    "optimal": 13,
-    "solution": [
-      "up",
-      "right",
-      "left",
-      "down",
-      "left",
-      "down",
-      "up",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "left"
-    ]
-  },
-  {
-    "id": 115,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      4,
-      0
-    ],
-    "walls": [
-      [
-        2,
-        0
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        0,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 19,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 35,
-    "chapter": "共享食材",
-    "introductions": [],
-    "optimal": 16,
-    "solution": [
-      "down",
-      "left",
-      "down",
-      "up",
-      "right",
-      "down",
-      "up",
-      "left",
-      "up",
-      "down",
-      "right",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 116,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      5,
-      4
-    ],
-    "walls": [
-      [
-        5,
-        2
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        0,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "rice"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 14,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 36,
-    "chapter": "共享食材",
-    "introductions": [],
-    "optimal": 11,
-    "solution": [
-      "up",
-      "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "right"
-    ]
-  },
-  {
-    "id": 117,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      0
-    ],
-    "walls": [
-      [
-        3,
-        1
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        2,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 13,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 37,
-    "chapter": "共享食材",
-    "introductions": [],
-    "optimal": 10,
-    "solution": [
-      "right",
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down",
-      "left",
-      "right"
-    ]
-  },
-  {
-    "id": 118,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      4,
-      0
-    ],
-    "walls": [
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        1,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 1,
-        "type": "rice"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "fish"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 17,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 38,
-    "chapter": "共享食材",
-    "introductions": [],
-    "optimal": 14,
-    "solution": [
-      "left",
-      "down",
-      "up",
-      "right",
-      "down",
-      "left",
-      "right",
-      "up",
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "left"
-    ]
-  },
-  {
-    "id": 119,
-    "name": "共享食材·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "id": 105,
+    "name": "候场客人·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
@@ -23695,54 +21179,306 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "walls": [
       [
         0,
-        4
+        3
       ],
       [
-        1,
-        0
+        5,
+        3
       ],
       [
-        0,
-        2
+        3,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "egg"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "fish"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 4,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            3,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 27,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 25,
+    "chapter": "候场客人",
+    "introductions": [],
+    "optimal": 25,
+    "solution": [
+      "right",
+      "up",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "stopPads": [
+      [
+        4,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 106,
+    "name": "候场客人·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      4,
+      1
+    ],
+    "walls": [
+      [
+        2,
+        1
       ],
       [
         3,
         1
       ],
       [
+        5,
+        0
+      ],
+      [
         4,
-        4
+        3
+      ],
+      [
+        3,
+        5
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 5,
-        "type": "rice"
-      },
-      {
-        "x": 5,
+        "x": 1,
         "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "tomato"
+        "type": "bread"
       },
       {
         "x": 0,
         "y": 1,
-        "type": "fish"
+        "type": "cheese"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "rice"
+        "y": 4,
+        "type": "egg"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 2,
         "type": "water"
       },
       {
@@ -23751,21 +21487,41 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "milk"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 3,
+        "y": 2,
         "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "fish"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "tomato"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            0,
+            3
           ]
         ]
       },
@@ -23782,14 +21538,1330 @@ export const CAMPAIGN_LEVELS:Level[]=[
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 3,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 29,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 26,
+    "chapter": "候场客人",
+    "introductions": [],
+    "optimal": 27,
+    "solution": [
+      "right",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          5,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      },
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 107,
+    "name": "候场客人·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      2,
+      3
+    ],
+    "walls": [
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 1,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "egg"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "fish"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 4,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
             4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            3,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 26,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 27,
+    "chapter": "候场客人",
+    "introductions": [],
+    "optimal": 24,
+    "solution": [
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 108,
+    "name": "候场客人·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      4,
+      1
+    ],
+    "walls": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 1,
+        "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "egg"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "fish"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 0,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
             5
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 29,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 28,
+    "chapter": "候场客人",
+    "introductions": [],
+    "optimal": 27,
+    "solution": [
+      "right",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          5,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 109,
+    "name": "候场客人·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      5,
+      3
+    ],
+    "walls": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "egg"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "coffee"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "fish"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 22,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 29,
+    "chapter": "候场客人",
+    "introductions": [],
+    "optimal": 20,
+    "solution": [
+      "down",
+      "left",
+      "up",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "right",
+      "left",
+      "right",
+      "up",
+      "right"
+    ],
+    "switches": [
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "stopPads": [
+      [
+        4,
+        4
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 110,
+    "name": "候场客人·挑战关",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      2
+    ],
+    "walls": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 3,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "egg"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "coffee"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "fish"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 27,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 30,
+    "chapter": "候场客人",
+    "introductions": [],
+    "optimal": 25,
+    "solution": [
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down"
+    ],
+    "switches": [
+      {
+        "cell": [
+          5,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "group": "a"
+      },
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 111,
+    "name": "共享食材·新内容",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      0,
+      4
+    ],
+    "walls": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 5,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "fish"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 0,
+        "y": 5,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            5,
+            0
           ]
         ]
       }
@@ -23866,77 +22938,114 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "restaurantId": "street",
     "restaurantName": "街角简餐店",
-    "stageNumber": 39,
+    "stageNumber": 31,
     "chapter": "共享食材",
-    "introductions": [],
-    "optimal": 19,
+    "introductions": [
+      "platter"
+    ],
+    "optimal": 21,
     "solution": [
-      "down",
       "up",
       "right",
       "down",
+      "left",
+      "up",
+      "left",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
       "right",
       "up",
       "left",
       "up",
       "left",
-      "down",
-      "left",
-      "up",
-      "left",
-      "up",
-      "down",
       "right",
       "down",
       "right",
-      "left"
-    ]
+      "up",
+      "down"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "stopPads": [
+      [
+        3,
+        1
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
-    "id": 120,
-    "name": "共享食材·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "id": 112,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      0
+      4,
+      4
     ],
     "walls": [
       [
         3,
-        3
+        2
       ],
       [
-        4,
+        3,
         4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        5
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 3,
         "type": "rice"
       },
       {
-        "x": 3,
+        "x": 2,
         "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 5,
         "type": "leaf"
       },
       {
-        "x": 0,
+        "x": 1,
         "y": 2,
         "type": "tomato"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 2,
         "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "rice"
       },
       {
         "x": 1,
@@ -23944,8 +23053,466 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "water"
       },
       {
+        "x": 5,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 0,
+        "y": 1,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            5,
+            2
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 17,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 32,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 15,
+    "solution": [
+      "up",
+      "left",
+      "up",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "down",
+      "left",
+      "up",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "group": "a"
+      },
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 113,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      5,
+      4
+    ],
+    "walls": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 0,
+        "type": "rice"
+      },
+      {
         "x": 4,
         "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "fish"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            3,
+            5
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 21,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 33,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 20,
+    "solution": [
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 114,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      0,
+      3
+    ],
+    "walls": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "items": [
+      {
+        "x": 4,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "fish"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 1,
         "type": "milk"
       },
       {
@@ -23956,26 +23523,259 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            2,
+            2
           ]
         ]
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 5,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
+            5,
             5
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            5
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 24,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 34,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 23,
+    "solution": [
+      "right",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          5,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 115,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      2
+    ],
+    "walls": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 3,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "fish"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 5,
+        "y": 4,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
+            1
           ]
         ]
       },
@@ -24056,7 +23856,1144 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
+    "budget": 21,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 35,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 20,
+    "solution": [
+      "up",
+      "left",
+      "up",
+      "left",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "left",
+      "right",
+      "up",
+      "right",
+      "down",
+      "down",
+      "left",
+      "down"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          5,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "stopPads": [
+      [
+        5,
+        2
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 116,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      4,
+      5
+    ],
+    "walls": [
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 1,
+        "y": 4,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "fish"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 5,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            5
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 21,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 36,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 20,
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 117,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      2,
+      1
+    ],
+    "walls": [
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 4,
+        "y": 3,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "fish"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 0,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 19,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 37,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 17,
+    "solution": [
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "up",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "stopPads": [
+      [
+        1,
+        3
+      ]
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 118,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      4,
+      0
+    ],
+    "walls": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 1,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "fish"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 5,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 19,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 38,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 18,
+    "solution": [
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "down"
+    ],
+    "switches": [
+      {
+        "cell": [
+          3,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "group": "a"
+      },
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 119,
+    "name": "共享食材·路线练习",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      1,
+      0
+    ],
+    "walls": [
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 2,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "fish"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 5,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
     "budget": 18,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 39,
+    "chapter": "共享食材",
+    "introductions": [],
+    "optimal": 17,
+    "solution": [
+      "down",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "left",
+      "right",
+      "up",
+      "right",
+      "up",
+      "down",
+      "left"
+    ],
+    "switches": [
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 120,
+    "name": "共享食材·挑战关",
+    "tip": "经过开关切换门，先规划开门顺序。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      4
+    ],
+    "walls": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 3,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "fish"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 19,
     "availableProps": [
       "undo",
       "overtime",
@@ -24067,35 +25004,733 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 40,
     "chapter": "共享食材",
     "introductions": [],
-    "optimal": 17,
+    "optimal": 18,
     "solution": [
       "right",
-      "left",
-      "down",
-      "right",
-      "down",
+      "up",
       "right",
       "left",
       "up",
       "right",
+      "up",
+      "down",
+      "left",
+      "down",
+      "up",
       "down",
       "right",
       "up",
-      "left",
-      "down",
       "right",
       "down",
-      "left"
-    ]
+      "right",
+      "up"
+    ],
+    "switches": [
+      {
+        "cell": [
+          5,
+          3
+        ],
+        "group": "a"
+      }
+    ],
+    "doors": [
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "group": "a"
+      },
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "group": "a"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 121,
     "name": "多道菜订单·新内容",
-    "tip": "新内容登场，店长会带你认识新规则。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 4,
+    "height": 4,
+    "start": [
+      2,
+      0
+    ],
+    "walls": [
+      [
+        1,
+        2
+      ]
+    ],
+    "items": [
+      {
+        "x": 1,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            1
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "lesson-121",
+        "name": "小狗",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 9,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 41,
+    "chapter": "多道菜订单",
+    "introductions": [
+      "conveyor"
+    ],
+    "optimal": 4,
+    "solution": [
+      "down",
+      "down",
+      "right",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 122,
+    "name": "多道菜订单·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 4,
+    "height": 4,
+    "start": [
+      2,
+      1
+    ],
+    "walls": [
+      [
+        1,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 3,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "lesson-122",
+        "name": "小狗",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 10,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 42,
+    "chapter": "多道菜订单",
+    "introductions": [],
+    "optimal": 5,
+    "solution": [
+      "right",
+      "left",
+      "up",
+      "down",
+      "right"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 123,
+    "name": "多道菜订单·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 4,
+    "height": 4,
     "start": [
       3,
+      2
+    ],
+    "walls": [
+      [
+        2,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 3,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "lesson-123",
+        "name": "小狗",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 8,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 43,
+    "chapter": "多道菜订单",
+    "introductions": [],
+    "optimal": 3,
+    "solution": [
+      "up",
+      "down",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "direction": "up"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "多道菜订单·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 4,
+    "height": 4,
+    "start": [
+      2,
+      2
+    ],
+    "walls": [
+      [
+        3,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 0,
+        "y": 3,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "lesson-124",
+        "name": "小狗",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 9,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 44,
+    "chapter": "多道菜订单",
+    "introductions": [],
+    "optimal": 4,
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 125,
+    "name": "多道菜订单·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 4,
+    "height": 4,
+    "start": [
+      1,
+      3
+    ],
+    "walls": [
+      [
+        2,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "tomato"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      }
+    ],
+    "customers": [
+      {
+        "id": "lesson-125",
+        "name": "小狗",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 9,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 45,
+    "chapter": "多道菜订单",
+    "introductions": [],
+    "optimal": 4,
+    "solution": [
+      "left",
+      "right",
+      "down",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "direction": "up"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "多道菜订单·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      4,
+      3
+    ],
+    "walls": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "egg"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          },
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 12,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 46,
+    "chapter": "多道菜订单",
+    "introductions": [
+      "milkberry"
+    ],
+    "optimal": 9,
+    "solution": [
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "down",
+      "left",
+      "up",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "direction": "left"
+      },
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "direction": "left"
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "direction": "right"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 127,
+    "name": "多道菜订单·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      1,
       3
     ],
     "walls": [
@@ -24104,52 +25739,214 @@ export const CAMPAIGN_LEVELS:Level[]=[
         1
       ],
       [
-        2,
-        2
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        5,
-        0
-      ],
-      [
-        5,
+        3,
         1
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 0,
+        "x": 4,
+        "y": 4,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 3,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 0,
         "type": "egg"
       },
       {
         "x": 0,
-        "y": 0,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 4,
         "type": "milk"
       },
       {
         "x": 0,
-        "y": 4,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 5,
+        "x": 0,
         "y": 2,
         "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "coffee"
+      }
+    ],
+    "devices": [
+      {
+        "x": 1,
+        "y": 4,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          },
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 17,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 47,
+    "chapter": "多道菜订单",
+    "introductions": [],
+    "optimal": 14,
+    "solution": [
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right",
+      "down",
+      "up",
+      "left",
+      "left",
+      "down"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "多道菜订单·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
+    "start": [
+      4,
+      1
+    ],
+    "walls": [
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 1,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "cheese"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "egg"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "milk"
       },
       {
         "x": 0,
@@ -24159,31 +25956,41 @@ export const CAMPAIGN_LEVELS:Level[]=[
       {
         "x": 0,
         "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 1,
         "type": "coffee"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 3,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            3,
+            4
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            0
           ]
         ]
       }
@@ -24247,1275 +26054,6 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "capacity": 7,
     "budget": 16,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 41,
-    "chapter": "多道菜订单",
-    "introductions": [
-      "milkberry"
-    ],
-    "optimal": 14,
-    "solution": [
-      "right",
-      "left",
-      "up",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 122,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      3
-    ],
-    "walls": [
-      [
-        5,
-        1
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        5,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "egg"
-      },
-      {
-        "x": 5,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          },
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 20,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 42,
-    "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 18,
-    "solution": [
-      "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "left",
-      "right",
-      "up",
-      "right",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 123,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      5,
-      0
-    ],
-    "walls": [
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        2,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "egg"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          },
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 17,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 43,
-    "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 15,
-    "solution": [
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right",
-      "left"
-    ]
-  },
-  {
-    "id": 124,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      4,
-      4
-    ],
-    "walls": [
-      [
-        2,
-        2
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        5,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 1,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "egg"
-      },
-      {
-        "x": 5,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          },
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 18,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 44,
-    "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 16,
-    "solution": [
-      "up",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right",
-      "down"
-    ]
-  },
-  {
-    "id": 125,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      1
-    ],
-    "walls": [
-      [
-        2,
-        3
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        1,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "egg"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 1,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          },
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 15,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 45,
-    "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 13,
-    "solution": [
-      "up",
-      "left",
-      "down",
-      "right",
-      "down",
-      "right",
-      "up",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 126,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      5,
-      2
-    ],
-    "walls": [
-      [
-        1,
-        0
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 1,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "egg"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          },
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 17,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 46,
-    "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 15,
-    "solution": [
-      "left",
-      "right",
-      "up",
-      "left",
-      "down",
-      "left",
-      "up",
-      "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 127,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      2
-    ],
-    "walls": [
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "egg"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          },
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 15,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 47,
-    "chapter": "多道菜订单",
-    "introductions": [],
-    "optimal": 13,
-    "solution": [
-      "left",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 128,
-    "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      3
-    ],
-    "walls": [
-      [
-        0,
-        4
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        2,
-        5
-      ]
-    ],
-    "items": [
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "egg"
-      },
-      {
-        "x": 5,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "coffee"
-      }
-    ],
-    "devices": [
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          },
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 15,
     "availableProps": [
       "undo",
       "overtime",
@@ -25528,72 +26066,82 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 13,
     "solution": [
-      "right",
-      "left",
-      "up",
-      "right",
       "down",
       "up",
       "left",
       "down",
-      "right",
       "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
       "left",
       "down",
       "right"
-    ]
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 129,
     "name": "多道菜订单·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
     "start": [
       3,
-      4
+      2
     ],
     "walls": [
       [
         0,
-        4
+        1
       ],
       [
-        4,
-        0
-      ],
-      [
-        5,
-        0
-      ],
-      [
-        0,
+        2,
         3
-      ],
-      [
-        1,
-        0
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 5,
-        "y": 1,
+        "x": 4,
+        "y": 3,
         "type": "cheese"
       },
       {
-        "x": 5,
+        "x": 1,
         "y": 3,
         "type": "egg"
       },
       {
-        "x": 0,
-        "y": 0,
+        "x": 4,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 1,
         "type": "milk"
       },
       {
@@ -25602,43 +26150,38 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 1,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 2,
+        "x": 3,
+        "y": 3,
         "type": "coffee"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 4,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            4
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            0
           ]
         ]
       }
@@ -25701,7 +26244,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 20,
+    "budget": 17,
     "availableProps": [
       "undo",
       "overtime",
@@ -25712,124 +26255,132 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 49,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 18,
+    "optimal": 14,
     "solution": [
+      "right",
+      "down",
       "up",
       "left",
-      "down",
+      "up",
+      "right",
+      "left",
+      "up",
+      "up",
       "right",
       "up",
       "right",
       "down",
-      "left",
-      "down",
-      "up",
-      "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "left",
-      "down",
-      "right"
-    ]
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 130,
     "name": "多道菜订单·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
     "start": [
-      5,
-      0
+      2,
+      4
     ],
     "walls": [
       [
-        3,
-        2
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        5,
-        1
+        2,
+        3
       ],
       [
         4,
-        4
-      ],
-      [
-        3,
         0
       ]
     ],
     "items": [
       {
-        "x": 5,
-        "y": 3,
+        "x": 1,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 4,
+        "y": 3,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 2,
+        "y": 1,
         "type": "egg"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 1,
+        "y": 3,
         "type": "milk"
       },
       {
         "x": 1,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 0,
         "y": 1,
         "type": "milk"
       },
       {
-        "x": 0,
+        "x": 3,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 2,
         "y": 2,
         "type": "coffee"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 3,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            3,
+            2
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 0,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            0,
+            1
           ]
         ]
       }
@@ -25892,7 +26443,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 16,
+    "budget": 15,
     "availableProps": [
       "undo",
       "overtime",
@@ -25903,129 +26454,135 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 50,
     "chapter": "多道菜订单",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 12,
     "solution": [
+      "right",
+      "up",
+      "down",
+      "up",
+      "right",
       "left",
       "down",
       "right",
       "left",
       "up",
-      "down",
       "right",
-      "down",
-      "right",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "left"
+      "down"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          4,
+          2
+        ],
+        "direction": "left"
+      }
     ]
   },
   {
     "id": 131,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
     "start": [
-      2,
+      1,
       0
     ],
     "walls": [
       [
-        5,
-        0
+        2,
+        1
       ],
       [
         3,
-        2
+        1
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 1,
+        "x": 1,
+        "y": 4,
         "type": "milk"
       },
       {
-        "x": 0,
+        "x": 2,
         "y": 0,
         "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "berry"
       },
       {
         "x": 4,
         "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "rice"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 2,
         "type": "milk"
       },
       {
         "x": 3,
-        "y": 0,
-        "type": "coffee"
+        "y": 2,
+        "type": "berry"
       },
       {
         "x": 0,
+        "y": 1,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "fish"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 1,
         "y": 3,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 1,
         "type": "bread"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "cheese"
       },
       {
         "x": 0,
         "y": 4,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 5,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 4,
+        "y": 3,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            3,
+            3
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 0,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            0,
+            3
           ]
         ]
       }
@@ -26113,7 +26670,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 21,
+    "budget": 23,
     "availableProps": [
       "undo",
       "overtime",
@@ -26124,68 +26681,81 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 51,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 19,
+    "optimal": 20,
     "solution": [
-      "left",
-      "right",
       "down",
-      "up",
       "left",
-      "down",
       "up",
       "right",
-      "down",
       "up",
       "left",
       "down",
       "right",
-      "up",
       "left",
       "up",
       "right",
+      "up",
+      "right",
+      "up",
+      "left",
       "down",
-      "left"
+      "right",
+      "down",
+      "left",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          4,
+          2
+        ],
+        "direction": "up"
+      },
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "direction": "left"
+      }
     ]
   },
   {
     "id": 132,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
     "start": [
       4,
       3
     ],
     "walls": [
       [
-        2,
-        1
-      ],
-      [
-        5,
+        1,
         1
       ],
       [
         2,
-        4
+        1
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 5,
-        "type": "milk"
-      },
-      {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "type": "milk"
       },
       {
-        "x": 1,
-        "y": 0,
-        "type": "berry"
+        "x": 0,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "milk"
       },
       {
         "x": 0,
@@ -26193,68 +26763,68 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "berry"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 2,
+        "y": 3,
+        "type": "berry"
+      },
+      {
+        "x": 1,
+        "y": 3,
         "type": "fish"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 1,
+        "y": 0,
         "type": "rice"
       },
       {
-        "x": 2,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 0,
+        "x": 3,
         "y": 3,
-        "type": "cheese"
+        "type": "water"
       },
       {
         "x": 4,
         "y": 0,
+        "type": "coffee"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 1,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 1,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            3,
+            2
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            4
           ]
         ]
       }
@@ -26353,131 +26923,154 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 52,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 17,
+    "optimal": 16,
     "solution": [
-      "right",
-      "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "right",
       "up",
       "down",
       "left",
       "up",
       "right",
+      "up",
+      "right",
+      "up",
       "left",
       "down",
       "right",
-      "down",
+      "up",
+      "left",
+      "left",
+      "up",
       "right"
-    ]
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 133,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
     "start": [
-      4,
+      0,
       3
     ],
     "walls": [
       [
         4,
-        0
+        3
       ],
       [
-        2,
-        2
+        3,
+        0
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "type": "milk"
       },
       {
-        "x": 0,
+        "x": 3,
         "y": 1,
         "type": "milk"
       },
       {
-        "x": 1,
+        "x": 3,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 0,
         "y": 0,
         "type": "berry"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 2,
+        "y": 1,
         "type": "berry"
       },
       {
-        "x": 0,
+        "x": 1,
         "y": 0,
         "type": "fish"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 3,
         "type": "rice"
       },
       {
-        "x": 5,
-        "y": 0,
+        "x": 3,
+        "y": 4,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 4,
+        "x": 4,
+        "y": 1,
         "type": "coffee"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 1,
+        "y": 3,
         "type": "bread"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 2,
         "type": "cheese"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 1,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            2
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 0,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            4
           ]
         ]
       }
@@ -26565,7 +27158,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 20,
+    "budget": 23,
     "availableProps": [
       "undo",
       "overtime",
@@ -26576,132 +27169,143 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 53,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 18,
+    "optimal": 20,
     "solution": [
       "up",
+      "right",
+      "down",
+      "up",
+      "right",
       "left",
       "up",
       "right",
       "down",
-      "right",
-      "left",
-      "right",
       "up",
       "right",
       "up",
       "down",
       "left",
-      "up",
+      "down",
       "right",
+      "up",
       "down",
       "right",
       "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "direction": "left"
+      }
     ]
   },
   {
     "id": 134,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
     "start": [
       4,
-      3
+      0
     ],
     "walls": [
       [
-        4,
-        1
+        2,
+        0
       ],
       [
-        3,
-        0
+        0,
+        4
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 5,
+        "x": 2,
+        "y": 3,
         "type": "milk"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "berry"
       },
       {
         "x": 1,
         "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 4,
         "type": "berry"
       },
       {
-        "x": 0,
+        "x": 1,
+        "y": 3,
+        "type": "berry"
+      },
+      {
+        "x": 3,
         "y": 0,
         "type": "fish"
       },
       {
         "x": 0,
-        "y": 1,
+        "y": 3,
         "type": "rice"
       },
       {
         "x": 0,
-        "y": 2,
+        "y": 0,
         "type": "water"
       },
       {
-        "x": 5,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 5,
+        "x": 3,
         "y": 3,
         "type": "coffee"
       },
       {
-        "x": 5,
+        "x": 1,
         "y": 1,
         "type": "bread"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "cheese"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 3,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            2
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 0,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            0,
+            2
           ]
         ]
       }
@@ -26789,7 +27393,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 21,
+    "budget": 33,
     "availableProps": [
       "undo",
       "overtime",
@@ -26800,133 +27404,161 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 54,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 19,
+    "optimal": 30,
     "solution": [
-      "up",
-      "left",
-      "up",
-      "right",
       "down",
       "left",
+      "left",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "left",
+      "up",
+      "down",
       "right",
       "up",
-      "right",
+      "left",
+      "down",
+      "up",
+      "left",
       "up",
       "left",
       "right",
       "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "down",
       "left",
       "up",
-      "right",
-      "down",
-      "right",
-      "left"
-    ]
+      "left",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          3,
+          4
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 135,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 5,
+    "height": 5,
     "start": [
-      5,
-      2
+      1,
+      3
     ],
     "walls": [
       [
-        1,
-        2
+        0,
+        0
       ],
       [
-        2,
-        4
+        4,
+        0
       ]
     ],
     "items": [
       {
-        "x": 5,
-        "y": 4,
+        "x": 3,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 3,
         "type": "milk"
       },
       {
         "x": 0,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 0,
+        "y": 4,
         "type": "berry"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "type": "berry"
       },
       {
-        "x": 5,
+        "x": 1,
         "y": 1,
         "type": "fish"
       },
       {
-        "x": 5,
-        "y": 0,
+        "x": 1,
+        "y": 2,
         "type": "rice"
       },
       {
         "x": 0,
-        "y": 4,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
+        "x": 2,
         "y": 1,
         "type": "coffee"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "type": "bread"
       },
       {
-        "x": 2,
+        "x": 3,
         "y": 0,
         "type": "cheese"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 0,
+        "y": 2,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 4,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            4
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            2
           ]
         ]
       }
@@ -27014,7 +27646,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 20,
+    "budget": 22,
     "availableProps": [
       "undo",
       "overtime",
@@ -27025,152 +27657,164 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 55,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 18,
+    "optimal": 19,
     "solution": [
       "up",
       "down",
       "left",
-      "up",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
       "right",
       "down",
+      "left",
+      "left",
+      "up",
+      "right",
       "right",
       "up",
       "left",
       "down",
+      "up",
       "right",
-      "down",
-      "right"
+      "left",
+      "right",
+      "right",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "direction": "up"
+      },
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          3,
+          4
+        ],
+        "direction": "down"
+      }
     ]
   },
   {
     "id": 136,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
       4,
-      4
+      0
     ],
     "walls": [
       [
-        2,
-        1
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        3,
-        1
+        0,
+        4
       ],
       [
         5,
-        2
+        5
       ],
       [
         5,
         4
+      ],
+      [
+        3,
+        5
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
+        "x": 1,
         "y": 2,
         "type": "milk"
       },
       {
+        "x": 4,
+        "y": 5,
+        "type": "milk"
+      },
+      {
         "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "rice"
+        "y": 3,
+        "type": "milk"
       },
       {
         "x": 4,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "fish"
+      },
+      {
+        "x": 3,
         "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 2,
         "type": "water"
       },
       {
         "x": 5,
         "y": 1,
-        "type": "milk"
+        "type": "coffee"
       },
       {
         "x": 2,
         "y": 5,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 1,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 4,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 2,
+        "y": 4,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 2,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            0
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 1,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            1,
+            3
           ]
         ]
       }
@@ -27258,7 +27902,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 21,
+    "budget": 26,
     "availableProps": [
       "undo",
       "overtime",
@@ -27269,133 +27913,140 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 56,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 19,
+    "optimal": 24,
     "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "down",
-      "left",
-      "up",
       "left",
       "right",
       "down",
       "left",
       "up",
-      "left",
+      "right",
+      "down",
+      "right",
       "up",
+      "left",
       "down",
       "right",
       "down",
-      "left"
-    ]
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "up",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "direction": "right"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 137,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      0
+      1,
+      1
     ],
     "walls": [
       [
         2,
-        3
-      ],
-      [
-        3,
         1
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        4,
-        3
       ],
       [
         1,
         3
+      ],
+      [
+        4,
+        2
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
+        "x": 1,
         "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 5,
         "type": "berry"
       },
       {
-        "x": 0,
+        "x": 3,
         "y": 1,
         "type": "berry"
       },
       {
-        "x": 5,
+        "x": 0,
         "y": 2,
         "type": "fish"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 5,
+        "y": 1,
         "type": "rice"
       },
       {
         "x": 5,
-        "y": 4,
+        "y": 2,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 2,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 0,
+        "x": 1,
+        "y": 4,
         "type": "coffee"
       },
       {
-        "x": 4,
+        "x": 5,
         "y": 0,
         "type": "bread"
       },
       {
-        "x": 5,
+        "x": 0,
         "y": 1,
         "type": "cheese"
       },
       {
         "x": 3,
-        "y": 5,
+        "y": 4,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 2,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            3
           ]
         ]
       },
@@ -27495,7 +28146,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 21,
+    "budget": 28,
     "availableProps": [
       "undo",
       "overtime",
@@ -27506,14 +28157,26 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 57,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 19,
+    "optimal": 26,
     "solution": [
+      "up",
+      "right",
+      "right",
       "left",
       "down",
       "right",
+      "left",
+      "right",
+      "left",
+      "up",
       "down",
       "right",
       "up",
+      "left",
+      "right",
+      "left",
+      "up",
+      "right",
       "right",
       "up",
       "down",
@@ -27521,92 +28184,112 @@ export const CAMPAIGN_LEVELS:Level[]=[
       "down",
       "right",
       "up",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right",
-      "down"
-    ]
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          5,
+          3
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 138,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      4
+      2,
+      2
     ],
     "walls": [
       [
-        1,
-        2
+        3,
+        1
       ],
       [
-        3,
-        0
+        2,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        1
       ]
     ],
     "items": [
       {
-        "x": 5,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
+        "x": 1,
         "y": 5,
         "type": "milk"
       },
       {
-        "x": 5,
-        "y": 1,
-        "type": "berry"
-      },
-      {
-        "x": 5,
+        "x": 0,
         "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 4,
         "type": "berry"
       },
       {
-        "x": 2,
+        "x": 3,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 5,
         "y": 5,
         "type": "fish"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 4,
+        "y": 2,
         "type": "rice"
       },
       {
         "x": 2,
-        "y": 0,
+        "y": 1,
         "type": "water"
       },
       {
         "x": 0,
+        "y": 1,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
         "y": 2,
-        "type": "milk"
+        "type": "bread"
       },
       {
         "x": 5,
         "y": 4,
-        "type": "coffee"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 3,
         "type": "cheese"
       },
       {
-        "x": 1,
+        "x": 4,
         "y": 0,
         "type": "egg"
       }
@@ -27614,25 +28297,25 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "devices": [
       {
         "x": 0,
-        "y": 5,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            0
           ]
         ]
       },
       {
         "x": 5,
-        "y": 5,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            5,
+            2
           ]
         ]
       }
@@ -27720,7 +28403,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 17,
+    "budget": 19,
     "availableProps": [
       "undo",
       "overtime",
@@ -27731,73 +28414,107 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 58,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 15,
+    "optimal": 17,
     "solution": [
-      "left",
       "right",
-      "up",
       "left",
       "down",
-      "left",
-      "right",
-      "left",
       "up",
+      "right",
       "left",
       "up",
       "right",
       "down",
       "right",
-      "left"
+      "down",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          0,
+          5
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          5,
+          0
+        ],
+        "direction": "left"
+      }
     ]
   },
   {
     "id": 139,
     "name": "批量出餐·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      3
+      3,
+      5
     ],
     "walls": [
       [
+        1,
+        0
+      ],
+      [
         5,
-        3
+        1
       ],
       [
         0,
-        2
+        0
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 5,
+        "x": 5,
+        "y": 3,
         "type": "milk"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 4,
         "type": "milk"
       },
       {
-        "x": 3,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 5,
+        "x": 1,
         "y": 2,
-        "type": "berry"
+        "type": "milk"
       },
       {
-        "x": 5,
-        "y": 0,
-        "type": "fish"
+        "x": 2,
+        "y": 3,
+        "type": "berry"
       },
       {
         "x": 1,
+        "y": 1,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "fish"
+      },
+      {
+        "x": 5,
         "y": 0,
         "type": "rice"
       },
@@ -27807,28 +28524,23 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 4,
+        "x": 2,
+        "y": 1,
         "type": "coffee"
       },
       {
-        "x": 0,
-        "y": 3,
+        "x": 5,
+        "y": 4,
         "type": "bread"
       },
       {
-        "x": 2,
-        "y": 0,
+        "x": 0,
+        "y": 2,
         "type": "cheese"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 5,
+        "y": 2,
         "type": "egg"
       }
     ],
@@ -27846,14 +28558,14 @@ export const CAMPAIGN_LEVELS:Level[]=[
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            3
           ]
         ]
       }
@@ -27954,36 +28666,51 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "introductions": [],
     "optimal": 19,
     "solution": [
+      "up",
+      "right",
       "left",
       "down",
-      "up",
       "right",
-      "up",
-      "right",
-      "down",
       "left",
       "up",
       "down",
       "right",
+      "left",
+      "right",
       "up",
       "left",
-      "down",
       "right",
       "down",
       "left",
-      "down",
-      "right"
+      "up",
+      "left",
+      "down"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "direction": "right"
+      }
+    ],
+    "stopPads": [
+      [
+        2,
+        4
+      ]
     ]
   },
   {
     "id": 140,
     "name": "批量出餐·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      3,
-      4
+      1,
+      3
     ],
     "walls": [
       [
@@ -27991,57 +28718,24 @@ export const CAMPAIGN_LEVELS:Level[]=[
         3
       ],
       [
-        4,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        5,
-        0
-      ],
-      [
         0,
+        0
+      ],
+      [
+        4,
         4
       ]
     ],
     "items": [
-      {
-        "x": 5,
-        "y": 4,
-        "type": "milk"
-      },
       {
         "x": 3,
         "y": 5,
         "type": "milk"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 1,
-        "type": "fish"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "water"
+        "type": "milk"
       },
       {
         "x": 1,
@@ -28049,47 +28743,72 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "milk"
       },
       {
-        "x": 0,
+        "x": 1,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 3,
         "y": 1,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
+        "type": "berry"
       },
       {
         "x": 2,
         "y": 5,
+        "type": "fish"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "coffee"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 0,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 0,
-        "y": 5,
+        "x": 5,
+        "y": 2,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            5,
+            3
           ]
         ]
       },
       {
-        "x": 5,
+        "x": 0,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
+            1,
             5
           ]
         ]
@@ -28178,7 +28897,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 19,
+    "budget": 24,
     "availableProps": [
       "undo",
       "overtime",
@@ -28189,58 +28908,78 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 60,
     "chapter": "批量出餐",
     "introductions": [],
-    "optimal": 18,
+    "optimal": 22,
     "solution": [
       "left",
       "up",
-      "left",
       "right",
+      "right",
+      "down",
+      "down",
+      "left",
+      "up",
       "down",
       "right",
       "up",
-      "right",
-      "down",
-      "left",
-      "down",
       "up",
+      "down",
+      "down",
+      "left",
+      "up",
+      "right",
       "left",
       "down",
       "right",
-      "down",
-      "right",
-      "left"
+      "up",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "direction": "left"
+      }
     ]
   },
   {
     "id": 141,
     "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
+      5,
       4
     ],
     "walls": [
       [
-        2,
-        1
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        3,
+        5,
         1
       ],
       [
         4,
-        3
+        5
       ],
       [
         2,
-        2
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
       ]
     ],
     "items": [
@@ -28250,85 +28989,85 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "type": "rice"
       },
       {
-        "x": 3,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
         "x": 0,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
         "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 2,
-        "y": 5,
         "type": "rice"
       },
       {
-        "x": 0,
+        "x": 2,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
         "y": 1,
+        "type": "fish"
+      },
+      {
+        "x": 0,
+        "y": 0,
         "type": "milk"
       },
       {
-        "x": 1,
-        "y": 0,
+        "x": 0,
+        "y": 5,
         "type": "berry"
       },
       {
-        "x": 0,
+        "x": 4,
         "y": 4,
         "type": "bread"
       },
       {
         "x": 0,
-        "y": 3,
+        "y": 4,
         "type": "cheese"
       },
       {
         "x": 5,
-        "y": 4,
+        "y": 5,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            0,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 3,
+        "y": 0,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            2,
+            0
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 1,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            2,
+            2
           ]
         ]
       }
@@ -28416,7 +29155,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 18,
+    "budget": 32,
     "availableProps": [
       "undo",
       "overtime",
@@ -28427,117 +29166,163 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 61,
     "chapter": "路线组合",
     "introductions": [],
-    "optimal": 16,
+    "optimal": 30,
     "solution": [
       "up",
       "left",
-      "up",
-      "right",
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
-      "down",
       "left",
       "up",
       "right",
+      "up",
+      "up",
+      "left",
+      "up",
+      "left",
       "down",
       "right",
-      "left"
-    ]
+      "down",
+      "left",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "right",
+      "up",
+      "up",
+      "left",
+      "right",
+      "down",
+      "down",
+      "up",
+      "up",
+      "left",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          5,
+          3
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          2,
+          5
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 142,
     "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      2,
-      5
+      3,
+      4
     ],
     "walls": [
       [
-        3,
-        4
-      ],
-      [
-        4,
+        5,
         0
       ],
       [
         0,
-        1
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        5
       ]
     ],
     "items": [
       {
-        "x": 0,
-        "y": 3,
+        "x": 4,
+        "y": 5,
         "type": "rice"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 4,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 1,
         "type": "leaf"
       },
       {
-        "x": 3,
+        "x": 0,
         "y": 0,
         "type": "tomato"
       },
       {
-        "x": 5,
-        "y": 2,
+        "x": 0,
+        "y": 5,
         "type": "fish"
       },
       {
-        "x": 5,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 0,
+        "x": 4,
+        "y": 4,
         "type": "milk"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 4,
+        "y": 3,
         "type": "berry"
       },
       {
-        "x": 1,
+        "x": 2,
         "y": 0,
         "type": "bread"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 1,
+        "y": 1,
         "type": "cheese"
       },
       {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 1,
         "type": "egg"
       }
     ],
     "devices": [
       {
         "x": 5,
-        "y": 0,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
             5,
-            1
+            2
           ]
         ]
       },
       {
-        "x": 0,
+        "x": 2,
         "y": 5,
         "type": "pan",
         "name": "煎锅",
@@ -28549,14 +29334,14 @@ export const CAMPAIGN_LEVELS:Level[]=[
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 3,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            2
           ]
         ]
       }
@@ -28644,7 +29429,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 22,
+    "budget": 28,
     "availableProps": [
       "undo",
       "overtime",
@@ -28655,34 +29440,49 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 62,
     "chapter": "路线组合",
     "introductions": [],
-    "optimal": 20,
+    "optimal": 26,
     "solution": [
-      "up",
-      "left",
-      "right",
       "down",
       "right",
       "up",
       "down",
       "left",
+      "up",
+      "left",
+      "down",
+      "left",
+      "right",
+      "up",
+      "right",
       "down",
       "left",
       "up",
+      "down",
+      "left",
+      "up",
+      "down",
       "right",
       "down",
       "left",
       "down",
       "up",
       "right",
-      "up",
-      "left",
       "down"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "direction": "left"
+      }
     ]
   },
   {
     "id": 143,
     "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
@@ -28691,100 +29491,104 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "walls": [
       [
-        4,
-        4
+        2,
+        5
       ],
       [
-        1,
-        0
+        3,
+        5
+      ],
+      [
+        5,
+        3
       ]
     ],
     "items": [
       {
-        "x": 3,
-        "y": 0,
+        "x": 4,
+        "y": 3,
         "type": "rice"
       },
       {
         "x": 0,
+        "y": 3,
+        "type": "rice"
+      },
+      {
+        "x": 2,
         "y": 4,
         "type": "leaf"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 4,
+        "y": 0,
         "type": "tomato"
       },
       {
-        "x": 3,
-        "y": 5,
+        "x": 1,
+        "y": 2,
         "type": "fish"
       },
       {
         "x": 0,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 3,
+        "y": 0,
         "type": "milk"
       },
       {
-        "x": 5,
-        "y": 3,
+        "x": 0,
+        "y": 5,
         "type": "berry"
       },
       {
-        "x": 4,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "type": "bread"
       },
       {
-        "x": 0,
+        "x": 5,
         "y": 1,
         "type": "cheese"
       },
       {
-        "x": 0,
+        "x": 2,
         "y": 0,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            3,
             1
           ]
         ]
       },
       {
-        "x": 0,
+        "x": 5,
         "y": 5,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
-            1,
+            4,
             5
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 0,
+        "y": 2,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            0,
+            1
           ]
         ]
       }
@@ -28872,7 +29676,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 21,
+    "budget": 27,
     "availableProps": [
       "undo",
       "overtime",
@@ -28883,1304 +29687,162 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 63,
     "chapter": "路线组合",
     "introductions": [],
-    "optimal": 19,
+    "optimal": 25,
     "solution": [
-      "left",
-      "down",
-      "right",
-      "up",
-      "right",
-      "down",
-      "right",
       "down",
       "up",
+      "down",
       "left",
       "up",
-      "down",
       "right",
+      "down",
+      "up",
+      "left",
       "up",
       "left",
       "down",
-      "left",
+      "up",
       "right",
-      "left"
-    ]
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 144,
     "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      4,
-      1
-    ],
-    "walls": [
-      [
-        4,
-        3
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        0,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "fish"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "egg"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 20,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 64,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 18,
-    "solution": [
-      "up",
-      "left",
-      "down",
-      "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "right",
-      "left",
-      "up",
-      "down",
-      "right",
-      "up",
-      "right",
-      "up",
-      "left",
-      "down"
-    ]
-  },
-  {
-    "id": 145,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      0,
-      1
-    ],
-    "walls": [
-      [
-        3,
-        1
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        2,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "fish"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "egg"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 22,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 65,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 20,
-    "solution": [
-      "right",
-      "up",
-      "right",
-      "down",
-      "right",
-      "left",
-      "down",
-      "right",
-      "down",
-      "right",
-      "left",
-      "up",
-      "down",
-      "up",
-      "left",
-      "right",
-      "down",
-      "right",
-      "down",
-      "up"
-    ]
-  },
-  {
-    "id": 146,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
       5,
-      2
-    ],
-    "walls": [
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 1,
-        "type": "rice"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "egg"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 22,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 66,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 20,
-    "solution": [
-      "down",
-      "up",
-      "left",
-      "up",
-      "left",
-      "down",
-      "up",
-      "right",
-      "down",
-      "left",
-      "up",
-      "right",
-      "down",
-      "left",
-      "up",
-      "right",
-      "up",
-      "left",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 147,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      5,
-      4
-    ],
-    "walls": [
-      [
-        2,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        3,
-        3
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "egg"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 22,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 67,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 20,
-    "solution": [
-      "left",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down"
-    ]
-  },
-  {
-    "id": 148,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      0,
-      4
-    ],
-    "walls": [
-      [
-        2,
-        2
-      ],
-      [
-        3,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 1,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "fish"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "egg"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 21,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 68,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 19,
-    "solution": [
-      "right",
-      "up",
-      "left",
-      "down",
-      "left",
-      "up",
-      "down",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down"
-    ]
-  },
-  {
-    "id": 149,
-    "name": "路线组合·路线练习",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
       1
     ],
     "walls": [
       [
-        4,
-        0
+        0,
+        1
       ],
       [
-        2,
+        1,
         4
       ],
       [
-        0,
-        0
-      ],
-      [
         4,
-        2
+        4
       ]
     ],
     "items": [
       {
-        "x": 2,
-        "y": 0,
+        "x": 0,
+        "y": 4,
         "type": "rice"
       },
       {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
+        "x": 1,
+        "y": 5,
+        "type": "rice"
       },
       {
         "x": 0,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
         "y": 2,
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 4,
+        "x": 3,
+        "y": 2,
         "type": "fish"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "bread"
       },
       {
         "x": 3,
         "y": 0,
-        "type": "cheese"
+        "type": "milk"
       },
       {
         "x": 5,
+        "y": 3,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "cheese"
+      },
+      {
+        "x": 2,
         "y": 2,
         "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 1,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
+            2,
+            0
           ]
         ]
       },
       {
         "x": 5,
-        "y": 5,
+        "y": 4,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 3,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            2,
+            4
           ]
         ]
       }
@@ -30262,1282 +29924,6 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "orders": [
           {
             "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 23,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 69,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 21,
-    "solution": [
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "right",
-      "left",
-      "down",
-      "right",
-      "down",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "up",
-      "down",
-      "left",
-      "down",
-      "left"
-    ]
-  },
-  {
-    "id": 150,
-    "name": "路线组合·挑战关",
-    "tip": "看清订单与设备，适时制作腾出背包。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      3
-    ],
-    "walls": [
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        5,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 1,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "fish"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "milk"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "bread"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "cheese"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "egg"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "eggtoast",
-        "name": "鸡蛋吐司",
-        "ingredients": {
-          "bread": 1,
-          "cheese": 1,
-          "egg": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "eggtoast",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 23,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 70,
-    "chapter": "路线组合",
-    "introductions": [],
-    "optimal": 22,
-    "solution": [
-      "down",
-      "right",
-      "up",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "right",
-      "up",
-      "down",
-      "left",
-      "up",
-      "right",
-      "left",
-      "down",
-      "right",
-      "down",
-      "right",
-      "left"
-    ]
-  },
-  {
-    "id": 151,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      0
-    ],
-    "walls": [
-      [
-        5,
-        4
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        5,
-        3
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        3,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "fish"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 1,
-        "y": 1,
-        "type": "leaf"
-      },
-      {
-        "x": 1,
-        "y": 4,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "name": "客人5",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 20,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 71,
-    "chapter": "下班大挑战",
-    "introductions": [],
-    "optimal": 18,
-    "solution": [
-      "left",
-      "right",
-      "down",
-      "left",
-      "right",
-      "down",
-      "up",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left",
-      "right",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 152,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      2
-    ],
-    "walls": [
-      [
-        0,
-        1
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 4,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "fish"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 4,
-        "y": 3,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "name": "客人5",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 16,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 72,
-    "chapter": "下班大挑战",
-    "introductions": [],
-    "optimal": 14,
-    "solution": [
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "down",
-      "right",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "right"
-    ]
-  },
-  {
-    "id": 153,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      3,
-      3
-    ],
-    "walls": [
-      [
-        1,
-        2
-      ],
-      [
-        0,
-        2
-      ]
-    ],
-    "items": [
-      {
-        "x": 5,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "coffee"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "fish"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "name": "客人5",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 23,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 73,
-    "chapter": "下班大挑战",
-    "introductions": [],
-    "optimal": 21,
-    "solution": [
-      "up",
-      "left",
-      "down",
-      "right",
-      "down",
-      "left",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "right",
-      "up",
-      "left",
-      "up",
-      "right",
-      "down"
-    ]
-  },
-  {
-    "id": 154,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      3
-    ],
-    "walls": [
-      [
-        4,
-        0
-      ],
-      [
-        5,
-        4
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "milk"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "milk"
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "name": "客人5",
-        "orders": [
-          {
-            "recipe": "salad",
             "count": 1
           }
         ]
@@ -31552,296 +29938,63 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "restaurantId": "street",
     "restaurantName": "街角简餐店",
-    "stageNumber": 74,
-    "chapter": "下班大挑战",
+    "stageNumber": 64,
+    "chapter": "路线组合",
     "introductions": [],
     "optimal": 17,
     "solution": [
-      "up",
-      "left",
-      "right",
-      "down",
-      "right",
-      "up",
-      "right",
-      "down",
-      "up",
       "left",
       "down",
-      "right",
       "down",
-      "left",
+      "right",
       "right",
       "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "left",
+      "down",
+      "right",
+      "right",
+      "down",
       "right"
-    ]
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "direction": "left"
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "direction": "left"
+      },
+      {
+        "cell": [
+          2,
+          5
+        ],
+        "direction": "up"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
-    "id": 155,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "id": 145,
+    "name": "路线组合·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      0,
-      4
-    ],
-    "walls": [
-      [
-        0,
-        2
-      ],
-      [
-        2,
-        0
-      ]
-    ],
-    "items": [
-      {
-        "x": 1,
-        "y": 0,
-        "type": "rice"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "water"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "coffee"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "leaf"
-      },
-      {
-        "x": 2,
-        "y": 4,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "name": "客人5",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 22,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 75,
-    "chapter": "下班大挑战",
-    "introductions": [],
-    "optimal": 20,
-    "solution": [
-      "up",
-      "down",
-      "right",
-      "up",
-      "left",
-      "right",
-      "left",
-      "up",
-      "right",
-      "down",
-      "right",
-      "up",
-      "left",
-      "right",
-      "down",
-      "left",
-      "up",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 156,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      1,
-      0
+      3,
+      2
     ],
     "walls": [
       [
@@ -31849,359 +30002,324 @@ export const CAMPAIGN_LEVELS:Level[]=[
         3
       ],
       [
-        2,
-        2
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        0,
-        4
+        3,
+        5
       ],
       [
         1,
-        2
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        5
       ]
     ],
     "items": [
       {
         "x": 2,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "fish"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "egg"
+      }
+    ],
+    "devices": [
+      {
+        "x": 1,
+        "y": 5,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 20,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 65,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 18,
+    "solution": [
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "left",
+      "down",
+      "down",
+      "right",
+      "up",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "direction": "right"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 146,
+    "name": "路线组合·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      1
+    ],
+    "walls": [
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 2,
+        "type": "rice"
+      },
+      {
+        "x": 0,
         "y": 0,
         "type": "rice"
       },
       {
         "x": 4,
-        "y": 0,
+        "y": 5,
         "type": "leaf"
       },
       {
-        "x": 3,
-        "y": 0,
+        "x": 5,
+        "y": 2,
         "type": "tomato"
       },
       {
-        "x": 0,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
+        "x": 1,
         "y": 1,
-        "type": "fish"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "tomato"
-      }
-    ],
-    "devices": [
-      {
-        "x": 5,
-        "y": 0,
-        "type": "table",
-        "name": "料理台",
-        "stations": [
-          [
-            5,
-            1
-          ]
-        ]
-      },
-      {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
-        "type": "drink",
-        "name": "饮料机",
-        "stations": [
-          [
-            4,
-            5
-          ]
-        ]
-      }
-    ],
-    "recipes": [
-      {
-        "id": "salad",
-        "name": "蔬菜沙拉",
-        "ingredients": {
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
-      },
-      {
-        "id": "fishrice",
-        "name": "香煎鱼饭",
-        "ingredients": {
-          "fish": 1,
-          "rice": 1
-        },
-        "device": "pan"
-      },
-      {
-        "id": "platter",
-        "name": "田园饭碗",
-        "ingredients": {
-          "rice": 1,
-          "leaf": 1,
-          "tomato": 1
-        },
-        "device": "table"
-      },
-      {
-        "id": "milkberry",
-        "name": "莓果奶昔",
-        "ingredients": {
-          "milk": 1,
-          "berry": 1
-        },
-        "device": "drink"
-      }
-    ],
-    "customers": [
-      {
-        "id": "c1",
-        "name": "客人1",
-        "orders": [
-          {
-            "recipe": "platter",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "name": "客人2",
-        "orders": [
-          {
-            "recipe": "coffee",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "name": "客人3",
-        "orders": [
-          {
-            "recipe": "milkberry",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "name": "客人4",
-        "orders": [
-          {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "name": "客人5",
-        "orders": [
-          {
-            "recipe": "salad",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "capacity": 7,
-    "budget": 18,
-    "availableProps": [
-      "undo",
-      "overtime",
-      "ad-slot"
-    ],
-    "restaurantId": "street",
-    "restaurantName": "街角简餐店",
-    "stageNumber": 76,
-    "chapter": "下班大挑战",
-    "introductions": [],
-    "optimal": 16,
-    "solution": [
-      "right",
-      "down",
-      "right",
-      "left",
-      "up",
-      "down",
-      "right",
-      "down",
-      "right",
-      "up",
-      "right",
-      "up",
-      "down",
-      "left",
-      "down",
-      "right"
-    ]
-  },
-  {
-    "id": 157,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
-    "width": 6,
-    "height": 6,
-    "start": [
-      2,
-      4
-    ],
-    "walls": [
-      [
-        4,
-        0
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "items": [
-      {
-        "x": 0,
-        "y": 3,
-        "type": "rice"
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "tomato"
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "type": "milk"
-      },
-      {
-        "x": 2,
-        "y": 5,
-        "type": "coffee"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "milk"
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 5,
-        "y": 3,
         "type": "fish"
       },
       {
         "x": 1,
-        "y": 0,
-        "type": "rice"
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "berry"
       },
       {
         "x": 2,
-        "y": 0,
-        "type": "leaf"
+        "y": 5,
+        "type": "bread"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "tomato"
+        "y": 0,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 4,
+        "y": 3,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            4,
+            4
           ]
         ]
       },
@@ -32212,43 +30330,34 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "name": "煎锅",
         "stations": [
           [
-            1,
-            5
+            0,
+            4
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 3,
+        "y": 4,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            2,
+            4
           ]
         ]
       }
     ],
     "recipes": [
       {
-        "id": "salad",
-        "name": "蔬菜沙拉",
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
         "ingredients": {
-          "leaf": 1,
-          "tomato": 1
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
         },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
+        "device": "pan"
       },
       {
         "id": "fishrice",
@@ -32295,7 +30404,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "name": "客人2",
         "orders": [
           {
-            "recipe": "coffee",
+            "recipe": "fishrice",
             "count": 1
           }
         ]
@@ -32315,24 +30424,14 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "name": "客人4",
         "orders": [
           {
-            "recipe": "fishrice",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "name": "客人5",
-        "orders": [
-          {
-            "recipe": "salad",
+            "recipe": "eggtoast",
             "count": 1
           }
         ]
       }
     ],
     "capacity": 7,
-    "budget": 23,
+    "budget": 20,
     "availableProps": [
       "undo",
       "overtime",
@@ -32340,38 +30439,52 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "restaurantId": "street",
     "restaurantName": "街角简餐店",
-    "stageNumber": 77,
-    "chapter": "下班大挑战",
+    "stageNumber": 66,
+    "chapter": "路线组合",
     "introductions": [],
-    "optimal": 21,
+    "optimal": 18,
     "solution": [
-      "up",
-      "right",
-      "up",
       "left",
-      "up",
-      "left",
-      "right",
       "down",
-      "right",
       "up",
       "right",
       "down",
       "left",
-      "up",
       "down",
+      "left",
+      "right",
       "right",
       "up",
-      "left",
       "down",
       "left",
+      "left",
+      "up",
+      "left",
+      "down",
       "right"
-    ]
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          3,
+          5
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
-    "id": 158,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "id": 147,
+    "name": "路线组合·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
@@ -32380,145 +30493,122 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "walls": [
       [
-        3,
-        3
+        1,
+        1
       ],
       [
-        4,
+        2,
+        5
+      ],
+      [
+        3,
         2
       ],
       [
-        0,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
+        4,
         3
       ]
     ],
     "items": [
       {
         "x": 0,
-        "y": 2,
+        "y": 5,
         "type": "rice"
       },
       {
-        "x": 3,
-        "y": 0,
-        "type": "leaf"
-      },
-      {
-        "x": 4,
-        "y": 0,
-        "type": "tomato"
-      },
-      {
         "x": 5,
-        "y": 3,
-        "type": "water"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "milk"
+        "y": 5,
+        "type": "rice"
       },
       {
         "x": 1,
-        "y": 0,
-        "type": "coffee"
+        "y": 4,
+        "type": "leaf"
       },
       {
-        "x": 2,
-        "y": 0,
-        "type": "milk"
+        "x": 0,
+        "y": 4,
+        "type": "tomato"
       },
       {
         "x": 3,
         "y": 5,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 0,
         "type": "fish"
       },
       {
         "x": 0,
-        "y": 4,
-        "type": "rice"
+        "y": 1,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "berry"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "cheese"
       },
       {
         "x": 5,
         "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "tomato"
+        "type": "egg"
       }
     ],
     "devices": [
       {
-        "x": 5,
+        "x": 3,
         "y": 0,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
             1
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
-        "type": "pan",
-        "name": "煎锅",
-        "stations": [
-          [
-            1,
-            5
-          ]
-        ]
-      },
-      {
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 0,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            5,
+            0
           ]
         ]
       }
     ],
     "recipes": [
       {
-        "id": "salad",
-        "name": "蔬菜沙拉",
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
         "ingredients": {
-          "leaf": 1,
-          "tomato": 1
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
         },
-        "device": "table"
-      },
-      {
-        "id": "coffee",
-        "name": "牛奶咖啡",
-        "ingredients": {
-          "water": 1,
-          "milk": 1,
-          "coffee": 1
-        },
-        "device": "drink"
+        "device": "pan"
       },
       {
         "id": "fishrice",
@@ -32565,7 +30655,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "name": "客人2",
         "orders": [
           {
-            "recipe": "coffee",
+            "recipe": "fishrice",
             "count": 1
           }
         ]
@@ -32585,17 +30675,264 @@ export const CAMPAIGN_LEVELS:Level[]=[
         "name": "客人4",
         "orders": [
           {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 19,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 67,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 17,
+    "solution": [
+      "up",
+      "left",
+      "down",
+      "right",
+      "right",
+      "up",
+      "down",
+      "right",
+      "down",
+      "left",
+      "right",
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          5,
+          1
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "direction": "up"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 148,
+    "name": "路线组合·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      1
+    ],
+    "walls": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "fish"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "bread"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "cheese"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "egg"
+      }
+    ],
+    "devices": [
+      {
+        "x": 5,
+        "y": 5,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            3,
+            5
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
             "recipe": "fishrice",
             "count": 1
           }
         ]
       },
       {
-        "id": "c5",
-        "name": "客人5",
+        "id": "c3",
+        "name": "客人3",
         "orders": [
           {
-            "recipe": "salad",
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "eggtoast",
             "count": 1
           }
         ]
@@ -32610,155 +30947,675 @@ export const CAMPAIGN_LEVELS:Level[]=[
     ],
     "restaurantId": "street",
     "restaurantName": "街角简餐店",
-    "stageNumber": 78,
-    "chapter": "下班大挑战",
+    "stageNumber": 68,
+    "chapter": "路线组合",
     "introductions": [],
     "optimal": 22,
     "solution": [
-      "left",
-      "down",
-      "up",
-      "right",
-      "up",
-      "right",
-      "down",
-      "right",
-      "left",
       "up",
       "left",
       "right",
       "down",
-      "left",
+      "right",
       "down",
       "left",
       "up",
+      "down",
       "right",
       "up",
       "left",
+      "left",
+      "right",
+      "left",
+      "up",
+      "right",
       "down",
-      "right"
+      "right",
+      "down",
+      "left",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "direction": "down"
+      }
     ]
   },
   {
-    "id": 159,
-    "name": "下班大挑战·路线练习",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "id": 149,
+    "name": "路线组合·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      4
+      2,
+      2
     ],
     "walls": [
       [
-        1,
-        0
+        3,
+        3
       ],
       [
         3,
         1
       ],
       [
+        5,
+        5
+      ],
+      [
         3,
-        2
+        5
       ]
     ],
     "items": [
       {
         "x": 0,
-        "y": 0,
+        "y": 3,
         "type": "rice"
-      },
-      {
-        "x": 5,
-        "y": 2,
-        "type": "leaf"
-      },
-      {
-        "x": 5,
-        "y": 4,
-        "type": "tomato"
       },
       {
         "x": 4,
         "y": 0,
-        "type": "water"
-      },
-      {
-        "x": 5,
-        "y": 3,
-        "type": "milk"
-      },
-      {
-        "x": 0,
-        "y": 4,
-        "type": "coffee"
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "type": "milk"
+        "type": "rice"
       },
       {
         "x": 3,
-        "y": 5,
-        "type": "berry"
+        "y": 2,
+        "type": "leaf"
       },
       {
-        "x": 0,
+        "x": 4,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
         "y": 1,
         "type": "fish"
       },
       {
         "x": 2,
-        "y": 5,
-        "type": "rice"
+        "y": 1,
+        "type": "milk"
       },
       {
-        "x": 0,
+        "x": 2,
         "y": 3,
-        "type": "leaf"
+        "type": "berry"
       },
       {
-        "x": 0,
-        "y": 2,
-        "type": "tomato"
+        "x": 3,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "cheese"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "egg"
       }
     ],
     "devices": [
       {
         "x": 5,
-        "y": 0,
+        "y": 1,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
             5,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 18,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 69,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 16,
+    "solution": [
+      "up",
+      "down",
+      "right",
+      "up",
+      "down",
+      "left",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "direction": "up"
+      }
+    ],
+    "stopPads": [
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 150,
+    "name": "路线组合·挑战关",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      5,
+      4
+    ],
+    "walls": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "items": [
+      {
+        "x": 2,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "fish"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "bread"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "cheese"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "egg"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
             1
           ]
         ]
       },
       {
         "x": 0,
+        "y": 3,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "eggtoast",
+        "name": "鸡蛋吐司",
+        "ingredients": {
+          "bread": 1,
+          "cheese": 1,
+          "egg": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "eggtoast",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 19,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 70,
+    "chapter": "路线组合",
+    "introductions": [],
+    "optimal": 17,
+    "solution": [
+      "left",
+      "up",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "left",
+      "right"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          4,
+          3
+        ],
+        "direction": "left"
+      },
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 151,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      0,
+      5
+    ],
+    "walls": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 2,
         "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 3,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            3
           ]
         ]
       },
       {
-        "x": 5,
+        "x": 4,
         "y": 5,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
             4,
-            5
+            4
           ]
         ]
       }
@@ -32865,7 +31722,2330 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 22,
+    "budget": 30,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 71,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 29,
+    "solution": [
+      "right",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "up",
+      "right",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "direction": "down"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 152,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      4,
+      2
+    ],
+    "walls": [
+      [
+        4,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 1,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "rice"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "coffee"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "berry"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 25,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 72,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 24,
+    "solution": [
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left",
+      "right",
+      "down",
+      "up",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          5
+        ],
+        "direction": "down"
+      },
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 153,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      2,
+      5
+    ],
+    "walls": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 3,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "coffee"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            1,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 36,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 73,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 35,
+    "solution": [
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "left",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "down",
+      "up",
+      "up",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "direction": "up"
+      },
+      {
+        "cell": [
+          5,
+          2
+        ],
+        "direction": "right"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 154,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      2,
+      4
+    ],
+    "walls": [
+      [
+        2,
+        0
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "coffee"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 3,
+        "y": 4,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 32,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 74,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 31,
+    "solution": [
+      "down",
+      "up",
+      "left",
+      "right",
+      "up",
+      "right",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "right",
+      "down",
+      "right",
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      1,
+      2
+    ],
+    "walls": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 4,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "coffee"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "berry"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 4,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 33,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 75,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 32,
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "left",
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "down",
+      "right",
+      "down",
+      "down",
+      "left",
+      "right",
+      "up",
+      "right",
+      "up",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 156,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      1,
+      1
+    ],
+    "walls": [
+      [
+        5,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "items": [
+      {
+        "x": 3,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "water"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "coffee"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "berry"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 4,
+        "y": 3,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 37,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 76,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 36,
+    "solution": [
+      "down",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up",
+      "up",
+      "right",
+      "right",
+      "left",
+      "left",
+      "right",
+      "right",
+      "down",
+      "left",
+      "right",
+      "up",
+      "left",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "right",
+      "left",
+      "up",
+      "down",
+      "right",
+      "up",
+      "up",
+      "right",
+      "right",
+      "down",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "direction": "left"
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "direction": "up"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 157,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      3,
+      0
+    ],
+    "walls": [
+      [
+        4,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "rice"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "water"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "milk"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "coffee"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 1,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 25,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 77,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 24,
+    "solution": [
+      "down",
+      "down",
+      "right",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up",
+      "up",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "direction": "right"
+      }
+    ],
+    "stopPads": [
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 158,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      0,
+      3
+    ],
+    "walls": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "leaf"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "water"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "type": "milk"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "coffee"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "berry"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 2,
+        "y": 0,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 32,
+    "availableProps": [
+      "undo",
+      "overtime",
+      "ad-slot"
+    ],
+    "restaurantId": "street",
+    "restaurantName": "街角简餐店",
+    "stageNumber": 78,
+    "chapter": "下班大挑战",
+    "introductions": [],
+    "optimal": 31,
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "down",
+      "up",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right",
+      "up",
+      "left",
+      "right",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "left",
+      "down",
+      "up",
+      "down",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "direction": "left"
+      },
+      {
+        "cell": [
+          5,
+          3
+        ],
+        "direction": "right"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
+  },
+  {
+    "id": 159,
+    "name": "下班大挑战·路线练习",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
+    "width": 6,
+    "height": 6,
+    "start": [
+      1,
+      0
+    ],
+    "walls": [
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "items": [
+      {
+        "x": 5,
+        "y": 0,
+        "type": "rice"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "rice"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "type": "leaf"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "type": "tomato"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "water"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "milk"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "milk"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "coffee"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "berry"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "fish"
+      }
+    ],
+    "devices": [
+      {
+        "x": 1,
+        "y": 2,
+        "type": "table",
+        "name": "料理台",
+        "stations": [
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "pan",
+        "name": "煎锅",
+        "stations": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "drink",
+        "name": "饮料机",
+        "stations": [
+          [
+            0,
+            4
+          ]
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": "salad",
+        "name": "蔬菜沙拉",
+        "ingredients": {
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "coffee",
+        "name": "牛奶咖啡",
+        "ingredients": {
+          "water": 1,
+          "milk": 1,
+          "coffee": 1
+        },
+        "device": "drink"
+      },
+      {
+        "id": "fishrice",
+        "name": "香煎鱼饭",
+        "ingredients": {
+          "fish": 1,
+          "rice": 1
+        },
+        "device": "pan"
+      },
+      {
+        "id": "platter",
+        "name": "田园饭碗",
+        "ingredients": {
+          "rice": 1,
+          "leaf": 1,
+          "tomato": 1
+        },
+        "device": "table"
+      },
+      {
+        "id": "milkberry",
+        "name": "莓果奶昔",
+        "ingredients": {
+          "milk": 1,
+          "berry": 1
+        },
+        "device": "drink"
+      }
+    ],
+    "customers": [
+      {
+        "id": "c1",
+        "name": "客人1",
+        "orders": [
+          {
+            "recipe": "platter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "客人2",
+        "orders": [
+          {
+            "recipe": "coffee",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "客人3",
+        "orders": [
+          {
+            "recipe": "milkberry",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "客人4",
+        "orders": [
+          {
+            "recipe": "fishrice",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "客人5",
+        "orders": [
+          {
+            "recipe": "salad",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": 7,
+    "budget": 29,
     "availableProps": [
       "undo",
       "overtime",
@@ -32876,150 +34056,190 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 79,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 20,
+    "optimal": 28,
     "solution": [
+      "down",
+      "right",
+      "down",
+      "down",
       "left",
+      "down",
+      "right",
+      "left",
+      "up",
       "right",
       "up",
-      "left",
+      "right",
       "up",
+      "down",
+      "up",
+      "left",
+      "right",
+      "down",
+      "right",
       "down",
       "left",
       "up",
-      "left",
-      "right",
-      "up",
-      "right",
+      "down",
       "down",
       "left",
-      "up",
-      "left",
-      "up",
       "down",
-      "right",
+      "left",
       "up"
-    ]
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "direction": "right"
+      },
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "direction": "up"
+      },
+      {
+        "cell": [
+          5,
+          2
+        ],
+        "direction": "left"
+      }
+    ],
+    "ruleRevision": "mechanics-v18"
   },
   {
     "id": 160,
     "name": "下班大挑战·挑战关",
-    "tip": "综合挑战：先规划制作顺序，再收集材料。",
+    "tip": "箭头格改变滑行方向，整段只用一步。",
     "width": 6,
     "height": 6,
     "start": [
-      4,
-      2
+      2,
+      1
     ],
     "walls": [
       [
         4,
-        4
-      ],
-      [
-        3,
         1
       ],
       [
         0,
-        2
+        0
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        3
       ]
     ],
     "items": [
       {
         "x": 5,
-        "y": 3,
+        "y": 4,
         "type": "rice"
       },
       {
-        "x": 5,
-        "y": 4,
+        "x": 1,
+        "y": 5,
+        "type": "rice"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "leaf"
+      },
+      {
+        "x": 4,
+        "y": 5,
         "type": "leaf"
       },
       {
         "x": 1,
-        "y": 0,
+        "y": 1,
         "type": "tomato"
       },
       {
-        "x": 2,
-        "y": 5,
+        "x": 4,
+        "y": 4,
+        "type": "tomato"
+      },
+      {
+        "x": 4,
+        "y": 3,
         "type": "water"
       },
       {
-        "x": 0,
-        "y": 1,
+        "x": 1,
+        "y": 0,
         "type": "milk"
       },
       {
-        "x": 3,
-        "y": 0,
-        "type": "coffee"
-      },
-      {
-        "x": 0,
+        "x": 2,
         "y": 4,
         "type": "milk"
       },
       {
-        "x": 4,
+        "x": 2,
         "y": 0,
-        "type": "berry"
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "type": "fish"
-      },
-      {
-        "x": 3,
-        "y": 5,
-        "type": "rice"
+        "type": "coffee"
       },
       {
         "x": 5,
-        "y": 2,
-        "type": "leaf"
+        "y": 1,
+        "type": "berry"
       },
       {
-        "x": 0,
-        "y": 0,
-        "type": "tomato"
+        "x": 2,
+        "y": 5,
+        "type": "fish"
       }
     ],
     "devices": [
       {
-        "x": 5,
-        "y": 0,
+        "x": 0,
+        "y": 2,
         "type": "table",
         "name": "料理台",
         "stations": [
           [
-            5,
-            1
+            1,
+            2
           ]
         ]
       },
       {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 4,
         "type": "pan",
         "name": "煎锅",
         "stations": [
           [
             1,
-            5
+            3
           ]
         ]
       },
       {
-        "x": 5,
-        "y": 5,
+        "x": 3,
+        "y": 1,
         "type": "drink",
         "name": "饮料机",
         "stations": [
           [
-            4,
-            5
+            3,
+            0
           ]
         ]
       }
@@ -33126,7 +34346,7 @@ export const CAMPAIGN_LEVELS:Level[]=[
       }
     ],
     "capacity": 7,
-    "budget": 23,
+    "budget": 26,
     "availableProps": [
       "undo",
       "overtime",
@@ -33137,30 +34357,42 @@ export const CAMPAIGN_LEVELS:Level[]=[
     "stageNumber": 80,
     "chapter": "下班大挑战",
     "introductions": [],
-    "optimal": 22,
+    "optimal": 25,
     "solution": [
+      "down",
+      "right",
       "up",
       "down",
-      "left",
-      "down",
-      "right",
-      "down",
-      "right",
+      "up",
       "left",
       "up",
       "right",
       "left",
       "down",
+      "left",
       "right",
       "down",
-      "right",
       "left",
+      "right",
+      "up",
       "up",
       "right",
+      "up",
       "down",
-      "right",
+      "up",
+      "left",
       "down",
-      "up"
+      "up",
+      "right"
+    ],
+    "conveyors": [
+      {
+        "cell": [
+          5,
+          3
+        ],
+        "direction": "left"
+      }
     ]
   }
 ];

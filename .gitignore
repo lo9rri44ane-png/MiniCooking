@@ -27,3 +27,7 @@ _bmad/config.user.toml
 _bmad/custom/config.user.toml
 # Build MCP extension locally with npm run setup.
 extensions/cocos-mcp-server/dist/
+
+# Local history archives: copy explicitly when migrating machines.
+archives/
+releases/**/*.zip

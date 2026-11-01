@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-10-30T09:32:18.336Z",
-  "signature": "61768328aea230ff61aa2c7b8aad735d812bd79071bc3d051e46a848c96166c2",
+  "verifiedAt": "2026-10-31T14:40:38.561Z",
+  "signature": "0924b7c37eb98b3873a883f16e93fdd7eb20a708dca888e38099d5e5e43bc53a",
   "checks": [
     "home-settings-restaurants-levels-game-recipes-pause-failure-win-use-prefabs",
     "all-live-ui-nodes-linked-no-duplicate-render-or-input-components"
@@ -34,16 +34,16 @@
     {
       "name": "KitchenGame",
       "asset": "KitchenPage",
-      "children": 18
+      "children": 24
     },
     {
       "name": "Chef",
       "asset": "Chef",
-      "children": 2
+      "children": 1
     },
     {
-      "name": "CustomerSlot-0",
-      "asset": "CustomerOrderCard",
+      "name": "OrderBubble-0",
+      "asset": "OrderBubble",
       "children": 5
     },
     {
@@ -54,25 +54,27 @@
     {
       "name": "Modal",
       "asset": "PausePanel",
-      "children": 4
+      "children": 2
     },
     {
       "name": "Modal",
       "asset": "FailResult",
-      "children": 6
+      "children": 2
     },
     {
       "name": "Modal",
       "asset": "WinResult",
-      "children": 5
+      "children": 2
     }
   ],
   "live": {
-    "count": 94,
-    "linked": 92,
+    "count": 139,
+    "linked": 135,
     "unlinked": [
       "Canvas",
-      "UICamera"
+      "UICamera",
+      "厨房场景底图",
+      "厨房棋盘底图"
     ],
     "duplicateComponents": []
   },
@@ -96,6 +98,11 @@
       "id": "BoardCell",
       "uuid": "c4edde7d-448f-4238-a82a-a0ca180e48ef",
       "nodes": 1
+    },
+    {
+      "id": "CartoonSmoke",
+      "uuid": "9e775241-4919-4cfa-b407-9aff70de7dd0",
+      "nodes": 2
     },
     {
       "id": "Chef",
@@ -123,6 +130,11 @@
       "nodes": 1
     },
     {
+      "id": "CustomerActor",
+      "uuid": "ebc620a5-371c-43f7-bc67-30ae79efb70f",
+      "nodes": 2
+    },
+    {
       "id": "CustomerOrderCard",
       "uuid": "921dcbfc-3ac8-4eff-a838-c96a16e3dbad",
       "nodes": 11
@@ -130,7 +142,7 @@
     {
       "id": "DeviceTile",
       "uuid": "003f61bd-0a7a-4a55-bbb9-e242e8e3661e",
-      "nodes": 2
+      "nodes": 3
     },
     {
       "id": "DiagnosticsPage",
@@ -160,7 +172,7 @@
     {
       "id": "FailResult",
       "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f",
-      "nodes": 7
+      "nodes": 6
     },
     {
       "id": "FrameworkButton",
@@ -200,7 +212,7 @@
     {
       "id": "IngredientTile",
       "uuid": "91b3da60-26a7-413a-96ca-004f37a6369f",
-      "nodes": 2
+      "nodes": 3
     },
     {
       "id": "KitchenPage",
@@ -223,6 +235,11 @@
       "nodes": 2
     },
     {
+      "id": "OrderBubble",
+      "uuid": "79c76d3d-59cf-473d-9700-76fca56d5ff8",
+      "nodes": 2
+    },
+    {
       "id": "Panel",
       "uuid": "2f3ee4ca-b6e8-4a4d-9eb9-fbf0871cbf4c",
       "nodes": 1
@@ -230,7 +247,7 @@
     {
       "id": "PausePanel",
       "uuid": "693fd668-cec7-4934-83c9-505caddfafb2",
-      "nodes": 7
+      "nodes": 6
     },
     {
       "id": "Popup",
@@ -278,6 +295,11 @@
       "nodes": 2
     },
     {
+      "id": "SunlightOverlay",
+      "uuid": "794181e7-09b9-4ca4-a623-c6bbd6341cbf",
+      "nodes": 2
+    },
+    {
       "id": "TextLabel",
       "uuid": "c7f31fc8-1d57-4d0b-93ee-83d5dfbf485b",
       "nodes": 1
@@ -300,7 +322,7 @@
     {
       "id": "WinResult",
       "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a",
-      "nodes": 9
+      "nodes": 6
     }
   ],
   "errors": []

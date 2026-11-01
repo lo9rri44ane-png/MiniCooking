@@ -1,0 +1,165 @@
+{
+  "version": 16,
+  "sources": [
+    {
+      "path": "art/breakfast/v16/source/ui/settings_panel-blue.png",
+      "sha256": "290bbbf87aa0e28e0bb48463c6c53ff71a71cc2780923a15831c2df47680253a",
+      "method": "built-in-imagegen-edit-opaque-blue"
+    },
+    {
+      "path": "art/breakfast/v16/source/ui/undo_button-blue.png",
+      "sha256": "d14778895ca7c7d185afaad9c0911f4bc837ff3258b0f83d85d897f555644d28",
+      "method": "built-in-imagegen-edit-opaque-blue"
+    },
+    {
+      "path": "art/breakfast/v16/source/ui/overtime_button-blue.png",
+      "sha256": "35bb1da2f926f8e9056d4f57e5b1687d3a1b3f52ef1ab3cd70fa9ea094ea7241",
+      "method": "built-in-imagegen-edit-opaque-blue"
+    },
+    {
+      "path": "art/breakfast/v16/source/environment/sunlight-black-atlas.png",
+      "sha256": "28f592fe3ffc2b745a3cf92c14d445a44f9c9a3c55f11ca619453658ae0e5349",
+      "method": "built-in-imagegen-soft-broad-field"
+    }
+  ],
+  "assets": [
+    {
+      "key": "ui/settings_panel",
+      "source": "art/breakfast/v16/source/ui/settings_panel-blue.png",
+      "backup": "art/breakfast/v16/exports/ui/settings_panel.png",
+      "width": 948,
+      "height": 1691,
+      "sha256": "10c904d7bdb4e06205e674c0b34c6b7a4740f10cab56e80dcc2cd3d9d2d703d2",
+      "sourceBounds": {
+        "left": 51,
+        "top": 50,
+        "right": 886,
+        "bottom": 1628
+      },
+      "safeMargin": 56,
+      "method": "blue-matte-preserves-solid-white-hat-and-flowers",
+      "visualReview": "complete-background-and-runtime-review",
+      "runtime": "assets/resources/art/latest/ui/settings/settings_panel.png"
+    },
+    {
+      "key": "ui/undo_button",
+      "source": "art/breakfast/v16/source/ui/undo_button-blue.png",
+      "backup": "art/breakfast/v16/exports/ui/undo_button.png",
+      "width": 1245,
+      "height": 1232,
+      "sha256": "36b3775c292d156147c7ec808de4c4fa1ce4b9f93d3f14e273af7c56da2c54e5",
+      "sourceBounds": {
+        "left": 47,
+        "top": 44,
+        "right": 1209,
+        "bottom": 1193
+      },
+      "safeMargin": 41,
+      "method": "blue-matte-preserves-solid-white-hat-and-flowers",
+      "visualReview": "complete-background-and-runtime-review",
+      "runtime": "assets/resources/art/latest/ui/battle/undo_button.png"
+    },
+    {
+      "key": "ui/overtime_button",
+      "source": "art/breakfast/v16/source/ui/overtime_button-blue.png",
+      "backup": "art/breakfast/v16/exports/ui/overtime_button.png",
+      "width": 1250,
+      "height": 1229,
+      "sha256": "55ff8ec8d99f209996c8186ba0e2f0d96c1570cd1d843743e60395a154996399",
+      "sourceBounds": {
+        "left": 43,
+        "top": 42,
+        "right": 1210,
+        "bottom": 1188
+      },
+      "safeMargin": 41,
+      "method": "blue-matte-preserves-solid-white-hat-and-flowers",
+      "visualReview": "complete-background-and-runtime-review",
+      "runtime": "assets/resources/art/latest/ui/battle/overtime_button.png"
+    },
+    {
+      "key": "environment/sunlight/frame_00",
+      "source": "art/breakfast/v16/source/environment/sunlight-black-atlas.png",
+      "backup": "art/breakfast/v16/exports/environment/sunlight/frame_00.png",
+      "width": 620,
+      "height": 600,
+      "sha256": "fdf39e6b83c8f18671c250c065b2a5b1c4d04fde191226f5a360b5115c8530f7",
+      "sourcePanel": {
+        "left": 0,
+        "top": 0,
+        "width": 627,
+        "height": 627
+      },
+      "origin": {
+        "x": 570,
+        "y": 48
+      },
+      "method": "black-lightfield-to-premultiplied-alpha-uniform-fit",
+      "visualReview": "complete-background-and-runtime-review",
+      "runtime": "assets/resources/art/latest/effects/sunlight/frame_00.png"
+    },
+    {
+      "key": "environment/sunlight/frame_01",
+      "source": "art/breakfast/v16/source/environment/sunlight-black-atlas.png",
+      "backup": "art/breakfast/v16/exports/environment/sunlight/frame_01.png",
+      "width": 620,
+      "height": 600,
+      "sha256": "51b3eeb057008feb57d96ee1811d72ac635dcc9c14e090e62e5d526160fa18a4",
+      "sourcePanel": {
+        "left": 627,
+        "top": 0,
+        "width": 627,
+        "height": 627
+      },
+      "origin": {
+        "x": 570,
+        "y": 48
+      },
+      "method": "black-lightfield-to-premultiplied-alpha-uniform-fit",
+      "visualReview": "complete-background-and-runtime-review",
+      "runtime": "assets/resources/art/latest/effects/sunlight/frame_01.png"
+    },
+    {
+      "key": "environment/sunlight/frame_02",
+      "source": "art/breakfast/v16/source/environment/sunlight-black-atlas.png",
+      "backup": "art/breakfast/v16/exports/environment/sunlight/frame_02.png",
+      "width": 620,
+      "height": 600,
+      "sha256": "8d8bb752f885c28e33e0bc86b19ebb6591c2e592858aa1bc868565907968dc4a",
+      "sourcePanel": {
+        "left": 0,
+        "top": 627,
+        "width": 627,
+        "height": 627
+      },
+      "origin": {
+        "x": 570,
+        "y": 48
+      },
+      "method": "black-lightfield-to-premultiplied-alpha-uniform-fit",
+      "visualReview": "complete-background-and-runtime-review",
+      "runtime": "assets/resources/art/latest/effects/sunlight/frame_02.png"
+    },
+    {
+      "key": "environment/sunlight/frame_03",
+      "source": "art/breakfast/v16/source/environment/sunlight-black-atlas.png",
+      "backup": "art/breakfast/v16/exports/environment/sunlight/frame_03.png",
+      "width": 620,
+      "height": 600,
+      "sha256": "0cf9e5c85a9200bc73634e1fe1d5f785b523a3277b508a9c69792468da9ae8a8",
+      "sourcePanel": {
+        "left": 627,
+        "top": 627,
+        "width": 627,
+        "height": 627
+      },
+      "origin": {
+        "x": 570,
+        "y": 48
+      },
+      "method": "black-lightfield-to-premultiplied-alpha-uniform-fit",
+      "visualReview": "complete-background-and-runtime-review",
+      "runtime": "assets/resources/art/latest/effects/sunlight/frame_03.png"
+    }
+  ]
+}

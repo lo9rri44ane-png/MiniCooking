@@ -1,0 +1,9 @@
+{
+  "reviewedAt": "2026-10-31",
+  "basis": "逐张检查3张完整生成源图、3张原背景合成图和编号中心联系图，精确4/5/6格，无独立第二外框；自然地面统一mask例外，非角色裁切。",
+  "reviewed": {
+    "board/board_4": "51b77234d3f08d3760841ae2e5057442fd5b3f2738e4e6f20426e53fd95561f0",
+    "board/board_6": "03bdfee9e74684e91eeb236becfa87ac53c9263840bb185268c40db86101c130",
+    "board/board_5": "d5c842a1c9d49e33bc28742bd076bd05683486829d22e783f205a9bef086bd0b"
+  }
+}

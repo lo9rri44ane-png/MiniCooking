@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{BootProgress}from'../assets/scripts/framework/core/BootProgress.ts';
+test('real completed work controls progress; initialization gates completion',()=>{const p=new BootProgress();p.update(0,1,1);p.update(1,49,49);p.update(2,100,100);assert.equal(p.percent,45);p.update(3,20,40);assert.equal(p.percent,70);p.update(3,40,40);assert.equal(p.percent,95);p.update(4,2,3);assert.ok(p.percent<100);p.update(4,3,3);assert.equal(p.percent,100);});
+test('progress never regresses, never extrapolates and ignores disposed updates',()=>{const p=new BootProgress();p.update(3,2,4);p.update(3,1,4);assert.equal(p.percent,25);p.stop();p.update(3,4,4);assert.equal(p.percent,25);});

@@ -1,0 +1,52 @@
+{
+  "version": 10,
+  "method": "built-in-imagegen",
+  "assets": [
+    {
+      "key": "covers/breakfast",
+      "source": "art/breakfast/v10/source/covers/breakfast.png",
+      "sourceSha256": "7930e4f9fc97253004acceac4ab842aa9a32ee1d3d6ee00dd6dd4c696ec5ad29",
+      "bounds": null,
+      "backup": "art/breakfast/v10/exports/covers/breakfast.png",
+      "runtime": "assets/resources/art/breakfast-v10/covers/breakfast.png",
+      "width": 768,
+      "height": 432,
+      "aspect": 1.7777777777777777,
+      "sha256": "301415b5b78435560a427d050667aa1bdbacd637e39d26390dca7d0199a8b1a6",
+      "fullBleed": true
+    },
+    {
+      "key": "covers/street",
+      "source": "art/breakfast/v10/source/covers/street.png",
+      "sourceSha256": "f2695f61ca7834c0312007d7b774d12248aaf4b6c9beff256a4d2015e53f0afe",
+      "bounds": null,
+      "backup": "art/breakfast/v10/exports/covers/street.png",
+      "runtime": "assets/resources/art/breakfast-v10/covers/street.png",
+      "width": 768,
+      "height": 432,
+      "aspect": 1.7777777777777777,
+      "sha256": "9357a5642c4bbfa497deac0486f323c905327e72997262cab08aced3a49ecd34",
+      "fullBleed": true
+    },
+    {
+      "key": "ui/order_bubble",
+      "source": "art/breakfast/v10/source/ui/order_bubble.png",
+      "sourceSha256": "78c646d3a9c66a01bd8d30f6126b34a343b126998e8be5f3ab050c5e089b43b7",
+      "bounds": {
+        "id": 1,
+        "count": 1139312,
+        "left": 38,
+        "top": 52,
+        "right": 1492,
+        "bottom": 980
+      },
+      "backup": "art/breakfast/v10/exports/ui/order_bubble.png",
+      "runtime": "assets/resources/art/breakfast-v10/ui/order_bubble.png",
+      "width": 800,
+      "height": 513,
+      "aspect": 1.5594541910331383,
+      "sha256": "cecc718e38b6ebdab0d3cd672e902c0b69f5df4e7e167fa55adc5cd8ecf176f2",
+      "fullBleed": false
+    }
+  ]
+}

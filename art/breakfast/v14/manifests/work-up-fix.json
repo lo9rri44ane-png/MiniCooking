@@ -1,0 +1,107 @@
+{
+  "reason": "frames 6-8 switched holding hand without transition; regenerated with camera-right spoon invariant",
+  "rejectedSource": "art/breakfast/v14/source/rejected/work-up-hand-switch.png",
+  "rejectedFrames": [
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_00.png",
+      "sha256": "52ca460d043a73739a4b4e216a7712391444872ca670f6131b2a0d0a2bfccb89"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_01.png",
+      "sha256": "8c0cca5a693c2aa2fc9b0225f5bc740ba52b4491327d36b04c390fca27c43284"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_02.png",
+      "sha256": "76cb7663546aa950938a89a5c1e082af0b30371680ce1b02d3ee7b830aaa83b0"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_03.png",
+      "sha256": "5fc8b6e0b2593c22a0557b3b59ad79b56fb5dbed27d555e542e6b6b7a9662a60"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_04.png",
+      "sha256": "ac6ebfeb30abdb82e9d7e4f952e57ddf1ef218e3ab3354c919474b89918505e8"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_05.png",
+      "sha256": "ba15b394d891a87d31566fb1d04c7676445f6b9dbffb408dcafb99951add1019"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_06.png",
+      "sha256": "f4d00dac2fcc54d2f7a3af4f12c3c8d760729c93c00cde3640c22b00ac183e6e"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_07.png",
+      "sha256": "b8b621d6e2711ec96ac0aff1af636a3aa72f3a80c8e3f6b8607ab4b7f3832547"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_08.png",
+      "sha256": "84be7e2e205d315d63188282bb1b56d7525538609b11dfd524caba02c188de06"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_09.png",
+      "sha256": "208a157567d8f9d266c826dd3cf31c38e6f64a9125e9ebe0f81da1403bdf9c94"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_10.png",
+      "sha256": "7353ed55846f47fcce7e65dfdb05773d26a7d8d5549f7046d867e41b46a1130a"
+    },
+    {
+      "path": "art/breakfast/v14/exports/rejected/work-up-hand-switch/frame_11.png",
+      "sha256": "d75f36660c52615e0c2965dfa7c2172fe7ea2322ea751c1ac2b5b9d5acd38d72"
+    }
+  ],
+  "status": "resolved",
+  "acceptedSource": "art/breakfast/v14/source/hamster/work_up.png",
+  "acceptedFrames": [
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_00.png",
+      "sha256": "dd0e112b75632599b728ebbddd61e2b1bfb06ce40f904562fbf25242b9b9614b"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_01.png",
+      "sha256": "cfb5954c4711900773c278dcd0a847d1fee1d0a5126d25bdaa1d1e65b165e28d"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_02.png",
+      "sha256": "345925eceacc4c2975506aa53d432e3790e4987b5c0f6d9661568966148d9fdc"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_03.png",
+      "sha256": "cfc3c0805b468663a8a3a92f38a42d359f62c4bb84748145b1f8e50cb4a3dcf7"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_04.png",
+      "sha256": "0d23c0b0915524d8812a1a0ea7c273535a2344bd48d7ce9a62633d53b22d37fb"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_05.png",
+      "sha256": "44b11d97c8a32d19587ea52e5911b0afec0c15b0151420b4527033456a56f2d8"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_06.png",
+      "sha256": "ddf7e8f3e37d597db72269e1c125c51bb392587ac726a5c825ea8f28d910dbf2"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_07.png",
+      "sha256": "21cb072076417cb39e3ffc63bc178d5e6f2f8ea6edad1cf587f0b80e82d939ae"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_08.png",
+      "sha256": "3b8e4b457e700e71eb61daa3bbd3bac589788df04cf68eced0aac28a9f7d5b49"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_09.png",
+      "sha256": "8bd65613dc4c557fb11c21438e598239bfa3215c75cf3f9fb65c8ec568f1fb33"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_10.png",
+      "sha256": "c13f216e5447a3359d2cda75272677a002ee611c800bdccf7cea1ef9b8ef5507"
+    },
+    {
+      "path": "art/breakfast/v14/exports/hamster/work_up/frame_11.png",
+      "sha256": "6f6b1a811ffa2f515297abefbdeaf9d9a0423abe5a243cd12c18dee73643f183"
+    }
+  ],
+  "review": "root and independent acceptance reviewer inspected source and contact; all frames use camera-right paw"
+}

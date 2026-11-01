@@ -1,0 +1,194 @@
+{
+  "version": 5,
+  "status": "complete",
+  "assets": [
+    {
+      "key": "ui/steps_panel",
+      "sha256": "44614f85ca4d9de7914d51d2c9707f109952cf0055ce7c18d1b77b2634216c1f",
+      "reviewedSha256": "44614f85ca4d9de7914d51d2c9707f109952cf0055ce7c18d1b77b2634216c1f",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 41,
+        "top": 40,
+        "right": 41,
+        "bottom": 40
+      },
+      "sourceMargin": 95,
+      "baseline": null,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/0",
+      "sha256": "ca196113d811df857d296c7fcf004d637ee0e4c192a606ec3e70fe11bcb9b29b",
+      "reviewedSha256": "ca196113d811df857d296c7fcf004d637ee0e4c192a606ec3e70fe11bcb9b29b",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 13,
+        "top": 15,
+        "right": 13,
+        "bottom": 15
+      },
+      "sourceMargin": 33,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/1",
+      "sha256": "a8ea8707292a0d113479b4e68fa749af5531a2623ec09ef925b7d0fa699e6430",
+      "reviewedSha256": "a8ea8707292a0d113479b4e68fa749af5531a2623ec09ef925b7d0fa699e6430",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 21,
+        "top": 15,
+        "right": 21,
+        "bottom": 15
+      },
+      "sourceMargin": 29,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/2",
+      "sha256": "81e6d6294865b16b2e3d48f2936a040b793dffcf035369c6e90be62c395bcd11",
+      "reviewedSha256": "81e6d6294865b16b2e3d48f2936a040b793dffcf035369c6e90be62c395bcd11",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 14,
+        "top": 15,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceMargin": 29,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/3",
+      "sha256": "35a968c27bbc5b473a03439cc8963deb60702ac6119ac78cfa1bd6e863fa146f",
+      "reviewedSha256": "35a968c27bbc5b473a03439cc8963deb60702ac6119ac78cfa1bd6e863fa146f",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 16,
+        "top": 15,
+        "right": 16,
+        "bottom": 14
+      },
+      "sourceMargin": 29,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/4",
+      "sha256": "690cb05fd76156061063f5a10e683ddecf25cd325a4ab68337d455d1868b61ff",
+      "reviewedSha256": "690cb05fd76156061063f5a10e683ddecf25cd325a4ab68337d455d1868b61ff",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 12,
+        "top": 15,
+        "right": 12,
+        "bottom": 14
+      },
+      "sourceMargin": 25,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/5",
+      "sha256": "1bd3454edd9619f8f8b18bd2c2c3956f039c8753f386e64eff24f428d2660b0a",
+      "reviewedSha256": "1bd3454edd9619f8f8b18bd2c2c3956f039c8753f386e64eff24f428d2660b0a",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 14,
+        "top": 15,
+        "right": 15,
+        "bottom": 14
+      },
+      "sourceMargin": 26,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/6",
+      "sha256": "878e9fbaecad5165ab37e3098373c12842b6d395c8f90fa00156c60df4f44474",
+      "reviewedSha256": "878e9fbaecad5165ab37e3098373c12842b6d395c8f90fa00156c60df4f44474",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 14,
+        "top": 15,
+        "right": 15,
+        "bottom": 14
+      },
+      "sourceMargin": 26,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/7",
+      "sha256": "4b2ae6faf2ea600862c87cfb07718adaca3014ff9778f91132f3380d9ee3dd19",
+      "reviewedSha256": "4b2ae6faf2ea600862c87cfb07718adaca3014ff9778f91132f3380d9ee3dd19",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 12,
+        "top": 15,
+        "right": 13,
+        "bottom": 14
+      },
+      "sourceMargin": 26,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/8",
+      "sha256": "eff23a57eaedeafe3616cebdacf6b1446be8f83042b094d2d72297cb017591ae",
+      "reviewedSha256": "eff23a57eaedeafe3616cebdacf6b1446be8f83042b094d2d72297cb017591ae",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 13,
+        "top": 15,
+        "right": 13,
+        "bottom": 14
+      },
+      "sourceMargin": 26,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    },
+    {
+      "key": "ui/digits/9",
+      "sha256": "645a1c008f811ea8db27f458c46b7dd80a4aabd0f3b58482e3f8e20353fb16e9",
+      "reviewedSha256": "645a1c008f811ea8db27f458c46b7dd80a4aabd0f3b58482e3f8e20353fb16e9",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31逐张目视原图及编号联系图：步数：中文字正确；0至9顺序正确且轮廓完整，无邻图残片，原RGBA软边保留，数字固定112×128画布、可见高96、基线112且等比。",
+      "margin": {
+        "left": 16,
+        "top": 15,
+        "right": 16,
+        "bottom": 14
+      },
+      "sourceMargin": 27,
+      "baseline": 112,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v5/previews/ui-contact-sheet.png"
+    }
+  ],
+  "blockers": []
+}

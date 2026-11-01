@@ -1,0 +1,46 @@
+{
+  "frames": [
+    {
+      "sha256": "eafe5a41134c36f625ddba933d6a817eacb0348767e82b7030bdbe7c139095a6",
+      "key": "characters/customers/dog/idle/frame_02",
+      "sourceSha256": "06f67771a954e026cab8b4aff50ac711ceb9fa605e6b6004099aecef64b9752a",
+      "offset": {
+        "y": 10,
+        "x": -5
+      },
+      "reason": "原PNG与同clip基准帧逐张复核：躯干和留地脚掌root对齐改善，挥手/耳朵自然动作保留，轮廓无裁切。偏移图像坐标向右/下为正。",
+      "bodyAlignmentReview": "complete"
+    },
+    {
+      "sha256": "12679a5b1efa0da7658a15c278ca04302a4fcd571000ebdb2becad7f1eb23106",
+      "key": "characters/customers/rabbit/idle/frame_01",
+      "sourceSha256": "970e795b2cc94cf4d306fc78973e490a2d8ad54c56ae05e6430d3895ee6577cf",
+      "offset": {
+        "y": 0,
+        "x": -3
+      },
+      "reason": "原PNG与同clip基准帧逐张复核：躯干和留地脚掌root对齐改善，挥手/耳朵自然动作保留，轮廓无裁切。偏移图像坐标向右/下为正。",
+      "bodyAlignmentReview": "complete"
+    },
+    {
+      "sha256": "0980318343f2767099eef9e28d7e6eaa7a3b78e34d99a1ea61e166c3ce65964d",
+      "key": "characters/customers/rabbit/idle/frame_02",
+      "sourceSha256": "970e795b2cc94cf4d306fc78973e490a2d8ad54c56ae05e6430d3895ee6577cf",
+      "offset": {
+        "y": 0,
+        "x": -8
+      },
+      "reason": "原PNG与同clip基准帧逐张复核：躯干和留地脚掌root对齐改善，挥手/耳朵自然动作保留，轮廓无裁切。偏移图像坐标向右/下为正。",
+      "bodyAlignmentReview": "complete"
+    }
+  ],
+  "scope": "仅复核三帧主体对齐，不替代全角色运行验收",
+  "reviewedAt": "2026-10-31",
+  "status": "complete",
+  "reviewed": {
+    "characters/customers/dog/idle/frame_02": "eafe5a41134c36f625ddba933d6a817eacb0348767e82b7030bdbe7c139095a6",
+    "characters/customers/rabbit/idle/frame_02": "0980318343f2767099eef9e28d7e6eaa7a3b78e34d99a1ea61e166c3ce65964d",
+    "characters/customers/rabbit/idle/frame_01": "12679a5b1efa0da7658a15c278ca04302a4fcd571000ebdb2becad7f1eb23106"
+  },
+  "bodyAlignmentReview": "complete"
+}

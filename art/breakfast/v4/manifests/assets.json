@@ -1,0 +1,136 @@
+{
+  "version": 4,
+  "sources": [
+    {
+      "path": "art/breakfast/v4/source/ui/controls.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "475235ea290c5b09a50fb98fdf3940318eb2fbeb8afdfb6e35be22924b47b34a"
+    },
+    {
+      "path": "art/breakfast/v4/source/board/station-mat.png",
+      "width": 1402,
+      "height": 1122,
+      "sha256": "ff17725887d560e66da090fa3a64890d5c37152e7553986c3cc2b0280a7b8c8d"
+    },
+    {
+      "path": "art/breakfast/v4/source/environment/sunlight.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "0a8c66cdc3f09d05c0555fcfbf93484c19f6ea99588283becf2bfd80b80a2b4a"
+    },
+    {
+      "path": "art/breakfast/v4/source/backgrounds/kitchen.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "66022576a31ea4acf8063b2ec26628a9094234054ed9dbd91812ff0975199dfc"
+    }
+  ],
+  "assets": [
+    {
+      "key": "ui/work_track",
+      "source": "art/breakfast/v4/source/ui/controls.png",
+      "sourceBounds": {
+        "left": 19,
+        "top": 206,
+        "width": 1215,
+        "height": 270,
+        "padding": 32,
+        "sourceMargin": 19,
+        "method": "visually-confirmed-complete-component-bounds"
+      },
+      "backup": "art/breakfast/v4/exports/ui/work_track.png",
+      "runtime": "assets/resources/art/breakfast-v4/ui/work_track.png",
+      "width": 1279,
+      "height": 334,
+      "sha256": "ea47e6074e109b392fd4a892a94a73dcd494b51e644326edc0fb1429a55a5cdc",
+      "fullBleed": false,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/work_fill",
+      "source": "art/breakfast/v4/source/ui/controls.png",
+      "sourceBounds": {
+        "left": 83,
+        "top": 631,
+        "width": 1088,
+        "height": 160,
+        "padding": 32,
+        "sourceMargin": 83,
+        "method": "visually-confirmed-complete-component-bounds"
+      },
+      "backup": "art/breakfast/v4/exports/ui/work_fill.png",
+      "runtime": "assets/resources/art/breakfast-v4/ui/work_fill.png",
+      "width": 1152,
+      "height": 224,
+      "sha256": "0b6583a1be2b2de55449ac03614f0425cc2bc32cb78f34594856568fa71c56d0",
+      "fullBleed": false,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/order_check",
+      "source": "art/breakfast/v4/source/ui/controls.png",
+      "sourceBounds": {
+        "left": 461,
+        "top": 868,
+        "width": 330,
+        "height": 326,
+        "padding": 32,
+        "sourceMargin": 60,
+        "method": "visually-confirmed-complete-component-bounds"
+      },
+      "backup": "art/breakfast/v4/exports/ui/order_check.png",
+      "runtime": "assets/resources/art/breakfast-v4/ui/order_check.png",
+      "width": 394,
+      "height": 390,
+      "sha256": "cf36c494b55f2f3a09ca62cb5a14cd66acd8fc68a4cc379466b21d7eab31ed6d",
+      "fullBleed": false,
+      "visualReview": "pending"
+    },
+    {
+      "key": "board/station_mat",
+      "source": "art/breakfast/v4/source/board/station-mat.png",
+      "sourceBounds": {
+        "left": 170,
+        "top": 274,
+        "width": 1063,
+        "height": 603,
+        "padding": 32,
+        "sourceMargin": 169,
+        "method": "visually-confirmed-complete-component-bounds"
+      },
+      "backup": "art/breakfast/v4/exports/board/station_mat.png",
+      "runtime": "assets/resources/art/breakfast-v4/board/station_mat.png",
+      "width": 576,
+      "height": 354,
+      "sha256": "e61022f82a7648d68760261b33bd47e8584e1be06b5d34381ab705f6b6b85627",
+      "fullBleed": false,
+      "visualReview": "pending"
+    },
+    {
+      "key": "environment/sunlight",
+      "source": "art/breakfast/v4/source/environment/sunlight.png",
+      "sourceBounds": null,
+      "backup": "art/breakfast/v4/exports/environment/sunlight.png",
+      "runtime": "assets/resources/art/breakfast-v4/environment/sunlight.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "8d82b161814b270a464577985e8112bc0f96145fc4f672f29d996e6833470328",
+      "fullBleed": true,
+      "visualReview": "pending"
+    },
+    {
+      "key": "backgrounds/kitchen",
+      "source": "art/breakfast/v4/source/backgrounds/kitchen.png",
+      "sourceBounds": null,
+      "backup": "art/breakfast/v4/exports/backgrounds/kitchen.png",
+      "runtime": "assets/resources/art/breakfast-v4/backgrounds/kitchen.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "bd7411d622a3f4edc6854d91fa716891891eb6f2c707ce9bec0c10386d7c3475",
+      "fullBleed": true,
+      "visualReview": "pending"
+    }
+  ],
+  "notes": "Track/fill retain authored aspect ratio. Runtime fill must crop rather than stretch. Sunlight originates at top-right and uses natural full-bleed gradient exception."
+}

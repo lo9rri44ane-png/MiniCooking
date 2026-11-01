@@ -1,0 +1,1507 @@
+{
+  "clips": 25,
+  "frames": 300,
+  "method": "whole-atlas complete connected contours; stable torso roots; all contacts reviewed; work_up same-hand correction independently rechecked",
+  "assets": [
+    {
+      "key": "hamster/idle_empty/frame_00",
+      "margin": 17,
+      "sha256": "397d25a7b7a6a8f0762e3c20472caa18c50028a31a1b8199c89a37dc407817bc"
+    },
+    {
+      "key": "hamster/idle_empty/frame_01",
+      "margin": 16,
+      "sha256": "c9ec81d5455734d7e4738f7d5e212bd30e1310089e6e976de871df843b5dc29c"
+    },
+    {
+      "key": "hamster/idle_empty/frame_02",
+      "margin": 16,
+      "sha256": "a38c98f55517b69438707a94b95df918b2c130944e454b718cd3bfe8be7766d9"
+    },
+    {
+      "key": "hamster/idle_empty/frame_03",
+      "margin": 16,
+      "sha256": "723bfbee109294910fb2478e7cde71492507d140678b87941b71867045cf3a6e"
+    },
+    {
+      "key": "hamster/idle_empty/frame_04",
+      "margin": 17,
+      "sha256": "017232a20ad0af182510c3086228d1b9a924d0d977850bc6db8130eac6426f73"
+    },
+    {
+      "key": "hamster/idle_empty/frame_05",
+      "margin": 18,
+      "sha256": "511294cad207b444681d7d56402bc7a39ef48e21a4f92264c93f4d20c399eef3"
+    },
+    {
+      "key": "hamster/idle_empty/frame_06",
+      "margin": 17,
+      "sha256": "9d8304d795a5ee87bc1f9b28c9521f3277ecc90e8c3e02c03f68bf78e6daf3a5"
+    },
+    {
+      "key": "hamster/idle_empty/frame_07",
+      "margin": 18,
+      "sha256": "89a815f3e63de46072f446bbd539ea2e1f6133229d64efe36ea835053224183a"
+    },
+    {
+      "key": "hamster/idle_empty/frame_08",
+      "margin": 17,
+      "sha256": "5e5c3d4c0613060239498dc7169bb07bd778bbd7a72103c2ecc96f2920cdd91d"
+    },
+    {
+      "key": "hamster/idle_empty/frame_09",
+      "margin": 17,
+      "sha256": "5b4043de32d1fd693c5525fb3ff65201c2c7396d7f6b96c070b6d83d7723740e"
+    },
+    {
+      "key": "hamster/idle_empty/frame_10",
+      "margin": 17,
+      "sha256": "5c534bbbd8f94187247b678b1e43580b2015b511fa51ff8c7360d641cb427bfe"
+    },
+    {
+      "key": "hamster/idle_empty/frame_11",
+      "margin": 16,
+      "sha256": "082375aaaa731ad0dd57a8dfc85588fd388bd9c064d199beb9f5b0e5e82fbb05"
+    },
+    {
+      "key": "hamster/idle_small/frame_00",
+      "margin": 18,
+      "sha256": "d689b3e9ec2dc7cac231b8c5045eac16be47725066b24776bf5e4b02c6d9b3dd"
+    },
+    {
+      "key": "hamster/idle_small/frame_01",
+      "margin": 18,
+      "sha256": "aa25d64a05998d5ed51d5ac07f8b663de5734ab0cb8757907ccad69512008de9"
+    },
+    {
+      "key": "hamster/idle_small/frame_02",
+      "margin": 17,
+      "sha256": "1a55e91f2c432ba7b45203c3d381ecc6950f9f94990e74d94e3c5fd556d02e00"
+    },
+    {
+      "key": "hamster/idle_small/frame_03",
+      "margin": 17,
+      "sha256": "30ffd078cb2f7f8615093fb3241ae953896732a4a9013efb6a576a5775dfd4ce"
+    },
+    {
+      "key": "hamster/idle_small/frame_04",
+      "margin": 17,
+      "sha256": "1acf1b108c25bafddf776aa33e2b03c443a02c458ca2c94032379f031835b799"
+    },
+    {
+      "key": "hamster/idle_small/frame_05",
+      "margin": 17,
+      "sha256": "ed0a46d8e8a21082965af1fcb2eac8e25c4fc684a84da3ffeca46f29715c4191"
+    },
+    {
+      "key": "hamster/idle_small/frame_06",
+      "margin": 17,
+      "sha256": "94116f157936ed49e0e48bddf8b6e385bd925e1bc829afac3460eaa830e2c58b"
+    },
+    {
+      "key": "hamster/idle_small/frame_07",
+      "margin": 18,
+      "sha256": "03cc68c1ac4c39b49c1e60086cce77cb43c2f37515d7f4eb00ff77d74e2bbeb2"
+    },
+    {
+      "key": "hamster/idle_small/frame_08",
+      "margin": 16,
+      "sha256": "0985121b96438f4ec6411476c631727833633906a97f999ca2fc836ecda3a593"
+    },
+    {
+      "key": "hamster/idle_small/frame_09",
+      "margin": 17,
+      "sha256": "540e014bff735db227698a43502e181cd3543400dbb82c5affdcab4f27476721"
+    },
+    {
+      "key": "hamster/idle_small/frame_10",
+      "margin": 17,
+      "sha256": "c1126940508590a3ec981e8cf19010f0381953a3b86418f4f7e26537f9177a08"
+    },
+    {
+      "key": "hamster/idle_small/frame_11",
+      "margin": 17,
+      "sha256": "f9fef57bd2a5d16361a3e2411bd8e079aba2a98ec9362d07c2d80a29535a0442"
+    },
+    {
+      "key": "hamster/idle_full/frame_00",
+      "margin": 17,
+      "sha256": "7234ee719d177ce1fb239324b390df3e734f045237aaeabdf3f959b28a5b5138"
+    },
+    {
+      "key": "hamster/idle_full/frame_01",
+      "margin": 16,
+      "sha256": "34f9174c32a3676655c2d1976e5a30176866276cf90dfb2a88ce78c35e6a7322"
+    },
+    {
+      "key": "hamster/idle_full/frame_02",
+      "margin": 18,
+      "sha256": "2a770c74a5d864bb4afe0ef0fdce13941c6d61b473c1875e1c141f00e321cba7"
+    },
+    {
+      "key": "hamster/idle_full/frame_03",
+      "margin": 18,
+      "sha256": "fd65efe6be748579749551cdb19351a0163dc8fe6cb73e73bb3d6999fab73a45"
+    },
+    {
+      "key": "hamster/idle_full/frame_04",
+      "margin": 17,
+      "sha256": "9262ac4db72c7035f53b33cff1c980d2bdb33934aada02caf64e121f14f4227e"
+    },
+    {
+      "key": "hamster/idle_full/frame_05",
+      "margin": 16,
+      "sha256": "4e5afdced715a4500b6dae7692b7fb4a403540c00536a6ab66bf83473e140b62"
+    },
+    {
+      "key": "hamster/idle_full/frame_06",
+      "margin": 17,
+      "sha256": "0174d2bb0de38614d17f16a506836e70ce5a999b77737c14b5dc4f4a956d5808"
+    },
+    {
+      "key": "hamster/idle_full/frame_07",
+      "margin": 18,
+      "sha256": "bc9b301d7ebbfbad4093d0de0127c4c275d6ee86c17554e2a7f8d2af702a00bd"
+    },
+    {
+      "key": "hamster/idle_full/frame_08",
+      "margin": 17,
+      "sha256": "7d2606bbb52c13f1716301a5369e339f75396b317c4f4de55b51f307da0dfb4a"
+    },
+    {
+      "key": "hamster/idle_full/frame_09",
+      "margin": 17,
+      "sha256": "f42b7209c243c20755a60bc10764d5c76e118627b557308bc959252c263b96a2"
+    },
+    {
+      "key": "hamster/idle_full/frame_10",
+      "margin": 17,
+      "sha256": "9b8d01d20886e3889236873ae33fffc8518914b63685477fa3fbb0bd7edc3844"
+    },
+    {
+      "key": "hamster/idle_full/frame_11",
+      "margin": 17,
+      "sha256": "6b6f76eb6ee49740eb29fc3db30dd523187e913a441541c1c0ba96a8c25c99a8"
+    },
+    {
+      "key": "hamster/move_up/frame_00",
+      "margin": 17,
+      "sha256": "751c9e8c5849b7c29d704efaa6f2389773f277d0626bc751c2d3add5b7b89eaf"
+    },
+    {
+      "key": "hamster/move_up/frame_01",
+      "margin": 18,
+      "sha256": "41def0968b5e3da82275e99676e89b0cb73ba2ae4c3daaec9671abec2cf5db3e"
+    },
+    {
+      "key": "hamster/move_up/frame_02",
+      "margin": 17,
+      "sha256": "4edae5ba79bfa1528806173027ea352a6004eb3b7cb1c56e49ae8843c391913d"
+    },
+    {
+      "key": "hamster/move_up/frame_03",
+      "margin": 17,
+      "sha256": "dd149feb7003250fd35a4b6da619a190d67b067d36c4ad9fd540f36c8ec1cda9"
+    },
+    {
+      "key": "hamster/move_up/frame_04",
+      "margin": 18,
+      "sha256": "aa2b5fb3e0ac5f2bd90f1a3d4d61aa25d50ac5571af7d789a9be2337c691344c"
+    },
+    {
+      "key": "hamster/move_up/frame_05",
+      "margin": 18,
+      "sha256": "a0d7cc939d8edd5082633c6f58736a50e13394886d2d12da6585beb909cd3801"
+    },
+    {
+      "key": "hamster/move_up/frame_06",
+      "margin": 17,
+      "sha256": "ecacb6a16e06137e0adb408a46f995054153a092666a5d767747665eb5a68988"
+    },
+    {
+      "key": "hamster/move_up/frame_07",
+      "margin": 18,
+      "sha256": "1ab6c08e63b73ac16cbfa1bd6e742b6471b62333256ab028f000d3dee7e2b74d"
+    },
+    {
+      "key": "hamster/move_up/frame_08",
+      "margin": 17,
+      "sha256": "5544ffb9cfe1b44fdb10876e4f043f1432eac500c8b1ce7efd559230ac75ceba"
+    },
+    {
+      "key": "hamster/move_up/frame_09",
+      "margin": 17,
+      "sha256": "714a0dc5478f2f1c21ff5124c48837355b8dd904273015480abe352e410daba6"
+    },
+    {
+      "key": "hamster/move_up/frame_10",
+      "margin": 17,
+      "sha256": "8fc85609dc4a833615e3c8051866a61817cdf2b3765f1e8f5ad4142b43a6594f"
+    },
+    {
+      "key": "hamster/move_up/frame_11",
+      "margin": 18,
+      "sha256": "6748375ac858193836a084b820f987ceb049466451dcb7082dd5a46dc90a3b2a"
+    },
+    {
+      "key": "hamster/move_down/frame_00",
+      "margin": 17,
+      "sha256": "923b59c065ac3eccf6c9df4312d410747448ed1cccd7d9afdf2619179726b878"
+    },
+    {
+      "key": "hamster/move_down/frame_01",
+      "margin": 18,
+      "sha256": "8a5da2e7269827c6309740a7a5f9aef835af95892b6b2461d92a81a5e0c80d3f"
+    },
+    {
+      "key": "hamster/move_down/frame_02",
+      "margin": 18,
+      "sha256": "11857dc06be4fc22880a12ff20111b32306005c8fec1072cb6fb71508aefaf6e"
+    },
+    {
+      "key": "hamster/move_down/frame_03",
+      "margin": 17,
+      "sha256": "46a65b6e388740fb67a10d6b2fb77e97343b038c8654c16a455db5059d1ba24c"
+    },
+    {
+      "key": "hamster/move_down/frame_04",
+      "margin": 17,
+      "sha256": "5b5ce1ab94cdb7a06b2e75849611bf8b6c982c4f36acbfd82665403f731e660b"
+    },
+    {
+      "key": "hamster/move_down/frame_05",
+      "margin": 17,
+      "sha256": "b043bb94e321bd1996362a50e3dde732fc885af8f5a67c6f87b88f522459cdd5"
+    },
+    {
+      "key": "hamster/move_down/frame_06",
+      "margin": 17,
+      "sha256": "7c0c218172abc3e00a8e7d1032629a4f07ad7d5c47cb7c56ea3c4d40ada35e44"
+    },
+    {
+      "key": "hamster/move_down/frame_07",
+      "margin": 17,
+      "sha256": "2186d80361fcb6e8b96b6c8e5baaff9ed5c4d6d681f4a6e0b36aa7ee650a4496"
+    },
+    {
+      "key": "hamster/move_down/frame_08",
+      "margin": 17,
+      "sha256": "752ddfc478e157ade8eeea77390c0d6e81e6655f071887879f6e3a2fe03e6a5e"
+    },
+    {
+      "key": "hamster/move_down/frame_09",
+      "margin": 16,
+      "sha256": "0075a6349d5341caf493039c3cfa8e85a31a034262a96470b77c92a45f9599e6"
+    },
+    {
+      "key": "hamster/move_down/frame_10",
+      "margin": 17,
+      "sha256": "718724f64f59c6cd038ef5ada81a404a056f31aa8bbca78a34b439f5ead84c15"
+    },
+    {
+      "key": "hamster/move_down/frame_11",
+      "margin": 18,
+      "sha256": "2cd23224e08a8c435a8391a18918b7bec9e4a6c38282f8ff8b519666ddecf1f1"
+    },
+    {
+      "key": "hamster/move_right/frame_00",
+      "margin": 17,
+      "sha256": "c85410b6ee538481cd526fe93c5e409c2f8777cb82190c8d477100a3532e2ed6"
+    },
+    {
+      "key": "hamster/move_right/frame_01",
+      "margin": 16,
+      "sha256": "98fe19df194c07c86900cd3d60f60c6df0be83e12ecfe93ca9f987980176fe8b"
+    },
+    {
+      "key": "hamster/move_right/frame_02",
+      "margin": 16,
+      "sha256": "bb9388e6b71b79c08fb2b2e0fde466d684694a9f9d6c3cd8018db70b6df81a29"
+    },
+    {
+      "key": "hamster/move_right/frame_03",
+      "margin": 17,
+      "sha256": "9c20fdab2646eddd99a3f72531e36970383a54b5afb1c551d1ae4c457c3c5b3e"
+    },
+    {
+      "key": "hamster/move_right/frame_04",
+      "margin": 17,
+      "sha256": "34e26e316779907cd649b53441829165a7921daa4bd569a9b8ca1c0a24cebfe0"
+    },
+    {
+      "key": "hamster/move_right/frame_05",
+      "margin": 17,
+      "sha256": "aef9ffb354fed32b4c3001d491d46ec947bffa2c32c3dcaccdc747a5a98f7def"
+    },
+    {
+      "key": "hamster/move_right/frame_06",
+      "margin": 17,
+      "sha256": "013f4c0f4645486c4f56ff656ba947d7db7ff1c4a311c8d30463781a100d5675"
+    },
+    {
+      "key": "hamster/move_right/frame_07",
+      "margin": 17,
+      "sha256": "af3ea6e4fb6f38bcc867eea6adaf1d0042f00f6100c1b7abcaa13e814d038721"
+    },
+    {
+      "key": "hamster/move_right/frame_08",
+      "margin": 17,
+      "sha256": "474c3c0603d6385d6f5a8006204088699f8503d38dc78d4caab4c4f943d3d767"
+    },
+    {
+      "key": "hamster/move_right/frame_09",
+      "margin": 17,
+      "sha256": "6827f68ccb23b184f9d9595e6ae23b7c42b305186880effa541a6b41d92d2615"
+    },
+    {
+      "key": "hamster/move_right/frame_10",
+      "margin": 17,
+      "sha256": "42e6bd430ba668510613b3c8956809cb5efd48c51fc1055acfdbcac56fe01801"
+    },
+    {
+      "key": "hamster/move_right/frame_11",
+      "margin": 17,
+      "sha256": "29cb822ef9b573337befa3cfeffe05a390312b92e8c719782d644bc6f456acdd"
+    },
+    {
+      "key": "hamster/move_left/frame_00",
+      "margin": 17,
+      "sha256": "bca2cdbc25790b9d54064498a26766da6641a50f7cbe33a4b6635b9644f78b9e"
+    },
+    {
+      "key": "hamster/move_left/frame_01",
+      "margin": 16,
+      "sha256": "99bf5036d2ff7c0468937e2ad6fae559ee1289c963e5b6e9bbccd660f3751b65"
+    },
+    {
+      "key": "hamster/move_left/frame_02",
+      "margin": 16,
+      "sha256": "21664688c913fe48883fd19117eb667b158213e0d9687d8dab6e356715f5c85e"
+    },
+    {
+      "key": "hamster/move_left/frame_03",
+      "margin": 17,
+      "sha256": "6b8e48bda02b388e7659efce29f1a31249d05b9a4115ab77da642b253581df29"
+    },
+    {
+      "key": "hamster/move_left/frame_04",
+      "margin": 17,
+      "sha256": "53933a32e34889e2aa46b879607f83e49331d55ede9ee8a60e85fb35ad3c24ae"
+    },
+    {
+      "key": "hamster/move_left/frame_05",
+      "margin": 18,
+      "sha256": "e8d83199756b96c73efffcb70fd7d025d80e0c4ea16bb842879f847fd6659bdb"
+    },
+    {
+      "key": "hamster/move_left/frame_06",
+      "margin": 17,
+      "sha256": "86bde36ed01bb7a76a765219ac5869c9baa194ed0c8fac2a205681600fe5863c"
+    },
+    {
+      "key": "hamster/move_left/frame_07",
+      "margin": 17,
+      "sha256": "5c5a10e7402463ee5a05abe5fdd0448f30145043a0b0837f2e0d7259cece3488"
+    },
+    {
+      "key": "hamster/move_left/frame_08",
+      "margin": 17,
+      "sha256": "b443d39d453a8db8d9cbd7dddc8719ebb20f448edab98beffa9df2ef5cbfc453"
+    },
+    {
+      "key": "hamster/move_left/frame_09",
+      "margin": 16,
+      "sha256": "33815dd293a23034fefd33abf40dcab4832c304d321b721401487b0b1d468e8f"
+    },
+    {
+      "key": "hamster/move_left/frame_10",
+      "margin": 17,
+      "sha256": "e1ef0738923dd0dc2e253942533aefddf1789cb862a35b8f805abe0c4e51a28b"
+    },
+    {
+      "key": "hamster/move_left/frame_11",
+      "margin": 18,
+      "sha256": "aacb752900cff36c281bd54e900433cd9cc4e1f9fa54779166d49144f12db43e"
+    },
+    {
+      "key": "hamster/work_up/frame_00",
+      "margin": 19,
+      "sha256": "dd0e112b75632599b728ebbddd61e2b1bfb06ce40f904562fbf25242b9b9614b"
+    },
+    {
+      "key": "hamster/work_up/frame_01",
+      "margin": 19,
+      "sha256": "cfb5954c4711900773c278dcd0a847d1fee1d0a5126d25bdaa1d1e65b165e28d"
+    },
+    {
+      "key": "hamster/work_up/frame_02",
+      "margin": 18,
+      "sha256": "345925eceacc4c2975506aa53d432e3790e4987b5c0f6d9661568966148d9fdc"
+    },
+    {
+      "key": "hamster/work_up/frame_03",
+      "margin": 19,
+      "sha256": "cfc3c0805b468663a8a3a92f38a42d359f62c4bb84748145b1f8e50cb4a3dcf7"
+    },
+    {
+      "key": "hamster/work_up/frame_04",
+      "margin": 19,
+      "sha256": "0d23c0b0915524d8812a1a0ea7c273535a2344bd48d7ce9a62633d53b22d37fb"
+    },
+    {
+      "key": "hamster/work_up/frame_05",
+      "margin": 18,
+      "sha256": "44b11d97c8a32d19587ea52e5911b0afec0c15b0151420b4527033456a56f2d8"
+    },
+    {
+      "key": "hamster/work_up/frame_06",
+      "margin": 18,
+      "sha256": "ddf7e8f3e37d597db72269e1c125c51bb392587ac726a5c825ea8f28d910dbf2"
+    },
+    {
+      "key": "hamster/work_up/frame_07",
+      "margin": 19,
+      "sha256": "21cb072076417cb39e3ffc63bc178d5e6f2f8ea6edad1cf587f0b80e82d939ae"
+    },
+    {
+      "key": "hamster/work_up/frame_08",
+      "margin": 19,
+      "sha256": "3b8e4b457e700e71eb61daa3bbd3bac589788df04cf68eced0aac28a9f7d5b49"
+    },
+    {
+      "key": "hamster/work_up/frame_09",
+      "margin": 20,
+      "sha256": "8bd65613dc4c557fb11c21438e598239bfa3215c75cf3f9fb65c8ec568f1fb33"
+    },
+    {
+      "key": "hamster/work_up/frame_10",
+      "margin": 20,
+      "sha256": "c13f216e5447a3359d2cda75272677a002ee611c800bdccf7cea1ef9b8ef5507"
+    },
+    {
+      "key": "hamster/work_up/frame_11",
+      "margin": 20,
+      "sha256": "6f6b1a811ffa2f515297abefbdeaf9d9a0423abe5a243cd12c18dee73643f183"
+    },
+    {
+      "key": "hamster/work_down/frame_00",
+      "margin": 18,
+      "sha256": "c75c3f6f88923ed995460e43a998f53a8e73a48fbeba1d5fa71ed8e1bcfea276"
+    },
+    {
+      "key": "hamster/work_down/frame_01",
+      "margin": 17,
+      "sha256": "3634a40519988aecc244efc96da7c5d23b238b1ae17794321af183539b63dda3"
+    },
+    {
+      "key": "hamster/work_down/frame_02",
+      "margin": 17,
+      "sha256": "fe56dd9563c500eca148cc1740c29fa855d20f171741ed6700ad34b389054254"
+    },
+    {
+      "key": "hamster/work_down/frame_03",
+      "margin": 17,
+      "sha256": "bfaf46b1931f16ad2ff9dcc4414e5c503961cdeb8df523c833fc97d1aa9463d7"
+    },
+    {
+      "key": "hamster/work_down/frame_04",
+      "margin": 17,
+      "sha256": "484816afe359c6c7ecfc3ae3001b520e80d83673b48bfc7f0d1aeffa364bd76c"
+    },
+    {
+      "key": "hamster/work_down/frame_05",
+      "margin": 17,
+      "sha256": "3f1bfe885aab7699f72c8d4fd7acb811545c857171bc35b4723ac1b6d9b5cbd8"
+    },
+    {
+      "key": "hamster/work_down/frame_06",
+      "margin": 16,
+      "sha256": "e94910c6404c921b7654059e08abc139d7f09851fd2a75b4466e33a1378cb886"
+    },
+    {
+      "key": "hamster/work_down/frame_07",
+      "margin": 17,
+      "sha256": "b6cc7dbabe276dfa585a30d004f1321dc49720d92e245a155600594b659ecc6b"
+    },
+    {
+      "key": "hamster/work_down/frame_08",
+      "margin": 17,
+      "sha256": "2dc5a4a560015b5d2488df0008b64d22d5ae9ec30f0d30acd3afff99b9510e02"
+    },
+    {
+      "key": "hamster/work_down/frame_09",
+      "margin": 17,
+      "sha256": "bca65cc5ba56af14f43ed96e252582b37f9b8efa174b782ef9bf8ea4d82c0adb"
+    },
+    {
+      "key": "hamster/work_down/frame_10",
+      "margin": 17,
+      "sha256": "7bd85979a0fa520a1aa42ccb1ceff830097dab09346e8450e4e5e5e506d05e14"
+    },
+    {
+      "key": "hamster/work_down/frame_11",
+      "margin": 17,
+      "sha256": "c0f941c7478c1a3f4094ed23a8cbf4cfb40cdb17a8c5fe0be69a5122601ec09e"
+    },
+    {
+      "key": "hamster/work_left/frame_00",
+      "margin": 17,
+      "sha256": "77fc365838873a94e2a531978ae91f32aa5d1eef76fff98140f157934f81a1e6"
+    },
+    {
+      "key": "hamster/work_left/frame_01",
+      "margin": 16,
+      "sha256": "7364a2e25f74fe86f4fbce7d43c98e63d731b7c05208c77f2777ab2ef7f8d40e"
+    },
+    {
+      "key": "hamster/work_left/frame_02",
+      "margin": 16,
+      "sha256": "2d556715ecba524dd1b92077ede3e3fe94bb324c2e344567ce0d46991319785c"
+    },
+    {
+      "key": "hamster/work_left/frame_03",
+      "margin": 16,
+      "sha256": "66a973889f1a1842ecb281b7f408cdfc3ae49509abb2b7d45cc435a7c30abcbe"
+    },
+    {
+      "key": "hamster/work_left/frame_04",
+      "margin": 17,
+      "sha256": "afeb70f01d755cd1a342196cfdd47ee92b5a1b7405aaf8cd07e4a6e6ccdd4668"
+    },
+    {
+      "key": "hamster/work_left/frame_05",
+      "margin": 18,
+      "sha256": "61564b3e3efad09fc14b6299a4410b0abc7d5b98a78998d170d229ede9b2ab0d"
+    },
+    {
+      "key": "hamster/work_left/frame_06",
+      "margin": 17,
+      "sha256": "bf7657d8a19dcf1e49d43231e9d89b1c833a237393ab416acf666155c8bd01ab"
+    },
+    {
+      "key": "hamster/work_left/frame_07",
+      "margin": 17,
+      "sha256": "2808484401a90ba0dc8364c78d1ceca46733fd1aa00a1091707727a34bdae58b"
+    },
+    {
+      "key": "hamster/work_left/frame_08",
+      "margin": 17,
+      "sha256": "4958f797905e72db493c807fa202fb8d635bbe83891f1731736bdfb0d5ff3ee3"
+    },
+    {
+      "key": "hamster/work_left/frame_09",
+      "margin": 17,
+      "sha256": "e1e94255cc15f59171a6f37d66ecd4ff8d8180cf07e5974782fcc60c03ce686a"
+    },
+    {
+      "key": "hamster/work_left/frame_10",
+      "margin": 17,
+      "sha256": "40e4db2bd5997534611647b45496eddd5ab0bd6e3e969c65669528a501a99c65"
+    },
+    {
+      "key": "hamster/work_left/frame_11",
+      "margin": 16,
+      "sha256": "e55b93d1eb94e9fa66963ef1b21cf36eca05ea9ec4dd4662b494a2a974e432d0"
+    },
+    {
+      "key": "hamster/work_right/frame_00",
+      "margin": 17,
+      "sha256": "261d06f1fb6e7fa757f00ba05d17d30273f9563675b5fc6b6a7ef4e49a8efbd1"
+    },
+    {
+      "key": "hamster/work_right/frame_01",
+      "margin": 17,
+      "sha256": "a0d494e2cf11c464d3a0e9d37a13bfaeef306c0fd668d642afa31f0f1c93c22c"
+    },
+    {
+      "key": "hamster/work_right/frame_02",
+      "margin": 17,
+      "sha256": "7b7332a65cdf4ad94f94c8b85fb0431c15a9d13ffbf53f81a5810e1974540a60"
+    },
+    {
+      "key": "hamster/work_right/frame_03",
+      "margin": 16,
+      "sha256": "e7b479bb812d4a6a3b8b5ae9470b72e2a319ea6cfec081663ab1f0a1752e7285"
+    },
+    {
+      "key": "hamster/work_right/frame_04",
+      "margin": 18,
+      "sha256": "c65f123052bf17d3b15d1105de03fe64231ee47208fd72cf7fe255c72bace0c7"
+    },
+    {
+      "key": "hamster/work_right/frame_05",
+      "margin": 16,
+      "sha256": "c8826e61289254384d74df713eff074b2127e905c3e9d4c9c7f167aab3195497"
+    },
+    {
+      "key": "hamster/work_right/frame_06",
+      "margin": 18,
+      "sha256": "4bd349e42a7c47e676d8c97c3c94aefd8ccfd5aaadbbad4fdbdca4e6c40795c8"
+    },
+    {
+      "key": "hamster/work_right/frame_07",
+      "margin": 18,
+      "sha256": "641026398cbe59102d2463c0632232df463c6d9c55cd1d1666777568001d3918"
+    },
+    {
+      "key": "hamster/work_right/frame_08",
+      "margin": 17,
+      "sha256": "728c0c482fdefe3c044d773dfe00549e52adbf798626913685f3b65eefa1b841"
+    },
+    {
+      "key": "hamster/work_right/frame_09",
+      "margin": 16,
+      "sha256": "b197e380e42904495555ae68684250b3e5128ffa8901f8e4ab8b0c358054fc1a"
+    },
+    {
+      "key": "hamster/work_right/frame_10",
+      "margin": 17,
+      "sha256": "0711fa5e0a69fb9bee83736a2fa33211cb41214e39057a58aac23c05f0d52726"
+    },
+    {
+      "key": "hamster/work_right/frame_11",
+      "margin": 17,
+      "sha256": "d01d74537f7c5ade3d7b0af83cb3c7e242f371943f1415ba4a65d391ca43600d"
+    },
+    {
+      "key": "hamster/full/frame_00",
+      "margin": 17,
+      "sha256": "141c2de02860c0f3c76b1d26d15ba2f93cffa9804de478e4c8aff7ffad7c1828"
+    },
+    {
+      "key": "hamster/full/frame_01",
+      "margin": 17,
+      "sha256": "c3af5a09d991f741f409e950f03d507f9f74431d02a9b7bcee8a31676f528637"
+    },
+    {
+      "key": "hamster/full/frame_02",
+      "margin": 17,
+      "sha256": "17e1908d518d6631d63cb4866edcf95680d26efcc2c55e3ac7ca2e14fa118191"
+    },
+    {
+      "key": "hamster/full/frame_03",
+      "margin": 17,
+      "sha256": "4e91167a28fc690a30edd46767a78fa1d73734770fb877e014377ca9dd53fb0d"
+    },
+    {
+      "key": "hamster/full/frame_04",
+      "margin": 18,
+      "sha256": "bf80c81b5aa9716a0e80d2b60448eaca9763e9462d26acc66eb437b1cdfd136f"
+    },
+    {
+      "key": "hamster/full/frame_05",
+      "margin": 17,
+      "sha256": "7ed5af49389a3f9e15e13cbb9e775b807d0f5a0bcd9de7a92fdaa98c7dae8e46"
+    },
+    {
+      "key": "hamster/full/frame_06",
+      "margin": 17,
+      "sha256": "a76b433906a833eedda04132c19a419d9017462005a7ffba15327b05aa9f9c66"
+    },
+    {
+      "key": "hamster/full/frame_07",
+      "margin": 17,
+      "sha256": "a2d8fe19358e977cc6f8b28ff175f287f2d1cb7a7967c54d31430fc3b392438a"
+    },
+    {
+      "key": "hamster/full/frame_08",
+      "margin": 17,
+      "sha256": "8b70d2eba41276053a09f69dbc8007d47c907b9d1ed13945bd16860677e4dbfd"
+    },
+    {
+      "key": "hamster/full/frame_09",
+      "margin": 17,
+      "sha256": "5a6b6ac412c57dc50427a8bc38f0611356cc4c5709081e414f55d6f8ccb6a04c"
+    },
+    {
+      "key": "hamster/full/frame_10",
+      "margin": 16,
+      "sha256": "9b71b038f150f2715df11994d37078538a2a2985aaff6829d18b5873b12d577d"
+    },
+    {
+      "key": "hamster/full/frame_11",
+      "margin": 17,
+      "sha256": "eeb0a6adfb742909b9403d6f9a590f91935f13e17bfc8624f20f2fe5e717c497"
+    },
+    {
+      "key": "hamster/win/frame_00",
+      "margin": 11,
+      "sha256": "3d0f9d37c31e34dba0c05cf7012de62cede7e7f7f61159bba7d30758141e2c3c"
+    },
+    {
+      "key": "hamster/win/frame_01",
+      "margin": 11,
+      "sha256": "ab9bb34001be2cf8e60848cb61de8dd219284f36ab471cd3eff6b03b0dc4e4fd"
+    },
+    {
+      "key": "hamster/win/frame_02",
+      "margin": 10,
+      "sha256": "4e2c70150dc02540413ed982ccab2102e5315c2735ff8792d09ab934be0bb7ed"
+    },
+    {
+      "key": "hamster/win/frame_03",
+      "margin": 9,
+      "sha256": "a973d2845e307356f6f5d5118c590c57cc0decfad437c1dd5d276ea565e5cfbe"
+    },
+    {
+      "key": "hamster/win/frame_04",
+      "margin": 19,
+      "sha256": "602055d3fab43354a7f00c0a6e754d01a995a8fc090775e1afff1fd436b40aab"
+    },
+    {
+      "key": "hamster/win/frame_05",
+      "margin": 20,
+      "sha256": "f881c559b47917098ee1f6939f3faa54e1c693638f3b3bfafe9cf4ec27bea0e8"
+    },
+    {
+      "key": "hamster/win/frame_06",
+      "margin": 18,
+      "sha256": "fefe699043c12557b21e6d7cbc60f5b34d173f5e18a72e7354afd60ed458a218"
+    },
+    {
+      "key": "hamster/win/frame_07",
+      "margin": 11,
+      "sha256": "760f20a75b81b9f2740cb4189c3684a249ba3a78f45b076de995bf6eba1b45f4"
+    },
+    {
+      "key": "hamster/win/frame_08",
+      "margin": 17,
+      "sha256": "148241a9a6479c6b7b7539e39e26a3fad65215297d6cc4aba7b5c47dc1e26169"
+    },
+    {
+      "key": "hamster/win/frame_09",
+      "margin": 17,
+      "sha256": "1d00ebbfcdbad1e90002eb864f56b5a08cdcb8af6f37cbf60143b2aba825c11d"
+    },
+    {
+      "key": "hamster/win/frame_10",
+      "margin": 16,
+      "sha256": "8f50866cf156f585b122ee147ea6a276159e40a58c8eef73f1797694277b9842"
+    },
+    {
+      "key": "hamster/win/frame_11",
+      "margin": 17,
+      "sha256": "6d241e1854e96fac126ef499030c9bb505844b6ffe8a8197f0a833bd0ef7b93b"
+    },
+    {
+      "key": "customers/dog/appear/frame_00",
+      "margin": 15,
+      "sha256": "7754a5e5f45841f3c219b23dfc7a993ed1a1e77f97b39bacdcd794f273c48820"
+    },
+    {
+      "key": "customers/dog/appear/frame_01",
+      "margin": 17,
+      "sha256": "e69444c82320b409ed45758236294ac0eebf708552bea652e744015eb8d33104"
+    },
+    {
+      "key": "customers/dog/appear/frame_02",
+      "margin": 16,
+      "sha256": "639ff40b171e0d2dd9e13bc5dde30e2344c8d45a1011477a06dbf526a00f138b"
+    },
+    {
+      "key": "customers/dog/appear/frame_03",
+      "margin": 16,
+      "sha256": "894f899811952e50314154d4cd547848346a8f1a84961fe18222b35e56fac84d"
+    },
+    {
+      "key": "customers/dog/appear/frame_04",
+      "margin": 12,
+      "sha256": "219fd3607868682e842f15fa623965bdf68e245d706c6379a924fce40fe9c7cf"
+    },
+    {
+      "key": "customers/dog/appear/frame_05",
+      "margin": 17,
+      "sha256": "10deb42fd2edeb14076c5a386f12b6411167d0c70d0de156b612780e86832193"
+    },
+    {
+      "key": "customers/dog/appear/frame_06",
+      "margin": 16,
+      "sha256": "09566a312dc45be5550b6e82e341c0d9dcb6ed469077e4be89576beba2fbee51"
+    },
+    {
+      "key": "customers/dog/appear/frame_07",
+      "margin": 13,
+      "sha256": "718f5afb38f00bbaebe89616accf97a620fd07be6f2605062fbce42ff9c1a704"
+    },
+    {
+      "key": "customers/dog/appear/frame_08",
+      "margin": 13,
+      "sha256": "d183c4f73d84c9a96631a4161b6fa972dd978511a18be834362b1169e99be9a9"
+    },
+    {
+      "key": "customers/dog/appear/frame_09",
+      "margin": 13,
+      "sha256": "e284711c77a1c0de70114cd549a696205f9e1ecef8e4a48123111ab18e058e3d"
+    },
+    {
+      "key": "customers/dog/appear/frame_10",
+      "margin": 14,
+      "sha256": "093b380bdd29579e060c682cf6286ddec8e6fa7badf04efa56b11dee3ef22054"
+    },
+    {
+      "key": "customers/dog/appear/frame_11",
+      "margin": 12,
+      "sha256": "e765b4b07adb212217a48f708383b31901475b01170b9805f604c216d09dc5d0"
+    },
+    {
+      "key": "customers/dog/idle/frame_00",
+      "margin": 17,
+      "sha256": "8396c6470e233a2b274b845913b619eb6c4c5224d2f720637a867f65e4a02d41"
+    },
+    {
+      "key": "customers/dog/idle/frame_01",
+      "margin": 16,
+      "sha256": "93b031117c445a260157c6358401aed6e942860c12f75a453d7aa1cb5c1e796f"
+    },
+    {
+      "key": "customers/dog/idle/frame_02",
+      "margin": 17,
+      "sha256": "9e50cf4ceb5afbdb933056fc06c85924c119e04a2a7283e8d164affb7675e7af"
+    },
+    {
+      "key": "customers/dog/idle/frame_03",
+      "margin": 16,
+      "sha256": "a701cb34a4868b2cde4d82f928ded3f938a87c845f5647d98b7a1e1ce2100a26"
+    },
+    {
+      "key": "customers/dog/idle/frame_04",
+      "margin": 17,
+      "sha256": "4e0d36df7a48b3b8e2a61a852c468649ae381f6d78ac425f0b5e9b5b75f0bacc"
+    },
+    {
+      "key": "customers/dog/idle/frame_05",
+      "margin": 18,
+      "sha256": "68b39d375ea3c3ed9351fea4b9a41631c30b2906edada8ab6f433ac4bd7d8c01"
+    },
+    {
+      "key": "customers/dog/idle/frame_06",
+      "margin": 17,
+      "sha256": "e98d41a9fca48b64e191c358ae28c79e58fa140adf8f80813321864f4c959475"
+    },
+    {
+      "key": "customers/dog/idle/frame_07",
+      "margin": 17,
+      "sha256": "61d2846bee06c52e6b3045f6a37ff8c1db0fd700e02425bc479ae3ed7e2bd05d"
+    },
+    {
+      "key": "customers/dog/idle/frame_08",
+      "margin": 17,
+      "sha256": "facdc8514ec9a8dcdd333591b1713680ca569bf4e66da5ca9f3cb669cc25ff43"
+    },
+    {
+      "key": "customers/dog/idle/frame_09",
+      "margin": 17,
+      "sha256": "85b2c12ec6bd58f0e51ea6d74062206d53b86ca7f13231c9f7033ab60a935058"
+    },
+    {
+      "key": "customers/dog/idle/frame_10",
+      "margin": 17,
+      "sha256": "71a976eca2fef8f2a69e0162ecbe096c98ce9a10efdaa8102be17fe7cc73a980"
+    },
+    {
+      "key": "customers/dog/idle/frame_11",
+      "margin": 17,
+      "sha256": "afbcbb23c9d9672b7089b4dcde6c310ee63f18ef988ffbcba860ba095779f754"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_00",
+      "margin": 5,
+      "sha256": "4450aad296dba09a511d8c64640a305c2f199bca7af1774d9ef680ed70be1c76"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_01",
+      "margin": 5,
+      "sha256": "ee8ae5ea611a624384a13f1bdca5c623d3150058017742306015db10c87054f7"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_02",
+      "margin": 4,
+      "sha256": "fbc23fed81f3f70cd80e2a0cc3f7f35b64521c8d8fe05440e448fbce08b482bf"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_03",
+      "margin": 4,
+      "sha256": "f9ae0444ab080021af427f0533402f04943df7d6e679b5df2ee8f2472bde651b"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_04",
+      "margin": 5,
+      "sha256": "52af90b1e618619b274ad770d016e165850bafcf7641b9ddc24cf3d6eb35b461"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_05",
+      "margin": 15,
+      "sha256": "4b6146b7527be29a2826829725492538c64e7065493f18eec1108a0ba61c0961"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_06",
+      "margin": 17,
+      "sha256": "6e26f122c41a0690f341f111ecd5d56928ca15468da8a1d2cbe3d935ecf1d9bd"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_07",
+      "margin": 13,
+      "sha256": "325e73127a2a433212fc379f885e2c08089d0da24984d429e73e169eb7cea694"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_08",
+      "margin": 8,
+      "sha256": "af00fb6b9ebd751b9c9294ca2948cdf67759545cb3da274c19c345589debc40b"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_09",
+      "margin": 16,
+      "sha256": "7a131dfb7f1553b2eda921826245d82bc5baae9eb26b31619bdfeef7bc776636"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_10",
+      "margin": 27,
+      "sha256": "ee204bcd60d8ae02ba7fa6791919fc9cde4adca900fe7c41feb2da207d595496"
+    },
+    {
+      "key": "customers/dog/celebrate/frame_11",
+      "margin": 14,
+      "sha256": "cb67246c65aa57c5c1c5a4b9cf08cbdc2faabf5cac8a58d4deadcd4117a71c73"
+    },
+    {
+      "key": "customers/dog/disappear/frame_00",
+      "margin": 16,
+      "sha256": "fec4d3bace913e2c2c3a1fbb7fb84e992dd4e2140d88fa4e33727766509107bf"
+    },
+    {
+      "key": "customers/dog/disappear/frame_01",
+      "margin": 13,
+      "sha256": "4e34819a69a1046118a481824bea178d7e0b6562a3f05b122b7217581a5245ac"
+    },
+    {
+      "key": "customers/dog/disappear/frame_02",
+      "margin": 15,
+      "sha256": "eb9b634c98fd841ba779ea9751be62bba3d9eb1b439e2993d18c405783a07064"
+    },
+    {
+      "key": "customers/dog/disappear/frame_03",
+      "margin": 17,
+      "sha256": "73c74350a4573ffe04b80e319ca79f79089fa8e67bf7d4c3c47b5980a38887b0"
+    },
+    {
+      "key": "customers/dog/disappear/frame_04",
+      "margin": 8,
+      "sha256": "c0cf18a36275127fdd6269c67c787d3ee5a06b8c66d02bf1c1a70892e1d249ba"
+    },
+    {
+      "key": "customers/dog/disappear/frame_05",
+      "margin": 8,
+      "sha256": "1f857b7a330bac8328e5a52684ba2777cd30f0e2ece6fa709b133245d8a857ab"
+    },
+    {
+      "key": "customers/dog/disappear/frame_06",
+      "margin": 6,
+      "sha256": "d525ba1ac71cbff694b5e845fe1197ab949ce28de6b2e9b13114a0e368ef8c90"
+    },
+    {
+      "key": "customers/dog/disappear/frame_07",
+      "margin": 8,
+      "sha256": "a1477c90cafea407f0d5e2c6dee97c50ad9408604d900197e0235ccd38568986"
+    },
+    {
+      "key": "customers/dog/disappear/frame_08",
+      "margin": 13,
+      "sha256": "9cba7ea47c7bef125f8832bb7de91241a5b5ae66fa44cc27371ab31fb4ce753b"
+    },
+    {
+      "key": "customers/dog/disappear/frame_09",
+      "margin": 17,
+      "sha256": "8130cad1de27a4d6b614b719614817625a5ea20084ee5d579c03b5113142ad98"
+    },
+    {
+      "key": "customers/dog/disappear/frame_10",
+      "margin": 17,
+      "sha256": "2ea0d49feedf5eb05808d851eb115445181b60907678577e765d7626a7eb5926"
+    },
+    {
+      "key": "customers/dog/disappear/frame_11",
+      "margin": 15,
+      "sha256": "003cf3fb7218c6ce57dfd78179fd813baee8448593c884a30fa1adf3a7588188"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_00",
+      "margin": 16,
+      "sha256": "70bc61ba9e0095aa9f89d9b99155123d4bebdf9b12d66a540e32281f13e13d21"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_01",
+      "margin": 16,
+      "sha256": "fd660587ea9aefdeb436eb05e0c2a1a55fd532a71c4b70f6ff794980458c13dc"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_02",
+      "margin": 16,
+      "sha256": "50979bf2aa279b06088f7e77e5cac0e1a07971a223ac02ac64c0f3be4ec7ab59"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_03",
+      "margin": 17,
+      "sha256": "1cff6f5df6e8954a82cdf7ffe4787b754b53ca08adbe07537d261b59cebe9c63"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_04",
+      "margin": 17,
+      "sha256": "8b8c8ae6f4db06798b346497b039d64712bc8b881b510d83a0abc1ec985d8669"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_05",
+      "margin": 17,
+      "sha256": "79b503afeeaa1fd3fea481b5baca1eb7240ab91ba68c3f3cf6825da14e722542"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_06",
+      "margin": 17,
+      "sha256": "bf7dedeb499e25e4d6d8d2df5cb25bf4055e46cf3a285849d2ca02f9726521a7"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_07",
+      "margin": 17,
+      "sha256": "031fea0003db11cfd0b9d8d9affd93ae5a13970728bba80e5ba05b83fab80121"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_08",
+      "margin": 17,
+      "sha256": "d180a94efb78e5f3c7a359dc85439fc30d81e8c650adaaa48945c6a51b48429f"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_09",
+      "margin": 17,
+      "sha256": "0c8c69d44de95b64a4907d29217ba63f3d9ce283abf6056de1df25a986384d1d"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_10",
+      "margin": 16,
+      "sha256": "44eb2f75cd849e97b379c0694cf72b90b746f1377ecb49de1e1d14004deb52cc"
+    },
+    {
+      "key": "customers/rabbit/appear/frame_11",
+      "margin": 17,
+      "sha256": "07c497d559ff42f3633d445956daf881c55ca1064f588384c2ff2f6edc95e7c7"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_00",
+      "margin": 16,
+      "sha256": "34d4e4f74bb3171e85a0169a735d9ee199d37e03590fdd30dc8e50804f1d4fb9"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_01",
+      "margin": 17,
+      "sha256": "869d73a57a71d85d09bf5720402fbfef09115e9d2e4940253df2b2f85e783ca6"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_02",
+      "margin": 17,
+      "sha256": "5f914ab578b4219b54404718a51bd19a9c34209cd4fa58a5a9c82cb94bfeb1ae"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_03",
+      "margin": 17,
+      "sha256": "1cabb2f175a8f556f7678c2c0179ae0de6b3888d301725851df41c081149e8d7"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_04",
+      "margin": 17,
+      "sha256": "39cdb85bd68f38d972151e011a4d39a500ba4e952f012d3f3efa68c96e2145d8"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_05",
+      "margin": 16,
+      "sha256": "ba15d509c2e54391af4571522291bb06f609ccb7bf6df902e1d95939cbd25499"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_06",
+      "margin": 17,
+      "sha256": "12a6114951127b19ea11c41379838325b4112afdb78cd6095387b419d7d8c665"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_07",
+      "margin": 17,
+      "sha256": "bc6f3e5a5f1e3b340e1241e0eb6ca6f3c9d533e03f61edfdb61fd6983cc4e298"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_08",
+      "margin": 16,
+      "sha256": "30b41af834738ecaeb399368c13d51797357e242bc1861ebcd07de64bceacf2a"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_09",
+      "margin": 17,
+      "sha256": "396cd25f7e9648493d0cad7ff129c556dedd5c3b8157feecd1e201be9cd119a2"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_10",
+      "margin": 17,
+      "sha256": "a6a2b7bfbfe2ca061277e45684e3e2adefc4f0072e0bb5f5d74f163075c2fe28"
+    },
+    {
+      "key": "customers/rabbit/idle/frame_11",
+      "margin": 17,
+      "sha256": "c948d758875f03f10f62054b2c4364dd08ea0296c1cf1fb80f39d1fbd73b1f17"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_00",
+      "margin": 11,
+      "sha256": "85f9781459ae650eb766c4e83c69f3be46d7ccb736bfdcf9a185a9d469f58adc"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_01",
+      "margin": 11,
+      "sha256": "e41047ae098145878baf505a0fe3cd58b91530bada3bb5c9904cb1b6fddeacda"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_02",
+      "margin": 11,
+      "sha256": "379164510c5227c74c07a5e1d7cf8fca4e2d9a88b0e51ce7c0a25d510ab48288"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_03",
+      "margin": 10,
+      "sha256": "e3cc428535438dddccec007deb39692b5893411bc9ebaede903ab28857b679d6"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_04",
+      "margin": 17,
+      "sha256": "08673b2146ef3d2b041589dfe206103a56d4803d0d8c9e1b64b8ed2bdcdde39b"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_05",
+      "margin": 17,
+      "sha256": "62b1d69cfd67943f06e866e717bc4b3c95baf3032f3d757641590587c4e2193a"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_06",
+      "margin": 17,
+      "sha256": "41f4bed6276f30403186798f3fd7398ca7f5675b70dae0769346a3cc6e0bbe29"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_07",
+      "margin": 17,
+      "sha256": "a1074ff9b4a004abc217d7868d02b063013fc15c307dfbbd7fd2e69c6044d35d"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_08",
+      "margin": 19,
+      "sha256": "2e7893fff19a186dcf307f221f9f49c6867e5d6fea52440caef11c6277d5e188"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_09",
+      "margin": 16,
+      "sha256": "f50fc6cc1b6545673cfb23a2066f924f889c2c202897e9cf1efea9f9c276ac35"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_10",
+      "margin": 17,
+      "sha256": "574f307e4be93e3cfc39dbe2fa0f83abcfc09420f223532c654a335e5b5f5e17"
+    },
+    {
+      "key": "customers/rabbit/celebrate/frame_11",
+      "margin": 23,
+      "sha256": "420eb8d0d75f493f0b09fcf60410a6eb140b43f523a8a39b091150f0c3f0d381"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_00",
+      "margin": 17,
+      "sha256": "43d1c27e9f50b089f0709e6099ce82fdf084364f6c27466df3c04c59f2aaae7b"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_01",
+      "margin": 17,
+      "sha256": "11ba235dcc5d8d5227150f45798ff93edcea6846df7fc9cbe3dc0477778684c8"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_02",
+      "margin": 16,
+      "sha256": "cf7b8c8380f6cd3bf3f37f9649af05bc4ff1631e2390bb72e69757b346c8a4e1"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_03",
+      "margin": 17,
+      "sha256": "89deea56e20f5fd1aa13180edb9acb5770445726c0e5786d52bf981268346e55"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_04",
+      "margin": 10,
+      "sha256": "97e54de0eb1a629ce0da3f3efc34e7036c91ef105e4c65f1be76f5fab0ceae3c"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_05",
+      "margin": 17,
+      "sha256": "8be1021d9aa886f428d9b3cbd7fee57682aca2d57ba076e7d107eeedf49998e6"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_06",
+      "margin": 17,
+      "sha256": "f01efb73466263e8eb2a71fcc1317a49795358fce5b72dc044c8b83150d28f3e"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_07",
+      "margin": 15,
+      "sha256": "de18adae282d100f4e10c3aee6b92bb44e1980d46e2b9e1f25349520517de0c8"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_08",
+      "margin": 17,
+      "sha256": "d78c34c3528c5eba52fad6cc08b6b3e7184808d0e16bafab75598cb81822217b"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_09",
+      "margin": 17,
+      "sha256": "14b9ddbd3c9352d642fc0434fb35ad65a8ebd481e0ebb2eac9699addb48c4704"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_10",
+      "margin": 17,
+      "sha256": "44fed9ad119652b0a2f1505dc32930b44e99e9355039b3a9e526ea49ac359a81"
+    },
+    {
+      "key": "customers/rabbit/disappear/frame_11",
+      "margin": 17,
+      "sha256": "788f182292612ba5ce8e7c16dd6ba12c1d11860ea62e41a9c454ae7e143bb6da"
+    },
+    {
+      "key": "customers/bear/appear/frame_00",
+      "margin": 17,
+      "sha256": "3285bbdcbd46c53656b5ec0e8d88bc3aa74233c804cf1fe5a4454dc225e68f8e"
+    },
+    {
+      "key": "customers/bear/appear/frame_01",
+      "margin": 17,
+      "sha256": "3e4566f351d66bd274b9bfb8b7fdfd37e412c59e1372976a64ad2f0c915c7101"
+    },
+    {
+      "key": "customers/bear/appear/frame_02",
+      "margin": 17,
+      "sha256": "6cc8a298bb845ee9d89cd38239591607f92a85f314cb00a5b60a1f2064bfe222"
+    },
+    {
+      "key": "customers/bear/appear/frame_03",
+      "margin": 16,
+      "sha256": "e472c91ed4b80d89950d69f2825dc0c1e7ba4cc0d2af9c0b1c60ee6f1f2934e3"
+    },
+    {
+      "key": "customers/bear/appear/frame_04",
+      "margin": 17,
+      "sha256": "f05259522f71749b48302eb30dfeb4d5f7ff5c0f907b0707a991dd9b830ae11f"
+    },
+    {
+      "key": "customers/bear/appear/frame_05",
+      "margin": 16,
+      "sha256": "15825cdeb9ab7285042bd1efcbd20e3f32a2b5d54815a06c92d287dc7be87636"
+    },
+    {
+      "key": "customers/bear/appear/frame_06",
+      "margin": 17,
+      "sha256": "d75dc67cf45fabcd44863929bbe7f21d14c6e1af9cee384122fc5235d52302a4"
+    },
+    {
+      "key": "customers/bear/appear/frame_07",
+      "margin": 17,
+      "sha256": "5eef37d92fc8a6c233e70a97e4bde41cb3b03e12772f5dd5fca2b5fadafd50c9"
+    },
+    {
+      "key": "customers/bear/appear/frame_08",
+      "margin": 16,
+      "sha256": "fb9996f762dd6d1736003668d2b0f2f242538cf37cb17f499bb82f091b45d177"
+    },
+    {
+      "key": "customers/bear/appear/frame_09",
+      "margin": 16,
+      "sha256": "2dc4361aa93ee5c7e11fbcd138f2191c66a44dd1af8e4a558c6cba254a5cefa9"
+    },
+    {
+      "key": "customers/bear/appear/frame_10",
+      "margin": 16,
+      "sha256": "1b4e5c697309d1c689a9eb94ee2604bcde7961287c0d0a164e405655d0ae9563"
+    },
+    {
+      "key": "customers/bear/appear/frame_11",
+      "margin": 17,
+      "sha256": "de8cba2e11ee5a2ddc594c683918629cd3a7ceb303311a3ee3d6afabf12c9810"
+    },
+    {
+      "key": "customers/bear/idle/frame_00",
+      "margin": 17,
+      "sha256": "ba997e55d74bcfa49ff2627f2ac29a6c2975f93f4e89960997fef8a5d34ac004"
+    },
+    {
+      "key": "customers/bear/idle/frame_01",
+      "margin": 16,
+      "sha256": "d7570caedc118c7160dc373f389c1f9d3dc1382ee008c41dec9865e0f6d24871"
+    },
+    {
+      "key": "customers/bear/idle/frame_02",
+      "margin": 17,
+      "sha256": "8a073131b215e48a3fb8a42ea21ec5efafd344022d9bb9233ac8367db5bf7516"
+    },
+    {
+      "key": "customers/bear/idle/frame_03",
+      "margin": 17,
+      "sha256": "af6edb4707ef5901fc322ea7c0300647fa66eaf73e46ac618ea77c74c071957e"
+    },
+    {
+      "key": "customers/bear/idle/frame_04",
+      "margin": 16,
+      "sha256": "f37bd52dc6b6de743de7bcd6989dafd4f267461122b156ed6be72366e218ae12"
+    },
+    {
+      "key": "customers/bear/idle/frame_05",
+      "margin": 16,
+      "sha256": "4205aed017317b60840ee3e9df7e5afadc17399861f3a95c21fcf3175f83e4f1"
+    },
+    {
+      "key": "customers/bear/idle/frame_06",
+      "margin": 17,
+      "sha256": "0807252318881820f86378cd1a68543d3e051f3d59ddac4b0466db5eb86c9497"
+    },
+    {
+      "key": "customers/bear/idle/frame_07",
+      "margin": 16,
+      "sha256": "729cb5a462f9079eace296f9becead6956a87be88bd4d76d9addcaa2e2c9c6f1"
+    },
+    {
+      "key": "customers/bear/idle/frame_08",
+      "margin": 17,
+      "sha256": "d00970694b09728d68b2008ee5e5cebfc79d85ec0045e7c7098dbe02b33584e9"
+    },
+    {
+      "key": "customers/bear/idle/frame_09",
+      "margin": 17,
+      "sha256": "597a137df1f5dc7c2e17b8ed978881827d854f15df5c28636007b9970dc7ae67"
+    },
+    {
+      "key": "customers/bear/idle/frame_10",
+      "margin": 17,
+      "sha256": "8adb0c60612231b069a6de1f922e69ae49bf7d65db81677259b05cc0859935c0"
+    },
+    {
+      "key": "customers/bear/idle/frame_11",
+      "margin": 17,
+      "sha256": "8b07acc426686e63138b4a679632eed2f5d4265de635e3897ecfe5755882d478"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_00",
+      "margin": 8,
+      "sha256": "2f961e555be008a59fcf0a7963e364e05475219e699befb5bb9ab91dbd5c100c"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_01",
+      "margin": 7,
+      "sha256": "2d9265bceb48b7896bac430a548afec23e3d00e5d0b08a2af482f4a5e8d5ed64"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_02",
+      "margin": 7,
+      "sha256": "f38f9f5a14218f5ab4741b77ac9d754197a19d3de39021d2c06557d0c64c78cf"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_03",
+      "margin": 6,
+      "sha256": "fcfe8f6652dc0b3b7feb58af5ab9d954ac80d67438c1551e6323fc4bdf16c959"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_04",
+      "margin": 17,
+      "sha256": "874ecd9f971eeed08239c46b30671fb5ab57d605e9831f1fff9e4e3599863896"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_05",
+      "margin": 17,
+      "sha256": "16834ac2f3decd923d4d1c4c7ddfe35e304c29b223b2ae31bdac50da1f6919f7"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_06",
+      "margin": 18,
+      "sha256": "76b69d68208c2714ff3de8abdf53354d4f1ee84d25664de23530549a8170d7eb"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_07",
+      "margin": 16,
+      "sha256": "26ced254f533f192d186e0cc6d0d46d06ea52dff3efcb06d71e253bc8bae66dd"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_08",
+      "margin": 7,
+      "sha256": "f505f24445f285265dfb5fe6af7d7f18111a8bc5de3e6688f4f7db5b76cbe302"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_09",
+      "margin": 7,
+      "sha256": "fe2a9d860e8f2a1ae6deca51d83250defe0daea2f6e47a8f01fc44ba27603aeb"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_10",
+      "margin": 7,
+      "sha256": "4a1508143958dda748f701f3dc34ae37280671f892a0f5d2c01b4142feb926cc"
+    },
+    {
+      "key": "customers/bear/celebrate/frame_11",
+      "margin": 7,
+      "sha256": "cac0e1c86e7da50ad98afaa8fad73104e52769c96c5faeb671976f7829ae830d"
+    },
+    {
+      "key": "customers/bear/disappear/frame_00",
+      "margin": 16,
+      "sha256": "c2dd57d18a6f2962ed39df98f42ff7945304fd8cf9afd56459cf090dbe9b7916"
+    },
+    {
+      "key": "customers/bear/disappear/frame_01",
+      "margin": 17,
+      "sha256": "7014b09645399d6c5bf5a37d9a1f104744aec1d1dddbfa9f9662297a7d42dafa"
+    },
+    {
+      "key": "customers/bear/disappear/frame_02",
+      "margin": 17,
+      "sha256": "6cf258412f470b7fd6f6b2ac9ad32bff71a4f580d71f3ff38374448732e68091"
+    },
+    {
+      "key": "customers/bear/disappear/frame_03",
+      "margin": 17,
+      "sha256": "e6af41a56bfd9df22ae0b421c672749d70c78ed9bb8198d0c64d2ce396d93b45"
+    },
+    {
+      "key": "customers/bear/disappear/frame_04",
+      "margin": 17,
+      "sha256": "c33d73be00af200ebfdc338907ac7da29b026896b91435d66a0f4232d967b828"
+    },
+    {
+      "key": "customers/bear/disappear/frame_05",
+      "margin": 17,
+      "sha256": "3cf408daca78ded1a122a35266b6684427ad6716bf8957e846d628fc9a5dada5"
+    },
+    {
+      "key": "customers/bear/disappear/frame_06",
+      "margin": 16,
+      "sha256": "c72ce71aba374633169e12717ee6caeb13e90a70af7f29adad5025a2143535ba"
+    },
+    {
+      "key": "customers/bear/disappear/frame_07",
+      "margin": 16,
+      "sha256": "3a9bb41f5c3a59d3f96c5e3a5fc95edd2c4f3cf6080e9069301876ffaf48a5ca"
+    },
+    {
+      "key": "customers/bear/disappear/frame_08",
+      "margin": 16,
+      "sha256": "28906306570272db115eab79c3c5b6bb7a40a15b38d36ca0956cb010460399c6"
+    },
+    {
+      "key": "customers/bear/disappear/frame_09",
+      "margin": 17,
+      "sha256": "a0d6474a6621ac8144e4ebb601260703f02ce1349ede638f263d775435d85055"
+    },
+    {
+      "key": "customers/bear/disappear/frame_10",
+      "margin": 16,
+      "sha256": "2577a3eaa435b0160dfe2b4b6732c90675693327739d7c94cf2f4b9d58e333ce"
+    },
+    {
+      "key": "customers/bear/disappear/frame_11",
+      "margin": 16,
+      "sha256": "e04d6bc3b35b44d44d63669db2e0ed000c6d45bf733c81adb2ef2029a4ebcbe3"
+    }
+  ]
+}

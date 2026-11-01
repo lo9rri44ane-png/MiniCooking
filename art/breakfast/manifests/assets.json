@@ -1,0 +1,547 @@
+{
+  "version": 1,
+  "shop": "breakfast",
+  "sources": [
+    {
+      "path": "art/breakfast/source/props/food-equipment-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ba3fd38991670bb534172cfac977b5f8e356e54c5a76f2f9c9f7405ff4b91de3",
+      "generator": "built-in imagegen",
+      "date": "2026-10-31"
+    },
+    {
+      "path": "art/breakfast/source/characters/characters-v1.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "ca59a30d778732b4455ea6bec2e40310366850b04995661c2b7e652ac8cd13c6",
+      "generator": "built-in imagegen",
+      "date": "2026-10-31"
+    },
+    {
+      "path": "art/breakfast/source/ui/board-ui-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8e72bdbd221f37a0434786c627e38a85ada16aa3f10f8d4e5cad90e861d52fe0",
+      "generator": "built-in imagegen",
+      "date": "2026-10-31"
+    },
+    {
+      "path": "art/breakfast/source/backgrounds/kitchen-background-v1.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "377a643c1e9018bb9acb85f60a918cf596c6534997c6ef46b9482558cc15c482",
+      "generator": "built-in imagegen",
+      "date": "2026-10-31"
+    }
+  ],
+  "assets": [
+    {
+      "key": "ingredients/leaf",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 314,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/ingredients/leaf.png",
+      "runtime": "assets/resources/art/breakfast/ingredients/leaf.png",
+      "width": 256,
+      "height": 239,
+      "sha256": "98d5d54ac965f2dc1ff1cb60576bf4f36823e4bad019ab9945ec45b59e65d40c"
+    },
+    {
+      "key": "ingredients/tomato",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 314,
+        "top": 0,
+        "width": 313,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/ingredients/tomato.png",
+      "runtime": "assets/resources/art/breakfast/ingredients/tomato.png",
+      "width": 232,
+      "height": 229,
+      "sha256": "ba86b48fffdd54d0090c0a36f873ef95049125f494586b1ff688c8869208b2ff"
+    },
+    {
+      "key": "ingredients/bread",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 627,
+        "top": 0,
+        "width": 314,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/ingredients/bread.png",
+      "runtime": "assets/resources/art/breakfast/ingredients/bread.png",
+      "width": 254,
+      "height": 238,
+      "sha256": "f29162d15fdfc15659b8d4274b5431940770c343d4cdefb0b171a63a1eec09a9"
+    },
+    {
+      "key": "ingredients/cheese",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 941,
+        "top": 0,
+        "width": 313,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/ingredients/cheese.png",
+      "runtime": "assets/resources/art/breakfast/ingredients/cheese.png",
+      "width": 240,
+      "height": 209,
+      "sha256": "31ec974912413ddccb811034ae18a9e6b311c330c2b1c874de60a2e593daec98"
+    },
+    {
+      "key": "ingredients/water",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 314,
+        "width": 314,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/ingredients/water.png",
+      "runtime": "assets/resources/art/breakfast/ingredients/water.png",
+      "width": 208,
+      "height": 235,
+      "sha256": "4a885715f7a509c3aa05b892abbb1712d652375bb3231f64a123c37896115887"
+    },
+    {
+      "key": "ingredients/berry",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 314,
+        "top": 314,
+        "width": 313,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/ingredients/berry.png",
+      "runtime": "assets/resources/art/breakfast/ingredients/berry.png",
+      "width": 247,
+      "height": 201,
+      "sha256": "4b29cca84832cbd084f564ba073590860f0420c2753ed0d464cad6e9456db6c9"
+    },
+    {
+      "key": "ingredients/meat",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 627,
+        "top": 314,
+        "width": 314,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/ingredients/meat.png",
+      "runtime": "assets/resources/art/breakfast/ingredients/meat.png",
+      "width": 256,
+      "height": 193,
+      "sha256": "b50a3d0c28b80b6bb3b363608f2eb4c0b7a1b29d6aba2c8ac0778b286a20d0f6"
+    },
+    {
+      "key": "devices/table",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 941,
+        "top": 314,
+        "width": 313,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/devices/table.png",
+      "runtime": "assets/resources/art/breakfast/devices/table.png",
+      "width": 256,
+      "height": 225,
+      "sha256": "8cd64c85e28d8cf3eaf502c3cbc34d9ea99ba78001333c13065065ab686406eb"
+    },
+    {
+      "key": "devices/pan",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 627,
+        "width": 314,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/devices/pan.png",
+      "runtime": "assets/resources/art/breakfast/devices/pan.png",
+      "width": 256,
+      "height": 242,
+      "sha256": "2db5cd7802ccbc26ebceec8630915d3ce510a70c33cf07244bcef74d11bab8fd"
+    },
+    {
+      "key": "devices/drink",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 314,
+        "top": 627,
+        "width": 313,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/devices/drink.png",
+      "runtime": "assets/resources/art/breakfast/devices/drink.png",
+      "width": 174,
+      "height": 256,
+      "sha256": "8291ef49948594c29ccece073fa796242fc5d6f861c920857f6a54437d25d65d"
+    },
+    {
+      "key": "dishes/salad",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 627,
+        "top": 627,
+        "width": 314,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/dishes/salad.png",
+      "runtime": "assets/resources/art/breakfast/dishes/salad.png",
+      "width": 256,
+      "height": 214,
+      "sha256": "69f82e11a5c66ac461423c79bc5caf1f86b6c47aba78edcc54b72f99151bfbe4"
+    },
+    {
+      "key": "dishes/toast",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 941,
+        "top": 627,
+        "width": 313,
+        "height": 314
+      },
+      "backup": "art/breakfast/exports/dishes/toast.png",
+      "runtime": "assets/resources/art/breakfast/dishes/toast.png",
+      "width": 256,
+      "height": 208,
+      "sha256": "de0de036c7f7e759cb95a8228f9aace14b1c0d13a9aa8ffc42bc0b3d2347db01"
+    },
+    {
+      "key": "dishes/deluxe",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 941,
+        "width": 314,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/dishes/deluxe.png",
+      "runtime": "assets/resources/art/breakfast/dishes/deluxe.png",
+      "width": 256,
+      "height": 224,
+      "sha256": "7d42640187d3e6c2765049522e0fc4fd97feebe098d09eec498c15d2bfde14be"
+    },
+    {
+      "key": "dishes/juice",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 314,
+        "top": 941,
+        "width": 313,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/dishes/juice.png",
+      "runtime": "assets/resources/art/breakfast/dishes/juice.png",
+      "width": 178,
+      "height": 252,
+      "sha256": "7fa7d913e7b1d6623aa1594c37345f7f2dfaebf9077399b7a3d984ca75c27f9f"
+    },
+    {
+      "key": "dishes/burger",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 627,
+        "top": 941,
+        "width": 314,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/dishes/burger.png",
+      "runtime": "assets/resources/art/breakfast/dishes/burger.png",
+      "width": 256,
+      "height": 248,
+      "sha256": "3351de261fda8df6236ee6ac4629afc8868bdf8fdc342ba749dfd58dfe0f332a"
+    },
+    {
+      "key": "board/wall",
+      "source": "art/breakfast/source/props/food-equipment-v1.png",
+      "cell": {
+        "left": 941,
+        "top": 941,
+        "width": 313,
+        "height": 313
+      },
+      "backup": "art/breakfast/exports/board/wall.png",
+      "runtime": "assets/resources/art/breakfast/board/wall.png",
+      "width": 256,
+      "height": 238,
+      "sha256": "4bdb93d6f78d9b1b34c3026900f6f2218689c58a093462bcef43ff342c023317"
+    },
+    {
+      "key": "characters/chef_idle",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 444,
+        "height": 444
+      },
+      "backup": "art/breakfast/exports/characters/chef_idle.png",
+      "runtime": "assets/resources/art/breakfast/characters/chef_idle.png",
+      "width": 167,
+      "height": 256,
+      "sha256": "e2dcdffc2bf85b3718a8cdc05318553fb9ca1aac165761d9014a76564b0f0302"
+    },
+    {
+      "key": "characters/chef_slide",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 444,
+        "top": 0,
+        "width": 443,
+        "height": 444
+      },
+      "backup": "art/breakfast/exports/characters/chef_slide.png",
+      "runtime": "assets/resources/art/breakfast/characters/chef_slide.png",
+      "width": 206,
+      "height": 256,
+      "sha256": "d08e66e17ce45819120100bc890403751bafef22a915286a15f9a1cf1cd48565"
+    },
+    {
+      "key": "characters/chef_cook",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 887,
+        "top": 0,
+        "width": 444,
+        "height": 444
+      },
+      "backup": "art/breakfast/exports/characters/chef_cook.png",
+      "runtime": "assets/resources/art/breakfast/characters/chef_cook.png",
+      "width": 172,
+      "height": 256,
+      "sha256": "d6a0ad5f785189240cb4a4d9ddd52cd84a9d7d748e0ba4bd07e711d02a21fce4"
+    },
+    {
+      "key": "characters/chef_win",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 1331,
+        "top": 0,
+        "width": 443,
+        "height": 444
+      },
+      "backup": "art/breakfast/exports/characters/chef_win.png",
+      "runtime": "assets/resources/art/breakfast/characters/chef_win.png",
+      "width": 198,
+      "height": 256,
+      "sha256": "0819a35d293309f1020f40d2f346cfb56ea1922cd2e4ef8c5ef391ed190c50e0"
+    },
+    {
+      "key": "characters/chef_fail",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 444,
+        "width": 444,
+        "height": 443
+      },
+      "backup": "art/breakfast/exports/characters/chef_fail.png",
+      "runtime": "assets/resources/art/breakfast/characters/chef_fail.png",
+      "width": 165,
+      "height": 256,
+      "sha256": "68ffbbbf44af952674a7a2430e9d9ae882a2a7662deba5984c42cc950d03160e"
+    },
+    {
+      "key": "characters/customer_1",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 444,
+        "top": 444,
+        "width": 443,
+        "height": 443
+      },
+      "backup": "art/breakfast/exports/characters/customer_1.png",
+      "runtime": "assets/resources/art/breakfast/characters/customer_1.png",
+      "width": 152,
+      "height": 256,
+      "sha256": "bc8969ac8990a42098c3a0cc832b6487346500184b995b5ddf85f7b4e440126c"
+    },
+    {
+      "key": "characters/customer_2",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 887,
+        "top": 444,
+        "width": 444,
+        "height": 443
+      },
+      "backup": "art/breakfast/exports/characters/customer_2.png",
+      "runtime": "assets/resources/art/breakfast/characters/customer_2.png",
+      "width": 158,
+      "height": 256,
+      "sha256": "59b0a3b86349e7377d1b3406d0af584c39927d9c29d2dab6289dd733c0d04948"
+    },
+    {
+      "key": "characters/customer_3",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "cell": {
+        "left": 1331,
+        "top": 444,
+        "width": 443,
+        "height": 443
+      },
+      "backup": "art/breakfast/exports/characters/customer_3.png",
+      "runtime": "assets/resources/art/breakfast/characters/customer_3.png",
+      "width": 140,
+      "height": 256,
+      "sha256": "c9ff67cbfe293251529f8a05b43b30ede476a527a70fc7e7aff2390cd4d1d1b4"
+    },
+    {
+      "key": "board/floor_a",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/board/floor_a.png",
+      "runtime": "assets/resources/art/breakfast/board/floor_a.png",
+      "width": 256,
+      "height": 250,
+      "sha256": "9feb54834d657f06665ad7add7f9bdbcd954bf1e1d0b2ad0b56d70b8142a05e6"
+    },
+    {
+      "key": "board/floor_b",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 418,
+        "top": 0,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/board/floor_b.png",
+      "runtime": "assets/resources/art/breakfast/board/floor_b.png",
+      "width": 256,
+      "height": 254,
+      "sha256": "40ec45e14118d70f78c066297daa5c4b1e759ced514ce90198a2e6fa3ce08663"
+    },
+    {
+      "key": "board/station",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 836,
+        "top": 0,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/board/station.png",
+      "runtime": "assets/resources/art/breakfast/board/station.png",
+      "width": 256,
+      "height": 248,
+      "sha256": "5e1f4000f6538989ac8584b5ee761afe0ad3f72e3b7c29a458ad7b3345b77681"
+    },
+    {
+      "key": "ui/button",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 418,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/ui/button.png",
+      "runtime": "assets/resources/art/breakfast/ui/button.png",
+      "width": 256,
+      "height": 249,
+      "sha256": "08281d80bad8ebe92c1ff537c1de475f77b67919e2ad191b8de8ddd2e3e02072"
+    },
+    {
+      "key": "ui/panel",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 418,
+        "top": 418,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/ui/panel.png",
+      "runtime": "assets/resources/art/breakfast/ui/panel.png",
+      "width": 256,
+      "height": 254,
+      "sha256": "a50fde25e3c15534f928eb10da7b11fac4d89b75b959aa6212b8c9b3a49f50e4"
+    },
+    {
+      "key": "ui/card",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 836,
+        "top": 418,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/ui/card.png",
+      "runtime": "assets/resources/art/breakfast/ui/card.png",
+      "width": 256,
+      "height": 247,
+      "sha256": "f539c03462705483d7f711269a55ac4c6fd4bddf7260639a55b4964c3fdd2662"
+    },
+    {
+      "key": "ui/bag",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 0,
+        "top": 836,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/ui/bag.png",
+      "runtime": "assets/resources/art/breakfast/ui/bag.png",
+      "width": 256,
+      "height": 249,
+      "sha256": "f7e985eb0c428e60edd3218636561f533c8f8cb3d014a08bac2fd57376cda6c2"
+    },
+    {
+      "key": "ui/ad_bag",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 418,
+        "top": 836,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/ui/ad_bag.png",
+      "runtime": "assets/resources/art/breakfast/ui/ad_bag.png",
+      "width": 254,
+      "height": 256,
+      "sha256": "cf260b73e2f25852bb8278467a231137b5492ae9f0fd9573b4f3c80db9dd8353"
+    },
+    {
+      "key": "board/shadow",
+      "source": "art/breakfast/source/ui/board-ui-v1.png",
+      "cell": {
+        "left": 836,
+        "top": 836,
+        "width": 418,
+        "height": 418
+      },
+      "backup": "art/breakfast/exports/board/shadow.png",
+      "runtime": "assets/resources/art/breakfast/board/shadow.png",
+      "width": 256,
+      "height": 81,
+      "sha256": "604194b42c28934997710a9d3988ac30eed647fe692d4fc19d7314979485a1b9"
+    },
+    {
+      "key": "backgrounds/kitchen",
+      "source": "art/breakfast/source/backgrounds/kitchen-background-v1.png",
+      "backup": "art/breakfast/exports/backgrounds/kitchen.png",
+      "runtime": "assets/resources/art/breakfast/backgrounds/kitchen.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "03a0842f92058363249a3d83c7e6a46af8b773c591f500c9d56aedafbc25715f"
+    }
+  ],
+  "acceptance": "rejected-v1",
+  "replacedBy": "art/breakfast/v2/manifests/assets.json",
+  "rejection": "User-confirmed clipped silhouettes; all runtime v1 files removed. Retained exclusively for audit history."
+}

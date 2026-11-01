@@ -1,0 +1,102 @@
+{
+  "hamster/idle_empty": [
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_00",
+      "uuid": "67431ee2-11be-4966-90d0-c52e76579ddc@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_01",
+      "uuid": "0103ba9e-420a-4ac1-89d6-12e7412d2535@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_02",
+      "uuid": "4cdcd1dc-ea9e-40cd-ae7d-804266c35dca@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_03",
+      "uuid": "6fcc67b9-3abe-4dc4-9a2e-8401e81df5ab@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_04",
+      "uuid": "95ab24cd-f581-4290-9603-308bd6b59eb6@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_05",
+      "uuid": "8923dd2e-01b0-4673-a4b8-4c1bfb13aabd@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_06",
+      "uuid": "28831af3-5304-4349-805b-2f5b812dcc27@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_07",
+      "uuid": "d53fd314-8e81-43c1-a4cc-353891f329b8@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_08",
+      "uuid": "fb0e8b14-75c2-4bc1-b90f-d024fc0dbb13@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_09",
+      "uuid": "65ce2b92-28b2-4bfb-a054-6e7e805f2d90@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_10",
+      "uuid": "f42b1104-0618-4937-abf9-7764691ee33f@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/hamster/idle_empty/frame_11",
+      "uuid": "b9f128ac-7351-48d7-aad5-0956b0ab99a9@f9941"
+    }
+  ],
+  "customers/dog/idle": [
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_00",
+      "uuid": "b60164b7-1cb0-47c6-afcd-46a958912736@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_01",
+      "uuid": "64c7878b-d529-4bc5-a20a-450ed79324e0@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_02",
+      "uuid": "e7584ac8-bdba-4c23-9692-db0a29409848@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_03",
+      "uuid": "226827b6-3211-484e-81d2-6dc9473a58ef@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_04",
+      "uuid": "6b1cfd5b-118d-413f-b29a-61d345aee05a@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_05",
+      "uuid": "c2828cd9-b2a7-427d-afb8-1ec24361fbd3@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_06",
+      "uuid": "07938ce0-0345-41f9-bb85-8c053a3eee69@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_07",
+      "uuid": "d729f133-c07d-4b85-949b-ba71e0a5336f@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_08",
+      "uuid": "ca2f5d96-3003-4ba1-803d-7a322dbcbf7e@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_09",
+      "uuid": "f954fa7e-2287-4a6a-acdc-2eee5078c1e0@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_10",
+      "uuid": "a644c940-08be-4f4e-9df3-cf5638239b56@f9941"
+    },
+    {
+      "path": "art/breakfast-v14/customers/dog/idle/frame_11",
+      "uuid": "337b118e-72cb-41a7-8c76-acdcca6e474a@f9941"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "key": "step",
+    "at": 0
+  },
+  {
+    "key": "pickup1",
+    "at": 0.51
+  },
+  {
+    "key": "pickup2",
+    "at": 0.96
+  },
+  {
+    "key": "pickup3",
+    "at": 1.39
+  },
+  {
+    "key": "bubble",
+    "at": 1.8
+  },
+  {
+    "key": "cook_cut",
+    "at": 2.24
+  },
+  {
+    "key": "cook_fry",
+    "at": 3.74
+  },
+  {
+    "key": "cook_mix",
+    "at": 5.24
+  },
+  {
+    "key": "cook_done",
+    "at": 6.74
+  },
+  {
+    "key": "fly",
+    "at": 8.04
+  },
+  {
+    "key": "check",
+    "at": 8.79
+  },
+  {
+    "key": "order_done",
+    "at": 9.99
+  },
+  {
+    "key": "full",
+    "at": 11.3
+  },
+  {
+    "key": "win",
+    "at": 11.88
+  },
+  {
+    "key": "lose",
+    "at": 13.38
+  }
+]

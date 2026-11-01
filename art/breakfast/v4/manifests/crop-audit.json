@@ -1,0 +1,109 @@
+{
+  "version": 4,
+  "status": "complete",
+  "assets": [
+    {
+      "key": "ui/work_track",
+      "sha256": "ea47e6074e109b392fd4a892a94a73dcd494b51e644326edc0fb1429a55a5cdc",
+      "reviewedSha256": "ea47e6074e109b392fd4a892a94a73dcd494b51e644326edc0fb1429a55a5cdc",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31 inspected all four original images and six numbered exports: complete silhouettes, no neighbor fragments, soft edges; top-right sunlight convergence confirmed; kitchen left hotspot removed. No 95% similarity claim.",
+      "margin": {
+        "left": 32,
+        "top": 32,
+        "right": 32,
+        "bottom": 32
+      },
+      "sourceMargin": 19,
+      "fullBleed": false,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v4/previews/contact-sheet.png"
+    },
+    {
+      "key": "ui/work_fill",
+      "sha256": "0b6583a1be2b2de55449ac03614f0425cc2bc32cb78f34594856568fa71c56d0",
+      "reviewedSha256": "0b6583a1be2b2de55449ac03614f0425cc2bc32cb78f34594856568fa71c56d0",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31 inspected all four original images and six numbered exports: complete silhouettes, no neighbor fragments, soft edges; top-right sunlight convergence confirmed; kitchen left hotspot removed. No 95% similarity claim.",
+      "margin": {
+        "left": 32,
+        "top": 32,
+        "right": 32,
+        "bottom": 32
+      },
+      "sourceMargin": 83,
+      "fullBleed": false,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v4/previews/contact-sheet.png"
+    },
+    {
+      "key": "ui/order_check",
+      "sha256": "cf36c494b55f2f3a09ca62cb5a14cd66acd8fc68a4cc379466b21d7eab31ed6d",
+      "reviewedSha256": "cf36c494b55f2f3a09ca62cb5a14cd66acd8fc68a4cc379466b21d7eab31ed6d",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31 inspected all four original images and six numbered exports: complete silhouettes, no neighbor fragments, soft edges; top-right sunlight convergence confirmed; kitchen left hotspot removed. No 95% similarity claim.",
+      "margin": {
+        "left": 32,
+        "top": 32,
+        "right": 33,
+        "bottom": 34
+      },
+      "sourceMargin": 60,
+      "fullBleed": false,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v4/previews/contact-sheet.png"
+    },
+    {
+      "key": "board/station_mat",
+      "sha256": "e61022f82a7648d68760261b33bd47e8584e1be06b5d34381ab705f6b6b85627",
+      "reviewedSha256": "e61022f82a7648d68760261b33bd47e8584e1be06b5d34381ab705f6b6b85627",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31 inspected all four original images and six numbered exports: complete silhouettes, no neighbor fragments, soft edges; top-right sunlight convergence confirmed; kitchen left hotspot removed. No 95% similarity claim.",
+      "margin": {
+        "left": 32,
+        "top": 32,
+        "right": 32,
+        "bottom": 32
+      },
+      "sourceMargin": 169,
+      "fullBleed": false,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v4/previews/contact-sheet.png"
+    },
+    {
+      "key": "environment/sunlight",
+      "sha256": "8d82b161814b270a464577985e8112bc0f96145fc4f672f29d996e6833470328",
+      "reviewedSha256": "8d82b161814b270a464577985e8112bc0f96145fc4f672f29d996e6833470328",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31 inspected all four original images and six numbered exports: complete silhouettes, no neighbor fragments, soft edges; top-right sunlight convergence confirmed; kitchen left hotspot removed. No 95% similarity claim.",
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sourceMargin": null,
+      "fullBleed": true,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v4/previews/contact-sheet.png"
+    },
+    {
+      "key": "backgrounds/kitchen",
+      "sha256": "bd7411d622a3f4edc6854d91fa716891891eb6f2c707ce9bec0c10386d7c3475",
+      "reviewedSha256": "bd7411d622a3f4edc6854d91fa716891891eb6f2c707ce9bec0c10386d7c3475",
+      "visualReview": "complete",
+      "visualBasis": "2026-10-31 inspected all four original images and six numbered exports: complete silhouettes, no neighbor fragments, soft edges; top-right sunlight convergence confirmed; kitchen left hotspot removed. No 95% similarity claim.",
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sourceMargin": null,
+      "fullBleed": true,
+      "runtimeIdentical": true,
+      "contactSheet": "art/breakfast/v4/previews/contact-sheet.png"
+    }
+  ],
+  "blockers": []
+}

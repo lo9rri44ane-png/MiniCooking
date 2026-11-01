@@ -1,0 +1,2157 @@
+{
+  "version": 9,
+  "sources": [
+    {
+      "name": "backgrounds/loading",
+      "path": "art/breakfast/v9/source/backgrounds/loading.png",
+      "sha256": "0664588bb5d78528b4db1d211e70f9d2e169ad4e6a14e3590530d36f80a4a848",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "backgrounds/home",
+      "path": "art/breakfast/v9/source/backgrounds/home.png",
+      "sha256": "d3e2ba829da975b3cfc93983d477ede10b3f34d0c995fc52c96bb29066fb648c",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "backgrounds/notebook",
+      "path": "art/breakfast/v9/source/backgrounds/notebook.png",
+      "sha256": "018bd6af9f6c2482f9bcd732f7ccd3c528d25bd76cecfb3b242c53a98e01d549",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "backgrounds/battle-top-cleanup",
+      "path": "art/breakfast/v9/source/backgrounds/battle-top-cleanup.png",
+      "sha256": "f1ff8c7f5bbbb1d102e4c3b909909e7f2590d520ccbd14d7f1886229458270be",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/panel",
+      "path": "art/breakfast/v9/source/ui/panel.png",
+      "sha256": "f261b2f92807bba0ee29941d145d4d5d3455b4f47b1b120d1984dfb20863371b",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/buttons",
+      "path": "art/breakfast/v9/source/ui/buttons.png",
+      "sha256": "fa07bb874f52e1c1759a5a3d98ed9595e1410acfd8f676c17e6314e3aaad4005",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/compact-buttons",
+      "path": "art/breakfast/v9/source/ui/compact-buttons.png",
+      "sha256": "238843c4f9e5262e4fafaa80e24ae885df88a42fcd6814599842d8ac61cd0255",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/battle-controls",
+      "path": "art/breakfast/v9/source/ui/battle-controls.png",
+      "sha256": "91cf4ba7bce7e5679acf03b43e98e721633458c2817248f022c38dfad9a99eaf",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/surfaces",
+      "path": "art/breakfast/v9/source/ui/surfaces.png",
+      "sha256": "d29f3058bf21419a7e7fd4d82eb5cf15b1c6de1823083a9e0410a183f581f48e",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/card",
+      "path": "art/breakfast/v9/source/ui/card.png",
+      "sha256": "da6d2d22afaf154fdfd60017157cc0fd7c012f2f3c5c7efdf284e365c3f42257",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/restaurant_card",
+      "path": "art/breakfast/v9/source/ui/restaurant_card.png",
+      "sha256": "1a1e020ec74701936f55a1b3f9d85b081607ce8ce1909ef803e7fd9e9857ba15",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/guide",
+      "path": "art/breakfast/v9/source/ui/guide.png",
+      "sha256": "5d9a104df25a09d24d90f09b38c4f479101f6c435a70d4dccf0223c4614c9a0b",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "ui/energy",
+      "path": "art/breakfast/v9/source/ui/energy.png",
+      "sha256": "839f57cc107064dd49e13f9241e5131b0579736ffb0555752adb30ec6ac75b44",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "concepts/revision-board",
+      "path": "art/breakfast/v9/source/concepts/revision-board.png",
+      "sha256": "42c242c0a2a02e08014070feebd48a5ef3920d92f9901088c682acdb008c3162",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "collection/chapters-1-2",
+      "path": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "sha256": "8dbc9a1795ac5cd74e39c3aedfdcc119e7450941fd9da339f94c6ef2df5f9f63",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "collection/chapters-3-4",
+      "path": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "sha256": "13cdad3658399a5c4c18d6fff322da3a5e4b9f51080f6882223d75621397c213",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "collection/chapters-5-6",
+      "path": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "sha256": "3455a9c375c9f1e035b54fa981e8ef3de6fff83abeaefa555d0e84921010be15",
+      "method": "built-in-imagegen"
+    },
+    {
+      "name": "collection/chapters-7-8",
+      "path": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "sha256": "11fe49e10155f80c428150f60437519adb40e52d9b9d9bc7bbe88d50d2365b64",
+      "method": "built-in-imagegen"
+    }
+  ],
+  "assets": [
+    {
+      "key": "backgrounds/loading",
+      "source": "art/breakfast/v9/source/backgrounds/loading.png",
+      "backup": "art/breakfast/v9/exports/backgrounds/loading.png",
+      "runtime": "assets/resources/art/breakfast-v9/backgrounds/loading.png",
+      "width": 720,
+      "height": 1280,
+      "aspect": 0.5625,
+      "sha256": "418ab71ed9bdc208941028f130cde44dbdda58033182da997005aceae3e7f2bb",
+      "fullBleed": true
+    },
+    {
+      "key": "backgrounds/home",
+      "source": "art/breakfast/v9/source/backgrounds/home.png",
+      "backup": "art/breakfast/v9/exports/backgrounds/home.png",
+      "runtime": "assets/resources/art/breakfast-v9/backgrounds/home.png",
+      "width": 720,
+      "height": 1280,
+      "aspect": 0.5625,
+      "sha256": "b52e130b14c922b105de61b131a6e9c2ecbf376b78c389034174449d4e1fbbe7",
+      "fullBleed": true
+    },
+    {
+      "key": "backgrounds/notebook",
+      "source": "art/breakfast/v9/source/backgrounds/notebook.png",
+      "backup": "art/breakfast/v9/exports/backgrounds/notebook.png",
+      "runtime": "assets/resources/art/breakfast-v9/backgrounds/notebook.png",
+      "width": 720,
+      "height": 1280,
+      "aspect": 0.5625,
+      "sha256": "db38592e7d1290f2418b48e4efefcd598e94517cc7a4ba5d6595179a7cb9bdd1",
+      "fullBleed": true
+    },
+    {
+      "key": "backgrounds/battle",
+      "source": "art/breakfast/v9/source/backgrounds/battle-top-cleanup.png",
+      "backup": "art/breakfast/v9/exports/backgrounds/battle.png",
+      "runtime": "assets/resources/art/breakfast-v9/backgrounds/battle.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.562799043062201,
+      "sha256": "4a01a065e84a82399e7beda2cc361f13f895f5288c2ecad2fd3795b3c368435c",
+      "fullBleed": true,
+      "original": "assets/resources/art/breakfast-v4/backgrounds/kitchen.png",
+      "protectedPixelsFromY": 260,
+      "protectedRegionSha256": "281848894baa2e31883c785afd7ebb16b2b54ec268a785d471e91a7372e865b2"
+    },
+    {
+      "key": "ui/panel",
+      "source": "art/breakfast/v9/source/ui/panel.png",
+      "backup": "art/breakfast/v9/exports/ui/panel.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/panel.png",
+      "width": 760,
+      "height": 972,
+      "aspect": 0.7818930041152263,
+      "sha256": "eafabaa88243ca86806de00a778421199edfa49a7bf1bbc3d91ab56ac64e5596",
+      "bounds": {
+        "id": 1,
+        "count": 1215622,
+        "left": 49,
+        "top": 60,
+        "right": 1057,
+        "bottom": 1355
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/button_primary",
+      "source": "art/breakfast/v9/source/ui/buttons.png",
+      "backup": "art/breakfast/v9/exports/ui/button_primary.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/button_primary.png",
+      "width": 850,
+      "height": 146,
+      "aspect": 5.821917808219178,
+      "sha256": "38c91eb68c21cbbb04fc98da0022018b634deda0b1cd98a31c257d885c408bee",
+      "bounds": {
+        "id": 1,
+        "count": 266281,
+        "left": 115,
+        "top": 129,
+        "right": 1421,
+        "bottom": 340
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/button_secondary",
+      "source": "art/breakfast/v9/source/ui/buttons.png",
+      "backup": "art/breakfast/v9/exports/ui/button_secondary.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/button_secondary.png",
+      "width": 850,
+      "height": 145,
+      "aspect": 5.862068965517241,
+      "sha256": "b3f1d566957e3c035a2515fcdc564b93bf45dc651895a0f2a253fc9648ca4d3d",
+      "bounds": {
+        "id": 2,
+        "count": 266023,
+        "left": 115,
+        "top": 415,
+        "right": 1421,
+        "bottom": 626
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/button_neutral",
+      "source": "art/breakfast/v9/source/ui/buttons.png",
+      "backup": "art/breakfast/v9/exports/ui/button_neutral.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/button_neutral.png",
+      "width": 850,
+      "height": 145,
+      "aspect": 5.862068965517241,
+      "sha256": "3c924a4b370e148a36da3a5f98b2095160f632bb2f770b85528fa43c53685504",
+      "bounds": {
+        "id": 3,
+        "count": 267579,
+        "left": 115,
+        "top": 697,
+        "right": 1421,
+        "bottom": 909
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/compact_primary",
+      "source": "art/breakfast/v9/source/ui/compact-buttons.png",
+      "backup": "art/breakfast/v9/exports/ui/compact_primary.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/compact_primary.png",
+      "width": 600,
+      "height": 203,
+      "aspect": 2.955665024630542,
+      "sha256": "91f6edf6d81a647dbdaf9cef48831c9e5028967a800b805709daa5428aca5270",
+      "bounds": {
+        "id": 1,
+        "count": 247993,
+        "left": 186,
+        "top": 135,
+        "right": 1067,
+        "bottom": 428
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/compact_secondary",
+      "source": "art/breakfast/v9/source/ui/compact-buttons.png",
+      "backup": "art/breakfast/v9/exports/ui/compact_secondary.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/compact_secondary.png",
+      "width": 600,
+      "height": 203,
+      "aspect": 2.955665024630542,
+      "sha256": "6401904b4120e7ac1abb76cd5c77f977892e24a0973f17a3c860bee746b37f52",
+      "bounds": {
+        "id": 2,
+        "count": 248817,
+        "left": 186,
+        "top": 495,
+        "right": 1067,
+        "bottom": 789
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/compact_neutral",
+      "source": "art/breakfast/v9/source/ui/compact-buttons.png",
+      "backup": "art/breakfast/v9/exports/ui/compact_neutral.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/compact_neutral.png",
+      "width": 600,
+      "height": 204,
+      "aspect": 2.9411764705882355,
+      "sha256": "c373820932df3f7470e313c5b9d2377dff7d3be1f3b33a1e65632469126fcc65",
+      "bounds": {
+        "id": 3,
+        "count": 249892,
+        "left": 186,
+        "top": 839,
+        "right": 1067,
+        "bottom": 1133
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/undo_button",
+      "source": "art/breakfast/v9/source/ui/battle-controls.png",
+      "backup": "art/breakfast/v9/exports/ui/undo_button.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/undo_button.png",
+      "width": 300,
+      "height": 308,
+      "aspect": 0.974025974025974,
+      "sha256": "302f0711db4ed6e29f3069cc549e91815183645a244f170877aec5a27980e14a",
+      "bounds": {
+        "id": 2,
+        "count": 382851,
+        "left": 35,
+        "top": 59,
+        "right": 662,
+        "bottom": 704
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/overtime_button",
+      "source": "art/breakfast/v9/source/ui/battle-controls.png",
+      "backup": "art/breakfast/v9/exports/ui/overtime_button.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/overtime_button.png",
+      "width": 300,
+      "height": 309,
+      "aspect": 0.970873786407767,
+      "sha256": "f67c5e85fff5acabe440ee3c3e4ceaf9095458c4a7213edb4d1e6e6e83abb743",
+      "bounds": {
+        "id": 1,
+        "count": 382998,
+        "left": 703,
+        "top": 58,
+        "right": 1328,
+        "bottom": 704
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/pause_button",
+      "source": "art/breakfast/v9/source/ui/battle-controls.png",
+      "backup": "art/breakfast/v9/exports/ui/pause_button.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/pause_button.png",
+      "width": 300,
+      "height": 308,
+      "aspect": 0.974025974025974,
+      "sha256": "d1cf00460dcf7b0ef32bd7953f1fd8a168563547284fdd014568e69a7ce43e29",
+      "bounds": {
+        "id": 3,
+        "count": 382962,
+        "left": 1369,
+        "top": 59,
+        "right": 1996,
+        "bottom": 704
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/banner",
+      "source": "art/breakfast/v9/source/ui/surfaces.png",
+      "backup": "art/breakfast/v9/exports/ui/banner.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/banner.png",
+      "width": 1000,
+      "height": 195,
+      "aspect": 5.128205128205129,
+      "sha256": "61e11118562237c7c1a40ac605a596364299aec953f7447a72c207a457415bfc",
+      "bounds": {
+        "id": 1,
+        "count": 249204,
+        "left": 64,
+        "top": 12,
+        "right": 1471,
+        "bottom": 274
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/card",
+      "source": "art/breakfast/v9/source/ui/card.png",
+      "backup": "art/breakfast/v9/exports/ui/card.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/card.png",
+      "width": 650,
+      "height": 221,
+      "aspect": 2.9411764705882355,
+      "sha256": "4ef2f373ce0c765d2eb2bb3aeea974134171d1076c32ad63f14185a91dd71b46",
+      "bounds": {
+        "id": 1,
+        "count": 1114205,
+        "left": 71,
+        "top": 89,
+        "right": 1912,
+        "bottom": 703
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/restaurant_card",
+      "source": "art/breakfast/v9/source/ui/restaurant_card.png",
+      "backup": "art/breakfast/v9/exports/ui/restaurant_card.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/restaurant_card.png",
+      "width": 1000,
+      "height": 457,
+      "aspect": 2.1881838074398248,
+      "sha256": "b586defcf4a49d699226ea6b33b7251dae8737044231cb0f5bb3e34f20f8b2e4",
+      "bounds": {
+        "id": 1,
+        "count": 1271819,
+        "left": 44,
+        "top": 56,
+        "right": 1740,
+        "bottom": 820
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/guide",
+      "source": "art/breakfast/v9/source/ui/guide.png",
+      "backup": "art/breakfast/v9/exports/ui/guide.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/guide.png",
+      "width": 1000,
+      "height": 244,
+      "aspect": 4.098360655737705,
+      "sha256": "cf4123b4ac5edb3fda6b9b875ac935634ac241b15ecb4c52afd1710d231d2c3a",
+      "bounds": {
+        "id": 1,
+        "count": 830736,
+        "left": 42,
+        "top": 141,
+        "right": 1950,
+        "bottom": 595
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "ui/energy",
+      "source": "art/breakfast/v9/source/ui/energy.png",
+      "backup": "art/breakfast/v9/exports/ui/energy.png",
+      "runtime": "assets/resources/art/breakfast-v9/ui/energy.png",
+      "width": 1000,
+      "height": 237,
+      "aspect": 4.219409282700422,
+      "sha256": "10362246524847bea8054179a1a42b39f38811387711333a8f7d89a138051ec3",
+      "bounds": {
+        "id": 1,
+        "count": 682283,
+        "left": 102,
+        "top": 118,
+        "right": 2062,
+        "bottom": 576
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_01.png",
+      "width": 220,
+      "height": 193,
+      "aspect": 1.1398963730569949,
+      "sha256": "335922b5570a195499f7d061f21c27b1bbf6a1dc63f73e48ed28604421f4e5bb",
+      "bounds": {
+        "id": 2,
+        "count": 24441,
+        "left": 85,
+        "top": 130,
+        "right": 280,
+        "bottom": 303
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_02.png",
+      "width": 183,
+      "height": 187,
+      "aspect": 0.9786096256684492,
+      "sha256": "0719f64c417d589af469e3083ec8473c365c50b164fec004b7f1d77873ff1a8e",
+      "bounds": {
+        "id": 4,
+        "count": 18771,
+        "left": 353,
+        "top": 133,
+        "right": 516,
+        "bottom": 297
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_03.png",
+      "width": 191,
+      "height": 206,
+      "aspect": 0.9271844660194175,
+      "sha256": "88ae314d00ee5ae8fd8f4c802fc5f2efd5784d9541cfa830c89b5139e55a7887",
+      "bounds": {
+        "id": 1,
+        "count": 12748,
+        "left": 612,
+        "top": 121,
+        "right": 782,
+        "bottom": 304
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_04.png",
+      "width": 206,
+      "height": 193,
+      "aspect": 1.067357512953368,
+      "sha256": "0fb0e9927329bc30ccdbafd32eba350011d5682fb357a6dfcc7d00c5ffe97686",
+      "bounds": {
+        "id": 5,
+        "count": 21517,
+        "left": 862,
+        "top": 134,
+        "right": 1045,
+        "bottom": 306
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_05.png",
+      "width": 192,
+      "height": 209,
+      "aspect": 0.9186602870813397,
+      "sha256": "bc2cc61c7c6692bb1436f6ed7ec3eb29cbe20a7df4ca43c5375086ed5d0605b4",
+      "bounds": {
+        "id": 7,
+        "count": 20444,
+        "left": 103,
+        "top": 371,
+        "right": 270,
+        "bottom": 557
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_06.png",
+      "width": 207,
+      "height": 193,
+      "aspect": 1.072538860103627,
+      "sha256": "7b061dbc2d83d36d14b62d655f9349879ef862e21c8598e24e2728470f4a96d6",
+      "bounds": {
+        "id": 9,
+        "count": 21891,
+        "left": 345,
+        "top": 375,
+        "right": 528,
+        "bottom": 546
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_07.png",
+      "width": 192,
+      "height": 201,
+      "aspect": 0.9552238805970149,
+      "sha256": "7eba676f39a9f76d9b484174d6cceeae82c17283ecc2c87eb0c8ce0785c1b0ec",
+      "bounds": {
+        "id": 8,
+        "count": 17736,
+        "left": 606,
+        "top": 373,
+        "right": 774,
+        "bottom": 553
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_08.png",
+      "width": 186,
+      "height": 161,
+      "aspect": 1.15527950310559,
+      "sha256": "e84be60c2fc9fc346c31e5c530ad7e0a8f39ab015bce631d8154aaf1eee83e8e",
+      "bounds": {
+        "id": 10,
+        "count": 13120,
+        "left": 871,
+        "top": 402,
+        "right": 1032,
+        "bottom": 545
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_09.png",
+      "width": 183,
+      "height": 195,
+      "aspect": 0.9384615384615385,
+      "sha256": "fa5d157714685dc260f8137c02399173378eae42ed6baeebf9ec437a435e41e7",
+      "bounds": {
+        "id": 11,
+        "count": 20389,
+        "left": 106,
+        "top": 615,
+        "right": 267,
+        "bottom": 786
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_1/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_1/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_1/item_10.png",
+      "width": 186,
+      "height": 178,
+      "aspect": 1.0449438202247192,
+      "sha256": "39492e32b841f3ea8a59389013ca71002a271e2fb6184e9ed8e6701061eea47d",
+      "bounds": {
+        "id": 13,
+        "count": 18789,
+        "left": 355,
+        "top": 626,
+        "right": 519,
+        "bottom": 781
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_01.png",
+      "width": 218,
+      "height": 158,
+      "aspect": 1.379746835443038,
+      "sha256": "25ce9de7e990fde06e95bba321396d7befd5bbdda8ba9dce29187f8844e53d47",
+      "bounds": {
+        "id": 14,
+        "count": 18491,
+        "left": 589,
+        "top": 643,
+        "right": 785,
+        "bottom": 782
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_02.png",
+      "width": 212,
+      "height": 182,
+      "aspect": 1.164835164835165,
+      "sha256": "94a9bab1e89dd6d3aa04a02a61b6767e5b9d72c9481bbb24316cc95e52eafb4f",
+      "bounds": {
+        "id": 12,
+        "count": 22274,
+        "left": 857,
+        "top": 619,
+        "right": 1044,
+        "bottom": 782
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_03.png",
+      "width": 205,
+      "height": 204,
+      "aspect": 1.0049019607843137,
+      "sha256": "7ffa1184e9e7c4d9760b350f7f678dfeb42582054bc9b00c1e4f303607b6e31a",
+      "bounds": {
+        "id": 15,
+        "count": 14114,
+        "left": 85,
+        "top": 852,
+        "right": 267,
+        "bottom": 1034
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_04.png",
+      "width": 205,
+      "height": 175,
+      "aspect": 1.1714285714285715,
+      "sha256": "a013cbd41d22dde33d3ba0835d2c978b382645aae5c1778dddf0fcda5f935c3b",
+      "bounds": {
+        "id": 16,
+        "count": 20214,
+        "left": 344,
+        "top": 861,
+        "right": 528,
+        "bottom": 1015
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_05.png",
+      "width": 207,
+      "height": 177,
+      "aspect": 1.1694915254237288,
+      "sha256": "690eea0e9ae37046546feb8cbc98ebb6902e563c4bff767b80ad7395bb89618f",
+      "bounds": {
+        "id": 18,
+        "count": 22561,
+        "left": 593,
+        "top": 864,
+        "right": 776,
+        "bottom": 1017
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_06.png",
+      "width": 219,
+      "height": 179,
+      "aspect": 1.223463687150838,
+      "sha256": "0b448a940d20c8905534237ff94a4c4d21717cd0cb64388ce5b3433760d70d02",
+      "bounds": {
+        "id": 17,
+        "count": 24343,
+        "left": 860,
+        "top": 861,
+        "right": 1052,
+        "bottom": 1018
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_07.png",
+      "width": 224,
+      "height": 197,
+      "aspect": 1.1370558375634519,
+      "sha256": "1da1520fb22bcffd23cdb21621bf3740814e286305f980f8046e63d3e861e37c",
+      "bounds": {
+        "id": 19,
+        "count": 20760,
+        "left": 75,
+        "top": 1101,
+        "right": 275,
+        "bottom": 1274
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_08.png",
+      "width": 196,
+      "height": 181,
+      "aspect": 1.0828729281767955,
+      "sha256": "54bbb1ba6d4f4db918f6617bb1ccd8d81e7fd885096e00100936753d83be8cc4",
+      "bounds": {
+        "id": 22,
+        "count": 22670,
+        "left": 352,
+        "top": 1105,
+        "right": 526,
+        "bottom": 1260
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_09.png",
+      "width": 196,
+      "height": 180,
+      "aspect": 1.0888888888888888,
+      "sha256": "b60a5ee22642e0a9f7db26f3b3defddeb026c3f8a56bcd9ff6b26f74fe6eeea5",
+      "bounds": {
+        "id": 20,
+        "count": 20356,
+        "left": 609,
+        "top": 1101,
+        "right": 783,
+        "bottom": 1261
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_2/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-1-2.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_2/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_2/item_10.png",
+      "width": 212,
+      "height": 188,
+      "aspect": 1.127659574468085,
+      "sha256": "507edecc3240df93dc6bd002b61b23a560a967e780496a4dfbe6a79450a2c36a",
+      "bounds": {
+        "id": 21,
+        "count": 23972,
+        "left": 865,
+        "top": 1102,
+        "right": 1054,
+        "bottom": 1267
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_01.png",
+      "width": 205,
+      "height": 188,
+      "aspect": 1.0904255319148937,
+      "sha256": "c8e78287a39b7ce09613af4b7af42bc53eb3bf86c76563ca4323271683e802e7",
+      "bounds": {
+        "id": 2,
+        "count": 20789,
+        "left": 83,
+        "top": 109,
+        "right": 261,
+        "bottom": 274
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_02.png",
+      "width": 226,
+      "height": 189,
+      "aspect": 1.1957671957671958,
+      "sha256": "523b1cfa09be5686697903c9d679beb8aa8d575e8fa832bd617a03bc2b2aede5",
+      "bounds": {
+        "id": 4,
+        "count": 23452,
+        "left": 324,
+        "top": 111,
+        "right": 528,
+        "bottom": 278
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_03.png",
+      "width": 228,
+      "height": 198,
+      "aspect": 1.1515151515151516,
+      "sha256": "0a82178b94586cbd58bbcf695c65ef4b51558034cd46f32c9cc029e9c6960191",
+      "bounds": {
+        "id": 1,
+        "count": 26301,
+        "left": 587,
+        "top": 105,
+        "right": 787,
+        "bottom": 281
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_04.png",
+      "width": 223,
+      "height": 199,
+      "aspect": 1.120603015075377,
+      "sha256": "702d00f9d79c31403e173008e2ed0c51638c493c197f91faddf879c24dd1c4ea",
+      "bounds": {
+        "id": 3,
+        "count": 18626,
+        "left": 850,
+        "top": 109,
+        "right": 1048,
+        "bottom": 289
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_05.png",
+      "width": 234,
+      "height": 194,
+      "aspect": 1.2061855670103092,
+      "sha256": "e2418e7437f0ebec9406382f868d62d9107cc6a500ab991a9b0f4b8553e6e27c",
+      "bounds": {
+        "id": 5,
+        "count": 23532,
+        "left": 64,
+        "top": 348,
+        "right": 273,
+        "bottom": 518
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_06.png",
+      "width": 232,
+      "height": 197,
+      "aspect": 1.1776649746192893,
+      "sha256": "34b949851c2c4d1d3f7b47e2c28ac3335e1b2038d6e35448467b1508b68b08ed",
+      "bounds": {
+        "id": 6,
+        "count": 27613,
+        "left": 321,
+        "top": 348,
+        "right": 527,
+        "bottom": 521
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_07.png",
+      "width": 216,
+      "height": 186,
+      "aspect": 1.1612903225806452,
+      "sha256": "af7fb1bce36e197bada95675e6e2f5a841b3ac639aafce3e3224737490baf0a7",
+      "bounds": {
+        "id": 7,
+        "count": 24551,
+        "left": 592,
+        "top": 351,
+        "right": 784,
+        "bottom": 514
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_08.png",
+      "width": 221,
+      "height": 197,
+      "aspect": 1.1218274111675126,
+      "sha256": "a25014dede584841c31912152e484ca7d490bb749fa69f0d7d0a95ed0c25ba5c",
+      "bounds": {
+        "id": 8,
+        "count": 26545,
+        "left": 855,
+        "top": 351,
+        "right": 1050,
+        "bottom": 524
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_09.png",
+      "width": 221,
+      "height": 199,
+      "aspect": 1.1105527638190955,
+      "sha256": "e1d5ca422f32687f76502354479bb665ab44bf512a940a02fc044ed64d0cae1f",
+      "bounds": {
+        "id": 13,
+        "count": 26033,
+        "left": 69,
+        "top": 604,
+        "right": 265,
+        "bottom": 775
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_3/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_3/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_3/item_10.png",
+      "width": 255,
+      "height": 240,
+      "aspect": 1.0625,
+      "sha256": "066d371ed76deeeaaa7b3bf2980cf0870cb588347d25a1286618843b1944e83b",
+      "bounds": {
+        "id": 12,
+        "count": 25954,
+        "left": 308,
+        "top": 566,
+        "right": 533,
+        "bottom": 780
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_01.png",
+      "width": 159,
+      "height": 254,
+      "aspect": 0.6259842519685039,
+      "sha256": "05f2314b1ce2ff43b78674a1db241c2a8f71b44841d6373824d936df48c98270",
+      "bounds": {
+        "id": 10,
+        "count": 20810,
+        "left": 610,
+        "top": 562,
+        "right": 748,
+        "bottom": 788
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_02.png",
+      "width": 158,
+      "height": 248,
+      "aspect": 0.6370967741935484,
+      "sha256": "ae05934148668cfeb8538cd89a38e8be66aa6b1c31c446d5e703356af356f088",
+      "bounds": {
+        "id": 11,
+        "count": 19897,
+        "left": 883,
+        "top": 565,
+        "right": 1022,
+        "bottom": 788
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_03.png",
+      "width": 163,
+      "height": 275,
+      "aspect": 0.5927272727272728,
+      "sha256": "9a6dcbc7cb7856ecc321f7b68f27d14f0f373b23a5275c016f19527c660a067a",
+      "bounds": {
+        "id": 14,
+        "count": 23016,
+        "left": 94,
+        "top": 811,
+        "right": 236,
+        "bottom": 1055
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_04.png",
+      "width": 161,
+      "height": 274,
+      "aspect": 0.5875912408759124,
+      "sha256": "4264f369fec9c28df8b58f2f3e0276930254a67952e62077e4465d4241c5fc9b",
+      "bounds": {
+        "id": 15,
+        "count": 25528,
+        "left": 354,
+        "top": 812,
+        "right": 494,
+        "bottom": 1058
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_05.png",
+      "width": 210,
+      "height": 268,
+      "aspect": 0.7835820895522388,
+      "sha256": "ac35ea3cc0839875ddfb10e50c777c7179ae20a56134428de759b99d4ff77b3b",
+      "bounds": {
+        "id": 16,
+        "count": 25170,
+        "left": 590,
+        "top": 817,
+        "right": 775,
+        "bottom": 1057
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_06.png",
+      "width": 187,
+      "height": 269,
+      "aspect": 0.6951672862453532,
+      "sha256": "c099e1f9ebbd00ea7c0a84eff9a29983578bf63b420ba3b391e65bcaed6a7a0d",
+      "bounds": {
+        "id": 17,
+        "count": 22410,
+        "left": 894,
+        "top": 819,
+        "right": 1057,
+        "bottom": 1058
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_07.png",
+      "width": 170,
+      "height": 263,
+      "aspect": 0.6463878326996197,
+      "sha256": "cc9d21543544b1415b4cc5ae4253d5352ce4e988368658bfaa49c2b8cdd7ec09",
+      "bounds": {
+        "id": 23,
+        "count": 24509,
+        "left": 86,
+        "top": 1083,
+        "right": 236,
+        "bottom": 1321
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_08.png",
+      "width": 186,
+      "height": 265,
+      "aspect": 0.7018867924528301,
+      "sha256": "f791a907ae8362d69ca0a1007b4775989af2c433d3ed37b900ae0247e750cbee",
+      "bounds": {
+        "id": 21,
+        "count": 24570,
+        "left": 341,
+        "top": 1081,
+        "right": 505,
+        "bottom": 1321
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_09.png",
+      "width": 199,
+      "height": 264,
+      "aspect": 0.7537878787878788,
+      "sha256": "bdcc21e40bf6403a4c6ece69de19e7b7b4fb997fa040ec056193c41dcde55751",
+      "bounds": {
+        "id": 22,
+        "count": 25781,
+        "left": 604,
+        "top": 1082,
+        "right": 779,
+        "bottom": 1321
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_4/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-3-4.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_4/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_4/item_10.png",
+      "width": 166,
+      "height": 264,
+      "aspect": 0.6287878787878788,
+      "sha256": "e95fbc215226880acb7cf0079059e282b2cc0d2a32d84edc9ae979823ce6624c",
+      "bounds": {
+        "id": 24,
+        "count": 22472,
+        "left": 896,
+        "top": 1083,
+        "right": 1042,
+        "bottom": 1322
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_01.png",
+      "width": 256,
+      "height": 240,
+      "aspect": 1.0666666666666667,
+      "sha256": "c34c6ee74d5016fced0ccb611194976c0ffbbdfcff8face502202e163ee091c4",
+      "bounds": {
+        "id": 3,
+        "count": 34087,
+        "left": 38,
+        "top": 74,
+        "right": 269,
+        "bottom": 289
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_02.png",
+      "width": 256,
+      "height": 215,
+      "aspect": 1.1906976744186046,
+      "sha256": "f58e0fd3f2a75168bfbf183c2dc8baf574f76b3001e489af347372eb850ce80d",
+      "bounds": {
+        "id": 2,
+        "count": 45027,
+        "left": 291,
+        "top": 60,
+        "right": 554,
+        "bottom": 279
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_03.png",
+      "width": 256,
+      "height": 187,
+      "aspect": 1.3689839572192513,
+      "sha256": "a6cf5a9f443ad4f0fd5c13ea5e6209bae864afa746cae7edf0107c52d0571f26",
+      "bounds": {
+        "id": 4,
+        "count": 35258,
+        "left": 573,
+        "top": 82,
+        "right": 827,
+        "bottom": 272
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_04.png",
+      "width": 256,
+      "height": 241,
+      "aspect": 1.062240663900415,
+      "sha256": "b26de39eab78a01eea24acfd34a9d5ae20f53b02929a182c28db25466a6d52fd",
+      "bounds": {
+        "id": 1,
+        "count": 40888,
+        "left": 848,
+        "top": 59,
+        "right": 1088,
+        "bottom": 279
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_05.png",
+      "width": 256,
+      "height": 206,
+      "aspect": 1.2427184466019416,
+      "sha256": "673c40b4bfb0f8db8e05735da58b4af2910f7d366ecc4e55f1611aeef84b7ac6",
+      "bounds": {
+        "id": 7,
+        "count": 37955,
+        "left": 21,
+        "top": 335,
+        "right": 276,
+        "bottom": 534
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_06.png",
+      "width": 256,
+      "height": 218,
+      "aspect": 1.1743119266055047,
+      "sha256": "e16a6aaca872d823eb9a846f478492942f7c4a8073cde1555109ecd9ab2cdb97",
+      "bounds": {
+        "id": 6,
+        "count": 35083,
+        "left": 294,
+        "top": 333,
+        "right": 538,
+        "bottom": 540
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_07.png",
+      "width": 256,
+      "height": 218,
+      "aspect": 1.1743119266055047,
+      "sha256": "f685b91ed2d833153ff947e21a8a649528a334c26cf187220b31c00bd665999f",
+      "bounds": {
+        "id": 5,
+        "count": 43555,
+        "left": 557,
+        "top": 326,
+        "right": 808,
+        "bottom": 547
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_08.png",
+      "width": 256,
+      "height": 187,
+      "aspect": 1.3689839572192513,
+      "sha256": "325725d0b8694328e6f4ef9d80d7a16fdfaabb7e04471abc570a1d8e04736b05",
+      "bounds": {
+        "id": 8,
+        "count": 45083,
+        "left": 826,
+        "top": 339,
+        "right": 1104,
+        "bottom": 542
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_09.png",
+      "width": 256,
+      "height": 221,
+      "aspect": 1.158371040723982,
+      "sha256": "8c9037799bbdfb13889437feda25cc68441ae474582029cf7f8a1c6b2f74c90e",
+      "bounds": {
+        "id": 12,
+        "count": 38563,
+        "left": 39,
+        "top": 592,
+        "right": 277,
+        "bottom": 800
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_5/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_5/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_5/item_10.png",
+      "width": 182,
+      "height": 268,
+      "aspect": 0.6791044776119403,
+      "sha256": "bd1121b1cba2b1881c51a0c07deef8b8211a7ace2a310c61435dd2af7e90a67e",
+      "bounds": {
+        "id": 9,
+        "count": 30374,
+        "left": 339,
+        "top": 570,
+        "right": 501,
+        "bottom": 810
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_01.png",
+      "width": 210,
+      "height": 252,
+      "aspect": 0.8333333333333334,
+      "sha256": "99244924442f731bd2b95156eaf61444252b86350186373505f46841ffcb1e66",
+      "bounds": {
+        "id": 10,
+        "count": 13134,
+        "left": 596,
+        "top": 580,
+        "right": 785,
+        "bottom": 808
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_02.png",
+      "width": 256,
+      "height": 213,
+      "aspect": 1.2018779342723005,
+      "sha256": "bdd649a50e6d7b5660cd6a0c103b7f9b8c034c88c3dcb8c9890947aa03cc1560",
+      "bounds": {
+        "id": 11,
+        "count": 41334,
+        "left": 828,
+        "top": 587,
+        "right": 1089,
+        "bottom": 802
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_03.png",
+      "width": 242,
+      "height": 284,
+      "aspect": 0.852112676056338,
+      "sha256": "0fc0dc1436b48afb2de7fc4158d8a6cc6ba2e6e2263b5ac18f610b9fb29bd5dc",
+      "bounds": {
+        "id": 14,
+        "count": 35092,
+        "left": 45,
+        "top": 832,
+        "right": 263,
+        "bottom": 1087
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_04.png",
+      "width": 256,
+      "height": 228,
+      "aspect": 1.1228070175438596,
+      "sha256": "b26e30ba5fd2e76b6e9a6fd22093581772d2f35b41a81d911e4c02f1593b75b7",
+      "bounds": {
+        "id": 16,
+        "count": 33997,
+        "left": 292,
+        "top": 842,
+        "right": 552,
+        "bottom": 1074
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_05.png",
+      "width": 181,
+      "height": 294,
+      "aspect": 0.6156462585034014,
+      "sha256": "13df10c452c98f0355edb19892d7e57f409406946274d5e3184884cff7f707d8",
+      "bounds": {
+        "id": 13,
+        "count": 31355,
+        "left": 621,
+        "top": 823,
+        "right": 782,
+        "bottom": 1090
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_06.png",
+      "width": 256,
+      "height": 252,
+      "aspect": 1.0158730158730158,
+      "sha256": "935a2d2cabfd87671fd1459ceed19bc26fd5fa7b7db205b30345cbc79862c4a1",
+      "bounds": {
+        "id": 15,
+        "count": 42027,
+        "left": 826,
+        "top": 836,
+        "right": 1083,
+        "bottom": 1092
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_07.png",
+      "width": 256,
+      "height": 243,
+      "aspect": 1.0534979423868314,
+      "sha256": "6300309f7317fff0a52b76bcda61af9eeae7dfc7be549091dccaf2e6a14da43b",
+      "bounds": {
+        "id": 19,
+        "count": 31918,
+        "left": 56,
+        "top": 1119,
+        "right": 293,
+        "bottom": 1341
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_08.png",
+      "width": 250,
+      "height": 249,
+      "aspect": 1.0040160642570282,
+      "sha256": "da5a6f31349663575e56b2e0203724ca925bd91c45611e53d74612edb134873b",
+      "bounds": {
+        "id": 18,
+        "count": 10993,
+        "left": 309,
+        "top": 1114,
+        "right": 533,
+        "bottom": 1340
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_09.png",
+      "width": 226,
+      "height": 261,
+      "aspect": 0.8659003831417624,
+      "sha256": "98d5cfef3cd4e460b4952b6b57352b667f3dd512d481f72dd9b52961f9d0e64d",
+      "bounds": {
+        "id": 17,
+        "count": 35225,
+        "left": 583,
+        "top": 1111,
+        "right": 785,
+        "bottom": 1346
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_6/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-5-6.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_6/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_6/item_10.png",
+      "width": 256,
+      "height": 197,
+      "aspect": 1.299492385786802,
+      "sha256": "027b150254964e4312cc893e51593f5e37572c3ed8e72a955fde44fa714b6095",
+      "bounds": {
+        "id": 20,
+        "count": 37274,
+        "left": 818,
+        "top": 1122,
+        "right": 1098,
+        "bottom": 1336
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_01.png",
+      "width": 170,
+      "height": 182,
+      "aspect": 0.9340659340659341,
+      "sha256": "19ee222527c57381dd426956740b54c5f025ed065248c5d4bdd9c0e8baa5bb27",
+      "bounds": {
+        "id": 3,
+        "count": 14457,
+        "left": 164,
+        "top": 156,
+        "right": 313,
+        "bottom": 313
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_02.png",
+      "width": 151,
+      "height": 193,
+      "aspect": 0.7823834196891192,
+      "sha256": "45c26ff8f623cfa6658aa3a923097ad793536c5288c8ac0b62655f3842ff72f4",
+      "bounds": {
+        "id": 1,
+        "count": 13910,
+        "left": 402,
+        "top": 144,
+        "right": 534,
+        "bottom": 313
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_03.png",
+      "width": 149,
+      "height": 174,
+      "aspect": 0.8563218390804598,
+      "sha256": "fdcb9ff661c82cd4f2f2a51639dc4e8f17f84ec5d3f3e4ec8dcee54fade2816f",
+      "bounds": {
+        "id": 5,
+        "count": 12035,
+        "left": 621,
+        "top": 160,
+        "right": 752,
+        "bottom": 316
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_04.png",
+      "width": 142,
+      "height": 177,
+      "aspect": 0.8022598870056498,
+      "sha256": "41cdd5ee0e6ef1cd4a71d101561f218b5d4966fc52e8b021b22a480aa488796a",
+      "bounds": {
+        "id": 4,
+        "count": 9117,
+        "left": 835,
+        "top": 158,
+        "right": 958,
+        "bottom": 313
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_05.png",
+      "width": 164,
+      "height": 191,
+      "aspect": 0.8586387434554974,
+      "sha256": "8207b831038dbb842ea15f3c7efb806de24fe02b3aae30b8b71b47416a359836",
+      "bounds": {
+        "id": 26,
+        "count": 14955,
+        "left": 162,
+        "top": 371,
+        "right": 308,
+        "bottom": 539
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_06.png",
+      "width": 158,
+      "height": 202,
+      "aspect": 0.7821782178217822,
+      "sha256": "77f235b6960006d46263c6e1916ad83b1f8b1b5652a1a4af7ee206c8fbad4dc1",
+      "bounds": {
+        "id": 25,
+        "count": 11802,
+        "left": 391,
+        "top": 368,
+        "right": 519,
+        "bottom": 539
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_07.png",
+      "width": 173,
+      "height": 183,
+      "aspect": 0.9453551912568307,
+      "sha256": "0a4d780e4f0259c1e1bb7fd2e6cd52117e27653e0d1660adaedc5864c5d4fa75",
+      "bounds": {
+        "id": 35,
+        "count": 15132,
+        "left": 608,
+        "top": 382,
+        "right": 755,
+        "bottom": 539
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_08.png",
+      "width": 170,
+      "height": 190,
+      "aspect": 0.8947368421052632,
+      "sha256": "28e35304b5a9fe0b10626fa6e5ae52f0fc77c584eeb3bc8b2b8f86592dd2787c",
+      "bounds": {
+        "id": 28,
+        "count": 14748,
+        "left": 822,
+        "top": 372,
+        "right": 967,
+        "bottom": 538
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_09.png",
+      "width": 190,
+      "height": 188,
+      "aspect": 1.0106382978723405,
+      "sha256": "b1d10977083745547f81bf5fe2a344e9df6c8b00fc8c37e23bc11e81e239ae4d",
+      "bounds": {
+        "id": 86,
+        "count": 17134,
+        "left": 163,
+        "top": 589,
+        "right": 325,
+        "bottom": 753
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_7/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_7/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_7/item_10.png",
+      "width": 121,
+      "height": 151,
+      "aspect": 0.8013245033112583,
+      "sha256": "caf13a4a6aad8f651b2ddb79a1e8e7d5cab7172792b92b5e803214b24bfdfb2e",
+      "bounds": {
+        "id": 88,
+        "count": 10501,
+        "left": 405,
+        "top": 615,
+        "right": 509,
+        "bottom": 748
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_01",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_01.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_01.png",
+      "width": 193,
+      "height": 160,
+      "aspect": 1.20625,
+      "sha256": "7f47484d84d6aa945c5a97304794c7f4d4131d7f79bcfb0a60dbf9845f96b82e",
+      "bounds": {
+        "id": 92,
+        "count": 17337,
+        "left": 145,
+        "top": 800,
+        "right": 318,
+        "bottom": 935
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_02",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_02.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_02.png",
+      "width": 169,
+      "height": 158,
+      "aspect": 1.0696202531645569,
+      "sha256": "fd73d659dbf179a698db2eaff2fd79a37266ec40f9993756ecdad49c0581e1ce",
+      "bounds": {
+        "id": 90,
+        "count": 13083,
+        "left": 391,
+        "top": 794,
+        "right": 531,
+        "bottom": 932
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_03",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_03.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_03.png",
+      "width": 162,
+      "height": 158,
+      "aspect": 1.0253164556962024,
+      "sha256": "cb42531ad850c9e7e8e9a247098efb7c06137ea0ffb648282a94315d63df6202",
+      "bounds": {
+        "id": 91,
+        "count": 13774,
+        "left": 607,
+        "top": 797,
+        "right": 739,
+        "bottom": 925
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_04",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_04.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_04.png",
+      "width": 213,
+      "height": 132,
+      "aspect": 1.6136363636363635,
+      "sha256": "eee76485f221a226df207b73d9f81ec1e5aab66e6ffeb8ff3dcb04a67c912943",
+      "bounds": {
+        "id": 94,
+        "count": 15676,
+        "left": 800,
+        "top": 811,
+        "right": 991,
+        "bottom": 921
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_05",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_05.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_05.png",
+      "width": 219,
+      "height": 142,
+      "aspect": 1.5422535211267605,
+      "sha256": "6e8714d8785f03b26cff392a49bc843c4e113a3723a6d9555b5beb69acdb98e3",
+      "bounds": {
+        "id": 97,
+        "count": 17187,
+        "left": 136,
+        "top": 968,
+        "right": 329,
+        "bottom": 1094
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_06",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_06.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_06.png",
+      "width": 210,
+      "height": 138,
+      "aspect": 1.5217391304347827,
+      "sha256": "8b4432c11cf52cb45fe8ffdb37533ebad7f990a81b3e3fc4f4a12e3bd941f37f",
+      "bounds": {
+        "id": 99,
+        "count": 13816,
+        "left": 372,
+        "top": 979,
+        "right": 559,
+        "bottom": 1095
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_07",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_07.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_07.png",
+      "width": 192,
+      "height": 147,
+      "aspect": 1.3061224489795917,
+      "sha256": "57e66efe48c6ef266a2619b676a3fbc02a10d6ae6ce4f0d6b604da0b0fc9bd9a",
+      "bounds": {
+        "id": 98,
+        "count": 16504,
+        "left": 604,
+        "top": 970,
+        "right": 769,
+        "bottom": 1099
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_08",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_08.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_08.png",
+      "width": 178,
+      "height": 167,
+      "aspect": 1.0658682634730539,
+      "sha256": "9acc419aedb529f51df933156db8459ec1e2242833bbe06e497d018ec8565bc7",
+      "bounds": {
+        "id": 96,
+        "count": 15078,
+        "left": 818,
+        "top": 967,
+        "right": 976,
+        "bottom": 1108
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_09",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_09.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_09.png",
+      "width": 144,
+      "height": 195,
+      "aspect": 0.7384615384615385,
+      "sha256": "d5d15f4aaa128ae1c6fc84e10fa2198074dcf48aef0c32fa8d6659e0dbec6d10",
+      "bounds": {
+        "id": 106,
+        "count": 13240,
+        "left": 176,
+        "top": 1132,
+        "right": 303,
+        "bottom": 1305
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    },
+    {
+      "key": "collection/chapter_8/item_10",
+      "source": "art/breakfast/v9/source/collection/chapters-7-8.png",
+      "backup": "art/breakfast/v9/exports/collection/chapter_8/item_10.png",
+      "runtime": "assets/resources/art/breakfast-v9/collection/chapter_8/item_10.png",
+      "width": 219,
+      "height": 175,
+      "aspect": 1.2514285714285713,
+      "sha256": "a038edbee2c7ba3408655ed1d0cfb843ad2913473b5f1eba9e0df731afb260b6",
+      "bounds": {
+        "id": 107,
+        "count": 19437,
+        "left": 377,
+        "top": 1144,
+        "right": 570,
+        "bottom": 1293
+      },
+      "edgeAlpha": 0,
+      "method": "global-connected-contour-soft-neighbourhood",
+      "transparentPadding": 0.035
+    }
+  ]
+}

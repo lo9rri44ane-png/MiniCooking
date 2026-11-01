@@ -1,0 +1,154 @@
+{
+  "version": 13,
+  "sources": [
+    {
+      "path": "art/breakfast/v13/source/ui/battle-modal.png",
+      "sha256": "0161b76b8100aff3b99b424553ad5701f0e05d07da36d3a3678b8848ce441a9c",
+      "width": 1122,
+      "height": 1402,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v13/source/ui/battle-utilities.png",
+      "sha256": "96e55fe88e0f61bbae47c8317809f247e6e7d8fa51b8409fbf65c881fa17efca",
+      "width": 1024,
+      "height": 1536,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v13/source/ui/battle-guide-wide.png",
+      "sha256": "e22458f42b3cc8404c2f8de9c1d81bcc2548a987adb6264db7da1b70568855bc",
+      "width": 1983,
+      "height": 793,
+      "method": "built-in-imagegen-opaque-white"
+    }
+  ],
+  "assets": [
+    {
+      "key": "ui/dialog_panel",
+      "source": "art/breakfast/v13/source/ui/battle-modal.png",
+      "backup": "art/breakfast/v13/exports/ui/dialog_panel.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/dialog_panel.png",
+      "width": 1085,
+      "height": 1333,
+      "aspect": 0.813953488372093,
+      "sourceBounds": {
+        "id": 1,
+        "count": 1197389,
+        "left": 62,
+        "top": 75,
+        "right": 1058,
+        "bottom": 1319
+      },
+      "safeMargin": 44,
+      "sha256": "772cf5395a5c63a3e856531e0fb817d0bed9b2e08257506af9be7386f58fd90f",
+      "visualReview": "complete",
+      "method": "border-connected-white-matte-global-component-complete-contour"
+    },
+    {
+      "key": "ui/end_banner",
+      "source": "art/breakfast/v13/source/ui/battle-utilities.png",
+      "backup": "art/breakfast/v13/exports/ui/end_banner.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/end_banner.png",
+      "width": 1059,
+      "height": 277,
+      "aspect": 3.8231046931407944,
+      "sourceBounds": {
+        "id": 3,
+        "count": 171623,
+        "left": 18,
+        "top": 401,
+        "right": 1006,
+        "bottom": 607
+      },
+      "safeMargin": 35,
+      "sha256": "1acbb8b981086c1add15f46b20781be504cb453a35bc73e3479b5f82a83783f7",
+      "visualReview": "complete",
+      "method": "border-connected-white-matte-global-component-complete-contour"
+    },
+    {
+      "key": "ui/recipe_card",
+      "source": "art/breakfast/v13/source/ui/battle-utilities.png",
+      "backup": "art/breakfast/v13/exports/ui/recipe_card.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/recipe_card.png",
+      "width": 960,
+      "height": 319,
+      "aspect": 3.0094043887147337,
+      "sourceBounds": {
+        "id": 5,
+        "count": 224560,
+        "left": 64,
+        "top": 692,
+        "right": 959,
+        "bottom": 946
+      },
+      "safeMargin": 32,
+      "sha256": "6ba4326d45a59997fdc8c95b1d021a727b8cbbc55318e1d9ce170b9bda9d1a5a",
+      "visualReview": "complete",
+      "method": "border-connected-white-matte-global-component-complete-contour"
+    },
+    {
+      "key": "ui/toast",
+      "source": "art/breakfast/v13/source/ui/battle-utilities.png",
+      "backup": "art/breakfast/v13/exports/ui/toast.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/toast.png",
+      "width": 1011,
+      "height": 242,
+      "aspect": 4.177685950413223,
+      "sourceBounds": {
+        "id": 6,
+        "count": 148433,
+        "left": 40,
+        "top": 1024,
+        "right": 982,
+        "bottom": 1197
+      },
+      "safeMargin": 34,
+      "sha256": "1af30c93260c9db7c9b0fb6a285ae0107a14de7063011ac241e731c9cb47908c",
+      "visualReview": "complete",
+      "method": "border-connected-white-matte-global-component-complete-contour"
+    },
+    {
+      "key": "ui/heading",
+      "source": "art/breakfast/v13/source/ui/battle-utilities.png",
+      "backup": "art/breakfast/v13/exports/ui/heading.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/heading.png",
+      "width": 777,
+      "height": 265,
+      "aspect": 2.9320754716981132,
+      "sourceBounds": {
+        "id": 8,
+        "count": 124075,
+        "left": 150,
+        "top": 1242,
+        "right": 874,
+        "bottom": 1454
+      },
+      "safeMargin": 26,
+      "sha256": "1c5a6ffdfc732aef5c1b745a3eedfe3b06056a56542588802e6342578dbff385",
+      "visualReview": "complete",
+      "method": "border-connected-white-matte-global-component-complete-contour"
+    },
+    {
+      "key": "ui/guide",
+      "source": "art/breakfast/v13/source/ui/battle-guide-wide.png",
+      "backup": "art/breakfast/v13/exports/ui/guide.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/guide.png",
+      "width": 2059,
+      "height": 485,
+      "aspect": 4.245360824742268,
+      "sourceBounds": {
+        "id": 1,
+        "count": 554024,
+        "left": 30,
+        "top": 230,
+        "right": 1952,
+        "bottom": 578
+      },
+      "safeMargin": 68,
+      "sha256": "00dd0ab0e4f57064533bf3a6da4f5d6737398b455420cacf60c2156376ada14c",
+      "visualReview": "complete",
+      "method": "border-connected-white-matte-global-component-complete-contour"
+    }
+  ]
+}

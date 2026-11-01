@@ -1,0 +1,160 @@
+{
+  "generated": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "HomePage",
+          "uuid": "b3af17e5-8b4b-4649-a0c9-8386683d6fe0"
+        },
+        {
+          "id": "RestaurantsPage",
+          "uuid": "4329fda4-77bf-4a65-9ba8-e6df64afacd9"
+        },
+        {
+          "id": "LevelSelectPage",
+          "uuid": "3b375872-2e8d-4d6d-bd0c-f055e5383319"
+        },
+        {
+          "id": "SettingsPage",
+          "uuid": "c04e48bc-fe48-410a-9bfc-c6c694370119"
+        },
+        {
+          "id": "DiagnosticsPage",
+          "uuid": "6ddfbb27-6357-4702-9f9d-7b557842931a"
+        },
+        {
+          "id": "RecipePanel",
+          "uuid": "87b14093-f64c-42a8-928f-9cf179088106"
+        },
+        {
+          "id": "EnergyWidget",
+          "uuid": "7096e1af-9de9-4166-9e79-6fb4b0195f8e"
+        },
+        {
+          "id": "GuideDock",
+          "uuid": "aaba0599-a3a6-4d66-b196-117aad52ae2b"
+        },
+        {
+          "id": "ChoicePanel",
+          "uuid": "75015af4-b810-419f-8721-d13820ae9a72"
+        },
+        {
+          "id": "PausePanel",
+          "uuid": "693fd668-cec7-4934-83c9-505caddfafb2"
+        },
+        {
+          "id": "WinResult",
+          "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a"
+        },
+        {
+          "id": "FailResult",
+          "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f"
+        },
+        {
+          "id": "Toast",
+          "uuid": "67962914-e39b-4afd-97cf-20a482ac0b3b"
+        },
+        {
+          "id": "Popup",
+          "uuid": "94ed1526-07e9-48c8-a2ee-01761d4c6543"
+        },
+        {
+          "id": "LoadingState",
+          "uuid": "69266929-134c-42cc-a0f5-361c7c466500"
+        }
+      ],
+      "message": "Method 'generate' executed successfully"
+    }
+  },
+  "configured": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "HomePage",
+          "uuid": "b3af17e5-8b4b-4649-a0c9-8386683d6fe0",
+          "frames": 0
+        },
+        {
+          "id": "RestaurantsPage",
+          "uuid": "4329fda4-77bf-4a65-9ba8-e6df64afacd9",
+          "frames": 0
+        },
+        {
+          "id": "LevelSelectPage",
+          "uuid": "3b375872-2e8d-4d6d-bd0c-f055e5383319",
+          "frames": 0
+        },
+        {
+          "id": "SettingsPage",
+          "uuid": "c04e48bc-fe48-410a-9bfc-c6c694370119",
+          "frames": 0
+        },
+        {
+          "id": "DiagnosticsPage",
+          "uuid": "6ddfbb27-6357-4702-9f9d-7b557842931a",
+          "frames": 0
+        },
+        {
+          "id": "EnergyWidget",
+          "uuid": "7096e1af-9de9-4166-9e79-6fb4b0195f8e",
+          "frames": 0
+        },
+        {
+          "id": "GuideDock",
+          "uuid": "aaba0599-a3a6-4d66-b196-117aad52ae2b",
+          "frames": 0
+        },
+        {
+          "id": "PausePanel",
+          "uuid": "693fd668-cec7-4934-83c9-505caddfafb2",
+          "frames": 0
+        },
+        {
+          "id": "WinResult",
+          "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a",
+          "frames": 0
+        },
+        {
+          "id": "FailResult",
+          "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f",
+          "frames": 0
+        },
+        {
+          "id": "RecipePanel",
+          "uuid": "87b14093-f64c-42a8-928f-9cf179088106",
+          "frames": 0
+        },
+        {
+          "id": "LoadingState",
+          "uuid": "69266929-134c-42cc-a0f5-361c7c466500",
+          "frames": 0
+        },
+        {
+          "id": "ChoicePanel",
+          "uuid": "75015af4-b810-419f-8721-d13820ae9a72",
+          "frames": 0
+        },
+        {
+          "id": "Toast",
+          "uuid": "67962914-e39b-4afd-97cf-20a482ac0b3b",
+          "frames": 0
+        }
+      ],
+      "message": "Method 'configurePresentation' executed successfully"
+    }
+  },
+  "layers": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "name": "厨房场景底图",
+          "uuid": "69nsYOApJAz5dVtUJeSp80"
+        }
+      ],
+      "message": "Method 'configureSceneLayers' executed successfully"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "generated": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "SettingsPage",
+          "uuid": "c04e48bc-fe48-410a-9bfc-c6c694370119"
+        },
+        {
+          "id": "RulesPage",
+          "uuid": "1de012db-b1e2-4ebf-bebb-a95c84edfea9"
+        }
+      ],
+      "message": "Method 'generate' executed successfully"
+    }
+  },
+  "method": "native-generate-with-sprite-frame-complete-tree"
+}

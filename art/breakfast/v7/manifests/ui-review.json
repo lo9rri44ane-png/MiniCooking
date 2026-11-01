@@ -1,0 +1,14 @@
+{
+  "reviewedAt": "2026-10-31",
+  "method": "逐张查看完整源图与8UI/4光照输出联系图；UI金框/锁/播放/X完整且柔边无邻图；光场保留完整单一右上光源，允许自然fullbleed。",
+  "reviewed": {
+    "ui/dialog_panel": "04d5ffb6088d69703f527d812b83412a00756e92925922968d8d20bc234e6ddd",
+    "ui/close_button": "53d6432154dda8acc8966703c3db342b234dbeef088e6d5acc378f8222776e73",
+    "ui/pause_button": "ea46686a9662da3a8d99d08da173c32ed42d00a02839c9e3140dbccafb3b9856",
+    "ui/bag_locked": "032b77d23ff3756f15dc8742437659de9974c05bbd56eb6e9cc221606e9fb9c4",
+    "ui/primary_button": "ba1be4d1eb0caf28ec91523d1b56364abcb6431c7382eaed2f81a31cfde87d4d",
+    "ui/secondary_button": "49bfc2e3ab303d8c4dabab8c3a8eaf07c0ff66524274bb95f0ad586e1eb0f37e",
+    "ui/tertiary_button": "6a400c32807233f6e0127c89882c42c7de27e7b898ced1a01d09cdad6df77de6",
+    "ui/end_banner": "93bbedf89471b3e6ef6d8adb1257f5db10fe1e7dd5c344c4a8f15b44c221bbc6"
+  }
+}

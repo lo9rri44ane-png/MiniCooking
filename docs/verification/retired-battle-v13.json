@@ -1,0 +1,634 @@
+{
+  "retired": [
+    {
+      "runtime": "assets/resources/art/breakfast-v2/characters/chef_idle.png",
+      "backup": "art/breakfast/v2/exports/characters/chef_idle.png",
+      "archivedMeta": "art/breakfast/v2/retired-meta/characters/chef_idle.png.meta",
+      "sha256": "ad7a949320dc0a1aa9e6e8073555182fbfbe1ac951484ed897f5f2d310c292e5"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/animations/clips.json",
+      "backup": "art/breakfast/v5/manifests/clips.json",
+      "archivedMeta": "art/breakfast/v5/retired-meta/animations/clips.json.meta",
+      "sha256": "24a4373ca29b5f4e7ad267184bde1fb59248c2cb64039511c80c6299a603fcee"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/appear/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/appear/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/appear/frame_00.png.meta",
+      "sha256": "b75f9f7e20be88ba6f2cc00eae8832fde3f3c821d994fc95c9e6a1687583c870"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/appear/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/appear/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/appear/frame_01.png.meta",
+      "sha256": "a476b2f9b90c7650c7176da1ae17fa451a62c8e1975b7fb32843051b769b39a8"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/appear/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/appear/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/appear/frame_02.png.meta",
+      "sha256": "00575c87fcea6cf21b0dc8c6c30218e4203d6cd30de71cd151eebadfacfb71bb"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/appear/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/appear/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/appear/frame_03.png.meta",
+      "sha256": "8816d6223d2fb619959df0ebacb3df33adb799563d09319db43e32b184d35ea1"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/celebrate/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/celebrate/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/celebrate/frame_00.png.meta",
+      "sha256": "0b8f4b7fd39aeb63c1ebfa0c8332c739ded87775b10667d4006e75a02bba705a"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/celebrate/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/celebrate/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/celebrate/frame_01.png.meta",
+      "sha256": "5d18e50408f2432f1ede3d6d5b9df1162797dda088f620811f2575fa0c5834fa"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/celebrate/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/celebrate/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/celebrate/frame_02.png.meta",
+      "sha256": "e5ea4b263189e19648f5647dd15b73412d9f1826d24f500e24c6bbb4759fc05f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/celebrate/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/celebrate/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/celebrate/frame_03.png.meta",
+      "sha256": "1afbf37653bd8b925151c6c2ac523c3cd5a5e874a27dbe0e33baf7ef2c65e9e0"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/disappear/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/disappear/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/disappear/frame_00.png.meta",
+      "sha256": "c2f422172b502c3c3b478547a47f76b04a3214a0fee09bff3303a2a556f3f703"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/disappear/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/disappear/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/disappear/frame_01.png.meta",
+      "sha256": "782bbfd42b53270e59aaa99df4482f75e9628b7dc8761556c1935a6d20ccca16"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/disappear/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/disappear/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/disappear/frame_02.png.meta",
+      "sha256": "ee2c7735d227c7492a646848ef098f202552b44cf4798c6a107d6a842dfe4e4b"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/disappear/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/disappear/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/disappear/frame_03.png.meta",
+      "sha256": "d1cb16678988329c0aa19da2d8d30fb5fe8f94b25c5b7caa4ab3cf7449109aad"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/idle/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/idle/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/idle/frame_00.png.meta",
+      "sha256": "b50796f3fea7a4573006370974314e9e72ba7e10ecff17f1b510170d290eded6"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/idle/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/idle/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/idle/frame_01.png.meta",
+      "sha256": "deee134a11258b7db06ec60ce5704a3f5e12fc42a57a5dc861cf0d566dc0000c"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/idle/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/idle/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/idle/frame_02.png.meta",
+      "sha256": "e9cabf7ba7338c4a8b632a3d5602a9de1eea32e6613505817e00f7ccc0fd951b"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/bear/idle/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/bear/idle/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/bear/idle/frame_03.png.meta",
+      "sha256": "de7ce4e512f953b3b186e3cd28a13b11003ec8a21d6300cd2348173d6fc54e36"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/appear/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/appear/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/appear/frame_00.png.meta",
+      "sha256": "b5c5a6732e0ec7a0ea22e9b9eb08706bd316856d3f2f596f8e20df5b982b53ca"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/appear/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/appear/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/appear/frame_01.png.meta",
+      "sha256": "ae27f7932aa991f7d822954a33f243e868a9e5d3c6789d2420a166a379a88821"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/appear/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/appear/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/appear/frame_02.png.meta",
+      "sha256": "e58b8d8d42ca818a80e45c6b561b2f87d8887e39ff4b26bdfb8ad4f38fb3bbc3"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/appear/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/appear/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/appear/frame_03.png.meta",
+      "sha256": "b968eefe9add6742d5e246570de1e52fd063334ab3b597658d6eb9447fbe4919"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/celebrate/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/celebrate/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/celebrate/frame_00.png.meta",
+      "sha256": "0f9d3726c3dfcd0dcbe5a2760c2d1aafdf8ad34e5bf990af7532e1b047e539c2"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/celebrate/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/celebrate/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/celebrate/frame_01.png.meta",
+      "sha256": "81e2745887bc1903b8d5fe74f00695e95271b73b9fffa9fcf6af7b75102c7d62"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/celebrate/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/celebrate/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/celebrate/frame_02.png.meta",
+      "sha256": "038aa9d59e24c79bd83d788049e234dad5ba0b56a4b08a14bf9c765a127684a0"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/celebrate/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/celebrate/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/celebrate/frame_03.png.meta",
+      "sha256": "2f0eff0c0970f524e0440bc1d309223b4425d1562fff7611947141ebcfb9562f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/disappear/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/disappear/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/disappear/frame_00.png.meta",
+      "sha256": "add69a2b2a955d4e897801e5b431ed585c0fabf35c012fb187153be9787ef73e"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/disappear/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/disappear/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/disappear/frame_01.png.meta",
+      "sha256": "3f805cc69f98a6db107951a52887aa14cad9c711aa52e941fe3afadbb2d692ad"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/disappear/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/disappear/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/disappear/frame_02.png.meta",
+      "sha256": "2ceb3877696e2749b8b1b305be67735d45bd34d65260f7cb4854b3c5a7af54f8"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/disappear/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/disappear/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/disappear/frame_03.png.meta",
+      "sha256": "886f3c1aacc49604ddee02a63314ccd1741281cf904a7a6753fb4189edd9ae6d"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/idle/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/idle/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/idle/frame_00.png.meta",
+      "sha256": "5cdc86b9f77b096e02c3d250540d7d574323c2bfb98e0a5935e3ea373ec8040c"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/idle/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/idle/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/idle/frame_01.png.meta",
+      "sha256": "51efd8df43d13732846269487bc6566b269f7080db3c7c7791b77e1a82a3b3b2"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/idle/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/idle/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/idle/frame_02.png.meta",
+      "sha256": "eafe5a41134c36f625ddba933d6a817eacb0348767e82b7030bdbe7c139095a6"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/dog/idle/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/dog/idle/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/dog/idle/frame_03.png.meta",
+      "sha256": "b4fa931df6e031093e0cfc3da783e2c59997b3523af5ed98ad038fb4ecd66f59"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/appear/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/appear/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/appear/frame_00.png.meta",
+      "sha256": "ee7da655c9c987d64ed67d39f299bec5e752a5ff99d1ea6ac050749124e6af4a"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/appear/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/appear/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/appear/frame_01.png.meta",
+      "sha256": "dc199f54df637d3ca211bd79aae5ab09c527eaef75b6ff8ff425cb30eb4d8bd1"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/appear/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/appear/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/appear/frame_02.png.meta",
+      "sha256": "e6e459e2bf1c5cca401bd530ec4b9b1d965df42745419e5716a0bc9a9231b272"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/appear/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/appear/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/appear/frame_03.png.meta",
+      "sha256": "6ff5e05a8f9aa1d5ff7fa4131c1ea6cbaabc1615a74e82fdbb2034f5518ef661"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/celebrate/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/celebrate/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/celebrate/frame_00.png.meta",
+      "sha256": "556824f2a931585d83a81f8c0fbfaa682bd23153b9f5617b9b69e4d201feb741"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/celebrate/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/celebrate/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/celebrate/frame_01.png.meta",
+      "sha256": "f134c8c4bb85b16be2a8d75f6424ab2572898c9187bb3ca17f6862116ef437c9"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/celebrate/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/celebrate/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/celebrate/frame_02.png.meta",
+      "sha256": "daa54e2984334ca9a23767c8ca6cf0fc0799a212392118796763c7bf56e15c16"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/celebrate/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/celebrate/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/celebrate/frame_03.png.meta",
+      "sha256": "867f6e1b636921d1a5c746631dda683eeffcd8d0b77403dcbff3d235c288a7fa"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/disappear/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/disappear/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/disappear/frame_00.png.meta",
+      "sha256": "07e02c30a888abe3de29c1471525135b1cce4669a101a485d0a20a1283c54ec9"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/disappear/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/disappear/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/disappear/frame_01.png.meta",
+      "sha256": "c31862ab138763099d1a282470b69cbb399c8b47730a45d35eb4944c30f9635f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/disappear/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/disappear/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/disappear/frame_02.png.meta",
+      "sha256": "3991c3bb12acea23863e89132f304ccff3d0741a2896b7356f0a0dbca61c4acb"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/disappear/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/disappear/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/disappear/frame_03.png.meta",
+      "sha256": "c72b8e37ae5964c115c0652793992d354b8c1d84ff8dc2012b703ee0323ad2f7"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/idle/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/idle/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/idle/frame_00.png.meta",
+      "sha256": "fe25563bb41442758d5fae2d243d8f7fdb71ed5d601d4da43f5189d66b7e7d24"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/idle/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/idle/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/idle/frame_01.png.meta",
+      "sha256": "12679a5b1efa0da7658a15c278ca04302a4fcd571000ebdb2becad7f1eb23106"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/idle/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/idle/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/idle/frame_02.png.meta",
+      "sha256": "0980318343f2767099eef9e28d7e6eaa7a3b78e34d99a1ea61e166c3ce65964d"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/customers/rabbit/idle/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/customers/rabbit/idle/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/customers/rabbit/idle/frame_03.png.meta",
+      "sha256": "5164b64012583801f7ff2b31b8d0f07133d47641846d023c0ee6b0bbd18ea6f5"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/full/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/full/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/full/frame_00.png.meta",
+      "sha256": "8efa79c8baf1781d0257f61f249c7eb8b96f9f32b3a95301d9ac0393e9122d0d"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/full/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/full/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/full/frame_01.png.meta",
+      "sha256": "c1a02c5a46272923b87bf92aceed2e509675e8cfe225125cb5a9efed86838211"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/full/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/full/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/full/frame_02.png.meta",
+      "sha256": "80f2a478dd819262ffc2f62cf4b4a5fdc4730ee53c86d486456e8053f5c05dd7"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/full/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/full/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/full/frame_03.png.meta",
+      "sha256": "810eb0a3c26db48824dd7a0806ad33c5f291d2efb0a758e5325aaab43dd4ed49"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_empty/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_empty/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_empty/frame_00.png.meta",
+      "sha256": "01228a4a3947840635666fbb361e03f9169c8e330d36d414474b3764967e92ba"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_empty/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_empty/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_empty/frame_01.png.meta",
+      "sha256": "3da634772823b2e568149bc3df1c28cb23e8fd392245497d9e414e50f21e9ce0"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_empty/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_empty/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_empty/frame_02.png.meta",
+      "sha256": "ac248c2d6c86b7fa372947722c99bc55b34823257583fd8004ba6bbba750ca30"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_empty/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_empty/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_empty/frame_03.png.meta",
+      "sha256": "16221260652881ffc89537a5d6933721f972dc2abdd0e877754d1c8cabe825b7"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_full/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_full/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_full/frame_00.png.meta",
+      "sha256": "8ac90c9f37d94abf47fecf1c255377b52410796f1803b00f6554cba74e0351ed"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_full/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_full/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_full/frame_01.png.meta",
+      "sha256": "505be1ba1b93f3478696c785d2a8600e8c583253cd1a0a785a53e44b92244daf"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_full/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_full/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_full/frame_02.png.meta",
+      "sha256": "8d2f9b09494c2ffb8756646d96ba957734a52113e78a5702c7af048eb606aeb1"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_full/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_full/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_full/frame_03.png.meta",
+      "sha256": "2e50cdd3300b60e787fbc6333b50b8f09049d6300baf1f416f41362faf74c46f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_small/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_small/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_small/frame_00.png.meta",
+      "sha256": "98ef52a3fb2c351831693b36f8d3ca5f103d83b93daa7ebc7aa318423a185d7e"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_small/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_small/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_small/frame_01.png.meta",
+      "sha256": "6438e82fb9e970af611863b682ea28897fe9d2d646bed0701af9ae2234dfd3ac"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_small/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_small/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_small/frame_02.png.meta",
+      "sha256": "b5e94b9ecb14e884712969c375a9468908e27ce56381d636496622f9bd76accc"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/idle_small/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/idle_small/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/idle_small/frame_03.png.meta",
+      "sha256": "51722d9120c5f50a22d27b49dd53fd36a5ef4f7d19f68325a4d78381080af157"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_down/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_down/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_down/frame_00.png.meta",
+      "sha256": "87a23a215246ef4f434432102818565553cb6abe58ddfd3982c057fdbae53b7c"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_down/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_down/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_down/frame_01.png.meta",
+      "sha256": "b3d250a722f40ad705df0677913814ce790ebc9363517bc8bb69b92c77454ff2"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_down/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_down/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_down/frame_02.png.meta",
+      "sha256": "f1ac5f621e0005c264191618f63eba122ee5e35c6dbd1efc74dfe9c9a0ca1aac"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_down/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_down/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_down/frame_03.png.meta",
+      "sha256": "f18a4e4375465823f1b145ab7492e84fe27b61c2f1372cd6be0f6e0630adedd4"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_left/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_left/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_left/frame_00.png.meta",
+      "sha256": "c458652078c0466c6c76f7baa06bd2b9e7d8a9350ac90c35dae78dc0232e8f28"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_left/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_left/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_left/frame_01.png.meta",
+      "sha256": "ba3426b63c7173b664fe6e31bb3d0168464cd773914d8da69d6031c256372a0a"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_left/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_left/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_left/frame_02.png.meta",
+      "sha256": "6558834e1244f8400865c95acbc2f33ca4ffcde72d645a0cee9dace7dabae464"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_left/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_left/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_left/frame_03.png.meta",
+      "sha256": "83a714bd5194cbe68006aa0e00291429cc4105a05b83a415f03621869f8275b4"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_right/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_right/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_right/frame_00.png.meta",
+      "sha256": "4036d501c7ed4b4e3083fe079b46436bf8e2ee9796840e1149adeb62e54f93ed"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_right/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_right/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_right/frame_01.png.meta",
+      "sha256": "081f3cf866acae03608fd776a2ba9f11b9e3c9cb77ee05037d8448e6c17d6fad"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_right/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_right/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_right/frame_02.png.meta",
+      "sha256": "4c398a7727a4ca904cb768f9e9125764e69557d306604fafb107c6af96c29ebe"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_right/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_right/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_right/frame_03.png.meta",
+      "sha256": "f2354b20a08e86ab994ec7913198c06f8a88a35770cddb30881d60a94f2dfa18"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_up/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_up/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_up/frame_00.png.meta",
+      "sha256": "1815a8ec2904d31c9a0b31aecacbe122b816ff41c7bf7a5df585fff39b967099"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_up/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_up/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_up/frame_01.png.meta",
+      "sha256": "687d44e4440d82a9d1d691f61a95b78ebfe9240f9667b721200d576f277fa964"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_up/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_up/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_up/frame_02.png.meta",
+      "sha256": "5e65b58aea875e16b3cf3d758d142d9ed5b9982cc9557cf4cc0b63211cdc0619"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/move_up/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/move_up/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/move_up/frame_03.png.meta",
+      "sha256": "bd082981d75f9dde8af667d474987ded6d8405366ad2c822e35100294b010265"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/win/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/win/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/win/frame_00.png.meta",
+      "sha256": "b4f34ac2fe785b2601c3722b21cfbfc8291b8080822695004686c50d318c4fe0"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/win/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/win/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/win/frame_01.png.meta",
+      "sha256": "63a238ff659af4436119bdd1234f369299d33d3e1961179644e35c465e02a42f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/win/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/win/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/win/frame_02.png.meta",
+      "sha256": "ae2e80ec422d2c3afc0c544d6e680bc839499fea3b402cf7d958d44aeb7bd068"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/win/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/win/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/win/frame_03.png.meta",
+      "sha256": "b9a23ea38a5b6cdc1d9f61436492b1f2f35b352c1892ab0eb7df88aaab769358"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_down/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_down/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_down/frame_00.png.meta",
+      "sha256": "dfd768d3d0fa0ed1b3478cfc161dc615131a8fa6ce7f8fa0b04f8dec87dffa4d"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_down/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_down/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_down/frame_01.png.meta",
+      "sha256": "be8a43c0ebf3d8e706f81f3dd9f7741ca5bd446124d0b01b85868b28908c5f7a"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_down/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_down/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_down/frame_02.png.meta",
+      "sha256": "8f94bc8a1f6a051c5f46ceb8bfee1655270919d28ad7ffd56e6c891a933606fb"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_down/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_down/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_down/frame_03.png.meta",
+      "sha256": "07b25eeba5adccda45ce590b1b7d2e593f8c6b50b3edeb879d58209360cb03a6"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_left/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_left/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_left/frame_00.png.meta",
+      "sha256": "b1aa4a41e4711867fc81a4198b9a21f1f3a1976fdde7206427c71ec5a3c84d26"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_left/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_left/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_left/frame_01.png.meta",
+      "sha256": "8973e6322f3adba31ab8c4b1c778fff8982ec4853b98d03b082f61e9378123b3"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_left/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_left/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_left/frame_02.png.meta",
+      "sha256": "fbd7373c758436f08c79be1d295025023923601cba358ea92ee4ce96ec4ed5e5"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_left/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_left/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_left/frame_03.png.meta",
+      "sha256": "908fb2dc7ad22c399dbeebe641b705c8fcce3e07468435116971ef47ba537d1b"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_right/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_right/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_right/frame_00.png.meta",
+      "sha256": "f0966d971b5f9b5fb5f5e9e2b3a36279fa3808358fce5fcc241e2511dd43a3e2"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_right/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_right/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_right/frame_01.png.meta",
+      "sha256": "98cc5ead55fa12601fa6b1151026cbb8671640d696e4b2a2a56911870de3497b"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_right/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_right/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_right/frame_02.png.meta",
+      "sha256": "f81019236a954c0169cd128169b3e3dac7782e3173fe2aa2248f5da36d1cbe5f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_right/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_right/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_right/frame_03.png.meta",
+      "sha256": "61890dd08b1900cbbedac7117fb90b74b524c552d844fadedd2a95c95068ad3f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_up/frame_00.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_up/frame_00.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_up/frame_00.png.meta",
+      "sha256": "4be4114887f69ee9c4958250b29c5778a8b37dafbbe77454aa78bb958baa959f"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_up/frame_01.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_up/frame_01.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_up/frame_01.png.meta",
+      "sha256": "effa22cf46ad478a767345dab7a560eb24d4b58ae5efbae5d169f7fec2d513d5"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_up/frame_02.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_up/frame_02.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_up/frame_02.png.meta",
+      "sha256": "5d3bb789f1d630f6f4f68a2240c3e823a1dca285449164e8000290aee8517e77"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v5/characters/hamster/work_up/frame_03.png",
+      "backup": "art/breakfast/v5/exports/characters/hamster/work_up/frame_03.png",
+      "archivedMeta": "art/breakfast/v5/retired-meta/characters/hamster/work_up/frame_03.png.meta",
+      "sha256": "9f311ce74552aef07188277dee6f278cf50569f1500c803e86e0281140422c4e"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v9/ui/overtime_button.png",
+      "backup": "art/breakfast/v9/exports/ui/overtime_button.png",
+      "archivedMeta": "art/breakfast/v9/retired-meta/ui/overtime_button.png.meta",
+      "sha256": "f67c5e85fff5acabe440ee3c3e4ceaf9095458c4a7213edb4d1e6e6e83abb743"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v9/ui/pause_button.png",
+      "backup": "art/breakfast/v9/exports/ui/pause_button.png",
+      "archivedMeta": "art/breakfast/v9/retired-meta/ui/pause_button.png.meta",
+      "sha256": "d1cf00460dcf7b0ef32bd7953f1fd8a168563547284fdd014568e69a7ce43e29"
+    },
+    {
+      "runtime": "assets/resources/art/breakfast-v9/ui/undo_button.png",
+      "backup": "art/breakfast/v9/exports/ui/undo_button.png",
+      "archivedMeta": "art/breakfast/v9/retired-meta/ui/undo_button.png.meta",
+      "sha256": "302f0711db4ed6e29f3069cc549e91815183645a244f170877aec5a27980e14a"
+    }
+  ]
+}

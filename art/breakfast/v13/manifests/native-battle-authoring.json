@@ -1,0 +1,55 @@
+{
+  "generated": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "PausePanel",
+          "uuid": "693fd668-cec7-4934-83c9-505caddfafb2"
+        },
+        {
+          "id": "WinResult",
+          "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a"
+        },
+        {
+          "id": "FailResult",
+          "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f"
+        }
+      ],
+      "message": "Method 'generate' executed successfully"
+    }
+  },
+  "configured": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "PausePanel",
+          "uuid": "693fd668-cec7-4934-83c9-505caddfafb2",
+          "frames": 0
+        },
+        {
+          "id": "WinResult",
+          "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a",
+          "frames": 0
+        },
+        {
+          "id": "FailResult",
+          "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f",
+          "frames": 0
+        },
+        {
+          "id": "GuideDock",
+          "uuid": "aaba0599-a3a6-4d66-b196-117aad52ae2b",
+          "frames": 0
+        },
+        {
+          "id": "RecipePanel",
+          "uuid": "87b14093-f64c-42a8-928f-9cf179088106",
+          "frames": 0
+        }
+      ],
+      "message": "Method 'configurePresentation' executed successfully"
+    }
+  }
+}

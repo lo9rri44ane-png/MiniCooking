@@ -1,0 +1,112 @@
+{
+  "generated": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "CustomerActor",
+          "uuid": "ebc620a5-371c-43f7-bc67-30ae79efb70f"
+        },
+        {
+          "id": "OrderBubble",
+          "uuid": "79c76d3d-59cf-473d-9700-76fca56d5ff8"
+        },
+        {
+          "id": "CartoonSmoke",
+          "uuid": "9e775241-4919-4cfa-b407-9aff70de7dd0"
+        },
+        {
+          "id": "SunlightOverlay",
+          "uuid": "794181e7-09b9-4ca4-a623-c6bbd6341cbf"
+        },
+        {
+          "id": "PausePanel",
+          "uuid": "693fd668-cec7-4934-83c9-505caddfafb2"
+        },
+        {
+          "id": "FailResult",
+          "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f"
+        },
+        {
+          "id": "WinResult",
+          "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a"
+        }
+      ],
+      "message": "Method 'generate' executed successfully"
+    }
+  },
+  "configured": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "CustomerActor",
+          "uuid": "ebc620a5-371c-43f7-bc67-30ae79efb70f",
+          "frames": 4
+        },
+        {
+          "id": "CartoonSmoke",
+          "uuid": "9e775241-4919-4cfa-b407-9aff70de7dd0",
+          "frames": 4
+        },
+        {
+          "id": "SunlightOverlay",
+          "uuid": "794181e7-09b9-4ca4-a623-c6bbd6341cbf",
+          "frames": 4
+        },
+        {
+          "id": "ChefBody",
+          "uuid": "0e9f05b6-10fe-468e-b3c0-c7e03da1eebb",
+          "frames": 4
+        },
+        {
+          "id": "OrderBubble",
+          "uuid": "79c76d3d-59cf-473d-9700-76fca56d5ff8",
+          "frames": 0
+        },
+        {
+          "id": "IngredientTile",
+          "uuid": "91b3da60-26a7-413a-96ca-004f37a6369f",
+          "frames": 0
+        },
+        {
+          "id": "DeviceTile",
+          "uuid": "003f61bd-0a7a-4a55-bbb9-e242e8e3661e",
+          "frames": 0
+        },
+        {
+          "id": "PausePanel",
+          "uuid": "693fd668-cec7-4934-83c9-505caddfafb2",
+          "frames": 0
+        },
+        {
+          "id": "FailResult",
+          "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f",
+          "frames": 0
+        },
+        {
+          "id": "WinResult",
+          "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a",
+          "frames": 0
+        }
+      ],
+      "message": "Method 'configurePresentation' executed successfully"
+    }
+  },
+  "layers": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "name": "厨房场景底图",
+          "uuid": "69nsYOApJAz5dVtUJeSp80"
+        },
+        {
+          "name": "厨房棋盘底图",
+          "uuid": "b8cj4jfhJMpoCVfOF0hctm"
+        }
+      ],
+      "message": "Method 'configureSceneLayers' executed successfully"
+    }
+  }
+}

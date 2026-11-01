@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {SaveStore} from '../assets/scripts/framework/core/SaveStore.ts';
+import {CampaignStore} from '../assets/scripts/features/kitchen/CampaignStore.ts';
+import {EnergyBank} from '../assets/scripts/features/kitchen/Energy.ts';
+const restaurants=[{id:'a',name:'a',levelIds:[1,2]}];
+const fixture=missing=>{const data=new Map();return {data,getItem:k=>data.has(k)?data.get(k):missing,setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};};
+const settings=mem=>new SaveStore(mem,'settings',1,()=>({music:true,sound:true}),v=>!!v&&typeof v.music==='boolean'&&typeof v.sound==='boolean');
+for(const missing of [null,undefined,''])test('missing storage initializes and persists across reload: '+String(missing),()=>{const mem=fixture(missing),s=new CampaignStore(mem,restaurants),b=new EnergyBank(mem,()=>1000),prefs=settings(mem);assert.equal(s.error,'');assert.equal(b.error,'');assert.deepEqual(prefs.load(),{music:true,sound:true});assert.equal(mem.data.size,0);s.complete(1,3,false);const id=b.begin();b.fail(id);b.end(id,'quit');prefs.save({music:false,sound:true});assert.equal(new CampaignStore(mem,restaurants).cleared(1),true);assert.equal(new EnergyBank(mem,()=>1000).snapshot().value,9);assert.equal(settings(mem).load().music,false);});
+for(const raw of ['broken',' ','null','{}','[]'])test('nonempty corrupt records remain unchanged: '+raw,()=>{const mem=fixture('');for(const key of ['settings','kitchen-campaign-v1','kitchen-energy-v1'])mem.data.set(key,raw);const before=new Map(mem.data),s=new CampaignStore(mem,restaurants),b=new EnergyBank(mem,()=>1000);assert.ok(s.error);assert.ok(b.error);assert.throws(()=>settings(mem).load());assert.throws(()=>settings(mem).save({music:true,sound:true}));assert.deepEqual(mem.data,before);});
+test('read exceptions remain explicit and cause no writes',()=>{const mem=fixture('');mem.getItem=()=>{throw Error('read denied')};assert.match(new CampaignStore(mem,restaurants).error,/read denied/);assert.match(new EnergyBank(mem,()=>1000).error,/read denied/);assert.throws(()=>settings(mem).load(),/read denied/);assert.equal(mem.data.size,0);});

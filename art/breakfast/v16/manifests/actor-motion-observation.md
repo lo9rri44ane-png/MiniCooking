@@ -1,0 +1,27 @@
+# 25动作动态观察
+实际Cocos采样见 all-actors-v16-runtime.json 与 motion/all-25-runtime.webm。幅度为256源画布参数，运行138画布约54%。无跨姿势混合。
+- customers/bear/appear：6px轻浮后落定，耳手曲线随时间收敛；末帧与idle首帧UUID相同。
+- customers/bear/celebrate：13px连续跳跃弧线，手部局部挥动；脸与衣服纹理固定，不切另一姿势。
+- customers/bear/disappear：从idle同一帧开始，手耳逐渐局部动、头部轻点5px；外层烟雾负责离场，不缩放身体。
+- customers/bear/idle：胸部轻微呼吸1.2px、耳轻摆1.5px、双手2px局部曲线；头脸纹理固定，首尾曲线周期闭合。
+- customers/dog/appear：6px轻浮后落定，耳手曲线随时间收敛；末帧与idle首帧UUID相同。
+- customers/dog/celebrate：13px连续跳跃弧线，手部局部挥动；脸与衣服纹理固定，不切另一姿势。
+- customers/dog/disappear：从idle同一帧开始，手耳逐渐局部动、头部轻点5px；外层烟雾负责离场，不缩放身体。
+- customers/dog/idle：胸部轻微呼吸1.2px、耳轻摆1.5px、双手2px局部曲线；头脸纹理固定，首尾曲线周期闭合。
+- customers/rabbit/appear：6px轻浮后落定，耳手曲线随时间收敛；末帧与idle首帧UUID相同。
+- customers/rabbit/celebrate：13px连续跳跃弧线，手部局部挥动；脸与衣服纹理固定，不切另一姿势。
+- customers/rabbit/disappear：从idle同一帧开始，手耳逐渐局部动、头部轻点5px；外层烟雾负责离场，不缩放身体。
+- customers/rabbit/idle：胸部轻微呼吸1.2px、耳轻摆1.5px、双手2px局部曲线；头脸纹理固定，首尾曲线周期闭合。
+- hamster/full：手嘴附近局部5px紧张动作、胸部呼吸；面部固定避免熔脸。
+- hamster/idle_empty：胸部轻微呼吸1.2px、耳轻摆1.5px、双手2px局部曲线；头脸纹理固定，首尾曲线周期闭合。
+- hamster/idle_full：胸部轻微呼吸1.2px、耳轻摆1.5px、双手2px局部曲线；头脸纹理固定，首尾曲线周期闭合。
+- hamster/idle_small：胸部轻微呼吸1.2px、耳轻摆1.5px、双手2px局部曲线；头脸纹理固定，首尾曲线周期闭合。
+- hamster/move_down：脚部局部左右摆5px、落脚上下2px，耳/胸轻动；身体root不移动，角色场景位移由游戏控制。
+- hamster/move_left：脚部局部左右摆5px、落脚上下2px，耳/胸轻动；身体root不移动，角色场景位移由游戏控制。
+- hamster/move_right：脚部局部左右摆5px、落脚上下2px，耳/胸轻动；身体root不移动，角色场景位移由游戏控制。
+- hamster/move_up：脚部局部左右摆5px、落脚上下2px，耳/胸轻动；身体root不移动，角色场景位移由游戏控制。
+- hamster/win：13px连续跳跃弧线，手部局部挥动；脸与衣服纹理固定，不切另一姿势。
+- hamster/work_down：手臂/勺区域追加水平7px、竖直5px连续摆动，身体和帽子保持同一纹理；首尾周期闭合。
+- hamster/work_left：手臂/勺区域追加水平7px、竖直5px连续摆动，身体和帽子保持同一纹理；首尾周期闭合。
+- hamster/work_right：手臂/勺区域追加水平7px、竖直5px连续摆动，身体和帽子保持同一纹理；首尾周期闭合。
+- hamster/work_up：手臂/勺区域追加水平7px、竖直5px连续摆动，身体和帽子保持同一纹理；首尾周期闭合。

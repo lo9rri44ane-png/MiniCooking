@@ -1,0 +1,319 @@
+{
+  "version": 5,
+  "clips": {
+    "hamster/idle_empty": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/idle_empty/frame_00",
+        "art/breakfast-v5/characters/hamster/idle_empty/frame_01",
+        "art/breakfast-v5/characters/hamster/idle_empty/frame_02",
+        "art/breakfast-v5/characters/hamster/idle_empty/frame_03"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "hamster/idle_small": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/idle_small/frame_00",
+        "art/breakfast-v5/characters/hamster/idle_small/frame_01",
+        "art/breakfast-v5/characters/hamster/idle_small/frame_02",
+        "art/breakfast-v5/characters/hamster/idle_small/frame_03"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "hamster/idle_full": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/idle_full/frame_00",
+        "art/breakfast-v5/characters/hamster/idle_full/frame_01",
+        "art/breakfast-v5/characters/hamster/idle_full/frame_02",
+        "art/breakfast-v5/characters/hamster/idle_full/frame_03"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "hamster/move_up": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/move_up/frame_00",
+        "art/breakfast-v5/characters/hamster/move_up/frame_01",
+        "art/breakfast-v5/characters/hamster/move_up/frame_02",
+        "art/breakfast-v5/characters/hamster/move_up/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/move_down": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/move_down/frame_00",
+        "art/breakfast-v5/characters/hamster/move_down/frame_01",
+        "art/breakfast-v5/characters/hamster/move_down/frame_02",
+        "art/breakfast-v5/characters/hamster/move_down/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/move_right": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/move_right/frame_00",
+        "art/breakfast-v5/characters/hamster/move_right/frame_01",
+        "art/breakfast-v5/characters/hamster/move_right/frame_02",
+        "art/breakfast-v5/characters/hamster/move_right/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/move_left": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/move_left/frame_00",
+        "art/breakfast-v5/characters/hamster/move_left/frame_01",
+        "art/breakfast-v5/characters/hamster/move_left/frame_02",
+        "art/breakfast-v5/characters/hamster/move_left/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/work_up": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/work_up/frame_00",
+        "art/breakfast-v5/characters/hamster/work_up/frame_01",
+        "art/breakfast-v5/characters/hamster/work_up/frame_02",
+        "art/breakfast-v5/characters/hamster/work_up/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/work_down": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/work_down/frame_00",
+        "art/breakfast-v5/characters/hamster/work_down/frame_01",
+        "art/breakfast-v5/characters/hamster/work_down/frame_02",
+        "art/breakfast-v5/characters/hamster/work_down/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/work_left": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/work_left/frame_00",
+        "art/breakfast-v5/characters/hamster/work_left/frame_01",
+        "art/breakfast-v5/characters/hamster/work_left/frame_02",
+        "art/breakfast-v5/characters/hamster/work_left/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/work_right": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/work_right/frame_00",
+        "art/breakfast-v5/characters/hamster/work_right/frame_01",
+        "art/breakfast-v5/characters/hamster/work_right/frame_02",
+        "art/breakfast-v5/characters/hamster/work_right/frame_03"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "hamster/full": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/full/frame_00",
+        "art/breakfast-v5/characters/hamster/full/frame_01",
+        "art/breakfast-v5/characters/hamster/full/frame_02",
+        "art/breakfast-v5/characters/hamster/full/frame_03"
+      ],
+      "fps": 5,
+      "loop": false
+    },
+    "hamster/win": {
+      "frames": [
+        "art/breakfast-v5/characters/hamster/win/frame_00",
+        "art/breakfast-v5/characters/hamster/win/frame_01",
+        "art/breakfast-v5/characters/hamster/win/frame_02",
+        "art/breakfast-v5/characters/hamster/win/frame_03"
+      ],
+      "fps": 5,
+      "loop": false
+    },
+    "customers/dog/appear": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/dog/appear/frame_00",
+        "art/breakfast-v5/characters/customers/dog/appear/frame_01",
+        "art/breakfast-v5/characters/customers/dog/appear/frame_02",
+        "art/breakfast-v5/characters/customers/dog/appear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/dog/idle": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/dog/idle/frame_00",
+        "art/breakfast-v5/characters/customers/dog/idle/frame_01",
+        "art/breakfast-v5/characters/customers/dog/idle/frame_02",
+        "art/breakfast-v5/characters/customers/dog/idle/frame_03"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "customers/dog/celebrate": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/dog/celebrate/frame_00",
+        "art/breakfast-v5/characters/customers/dog/celebrate/frame_01",
+        "art/breakfast-v5/characters/customers/dog/celebrate/frame_02",
+        "art/breakfast-v5/characters/customers/dog/celebrate/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/dog/disappear": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/dog/disappear/frame_00",
+        "art/breakfast-v5/characters/customers/dog/disappear/frame_01",
+        "art/breakfast-v5/characters/customers/dog/disappear/frame_02",
+        "art/breakfast-v5/characters/customers/dog/disappear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/rabbit/appear": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/rabbit/appear/frame_00",
+        "art/breakfast-v5/characters/customers/rabbit/appear/frame_01",
+        "art/breakfast-v5/characters/customers/rabbit/appear/frame_02",
+        "art/breakfast-v5/characters/customers/rabbit/appear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/rabbit/idle": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/rabbit/idle/frame_00",
+        "art/breakfast-v5/characters/customers/rabbit/idle/frame_01",
+        "art/breakfast-v5/characters/customers/rabbit/idle/frame_02",
+        "art/breakfast-v5/characters/customers/rabbit/idle/frame_03"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "customers/rabbit/celebrate": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/rabbit/celebrate/frame_00",
+        "art/breakfast-v5/characters/customers/rabbit/celebrate/frame_01",
+        "art/breakfast-v5/characters/customers/rabbit/celebrate/frame_02",
+        "art/breakfast-v5/characters/customers/rabbit/celebrate/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/rabbit/disappear": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/rabbit/disappear/frame_00",
+        "art/breakfast-v5/characters/customers/rabbit/disappear/frame_01",
+        "art/breakfast-v5/characters/customers/rabbit/disappear/frame_02",
+        "art/breakfast-v5/characters/customers/rabbit/disappear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/bear/appear": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/bear/appear/frame_00",
+        "art/breakfast-v5/characters/customers/bear/appear/frame_01",
+        "art/breakfast-v5/characters/customers/bear/appear/frame_02",
+        "art/breakfast-v5/characters/customers/bear/appear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/bear/idle": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/bear/idle/frame_00",
+        "art/breakfast-v5/characters/customers/bear/idle/frame_01",
+        "art/breakfast-v5/characters/customers/bear/idle/frame_02",
+        "art/breakfast-v5/characters/customers/bear/idle/frame_03"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "customers/bear/celebrate": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/bear/celebrate/frame_00",
+        "art/breakfast-v5/characters/customers/bear/celebrate/frame_01",
+        "art/breakfast-v5/characters/customers/bear/celebrate/frame_02",
+        "art/breakfast-v5/characters/customers/bear/celebrate/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "customers/bear/disappear": {
+      "frames": [
+        "art/breakfast-v5/characters/customers/bear/disappear/frame_00",
+        "art/breakfast-v5/characters/customers/bear/disappear/frame_01",
+        "art/breakfast-v5/characters/customers/bear/disappear/frame_02",
+        "art/breakfast-v5/characters/customers/bear/disappear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "fx/smoke_appear": {
+      "frames": [
+        "art/breakfast-v3/fx/smoke_appear/frame_00",
+        "art/breakfast-v3/fx/smoke_appear/frame_01",
+        "art/breakfast-v3/fx/smoke_appear/frame_02",
+        "art/breakfast-v3/fx/smoke_appear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "fx/smoke_disappear": {
+      "frames": [
+        "art/breakfast-v3/fx/smoke_disappear/frame_00",
+        "art/breakfast-v3/fx/smoke_disappear/frame_01",
+        "art/breakfast-v3/fx/smoke_disappear/frame_02",
+        "art/breakfast-v3/fx/smoke_disappear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "environment/sunlight": {
+      "frames": [
+        "art/breakfast-v3/environment/sunlight/frame_00",
+        "art/breakfast-v3/environment/sunlight/frame_01",
+        "art/breakfast-v3/environment/sunlight/frame_02",
+        "art/breakfast-v3/environment/sunlight/frame_03"
+      ],
+      "fps": 0.5,
+      "loop": true
+    }
+  },
+  "boards": {
+    "4": {
+      "topHalfWidth": 233.93416927899688,
+      "bottomHalfWidth": 280.01567398119124,
+      "topY": 244.36990595611286,
+      "bottomY": -243.2476489028213,
+      "farScale": 0.94,
+      "nearScale": 1.04
+    },
+    "5": {
+      "topHalfWidth": 236.69724770642202,
+      "bottomHalfWidth": 275.47956630525437,
+      "topY": 239.9808173477898,
+      "bottomY": -239.418682235196,
+      "farScale": 0.94,
+      "nearScale": 1.04
+    },
+    "6": {
+      "topHalfWidth": 235.33225283630472,
+      "bottomHalfWidth": 279.82171799027554,
+      "topY": 222.63371150729336,
+      "bottomY": -222.26094003241496,
+      "farScale": 0.94,
+      "nearScale": 1.04
+    }
+  },
+  "actorCanvas": {
+    "width": 256,
+    "height": 256,
+    "anchorX": 128,
+    "anchorY": 236,
+    "chefAnchorFromBottom": 0.078125,
+    "targetCoreMaxExtent": 216
+  }
+}

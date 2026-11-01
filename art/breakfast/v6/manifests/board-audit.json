@@ -1,0 +1,55 @@
+{
+  "version": 6,
+  "status": "complete",
+  "assets": [
+    {
+      "key": "board/board_4",
+      "sha256": "51b77234d3f08d3760841ae2e5057442fd5b3f2738e4e6f20426e53fd95561f0",
+      "alphaSha256": "612131dc7082f771f9c347e8c2ade752d4f182cd6f111b5e18b9c98663ff8b45",
+      "reviewedSha256": "51b77234d3f08d3760841ae2e5057442fd5b3f2738e4e6f20426e53fd95561f0",
+      "visualReview": "complete",
+      "margin": {
+        "left": 22,
+        "top": 10,
+        "right": 15,
+        "bottom": 15
+      },
+      "runtimeIdentical": true,
+      "sourceSha256": "7e21bd9c594fd94821216128692f1399a3f97f8e1565db6847e88d9fbeaf4b1d",
+      "scope": "Whole floor natural surface mask; complete 4/5/6 grid count and no second rim. Centers measured from independent source seams."
+    },
+    {
+      "key": "board/board_5",
+      "sha256": "d5c842a1c9d49e33bc28742bd076bd05683486829d22e783f205a9bef086bd0b",
+      "alphaSha256": "612131dc7082f771f9c347e8c2ade752d4f182cd6f111b5e18b9c98663ff8b45",
+      "reviewedSha256": "d5c842a1c9d49e33bc28742bd076bd05683486829d22e783f205a9bef086bd0b",
+      "visualReview": "complete",
+      "margin": {
+        "left": 22,
+        "top": 10,
+        "right": 15,
+        "bottom": 15
+      },
+      "runtimeIdentical": true,
+      "sourceSha256": "5e268975ca6659b7a94790f5ac7758fb9c44f4ae88d0d02f4aa9b97997c9ba12",
+      "scope": "Whole floor natural surface mask; complete 4/5/6 grid count and no second rim. Centers measured from independent source seams."
+    },
+    {
+      "key": "board/board_6",
+      "sha256": "03bdfee9e74684e91eeb236becfa87ac53c9263840bb185268c40db86101c130",
+      "alphaSha256": "612131dc7082f771f9c347e8c2ade752d4f182cd6f111b5e18b9c98663ff8b45",
+      "reviewedSha256": "03bdfee9e74684e91eeb236becfa87ac53c9263840bb185268c40db86101c130",
+      "visualReview": "complete",
+      "margin": {
+        "left": 22,
+        "top": 10,
+        "right": 15,
+        "bottom": 15
+      },
+      "runtimeIdentical": true,
+      "sourceSha256": "f1edf754bb9b1504fd898c63be2205afe8557210d47db1c91ec69e6981a7cad5",
+      "scope": "Whole floor natural surface mask; complete 4/5/6 grid count and no second rim. Centers measured from independent source seams."
+    }
+  ],
+  "blockers": []
+}

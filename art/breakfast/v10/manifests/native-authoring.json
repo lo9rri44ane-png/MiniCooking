@@ -1,0 +1,36 @@
+{
+  "generated": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "OrderBubble",
+          "uuid": "79c76d3d-59cf-473d-9700-76fca56d5ff8"
+        },
+        {
+          "id": "RestaurantCard",
+          "uuid": "d95a151f-f09c-4484-a14f-bebdc6ecec8c"
+        }
+      ],
+      "message": "Method 'generate' executed successfully"
+    }
+  },
+  "configured": {
+    "success": true,
+    "data": {
+      "result": [
+        {
+          "id": "OrderBubble",
+          "uuid": "79c76d3d-59cf-473d-9700-76fca56d5ff8",
+          "frames": 0
+        },
+        {
+          "id": "RestaurantCard",
+          "uuid": "d95a151f-f09c-4484-a14f-bebdc6ecec8c",
+          "frames": 0
+        }
+      ],
+      "message": "Method 'configurePresentation' executed successfully"
+    }
+  }
+}

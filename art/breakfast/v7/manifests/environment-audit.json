@@ -1,0 +1,177 @@
+{
+  "version": 7,
+  "assets": [
+    {
+      "key": "environment/sunlight/frame_00",
+      "source": "art/breakfast/v7/source/environment/sunlight-atlas-v7.png",
+      "sourcePanel": {
+        "left": 0,
+        "top": 0,
+        "width": 656,
+        "height": 600
+      },
+      "method": "authored-light-field-uniform-fit-and-authorized-integer-origin-alignment",
+      "width": 620,
+      "height": 600,
+      "uniformFit": {
+        "scale": 0.9451219512195121,
+        "width": 620,
+        "height": 567,
+        "offsetX": 0,
+        "offsetY": 16
+      },
+      "sourceOrigin": {
+        "x": 592,
+        "y": 43.5
+      },
+      "originTarget": {
+        "x": 570,
+        "y": 48
+      },
+      "alignmentOffset": {
+        "x": -22,
+        "y": 5
+      },
+      "originPeak": {
+        "x": 570,
+        "y": 48.5
+      },
+      "fullBleed": true,
+      "fullBleedReason": "Natural peripheral light field may meet the board mask. Integer translation never clips the bright upper-right origin. Original source remains untouched.",
+      "backup": "art/breakfast/v7/exports/environment/sunlight/frame_00.png",
+      "runtime": "assets/resources/art/breakfast-v7/environment/sunlight/frame_00.png",
+      "sha256": "e864bdc421ccd1ebb265b9dfd646b73bcf0ccef840238c63a819ea9f2db0cf7e",
+      "reviewedSha256": "e864bdc421ccd1ebb265b9dfd646b73bcf0ccef840238c63a819ea9f2db0cf7e",
+      "visualReview": "complete"
+    },
+    {
+      "key": "environment/sunlight/frame_01",
+      "source": "art/breakfast/v7/source/environment/sunlight-atlas-v7.png",
+      "sourcePanel": {
+        "left": 656,
+        "top": 0,
+        "width": 656,
+        "height": 600
+      },
+      "method": "authored-light-field-uniform-fit-and-authorized-integer-origin-alignment",
+      "width": 620,
+      "height": 600,
+      "uniformFit": {
+        "scale": 0.9451219512195121,
+        "width": 620,
+        "height": 567,
+        "offsetX": 0,
+        "offsetY": 16
+      },
+      "sourceOrigin": {
+        "x": 569,
+        "y": 48
+      },
+      "originTarget": {
+        "x": 570,
+        "y": 48
+      },
+      "alignmentOffset": {
+        "x": 1,
+        "y": 0
+      },
+      "originPeak": {
+        "x": 570,
+        "y": 48
+      },
+      "fullBleed": true,
+      "fullBleedReason": "Natural peripheral light field may meet the board mask. Integer translation never clips the bright upper-right origin. Original source remains untouched.",
+      "backup": "art/breakfast/v7/exports/environment/sunlight/frame_01.png",
+      "runtime": "assets/resources/art/breakfast-v7/environment/sunlight/frame_01.png",
+      "sha256": "dbbf3838955e529e0b7f8d7a1b62fcc0d062c01eef23ee3f23bdfce042495aa6",
+      "reviewedSha256": "dbbf3838955e529e0b7f8d7a1b62fcc0d062c01eef23ee3f23bdfce042495aa6",
+      "visualReview": "complete"
+    },
+    {
+      "key": "environment/sunlight/frame_02",
+      "source": "art/breakfast/v7/source/environment/sunlight-atlas-v7.png",
+      "sourcePanel": {
+        "left": 0,
+        "top": 600,
+        "width": 656,
+        "height": 599
+      },
+      "method": "authored-light-field-uniform-fit-and-authorized-integer-origin-alignment",
+      "width": 620,
+      "height": 600,
+      "uniformFit": {
+        "scale": 0.9451219512195121,
+        "width": 620,
+        "height": 566,
+        "offsetX": 0,
+        "offsetY": 17
+      },
+      "sourceOrigin": {
+        "x": 583.8333333333334,
+        "y": 49.2
+      },
+      "originTarget": {
+        "x": 570,
+        "y": 48
+      },
+      "alignmentOffset": {
+        "x": -14,
+        "y": -1
+      },
+      "originPeak": {
+        "x": 569.8333333333334,
+        "y": 48.2
+      },
+      "fullBleed": true,
+      "fullBleedReason": "Natural peripheral light field may meet the board mask. Integer translation never clips the bright upper-right origin. Original source remains untouched.",
+      "backup": "art/breakfast/v7/exports/environment/sunlight/frame_02.png",
+      "runtime": "assets/resources/art/breakfast-v7/environment/sunlight/frame_02.png",
+      "sha256": "9d5cf3d70d8d2506d657fd7f03cb11f49187768e99d88a296816c03fa033a34e",
+      "reviewedSha256": "9d5cf3d70d8d2506d657fd7f03cb11f49187768e99d88a296816c03fa033a34e",
+      "visualReview": "complete"
+    },
+    {
+      "key": "environment/sunlight/frame_03",
+      "source": "art/breakfast/v7/source/environment/sunlight-atlas-v7.png",
+      "sourcePanel": {
+        "left": 656,
+        "top": 600,
+        "width": 656,
+        "height": 599
+      },
+      "method": "authored-light-field-uniform-fit-and-authorized-integer-origin-alignment",
+      "width": 620,
+      "height": 600,
+      "uniformFit": {
+        "scale": 0.9451219512195121,
+        "width": 620,
+        "height": 566,
+        "offsetX": 0,
+        "offsetY": 17
+      },
+      "sourceOrigin": {
+        "x": 574.1666666666666,
+        "y": 47
+      },
+      "originTarget": {
+        "x": 570,
+        "y": 48
+      },
+      "alignmentOffset": {
+        "x": -4,
+        "y": 1
+      },
+      "originPeak": {
+        "x": 570.1666666666666,
+        "y": 48
+      },
+      "fullBleed": true,
+      "fullBleedReason": "Natural peripheral light field may meet the board mask. Integer translation never clips the bright upper-right origin. Original source remains untouched.",
+      "backup": "art/breakfast/v7/exports/environment/sunlight/frame_03.png",
+      "runtime": "assets/resources/art/breakfast-v7/environment/sunlight/frame_03.png",
+      "sha256": "d46e752bf4a0d540dd2f3610085c028c92d92bb7418c10c714e71832e0cf166a",
+      "reviewedSha256": "d46e752bf4a0d540dd2f3610085c028c92d92bb7418c10c714e71832e0cf166a",
+      "visualReview": "complete"
+    }
+  ]
+}

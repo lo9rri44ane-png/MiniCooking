@@ -1,0 +1,500 @@
+{
+  "version": 15,
+  "sources": [
+    {
+      "path": "art/breakfast/v15/source/ui-kit/controls.png",
+      "sha256": "07927cbe3d77735e0901d0d97b1b176dacf1eb2a6ac20270c600c1628dc6cb1c",
+      "width": 1536,
+      "height": 1024,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v15/source/ui-kit/buttons.png",
+      "sha256": "e15ebd373a6f0412ca04b90d99661217c0ec1d0c7e9d4351bff9ba8df1b4a13d",
+      "width": 1536,
+      "height": 1024,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v15/source/ui-kit/levels.png",
+      "sha256": "35c7473fd8a9376a8212880e1408bb2e6f7c7b926254697a975e439d265b11d3",
+      "width": 1024,
+      "height": 1536,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v15/source/ui-kit/slim-containers.png",
+      "sha256": "239a1067e4451e36a8353abd64ba41f315881aeb1f2a2fc672c4620821e04c72",
+      "width": 1536,
+      "height": 1024,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v15/source/ui-kit/rules.png",
+      "sha256": "082703e197e764774b14850a0e5a20238f97f39b152ec80b46a021e68d48190c",
+      "width": 1312,
+      "height": 1199,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v15/source/ui-kit/locked-thick.png",
+      "sha256": "bda6908ca8373d5b47094f4201aadf1cd5c169e86a9afdb1e1df9afaf755224b",
+      "width": 2060,
+      "height": 763
+    }
+  ],
+  "assets": [
+    {
+      "key": "ui/music_icon",
+      "source": "art/breakfast/v15/source/ui-kit/controls.png",
+      "backup": "art/breakfast/v15/exports/ui/music_icon.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/music_icon.png",
+      "width": 324,
+      "height": 344,
+      "aspect": 0.9418604651162791,
+      "sourceBounds": {
+        "left": 227,
+        "top": 346,
+        "right": 524,
+        "bottom": 663
+      },
+      "safeMargin": 13,
+      "sha256": "82af53c4b887ed83291a89cb86915b3280919e90484203bf240d0ec5d1ade44e",
+      "componentIds": [
+        15
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/sound_icon",
+      "source": "art/breakfast/v15/source/ui-kit/controls.png",
+      "backup": "art/breakfast/v15/exports/ui/sound_icon.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/sound_icon.png",
+      "width": 398,
+      "height": 332,
+      "aspect": 1.1987951807228916,
+      "sourceBounds": {
+        "left": 955,
+        "top": 363,
+        "right": 1322,
+        "bottom": 664
+      },
+      "safeMargin": 15,
+      "sha256": "f1c886ee58f2c053fd05d1be641e31795601cece5ec5681e6bf92c2b26924196",
+      "componentIds": [
+        16,
+        17,
+        18
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/toggle_on",
+      "source": "art/breakfast/v15/source/ui-kit/controls.png",
+      "backup": "art/breakfast/v15/exports/ui/toggle_on.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/toggle_on.png",
+      "width": 580,
+      "height": 306,
+      "aspect": 1.8954248366013071,
+      "sourceBounds": {
+        "left": 115,
+        "top": 702,
+        "right": 650,
+        "bottom": 963
+      },
+      "safeMargin": 22,
+      "sha256": "cd890cd54cf75d9f9e87e67e21fb36108cfbc759c996a0b714efba9c441d70e6",
+      "componentIds": [
+        56
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/toggle_off",
+      "source": "art/breakfast/v15/source/ui-kit/controls.png",
+      "backup": "art/breakfast/v15/exports/ui/toggle_off.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/toggle_off.png",
+      "width": 585,
+      "height": 306,
+      "aspect": 1.911764705882353,
+      "sourceBounds": {
+        "left": 869,
+        "top": 702,
+        "right": 1409,
+        "bottom": 963
+      },
+      "safeMargin": 22,
+      "sha256": "514837cdcf85da85ca2a6ddceafaa57300f843a1cfa93e77408e7cc8affe2537",
+      "componentIds": [
+        57
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/rules_button",
+      "source": "art/breakfast/v15/source/ui-kit/buttons.png",
+      "backup": "art/breakfast/v15/exports/ui/rules_button.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/rules_button.png",
+      "width": 1389,
+      "height": 329,
+      "aspect": 4.221884498480243,
+      "sourceBounds": {
+        "left": 125,
+        "top": 22,
+        "right": 1409,
+        "bottom": 246
+      },
+      "safeMargin": 52,
+      "sha256": "146738bbb4077b4ccd8024f27cc387c81f3a4585ad5668972b4f59ce0461eab8",
+      "componentIds": [
+        1
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/home_button",
+      "source": "art/breakfast/v15/source/ui-kit/buttons.png",
+      "backup": "art/breakfast/v15/exports/ui/home_button.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/home_button.png",
+      "width": 1391,
+      "height": 330,
+      "aspect": 4.215151515151515,
+      "sourceBounds": {
+        "left": 124,
+        "top": 272,
+        "right": 1410,
+        "bottom": 497
+      },
+      "safeMargin": 52,
+      "sha256": "c0a978a6ceeb4eb705cd4ceb13679524cbb8bf3bafdb5ed3ec138111090ab40e",
+      "componentIds": [
+        6
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/back_settings_button",
+      "source": "art/breakfast/v15/source/ui-kit/buttons.png",
+      "backup": "art/breakfast/v15/exports/ui/back_settings_button.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/back_settings_button.png",
+      "width": 1391,
+      "height": 330,
+      "aspect": 4.215151515151515,
+      "sourceBounds": {
+        "left": 124,
+        "top": 527,
+        "right": 1410,
+        "bottom": 752
+      },
+      "safeMargin": 52,
+      "sha256": "b425f181c31aeb6cc9749fb30a51ffabad7e42177ccd4a41336b6645f14005b0",
+      "componentIds": [
+        10
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/gm_button",
+      "source": "art/breakfast/v15/source/ui-kit/buttons.png",
+      "backup": "art/breakfast/v15/exports/ui/gm_button.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/gm_button.png",
+      "width": 1390,
+      "height": 329,
+      "aspect": 4.224924012158055,
+      "sourceBounds": {
+        "left": 124,
+        "top": 776,
+        "right": 1409,
+        "bottom": 1000
+      },
+      "safeMargin": 52,
+      "sha256": "b1e47633df8fa42d15d2d1d4983e771e0bcdea65a058f76a471daefc93707094",
+      "componentIds": [
+        16
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/lock_icon",
+      "source": "art/breakfast/v15/source/ui-kit/levels.png",
+      "backup": "art/breakfast/v15/exports/ui/lock_icon.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/lock_icon.png",
+      "width": 268,
+      "height": 319,
+      "aspect": 0.8401253918495298,
+      "sourceBounds": {
+        "left": 390,
+        "top": 413,
+        "right": 633,
+        "bottom": 707
+      },
+      "safeMargin": 12,
+      "sha256": "2577d37adee610d0089ec630c94d5d8754c90020e85dba61287f56a923c233c2",
+      "componentIds": [
+        2
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/perfect_medal",
+      "source": "art/breakfast/v15/source/ui-kit/levels.png",
+      "backup": "art/breakfast/v15/exports/ui/perfect_medal.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/perfect_medal.png",
+      "width": 386,
+      "height": 472,
+      "aspect": 0.8177966101694916,
+      "sourceBounds": {
+        "left": 337,
+        "top": 748,
+        "right": 686,
+        "bottom": 1183
+      },
+      "safeMargin": 18,
+      "sha256": "72c80b907512107f8922f5bb4bd007a52740f15314e43f33ef0c3b854fa51632",
+      "componentIds": [
+        3
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/guide_arrow",
+      "source": "art/breakfast/v15/source/ui-kit/levels.png",
+      "backup": "art/breakfast/v15/exports/ui/guide_arrow.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/guide_arrow.png",
+      "width": 612,
+      "height": 322,
+      "aspect": 1.9006211180124224,
+      "sourceBounds": {
+        "left": 234,
+        "top": 1205,
+        "right": 799,
+        "bottom": 1480
+      },
+      "safeMargin": 23,
+      "sha256": "5975af751ce2191b8ed4e03e7123cdf305275ffa13ab1b72a8f05a1c0b1927ed",
+      "componentIds": [
+        12
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/settings_row",
+      "source": "art/breakfast/v15/source/ui-kit/slim-containers.png",
+      "backup": "art/breakfast/v15/exports/ui/settings_row.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/settings_row.png",
+      "width": 1625,
+      "height": 320,
+      "aspect": 5.078125,
+      "sourceBounds": {
+        "left": 16,
+        "top": 112,
+        "right": 1518,
+        "bottom": 309
+      },
+      "safeMargin": 61,
+      "sha256": "790f9049700d007d75c2752b6a8ffe1dd9cacc59c67ccd60acb60a8eaa1d6725",
+      "componentIds": [
+        1
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/rule_row",
+      "source": "art/breakfast/v15/source/ui-kit/slim-containers.png",
+      "backup": "art/breakfast/v15/exports/ui/rule_row.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/rule_row.png",
+      "width": 1628,
+      "height": 306,
+      "aspect": 5.3202614379084965,
+      "sourceBounds": {
+        "left": 15,
+        "top": 373,
+        "right": 1520,
+        "bottom": 556
+      },
+      "safeMargin": 61,
+      "sha256": "fd8abcfb2a849e64985f62047404c258ea1fd7774c5639afadea8103c752f16a",
+      "componentIds": [
+        2
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "ui/level_locked",
+      "source": "art/breakfast/v15/source/ui-kit/locked-thick.png",
+      "backup": "art/breakfast/v15/exports/ui/level_locked.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/level_locked.png",
+      "width": 2119,
+      "height": 729,
+      "aspect": 2.906721536351166,
+      "sourceBounds": {
+        "id": 1,
+        "count": 1130002,
+        "left": 37,
+        "top": 45,
+        "right": 2035,
+        "bottom": 653
+      },
+      "safeMargin": 60,
+      "sha256": "396c1f9c1f436cdb728ed81245a852a7fa5d21581f259f3ccc2bf147acbece59",
+      "componentIds": [
+        3
+      ],
+      "visualReview": "complete single thick card, all corners/leaves intact",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "rules/slide",
+      "source": "art/breakfast/v15/source/ui-kit/rules.png",
+      "backup": "art/breakfast/v15/exports/rules/slide.png",
+      "runtime": "assets/resources/art/breakfast-v15/rules/slide.png",
+      "width": 479,
+      "height": 482,
+      "aspect": 0.9937759336099585,
+      "sourceBounds": {
+        "left": 118,
+        "top": 8,
+        "right": 560,
+        "bottom": 453
+      },
+      "safeMargin": 18,
+      "sha256": "a6affc13228a7c8348edf3d7af923ce8fb510803ff23c595aa313ad1b2feb5d0",
+      "componentIds": [
+        4,
+        25,
+        26,
+        1
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "rules/cook",
+      "source": "art/breakfast/v15/source/ui-kit/rules.png",
+      "backup": "art/breakfast/v15/exports/rules/cook.png",
+      "runtime": "assets/resources/art/breakfast-v15/rules/cook.png",
+      "width": 450,
+      "height": 440,
+      "aspect": 1.0227272727272727,
+      "sourceBounds": {
+        "left": 780,
+        "top": 27,
+        "right": 1195,
+        "bottom": 432
+      },
+      "safeMargin": 17,
+      "sha256": "2bab21ab3d46580f5668c148981f776cef6864933c8a5908621f47935fba03a2",
+      "componentIds": [
+        2,
+        3,
+        8
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "rules/mouth",
+      "source": "art/breakfast/v15/source/ui-kit/rules.png",
+      "backup": "art/breakfast/v15/exports/rules/mouth.png",
+      "runtime": "assets/resources/art/breakfast-v15/rules/mouth.png",
+      "width": 586,
+      "height": 425,
+      "aspect": 1.3788235294117648,
+      "sourceBounds": {
+        "left": 77,
+        "top": 462,
+        "right": 618,
+        "bottom": 842
+      },
+      "safeMargin": 22,
+      "sha256": "9f59b7ca3a7147b51df9589e7be30f98f6e88f8633d79cea621414c3e8c1591c",
+      "componentIds": [
+        47
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "rules/steps",
+      "source": "art/breakfast/v15/source/ui-kit/rules.png",
+      "backup": "art/breakfast/v15/exports/rules/steps.png",
+      "runtime": "assets/resources/art/breakfast-v15/rules/steps.png",
+      "width": 342,
+      "height": 376,
+      "aspect": 0.9095744680851063,
+      "sourceBounds": {
+        "left": 825,
+        "top": 469,
+        "right": 1138,
+        "bottom": 816
+      },
+      "safeMargin": 14,
+      "sha256": "09107367d592b1a06e8d3f8d531c44646e99b654713b1b32cc3fc5251c98cc4e",
+      "componentIds": [
+        48
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "rules/energy",
+      "source": "art/breakfast/v15/source/ui-kit/rules.png",
+      "backup": "art/breakfast/v15/exports/rules/energy.png",
+      "runtime": "assets/resources/art/breakfast-v15/rules/energy.png",
+      "width": 548,
+      "height": 317,
+      "aspect": 1.7287066246056781,
+      "sourceBounds": {
+        "left": 69,
+        "top": 884,
+        "right": 574,
+        "bottom": 1158
+      },
+      "safeMargin": 21,
+      "sha256": "278d20f9c64ea0cd7c82db92bb13e45ba6c38091ad329360af8bb8d5422b25cf",
+      "componentIds": [
+        52,
+        60
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    },
+    {
+      "key": "rules/restaurant",
+      "source": "art/breakfast/v15/source/ui-kit/rules.png",
+      "backup": "art/breakfast/v15/exports/rules/restaurant.png",
+      "runtime": "assets/resources/art/breakfast-v15/rules/restaurant.png",
+      "width": 673,
+      "height": 360,
+      "aspect": 1.8694444444444445,
+      "sourceBounds": {
+        "left": 668,
+        "top": 835,
+        "right": 1290,
+        "bottom": 1144
+      },
+      "safeMargin": 25,
+      "sha256": "1a7bd28584922df643db06fd68722048eb981cf6e7c69aee08e7bf9b8a4142a3",
+      "componentIds": [
+        51,
+        53,
+        63
+      ],
+      "visualReview": "complete: full contour, no adjacent fragments, preserved detached components; reviewed on teal contact sheet",
+      "method": "white-matte-complete-union-contour"
+    }
+  ]
+}

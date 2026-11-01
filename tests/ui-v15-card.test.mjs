@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{readFile}from'node:fs/promises';
+test('locked level backing has room for the centered card captions without anisotropic stretch',async()=>{const m=JSON.parse(await readFile('art/breakfast/v15/manifests/ui-assets.json','utf8')),a=m.assets.find(a=>a.key==='ui/level_locked');assert.ok(a.width/a.height>2.3&&a.width/a.height<3.2,'locked card must match 303×112 presentation bounds');});

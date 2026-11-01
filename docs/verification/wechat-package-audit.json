@@ -1,0 +1,16 @@
+{
+  "project": "build/wechatgame-1.0.1",
+  "externalResourceServer": false,
+  "nativeHashesVerified": 530,
+  "subpackages": [
+    {
+      "name": "resources",
+      "root": "subpackages/resources/"
+    },
+    {
+      "name": "main",
+      "root": "subpackages/main/"
+    }
+  ],
+  "verified": true
+}

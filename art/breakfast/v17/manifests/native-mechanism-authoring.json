@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "data": {
+    "result": [
+      {
+        "id": "MechanismTile",
+        "uuid": "6a833fe8-8484-4144-96dc-1b25748da1a7"
+      }
+    ],
+    "message": "Method 'generate' executed successfully"
+  }
+}

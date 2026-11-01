@@ -1,0 +1,52 @@
+{
+  "version": 15,
+  "sources": [
+    {
+      "path": "art/breakfast/v15/source/ui/settings-panel.png",
+      "sha256": "2b181fc7cbc4c92cdca669614750d9ebeb8d9972f9aa832c4b40fd752a2cc089",
+      "width": 948,
+      "height": 1659,
+      "method": "built-in-imagegen-opaque-white"
+    },
+    {
+      "path": "art/breakfast/v15/source/backgrounds/settings-terrace.png",
+      "sha256": "fe9c4aaf0173aa7e83d377b78cda1f783838bcca65679a3f27ce901f30100d3c",
+      "method": "built-in-imagegen"
+    }
+  ],
+  "assets": [
+    {
+      "key": "ui/settings_panel",
+      "source": "art/breakfast/v15/source/ui/settings-panel.png",
+      "backup": "art/breakfast/v15/exports/ui/settings_panel.png",
+      "runtime": "assets/resources/art/breakfast-v15/ui/settings_panel.png",
+      "width": 934,
+      "height": 1671,
+      "aspect": 0.5589467384799521,
+      "sourceBounds": {
+        "id": 1,
+        "count": 1083356,
+        "left": 72,
+        "top": 40,
+        "right": 895,
+        "bottom": 1600
+      },
+      "safeMargin": 55,
+      "sha256": "be0796f2bd58400ef1c57bf61d567f8849b527588b9babc679bc4ed823538d66",
+      "visualReview": "complete",
+      "method": "border-connected-white-matte-global-component-complete-contour"
+    },
+    {
+      "key": "backgrounds/settings",
+      "source": "art/breakfast/v15/source/backgrounds/settings-terrace.png",
+      "backup": "art/breakfast/v15/exports/backgrounds/settings.png",
+      "runtime": "assets/resources/art/breakfast-v15/backgrounds/settings.png",
+      "width": 720,
+      "height": 1280,
+      "aspect": 0.5625,
+      "sha256": "6ab4d464b6e65f81c9b3d96731ebf8d7623859d5e8bb8df99bef27e673a2e248",
+      "fullBleed": true,
+      "visualReview": "complete"
+    }
+  ]
+}

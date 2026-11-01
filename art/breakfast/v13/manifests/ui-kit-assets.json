@@ -1,0 +1,203 @@
+{
+  "version": 13,
+  "assets": [
+    {
+      "key": "ui/continue_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-buttons.png",
+      "backup": "art/breakfast/v13/exports/ui/continue_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/continue_button.png",
+      "width": 1022,
+      "height": 346,
+      "aspect": 2.953757225433526,
+      "sourceBounds": {
+        "id": 1,
+        "count": 224348,
+        "left": 37,
+        "top": 39,
+        "right": 982,
+        "bottom": 308
+      },
+      "safeMargin": 38,
+      "sha256": "e25f21fc72e6206bd109fd8060ad96a9e542b92847b44b172f52aad1a5e9434b",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/retry_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-buttons.png",
+      "backup": "art/breakfast/v13/exports/ui/retry_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/retry_button.png",
+      "width": 1022,
+      "height": 345,
+      "aspect": 2.96231884057971,
+      "sourceBounds": {
+        "id": 5,
+        "count": 223988,
+        "left": 37,
+        "top": 335,
+        "right": 982,
+        "bottom": 603
+      },
+      "safeMargin": 38,
+      "sha256": "69bd3d42da95df283973a79b9e91fc951965609022194571e44c94d3c5519d89",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/select_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-buttons.png",
+      "backup": "art/breakfast/v13/exports/ui/select_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/select_button.png",
+      "width": 1022,
+      "height": 346,
+      "aspect": 2.953757225433526,
+      "sourceBounds": {
+        "id": 10,
+        "count": 223368,
+        "left": 37,
+        "top": 629,
+        "right": 982,
+        "bottom": 898
+      },
+      "safeMargin": 38,
+      "sha256": "508a2314a08a23a4c2d71c59b745220afc863f246e176afde550187272a4c1b4",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/confirm_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-buttons.png",
+      "backup": "art/breakfast/v13/exports/ui/confirm_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/confirm_button.png",
+      "width": 1022,
+      "height": 346,
+      "aspect": 2.953757225433526,
+      "sourceBounds": {
+        "id": 15,
+        "count": 223669,
+        "left": 37,
+        "top": 925,
+        "right": 982,
+        "bottom": 1194
+      },
+      "safeMargin": 38,
+      "sha256": "acea5f0a05e4b0b33ff615624c1309ecef1c8bffa09fff85cad0d129c4e48262",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/cancel_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-buttons.png",
+      "backup": "art/breakfast/v13/exports/ui/cancel_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/cancel_button.png",
+      "width": 1022,
+      "height": 347,
+      "aspect": 2.9452449567723344,
+      "sourceBounds": {
+        "id": 19,
+        "count": 225430,
+        "left": 37,
+        "top": 1214,
+        "right": 982,
+        "bottom": 1484
+      },
+      "safeMargin": 38,
+      "sha256": "8c60697444e0c1480ad91923076ad9247fefc1ce00405d006161be12cec08dd6",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/undo_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-square-controls.png",
+      "backup": "art/breakfast/v13/exports/ui/undo_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/undo_button.png",
+      "width": 592,
+      "height": 587,
+      "aspect": 1.008517887563884,
+      "sourceBounds": {
+        "id": 1,
+        "count": 249073,
+        "left": 44,
+        "top": 40,
+        "right": 591,
+        "bottom": 582
+      },
+      "safeMargin": 22,
+      "sha256": "2b410df8dfdea818c6d6a86685acb9cb0fa78590338f132c72c2992f6ed5dc60",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/overtime_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-square-controls.png",
+      "backup": "art/breakfast/v13/exports/ui/overtime_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/overtime_button.png",
+      "width": 585,
+      "height": 576,
+      "aspect": 1.015625,
+      "sourceBounds": {
+        "id": 2,
+        "count": 242314,
+        "left": 674,
+        "top": 48,
+        "right": 1214,
+        "bottom": 579
+      },
+      "safeMargin": 22,
+      "sha256": "cf89f483fcff401edd3311ad6413f8e06c3468dbc8b72e0e08ab37acf0c9bfaf",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/pause_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-square-controls.png",
+      "backup": "art/breakfast/v13/exports/ui/pause_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/pause_button.png",
+      "width": 589,
+      "height": 577,
+      "aspect": 1.0207972270363952,
+      "sourceBounds": {
+        "id": 12,
+        "count": 246216,
+        "left": 43,
+        "top": 654,
+        "right": 587,
+        "bottom": 1186
+      },
+      "safeMargin": 22,
+      "sha256": "24ba2e04e48d1eeb2dff7341cdb3d1be9c57c36b92f32cc88153a97f7b0f1583",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/close_button",
+      "source": "art/breakfast/v13/source/ui-kit/battle-square-controls.png",
+      "backup": "art/breakfast/v13/exports/ui/close_button.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/close_button.png",
+      "width": 591,
+      "height": 536,
+      "aspect": 1.1026119402985075,
+      "sourceBounds": {
+        "id": 13,
+        "count": 202653,
+        "left": 666,
+        "top": 681,
+        "right": 1212,
+        "bottom": 1172
+      },
+      "safeMargin": 22,
+      "sha256": "fa8d6fcfb3e227af41ce1ad08ad5f1c5c59590bfa2fe1bac9e18e7844aef13d9",
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/energy_illustration",
+      "source": "art/breakfast/v13/source/ui-kit/energy-illustration-final.png",
+      "backup": "art/breakfast/v13/exports/ui/energy_illustration.png",
+      "runtime": "assets/resources/art/breakfast-v13/ui/energy_illustration.png",
+      "width": 1843,
+      "height": 804,
+      "aspect": 2.29228855721393,
+      "sourceBounds": {
+        "left": 34,
+        "top": 118,
+        "right": 1738,
+        "bottom": 783
+      },
+      "safeMargin": 69,
+      "sha256": "4981c8f45ca1da46b6c147438e0e8962c9005122b4aa464d9d34d76021050a16",
+      "visualReview": "complete"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+import {readHistoricalFile as readFile} from './retired-art.mjs';
+import {activeOrArchived} from './retired-art.mjs';
+import test from 'node:test';import assert from 'node:assert/strict';import{readFile as unusedNativeReadFile,stat}from'node:fs/promises';import{createHash}from'node:crypto';
+const json=async p=>JSON.parse(await readFile(await activeOrArchived(p),'utf8')),sha=b=>createHash('sha256').update(b).digest('hex'),base='art/breakfast/v5/manifests/';
+test('v5 actors preserve registered idle roots, comparable hamster sizes and reviewed imported backups',async()=>{
+ const manifest=await json(base+'assets.json'),audit=await json(base+'crop-audit.json'),anchors=await json(base+'anchor-after.json'),body=await json(base+'body-alignment-review.json'),clips=await json(base+'clips.json'),runtime=await json('assets/resources/art/breakfast-v5/animations/clips.json'),old=await json('assets/resources/art/breakfast-v3/animations/clips.json');
+ assert.equal(manifest.assets.length,100);assert.deepEqual(clips,runtime);assert.deepEqual(clips.boards,old.boards,'board work is explicitly deferred');assert.equal(audit.frames.length,100);
+ for(const [key,s]of Object.entries(anchors.summary)){const hasBodyRegistration=manifest.assets.some(a=>a.clip===key&&(a.manualOffset.dx||a.manualOffset.dy));if(!hasBodyRegistration){assert.equal(s.footDrift,0,key);assert.ok(s.centerDrift<=.5,key);}if(key.startsWith('hamster/')){assert.ok(s.visibleHeight[0]>=216,key+' too small');assert.ok(s.visibleHeight[1]<=221,key+' changes size');}}
+ for(const a of manifest.assets){const bytes=await readFile(await activeOrArchived(a.runtime)),review=audit.frames.find(x=>x.key===a.key);assert.equal(sha(bytes),a.sha256);assert.deepEqual(bytes,await readFile(a.backup));assert.ok((await stat(await activeOrArchived(a.runtime+'.meta'))).size>0);assert.equal(review.visualReview,'complete');assert.equal(review.reviewedSha256,a.sha256);assert.equal(review.edgeAlpha,0);assert.equal(a.core.footY,236+a.manualOffset.dy);assert.ok(Math.abs(a.core.centerX-(127.5+a.manualOffset.dx))<=.5);if(a.manualOffset.dx||a.manualOffset.dy){const registration=body.frames.find(f=>f.key===a.key);assert.equal(registration.sha256,a.sha256);assert.equal(registration.bodyAlignmentReview,'complete');}}
+});
+test('step artwork has reviewed digits 0–9 with matching baselines and complete source backups',async()=>{
+ const manifest=await json(base+'ui-assets.json'),audit=await json(base+'ui-audit.json');assert.equal(manifest.assets.length,11);assert.deepEqual(audit.blockers,[]);
+ for(const s of manifest.sources)assert.equal(sha(await readFile(s.path)),s.sha256);
+ for(const a of manifest.assets){const bytes=await readFile(await activeOrArchived(a.runtime)),review=audit.assets.find(x=>x.key===a.key);assert.equal(sha(bytes),a.sha256);assert.deepEqual(bytes,await readFile(a.backup));assert.equal(review.reviewedSha256,a.sha256);assert.equal(review.visualReview,'complete');assert.ok((await stat(await activeOrArchived(a.runtime+'.meta'))).size>0);if(a.key.startsWith('ui/digits/'))assert.equal(review.baseline,112);}
+});

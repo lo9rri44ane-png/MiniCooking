@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-31T18:55:04.650Z",
+  "method": "Manual source and contact review: both entire storefront roofs, chimneys, doors and corners; bubble full rounded silhouette without food remnants; independent transparent safety padding.",
+  "contact": "previews/contact.png",
+  "reviewed": {
+    "covers/breakfast": "301415b5b78435560a427d050667aa1bdbacd637e39d26390dca7d0199a8b1a6",
+    "covers/street": "9357a5642c4bbfa497deac0486f323c905327e72997262cab08aced3a49ecd34",
+    "ui/order_bubble": "cecc718e38b6ebdab0d3cd672e902c0b69f5df4e7e167fa55adc5cd8ecf176f2"
+  }
+}

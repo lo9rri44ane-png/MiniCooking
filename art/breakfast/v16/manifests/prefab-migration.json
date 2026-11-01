@@ -1,0 +1,284 @@
+{
+  "moves": [
+    {
+      "id": "CustomerActor",
+      "from": "assets/resources/prefabs/CustomerActor.prefab",
+      "to": "assets/resources/prefabs/actors/CustomerActor.prefab",
+      "uuid": "ebc620a5-371c-43f7-bc67-30ae79efb70f"
+    },
+    {
+      "id": "OrderBubble",
+      "from": "assets/resources/prefabs/OrderBubble.prefab",
+      "to": "assets/resources/prefabs/ui/hud/OrderBubble.prefab",
+      "uuid": "79c76d3d-59cf-473d-9700-76fca56d5ff8"
+    },
+    {
+      "id": "CartoonSmoke",
+      "from": "assets/resources/prefabs/CartoonSmoke.prefab",
+      "to": "assets/resources/prefabs/actors/CartoonSmoke.prefab",
+      "uuid": "9e775241-4919-4cfa-b407-9aff70de7dd0"
+    },
+    {
+      "id": "SunlightOverlay",
+      "from": "assets/resources/prefabs/SunlightOverlay.prefab",
+      "to": "assets/resources/prefabs/ui/shared/SunlightOverlay.prefab",
+      "uuid": "794181e7-09b9-4ca4-a623-c6bbd6341cbf"
+    },
+    {
+      "id": "Board",
+      "from": "assets/resources/prefabs/Board.prefab",
+      "to": "assets/resources/prefabs/board/Board.prefab",
+      "uuid": "7b245c0c-7359-4228-803b-44ce56d68739"
+    },
+    {
+      "id": "HUD",
+      "from": "assets/resources/prefabs/HUD.prefab",
+      "to": "assets/resources/prefabs/ui/hud/HUD.prefab",
+      "uuid": "edde457c-6ec8-49df-91ff-866ed7a86bea"
+    },
+    {
+      "id": "Effects",
+      "from": "assets/resources/prefabs/Effects.prefab",
+      "to": "assets/resources/prefabs/ui/shared/Effects.prefab",
+      "uuid": "568315b9-68a6-473c-ac35-f0e0e00cf3e9"
+    },
+    {
+      "id": "TutorialOverlay",
+      "from": "assets/resources/prefabs/TutorialOverlay.prefab",
+      "to": "assets/resources/prefabs/ui/tutorial/TutorialOverlay.prefab",
+      "uuid": "90d71f9e-4e9d-438d-b000-3998cc110547"
+    },
+    {
+      "id": "EnergyWidget",
+      "from": "assets/resources/prefabs/EnergyWidget.prefab",
+      "to": "assets/resources/prefabs/ui/hud/EnergyWidget.prefab",
+      "uuid": "7096e1af-9de9-4166-9e79-6fb4b0195f8e"
+    },
+    {
+      "id": "HomePage",
+      "from": "assets/resources/prefabs/HomePage.prefab",
+      "to": "assets/resources/prefabs/pages/HomePage.prefab",
+      "uuid": "b3af17e5-8b4b-4649-a0c9-8386683d6fe0"
+    },
+    {
+      "id": "RestaurantsPage",
+      "from": "assets/resources/prefabs/RestaurantsPage.prefab",
+      "to": "assets/resources/prefabs/pages/RestaurantsPage.prefab",
+      "uuid": "4329fda4-77bf-4a65-9ba8-e6df64afacd9"
+    },
+    {
+      "id": "LevelSelectPage",
+      "from": "assets/resources/prefabs/LevelSelectPage.prefab",
+      "to": "assets/resources/prefabs/pages/LevelSelectPage.prefab",
+      "uuid": "3b375872-2e8d-4d6d-bd0c-f055e5383319"
+    },
+    {
+      "id": "KitchenPage",
+      "from": "assets/resources/prefabs/KitchenPage.prefab",
+      "to": "assets/resources/prefabs/pages/KitchenPage.prefab",
+      "uuid": "7f2ad1c6-f0d9-4f09-b189-f4da919f9a10"
+    },
+    {
+      "id": "SettingsPage",
+      "from": "assets/resources/prefabs/SettingsPage.prefab",
+      "to": "assets/resources/prefabs/pages/SettingsPage.prefab",
+      "uuid": "c04e48bc-fe48-410a-9bfc-c6c694370119"
+    },
+    {
+      "id": "RulesPage",
+      "from": "assets/resources/prefabs/RulesPage.prefab",
+      "to": "assets/resources/prefabs/pages/RulesPage.prefab",
+      "uuid": "1de012db-b1e2-4ebf-bebb-a95c84edfea9"
+    },
+    {
+      "id": "DiagnosticsPage",
+      "from": "assets/resources/prefabs/DiagnosticsPage.prefab",
+      "to": "assets/resources/prefabs/pages/DiagnosticsPage.prefab",
+      "uuid": "6ddfbb27-6357-4702-9f9d-7b557842931a"
+    },
+    {
+      "id": "PrimaryButton",
+      "from": "assets/resources/prefabs/PrimaryButton.prefab",
+      "to": "assets/resources/prefabs/ui/shared/PrimaryButton.prefab",
+      "uuid": "8001f7ed-2382-4df8-ae34-f6b79a41e9b4"
+    },
+    {
+      "id": "FrameworkButton",
+      "from": "assets/resources/prefabs/FrameworkButton.prefab",
+      "to": "assets/resources/prefabs/ui/shared/FrameworkButton.prefab",
+      "uuid": "af6873a9-831d-49cd-b356-5a6f7b78b476"
+    },
+    {
+      "id": "CustomerOrderCard",
+      "from": "assets/resources/prefabs/CustomerOrderCard.prefab",
+      "to": "assets/resources/prefabs/ui/hud/CustomerOrderCard.prefab",
+      "uuid": "921dcbfc-3ac8-4eff-a838-c96a16e3dbad"
+    },
+    {
+      "id": "IngredientTile",
+      "from": "assets/resources/prefabs/IngredientTile.prefab",
+      "to": "assets/resources/prefabs/board/IngredientTile.prefab",
+      "uuid": "91b3da60-26a7-413a-96ca-004f37a6369f"
+    },
+    {
+      "id": "RequiredDevice",
+      "from": "assets/resources/prefabs/RequiredDevice.prefab",
+      "to": "assets/resources/prefabs/board/RequiredDevice.prefab",
+      "uuid": "3bb955f4-5eb9-4641-aa73-f6f30778d38a"
+    },
+    {
+      "id": "DeviceTile",
+      "from": "assets/resources/prefabs/DeviceTile.prefab",
+      "to": "assets/resources/prefabs/board/DeviceTile.prefab",
+      "uuid": "003f61bd-0a7a-4a55-bbb9-e242e8e3661e"
+    },
+    {
+      "id": "BoardCell",
+      "from": "assets/resources/prefabs/BoardCell.prefab",
+      "to": "assets/resources/prefabs/board/BoardCell.prefab",
+      "uuid": "c4edde7d-448f-4238-a82a-a0ca180e48ef"
+    },
+    {
+      "id": "Wall",
+      "from": "assets/resources/prefabs/Wall.prefab",
+      "to": "assets/resources/prefabs/board/Wall.prefab",
+      "uuid": "c04c0397-1ac7-4a15-b1cd-7ce891369b71"
+    },
+    {
+      "id": "Station",
+      "from": "assets/resources/prefabs/Station.prefab",
+      "to": "assets/resources/prefabs/board/Station.prefab",
+      "uuid": "ede10d21-9b23-4b74-b66e-75f063bd8656"
+    },
+    {
+      "id": "BagSlot",
+      "from": "assets/resources/prefabs/BagSlot.prefab",
+      "to": "assets/resources/prefabs/ui/hud/BagSlot.prefab",
+      "uuid": "bfa71b2a-048e-4e85-a7a7-2fd5233b3616"
+    },
+    {
+      "id": "AdBagSlot",
+      "from": "assets/resources/prefabs/AdBagSlot.prefab",
+      "to": "assets/resources/prefabs/ui/hud/AdBagSlot.prefab",
+      "uuid": "d9f0bebb-0878-46e5-abdb-4c82e433b503"
+    },
+    {
+      "id": "Chef",
+      "from": "assets/resources/prefabs/Chef.prefab",
+      "to": "assets/resources/prefabs/actors/Chef.prefab",
+      "uuid": "990b179f-98c3-4afa-8735-0cd795947f31"
+    },
+    {
+      "id": "ChefBody",
+      "from": "assets/resources/prefabs/ChefBody.prefab",
+      "to": "assets/resources/prefabs/actors/ChefBody.prefab",
+      "uuid": "0e9f05b6-10fe-468e-b3c0-c7e03da1eebb"
+    },
+    {
+      "id": "RestaurantCard",
+      "from": "assets/resources/prefabs/RestaurantCard.prefab",
+      "to": "assets/resources/prefabs/ui/hud/RestaurantCard.prefab",
+      "uuid": "d95a151f-f09c-4484-a14f-bebdc6ecec8c"
+    },
+    {
+      "id": "LevelCard",
+      "from": "assets/resources/prefabs/LevelCard.prefab",
+      "to": "assets/resources/prefabs/ui/hud/LevelCard.prefab",
+      "uuid": "27326863-9ee7-4d61-841d-c9b4a3e2f77e"
+    },
+    {
+      "id": "GuideDock",
+      "from": "assets/resources/prefabs/GuideDock.prefab",
+      "to": "assets/resources/prefabs/ui/tutorial/GuideDock.prefab",
+      "uuid": "aaba0599-a3a6-4d66-b196-117aad52ae2b"
+    },
+    {
+      "id": "GuideFocus",
+      "from": "assets/resources/prefabs/GuideFocus.prefab",
+      "to": "assets/resources/prefabs/ui/tutorial/GuideFocus.prefab",
+      "uuid": "d723ac31-d748-489f-ad57-437d5bf618cf"
+    },
+    {
+      "id": "GuideTarget",
+      "from": "assets/resources/prefabs/GuideTarget.prefab",
+      "to": "assets/resources/prefabs/ui/tutorial/GuideTarget.prefab",
+      "uuid": "7adb7304-7060-453f-b968-06f9e30896c1"
+    },
+    {
+      "id": "RecipeCard",
+      "from": "assets/resources/prefabs/RecipeCard.prefab",
+      "to": "assets/resources/prefabs/ui/dialogs/RecipeCard.prefab",
+      "uuid": "a684bca0-f21d-4e6b-89ed-5609b807a601"
+    },
+    {
+      "id": "IngredientChip",
+      "from": "assets/resources/prefabs/IngredientChip.prefab",
+      "to": "assets/resources/prefabs/ui/hud/IngredientChip.prefab",
+      "uuid": "49efc4a2-77c1-477d-aa93-e289e44ca126"
+    },
+    {
+      "id": "Container",
+      "from": "assets/resources/prefabs/Container.prefab",
+      "to": "assets/resources/prefabs/ui/shared/Container.prefab",
+      "uuid": "d564106d-4754-44b4-acd6-faed0cfd4c78"
+    },
+    {
+      "id": "Panel",
+      "from": "assets/resources/prefabs/Panel.prefab",
+      "to": "assets/resources/prefabs/ui/shared/Panel.prefab",
+      "uuid": "2f3ee4ca-b6e8-4a4d-9eb9-fbf0871cbf4c"
+    },
+    {
+      "id": "TextLabel",
+      "from": "assets/resources/prefabs/TextLabel.prefab",
+      "to": "assets/resources/prefabs/ui/shared/TextLabel.prefab",
+      "uuid": "c7f31fc8-1d57-4d0b-93ee-83d5dfbf485b"
+    },
+    {
+      "id": "Toast",
+      "from": "assets/resources/prefabs/Toast.prefab",
+      "to": "assets/resources/prefabs/ui/shared/Toast.prefab",
+      "uuid": "67962914-e39b-4afd-97cf-20a482ac0b3b"
+    },
+    {
+      "id": "Popup",
+      "from": "assets/resources/prefabs/Popup.prefab",
+      "to": "assets/resources/prefabs/ui/dialogs/Popup.prefab",
+      "uuid": "94ed1526-07e9-48c8-a2ee-01761d4c6543"
+    },
+    {
+      "id": "ChoicePanel",
+      "from": "assets/resources/prefabs/ChoicePanel.prefab",
+      "to": "assets/resources/prefabs/ui/dialogs/ChoicePanel.prefab",
+      "uuid": "75015af4-b810-419f-8721-d13820ae9a72"
+    },
+    {
+      "id": "WinResult",
+      "from": "assets/resources/prefabs/WinResult.prefab",
+      "to": "assets/resources/prefabs/ui/dialogs/WinResult.prefab",
+      "uuid": "c0765a1d-b2f3-46d8-b6e9-feb40708d54a"
+    },
+    {
+      "id": "FailResult",
+      "from": "assets/resources/prefabs/FailResult.prefab",
+      "to": "assets/resources/prefabs/ui/dialogs/FailResult.prefab",
+      "uuid": "62e894f3-36ff-4a50-bcb0-258ff8c4f05f"
+    },
+    {
+      "id": "PausePanel",
+      "from": "assets/resources/prefabs/PausePanel.prefab",
+      "to": "assets/resources/prefabs/ui/dialogs/PausePanel.prefab",
+      "uuid": "693fd668-cec7-4934-83c9-505caddfafb2"
+    },
+    {
+      "id": "RecipePanel",
+      "from": "assets/resources/prefabs/RecipePanel.prefab",
+      "to": "assets/resources/prefabs/ui/dialogs/RecipePanel.prefab",
+      "uuid": "87b14093-f64c-42a8-928f-9cf179088106"
+    }
+  ],
+  "removedImages": [
+    "ui/inventory/close_button",
+    "ui/menu/restaurant_card"
+  ]
+}

@@ -10,7 +10,7 @@ export class EventBus<Events extends object> {
         return () => { set!.delete(listener); if (!set!.size && this.listeners.get(key) === set)
             this.listeners.delete(key); };
     }
-    emit<K extends keyof Events>(key: K, value: Events[K]): void { for (const listener of [...this.listeners.get(key) || []])
+    emit<K extends keyof Events>(key: K, value: Events[K]): void { for (const listener of Array.from(this.listeners.get(key) || []))
         listener(value); }
     clear(): void { this.listeners.clear(); }
 }

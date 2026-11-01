@@ -1,0 +1,4 @@
+import{readFile}from'node:fs/promises';
+export async function activeOrArchived(path){for(const report of ['retired-art-v11.json','retired-battle-v13.json','retired-art-v16.json']){let registry;try{registry=JSON.parse(await readFile('docs/verification/'+report,'utf8'));}catch(e){if(e.code==='ENOENT'&&report!=='retired-art-v11.json')continue;throw e;}const a=registry.retired.find(a=>path===a.runtime||path===a.runtime+'.meta');if(a)return path.endsWith('.meta')?a.archivedMeta:a.backup;}return path;}
+
+export async function readHistoricalFile(path,...args){const {fileURLToPath}=await import('node:url');const {relative}=await import('node:path');const raw=path instanceof URL?fileURLToPath(path):path;const key=typeof raw==='string'?relative(process.cwd(),raw).replaceAll('\\','/'):raw;return readFile(await activeOrArchived(key),...args);}

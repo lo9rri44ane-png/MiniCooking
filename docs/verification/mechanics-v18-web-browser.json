@@ -1,0 +1,889 @@
+{
+  "at": "2026-11-01T08:49:29.612Z",
+  "isolatedContext": true,
+  "checks": [
+    {
+      "name": "actual-mechanic-render-step",
+      "id": 41,
+      "d": "down",
+      "events": [
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            1
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "pickup",
+          "item": "leaf",
+          "pos": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            2
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "stop-pad",
+          "pos": [
+            0,
+            2
+          ],
+          "mechanic": 0
+        }
+      ],
+      "snapshot": {
+        "labels": [
+          "×1",
+          "第41关",
+          "",
+          "10/10"
+        ],
+        "nodes": [
+          "Canvas",
+          "UICamera",
+          "SafeArea",
+          "Pages",
+          "KitchenGame",
+          "Background",
+          "厨房场景底图",
+          "ArtVisual",
+          "厨房棋盘底图",
+          "ArtVisual",
+          "Board",
+          "MechanismFloors",
+          "StopPad-0",
+          "ArtSurface",
+          "Station",
+          "StationMat",
+          "ArtVisual",
+          "Wall",
+          "ArtSurface",
+          "Device-table",
+          "DeviceArt",
+          "ArtVisual",
+          "Items",
+          "Ingredient-1",
+          "FoodArt",
+          "ArtVisual",
+          "MechanismDoors",
+          "Chef",
+          "ChefBody",
+          "序列帧美术",
+          "CustomerActor-0",
+          "序列帧美术",
+          "SunlightOverlay",
+          "序列帧美术",
+          "柔光过渡层",
+          "HUD",
+          "CustomerCounter",
+          "CustomerSilhouette",
+          "ArtVisual",
+          "Label",
+          "StepsCounter",
+          "StepsPlate",
+          "ArtVisual",
+          "StepDigit-0-9",
+          "ArtVisual",
+          "LevelBadge",
+          "ArtVisual",
+          "Label",
+          "OrderBubble-0",
+          "ArtSurface",
+          "DishArt",
+          "ArtVisual",
+          "OrderIngredient-leaf",
+          "FoodArt",
+          "ArtVisual",
+          "OrderIngredient-tomato",
+          "FoodArt",
+          "ArtVisual",
+          "OrderDeviceArt",
+          "ArtVisual",
+          "BagSlot",
+          "ArtSurface",
+          "BagFood",
+          "ArtVisual",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "AdBagSlot-Locked",
+          "ArtSurface",
+          "Label",
+          "Action-撤回一步 ·试用",
+          "ArtSurface",
+          "Action-加班 +3步 ·试用",
+          "ArtSurface",
+          "Effects",
+          "EnergyWidget",
+          "ArtSurface",
+          "Label",
+          "Action-菜单",
+          "ArtSurface",
+          "Overlays"
+        ],
+        "steps": 9,
+        "arrow": null,
+        "mechanics": [
+          {
+            "name": "StopPad-0",
+            "alpha": 170,
+            "frame": "3625292e-9629-4f5e-adaa-882905d5bea5@f9941"
+          }
+        ],
+        "chef": [
+          {
+            "pos": {
+              "x": 150.48045229145393,
+              "y": 543.5494155154091
+            },
+            "frame": "efbdd1a2-f85c-4323-ab24-7e66f229dd07@f9941"
+          }
+        ]
+      }
+    },
+    {
+      "name": "guided-optimal-complete-and-medal",
+      "id": 41,
+      "events": [
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            1
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "pickup",
+          "item": "leaf",
+          "pos": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            2
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "stop-pad",
+          "pos": [
+            0,
+            2
+          ],
+          "mechanic": 0
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            2
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            2,
+            2
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "pickup",
+          "item": "tomato",
+          "pos": [
+            2,
+            2
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            3,
+            2
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            2,
+            2
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            2
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            2
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            3
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            3
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "cook",
+          "recipe": "salad",
+          "customer": 0
+        },
+        {
+          "kind": "leave",
+          "customer": 0
+        }
+      ]
+    },
+    {
+      "name": "actual-mechanic-render-step",
+      "id": 81,
+      "d": "left",
+      "events": [
+        {
+          "kind": "walk",
+          "pos": [
+            2,
+            3
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "pickup",
+          "item": "leaf",
+          "pos": [
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            3
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "door-toggle",
+          "pos": [
+            1,
+            3
+          ],
+          "mechanic": 0,
+          "group": "a",
+          "open": true
+        }
+      ],
+      "snapshot": {
+        "labels": [
+          "×1",
+          "第81关",
+          "",
+          "10/10"
+        ],
+        "nodes": [
+          "Canvas",
+          "UICamera",
+          "SafeArea",
+          "Pages",
+          "KitchenGame",
+          "Background",
+          "厨房场景底图",
+          "ArtVisual",
+          "厨房棋盘底图",
+          "ArtVisual",
+          "Board",
+          "MechanismFloors",
+          "Switch-0",
+          "ArtSurface",
+          "Station",
+          "StationMat",
+          "ArtVisual",
+          "Wall",
+          "ArtSurface",
+          "Device-table",
+          "DeviceArt",
+          "ArtVisual",
+          "Items",
+          "Ingredient-1",
+          "FoodArt",
+          "ArtVisual",
+          "MechanismDoors",
+          "Door-0",
+          "ArtSurface",
+          "Chef",
+          "ChefBody",
+          "序列帧美术",
+          "CustomerActor-0",
+          "序列帧美术",
+          "SunlightOverlay",
+          "序列帧美术",
+          "柔光过渡层",
+          "HUD",
+          "CustomerCounter",
+          "CustomerSilhouette",
+          "ArtVisual",
+          "Label",
+          "StepsCounter",
+          "StepsPlate",
+          "ArtVisual",
+          "StepDigit-0-9",
+          "ArtVisual",
+          "LevelBadge",
+          "ArtVisual",
+          "Label",
+          "OrderBubble-0",
+          "ArtSurface",
+          "DishArt",
+          "ArtVisual",
+          "OrderIngredient-leaf",
+          "FoodArt",
+          "ArtVisual",
+          "OrderIngredient-tomato",
+          "FoodArt",
+          "ArtVisual",
+          "OrderDeviceArt",
+          "ArtVisual",
+          "BagSlot",
+          "ArtSurface",
+          "BagFood",
+          "ArtVisual",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "AdBagSlot-Locked",
+          "ArtSurface",
+          "Label",
+          "Action-撤回一步 ·试用",
+          "ArtSurface",
+          "Action-加班 +3步 ·试用",
+          "ArtSurface",
+          "Effects",
+          "EnergyWidget",
+          "ArtSurface",
+          "Label",
+          "Action-菜单",
+          "ArtSurface",
+          "Overlays"
+        ],
+        "steps": 9,
+        "arrow": null,
+        "mechanics": [
+          {
+            "name": "Switch-0",
+            "frame": "a6660c6b-81e4-4035-8680-de9019df7c0b@f9941"
+          },
+          {
+            "name": "Door-0",
+            "frame": "19ae749d-ad8e-4795-a77f-83d715b62fd4@f9941"
+          }
+        ],
+        "chef": [
+          {
+            "pos": {
+              "x": 290.0714239200163,
+              "y": 392.7088204038257
+            },
+            "frame": "efbdd1a2-f85c-4323-ab24-7e66f229dd07@f9941"
+          }
+        ]
+      }
+    },
+    {
+      "name": "guided-optimal-complete-and-medal",
+      "id": 81,
+      "events": [
+        {
+          "kind": "walk",
+          "pos": [
+            3,
+            3
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            2,
+            3
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "pickup",
+          "item": "leaf",
+          "pos": [
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            3
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "door-toggle",
+          "pos": [
+            1,
+            3
+          ],
+          "mechanic": 0,
+          "group": "a",
+          "open": true
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            2
+          ],
+          "direction": "up"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            1
+          ],
+          "direction": "up"
+        },
+        {
+          "kind": "pickup",
+          "item": "tomato",
+          "pos": [
+            1,
+            1
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            0
+          ],
+          "direction": "up"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            0
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            1
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            2
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            2
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "cook",
+          "recipe": "salad",
+          "customer": 0
+        },
+        {
+          "kind": "leave",
+          "customer": 0
+        }
+      ]
+    },
+    {
+      "name": "actual-mechanic-render-step",
+      "id": 121,
+      "d": "down",
+      "events": [
+        {
+          "kind": "walk",
+          "pos": [
+            2,
+            1
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "conveyor",
+          "pos": [
+            2,
+            1
+          ],
+          "mechanic": 0,
+          "direction": "left"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            1
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "pickup",
+          "item": "leaf",
+          "pos": [
+            1,
+            1
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            1
+          ],
+          "direction": "left"
+        }
+      ],
+      "snapshot": {
+        "labels": [
+          "×1",
+          "第121关",
+          "",
+          "10/10"
+        ],
+        "nodes": [
+          "Canvas",
+          "UICamera",
+          "SafeArea",
+          "Pages",
+          "KitchenGame",
+          "Background",
+          "厨房场景底图",
+          "ArtVisual",
+          "厨房棋盘底图",
+          "ArtVisual",
+          "Board",
+          "MechanismFloors",
+          "Conveyor-0",
+          "ArtSurface",
+          "Station",
+          "StationMat",
+          "ArtVisual",
+          "Wall",
+          "ArtSurface",
+          "Device-table",
+          "DeviceArt",
+          "ArtVisual",
+          "Items",
+          "Ingredient-1",
+          "FoodArt",
+          "ArtVisual",
+          "MechanismDoors",
+          "Chef",
+          "ChefBody",
+          "序列帧美术",
+          "CustomerActor-0",
+          "序列帧美术",
+          "SunlightOverlay",
+          "序列帧美术",
+          "柔光过渡层",
+          "HUD",
+          "CustomerCounter",
+          "CustomerSilhouette",
+          "ArtVisual",
+          "Label",
+          "StepsCounter",
+          "StepsPlate",
+          "ArtVisual",
+          "StepDigit-0-8",
+          "ArtVisual",
+          "LevelBadge",
+          "ArtVisual",
+          "Label",
+          "OrderBubble-0",
+          "ArtSurface",
+          "DishArt",
+          "ArtVisual",
+          "OrderIngredient-leaf",
+          "FoodArt",
+          "ArtVisual",
+          "OrderIngredient-tomato",
+          "FoodArt",
+          "ArtVisual",
+          "OrderDeviceArt",
+          "ArtVisual",
+          "BagSlot",
+          "ArtSurface",
+          "BagFood",
+          "ArtVisual",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "BagSlot",
+          "ArtSurface",
+          "AdBagSlot-Locked",
+          "ArtSurface",
+          "Label",
+          "Action-撤回一步 ·试用",
+          "ArtSurface",
+          "Action-加班 +3步 ·试用",
+          "ArtSurface",
+          "Effects",
+          "EnergyWidget",
+          "ArtSurface",
+          "Label",
+          "Action-菜单",
+          "ArtSurface",
+          "Overlays"
+        ],
+        "steps": 8,
+        "arrow": null,
+        "mechanics": [
+          {
+            "name": "Conveyor-0",
+            "frame": "7adea908-deb8-486e-89b1-81a2d28d632c@f9941"
+          }
+        ],
+        "chef": [
+          {
+            "pos": {
+              "x": 154.68973892513583,
+              "y": 691.9872476089267
+            },
+            "frame": "905beb92-dc97-42b9-9aba-bc703d35f467@f9941"
+          }
+        ]
+      }
+    },
+    {
+      "name": "guided-optimal-complete-and-medal",
+      "id": 121,
+      "events": [
+        {
+          "kind": "walk",
+          "pos": [
+            2,
+            1
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "conveyor",
+          "pos": [
+            2,
+            1
+          ],
+          "mechanic": 0,
+          "direction": "left"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            1
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "pickup",
+          "item": "leaf",
+          "pos": [
+            1,
+            1
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            1
+          ],
+          "direction": "left"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            2
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "pickup",
+          "item": "tomato",
+          "pos": [
+            0,
+            2
+          ]
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            0,
+            3
+          ],
+          "direction": "down"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            1,
+            3
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            2,
+            3
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            3,
+            3
+          ],
+          "direction": "right"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            3,
+            2
+          ],
+          "direction": "up"
+        },
+        {
+          "kind": "walk",
+          "pos": [
+            3,
+            1
+          ],
+          "direction": "up"
+        },
+        {
+          "kind": "cook",
+          "recipe": "salad",
+          "customer": 0
+        },
+        {
+          "kind": "leave",
+          "customer": 0
+        }
+      ]
+    },
+    {
+      "name": "street-board-size",
+      "size": 4,
+      "id": 81,
+      "assets": [
+        "art/latest/campaign/covers/street/spriteFrame",
+        "art/latest/backgrounds/street_battle/spriteFrame",
+        "art/latest/board/street_board_4/spriteFrame",
+        "art/latest/board/street_board_5/spriteFrame",
+        "art/latest/board/street_board_6/spriteFrame"
+      ]
+    },
+    {
+      "name": "street-board-size",
+      "size": 5,
+      "id": 86,
+      "assets": [
+        "art/latest/campaign/covers/street/spriteFrame",
+        "art/latest/backgrounds/street_battle/spriteFrame",
+        "art/latest/board/street_board_4/spriteFrame",
+        "art/latest/board/street_board_5/spriteFrame",
+        "art/latest/board/street_board_6/spriteFrame"
+      ]
+    },
+    {
+      "name": "street-board-size",
+      "size": 6,
+      "id": 96,
+      "assets": [
+        "art/latest/campaign/covers/street/spriteFrame",
+        "art/latest/backgrounds/street_battle/spriteFrame",
+        "art/latest/board/street_board_4/spriteFrame",
+        "art/latest/board/street_board_5/spriteFrame",
+        "art/latest/board/street_board_6/spriteFrame"
+      ]
+    }
+  ],
+  "errors": []
+}

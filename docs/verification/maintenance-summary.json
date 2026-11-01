@@ -1,0 +1,20 @@
+{
+  "version": "1.0.1",
+  "demo1Frozen": true,
+  "runtimeSourceAndAssetsUnchanged": true,
+  "baselineAssetFilesVerified": 1379,
+  "testsPassed": 145,
+  "wechatNativeHashesVerified": 530,
+  "skillsBefore": 45,
+  "skillsAfter": 11,
+  "activeTools": 22,
+  "archivedFiles": 1046,
+  "historyDuplicateFilesCoalesced": 56,
+  "runtimePng": 504,
+  "runtimeAudio": 26,
+  "nativePrefabs": 47,
+  "runtimeAssetsDeleted": 0,
+  "archivesVerified": true,
+  "globalSkillsModified": false,
+  "userSaveAccessed": false
+}

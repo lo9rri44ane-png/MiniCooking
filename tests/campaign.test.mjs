@@ -1,3 +1,4 @@
+import {beforeEach} from 'node:test';import {gmAccess} from '../assets/scripts/features/kitchen/GMAccess.ts';beforeEach(()=>gmAccess.set(true));
 import test from 'node:test';import assert from 'node:assert/strict';
 import {CampaignStore} from '../assets/scripts/features/kitchen/CampaignStore.ts';
 import {TutorialFlow} from '../assets/scripts/features/kitchen/TutorialFlow.ts';
@@ -22,6 +23,6 @@ test('campaign prop introduction matches first availability and session enforces
 });
 
 test('swipe tutorial only advances on the requested swipe, not taps, next or wrong direction',()=>{const flow=new TutorialFlow([{id:'swipe',title:'滑动教学',steps:[{kind:'swipe',target:'board',direction:'right',text:'向右滑动'},{kind:'swipe',target:'board',direction:'up',text:'向上滑动'}]}]);assert.equal(flow.advance({type:'next'}),false);assert.equal(flow.advance({type:'target',target:'board'}),false);assert.equal(flow.advance({type:'swipe',direction:'left'}),false);assert.equal(flow.advance({type:'swipe',direction:'right'}),true);assert.equal(flow.done,false);assert.equal(flow.advance({type:'swipe',direction:'up'}),true);assert.equal(flow.done,true);});
-test('basic guide teaches real board swipes and uses a new completion key for existing players',()=>{const guide=guideFor('basic',CAMPAIGN_LEVELS[0]);assert.equal(guide.id,'basic-action-v3');assert.deepEqual(guide.steps.filter(s=>s.direction).map(s=>[s.kind,s.target,s.direction]),[['swipe','board','right'],['swipe','board','up']]);});
+test('basic guide teaches real board swipes and uses a new completion key for existing players',()=>{const guide=guideFor('basic',CAMPAIGN_LEVELS[0]);assert.equal(guide.id,'basic-route-action-v5');assert.equal(guide.mandatory,true);assert.equal(guide.steps[0].target,'orders');assert.match(guide.steps[0].text,/目标.*所有顾客/);assert.match(guide.steps[1].text,/脚丫垫.*打勾/);assert.deepEqual(guide.steps.filter(s=>s.direction).map(s=>[s.kind,s.target,s.direction]),[['swipe','board','right'],['swipe','board','up']]);});
 
 test('every shipped introduction is actionable and never requires a pure dialogue continue',()=>{for(const l of CAMPAIGN_LEVELS)for(const id of l.introductions)for(const step of guideFor(id,l).steps){assert.ok(['click','swipe'].includes(step.kind),id+':'+step.kind);assert.ok(step.target,id);assert.match(step.text,/滑动|点击/,id);}});

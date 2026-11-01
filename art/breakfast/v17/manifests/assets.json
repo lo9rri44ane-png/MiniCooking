@@ -1,0 +1,409 @@
+{
+  "version": 17,
+  "sources": [
+    {
+      "path": "art/breakfast/v17/source/backgrounds/street_battle.png",
+      "sha256": "14c9ae5c6a4c42570a774d88124c518b9d22bb880c59473c5606c261c62e7062",
+      "method": "builtin-imagegen"
+    },
+    {
+      "path": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "sha256": "be6db844d6700df13eee18fc55c9597819072052bb08fbdeb7387828bc6bf3ab",
+      "method": "builtin-imagegen"
+    },
+    {
+      "path": "art/breakfast/v17/source/board/tiles-blue.png",
+      "sha256": "36cb1d2bef4cd1dbd8c7899fe13c46365ff18d332c18bf7da53ef2c6248a0df5",
+      "method": "builtin-imagegen"
+    }
+  ],
+  "assets": [
+    {
+      "key": "backgrounds/street_battle",
+      "source": "art/breakfast/v17/source/backgrounds/street_battle.png",
+      "backup": "art/breakfast/v17/exports/backgrounds/street_battle.png",
+      "runtime": "assets/resources/art/latest/backgrounds/street_battle.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "e003836d17b7ff6c6815953a629cac5180f2e01ccecd1aa6efde8ff41c6a7ae8",
+      "visualReview": "complete-contact-review",
+      "fullBleed": true
+    },
+    {
+      "key": "ingredients/egg",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/ingredients/egg.png",
+      "runtime": "assets/resources/art/latest/ingredients/egg.png",
+      "width": 162,
+      "height": 189,
+      "sha256": "77ac23233785a3c4c0f15af9cf985b379dd196d504bf2b18bc35ffe0bd060567",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 74,
+        "top": 98,
+        "right": 211,
+        "bottom": 262
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "ingredients/milk",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/ingredients/milk.png",
+      "runtime": "assets/resources/art/latest/ingredients/milk.png",
+      "width": 139,
+      "height": 256,
+      "sha256": "d7ddf36bf4fd091dc6d593185fcd6ae2b5cb033300090733e3cc65029e745867",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 350,
+        "top": 48,
+        "right": 464,
+        "bottom": 279
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "ingredients/coffee",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/ingredients/coffee.png",
+      "runtime": "assets/resources/art/latest/ingredients/coffee.png",
+      "width": 244,
+      "height": 186,
+      "sha256": "5aa3dc3057011ad5a2c76e8b46fbe732d838da7a6486881e176e64f55cb119e6",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 587,
+        "top": 102,
+        "right": 806,
+        "bottom": 263
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "ingredients/fish",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/ingredients/fish.png",
+      "runtime": "assets/resources/art/latest/ingredients/fish.png",
+      "width": 264,
+      "height": 196,
+      "sha256": "2696bc1d0040b988cf29596baed0495db946cc48562f56174556afece8515d44",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 867,
+        "top": 98,
+        "right": 1106,
+        "bottom": 269
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "ingredients/rice",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/ingredients/rice.png",
+      "runtime": "assets/resources/art/latest/ingredients/rice.png",
+      "width": 232,
+      "height": 208,
+      "sha256": "1d6a9aaf71f8e8beb27f414256935d5caf9920e733fb58ece77ee79f9ca2ce4a",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 1160,
+        "top": 87,
+        "right": 1367,
+        "bottom": 270
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "dishes/eggtoast",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/dishes/eggtoast.png",
+      "runtime": "assets/resources/art/latest/dishes/eggtoast.png",
+      "width": 285,
+      "height": 212,
+      "sha256": "9f58e663e7e51f43813f711fb6c3c2e4b3ca3abf2a0fba95af8f863e9a07e5f9",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 23,
+        "top": 349,
+        "right": 283,
+        "bottom": 536
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "dishes/coffee",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/dishes/coffee.png",
+      "runtime": "assets/resources/art/latest/dishes/coffee.png",
+      "width": 240,
+      "height": 213,
+      "sha256": "430360f09b1883f7b2d71ab564c8044e0b86e9bbe4d810c741bf12c7a414651d",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 324,
+        "top": 344,
+        "right": 539,
+        "bottom": 532
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "dishes/fishrice",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/dishes/fishrice.png",
+      "runtime": "assets/resources/art/latest/dishes/fishrice.png",
+      "width": 299,
+      "height": 209,
+      "sha256": "f5a3c8f172239e2be6f6feb8c58852164f627fe4706960b89d02419a47da7813",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 565,
+        "top": 357,
+        "right": 839,
+        "bottom": 541
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "dishes/platter",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/dishes/platter.png",
+      "runtime": "assets/resources/art/latest/dishes/platter.png",
+      "width": 253,
+      "height": 215,
+      "sha256": "10f9e2134899fe6cf4030476e37b06cf05d248f3cd71fce51653b18cb726ee6a",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 874,
+        "top": 353,
+        "right": 1102,
+        "bottom": 543
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "dishes/milkberry",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/dishes/milkberry.png",
+      "runtime": "assets/resources/art/latest/dishes/milkberry.png",
+      "width": 173,
+      "height": 269,
+      "sha256": "c549f7cdee098efceef41693305599f84e5947f0b1eee3dbc844bc66f6b77ca5",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 1193,
+        "top": 303,
+        "right": 1341,
+        "bottom": 547
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/stop_pad",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/stop_pad.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/stop_pad.png",
+      "width": 257,
+      "height": 208,
+      "sha256": "07ab958376d801e7baa16400ba4767ae88a2b5e35e2838dfbd53767ca9394ab2",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 34,
+        "top": 603,
+        "right": 266,
+        "bottom": 786
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/stop_pad_used",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/stop_pad_used.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/stop_pad_used.png",
+      "width": 255,
+      "height": 207,
+      "sha256": "2c41cf0b049909b485d33ab941e63e5244e073c4d7fc1dc3a36a45ec0d40df1f",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 306,
+        "top": 604,
+        "right": 536,
+        "bottom": 786
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/switch_off",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/switch_off.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/switch_off.png",
+      "width": 248,
+      "height": 201,
+      "sha256": "c7c7b892c1351c8b6404a7ce8fd215ef83842f4af6e35c5ac691264b71474f8e",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 583,
+        "top": 610,
+        "right": 806,
+        "bottom": 786
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/switch_on",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/switch_on.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/switch_on.png",
+      "width": 249,
+      "height": 201,
+      "sha256": "0cc35b15be53413f6ac59a510d26061a365765d9af7c6f5d249fe44cf5588172",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 852,
+        "top": 610,
+        "right": 1076,
+        "bottom": 786
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/door_closed",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/door_closed.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/door_closed.png",
+      "width": 295,
+      "height": 210,
+      "sha256": "5ca6bb2aef376e7d317670df0138863d31797d9c06a47e88e757623af8ef09f4",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 1110,
+        "top": 594,
+        "right": 1380,
+        "bottom": 779
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/door_open",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/door_open.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/door_open.png",
+      "width": 262,
+      "height": 211,
+      "sha256": "f903656c473d92ab779dfcd137e62f50acaa151ceaa841b5c17db564ee2ae939",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 36,
+        "top": 847,
+        "right": 273,
+        "bottom": 1033
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/conveyor_up",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/conveyor_up.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/conveyor_up.png",
+      "width": 262,
+      "height": 210,
+      "sha256": "90c3c854ca7c9aa8c13f803208491c4aeb6b05adf6313d2ca376345030c075e3",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 332,
+        "top": 851,
+        "right": 569,
+        "bottom": 1036
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/conveyor_down",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/conveyor_down.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/conveyor_down.png",
+      "width": 248,
+      "height": 210,
+      "sha256": "152278187e8ec7dfe643ec5f7c66d746f36a67304c7c5bc4da787a0549f4882c",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 594,
+        "top": 851,
+        "right": 817,
+        "bottom": 1036
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/conveyor_left",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/conveyor_left.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/conveyor_left.png",
+      "width": 259,
+      "height": 210,
+      "sha256": "a3540402771d0af3b0b91304fa643dbebc23ea21b04e6c45e4a1988008cb7b7f",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 843,
+        "top": 851,
+        "right": 1077,
+        "bottom": 1036
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/mechanics/conveyor_right",
+      "source": "art/breakfast/v17/source/atlas/icons-blue.png",
+      "backup": "art/breakfast/v17/exports/board/mechanics/conveyor_right.png",
+      "runtime": "assets/resources/art/latest/board/mechanics/conveyor_right.png",
+      "width": 265,
+      "height": 210,
+      "sha256": "4a8927040616c6dcfd6f202b2ed9ea01eb9a44b71b48a8bd365a5f67dfc532c9",
+      "visualReview": "complete-contact-review",
+      "sourceBounds": {
+        "left": 1117,
+        "top": 851,
+        "right": 1357,
+        "bottom": 1036
+      },
+      "safeMargin": 12
+    },
+    {
+      "key": "board/street_board_4",
+      "source": "art\\breakfast\\v17\\source\\board\\tiles-blue.png",
+      "backup": "art/breakfast/v17/exports/board/street_board_4.png",
+      "runtime": "assets/resources/art/latest/board/street_board_4.png",
+      "width": 620,
+      "height": 600,
+      "sha256": "ef16e41f47c2a0d7b1a33876b338d2ac586b45bb638a2f9d52a53699b9f3fbe4",
+      "visualReview": "complete-contact-review",
+      "calibration": "exact BOARD_CALIBRATION seams and original alpha",
+      "fullBleed": true
+    },
+    {
+      "key": "board/street_board_5",
+      "source": "art\\breakfast\\v17\\source\\board\\tiles-blue.png",
+      "backup": "art/breakfast/v17/exports/board/street_board_5.png",
+      "runtime": "assets/resources/art/latest/board/street_board_5.png",
+      "width": 620,
+      "height": 600,
+      "sha256": "200fb0ad0cef41bd63434fb6029a3180afb4d69b42e1f0c611eec139db8ff25d",
+      "visualReview": "complete-contact-review",
+      "calibration": "exact BOARD_CALIBRATION seams and original alpha",
+      "fullBleed": true
+    },
+    {
+      "key": "board/street_board_6",
+      "source": "art\\breakfast\\v17\\source\\board\\tiles-blue.png",
+      "backup": "art/breakfast/v17/exports/board/street_board_6.png",
+      "runtime": "assets/resources/art/latest/board/street_board_6.png",
+      "width": 620,
+      "height": 600,
+      "sha256": "fa5425c7b8eaf37272a23f3d508ecce01c965f875110f9dce5819ae464d6c846",
+      "visualReview": "complete-contact-review",
+      "calibration": "exact BOARD_CALIBRATION seams and original alpha",
+      "fullBleed": true
+    }
+  ]
+}

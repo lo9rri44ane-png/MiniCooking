@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "data": {
+    "result": [
+      {
+        "id": "ChefBody",
+        "uuid": "0e9f05b6-10fe-468e-b3c0-c7e03da1eebb",
+        "frames": 12
+      },
+      {
+        "id": "CustomerActor",
+        "uuid": "ebc620a5-371c-43f7-bc67-30ae79efb70f",
+        "frames": 12
+      }
+    ],
+    "message": "Method 'configurePresentation' executed successfully"
+  }
+}

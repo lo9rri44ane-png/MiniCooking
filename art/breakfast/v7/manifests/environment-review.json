@@ -1,0 +1,10 @@
+{
+  "reviewedAt": "2026-10-31",
+  "method": "四帧整数补偿后逐张联系图审核，完整光源未裁切；originPeak相对(570,48)误差不超过0.5px；外围自然光场允许Mask裁切。",
+  "reviewed": {
+    "environment/sunlight/frame_00": "e864bdc421ccd1ebb265b9dfd646b73bcf0ccef840238c63a819ea9f2db0cf7e",
+    "environment/sunlight/frame_01": "dbbf3838955e529e0b7f8d7a1b62fcc0d062c01eef23ee3f23bdfce042495aa6",
+    "environment/sunlight/frame_02": "9d5cf3d70d8d2506d657fd7f03cb11f49187768e99d88a296816c03fa033a34e",
+    "environment/sunlight/frame_03": "d46e752bf4a0d540dd2f3610085c028c92d92bb7418c10c714e71832e0cf166a"
+  }
+}

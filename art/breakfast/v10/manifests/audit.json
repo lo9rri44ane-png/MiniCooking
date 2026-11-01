@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-31T18:55:04.884Z",
+  "assets": [
+    {
+      "key": "covers/breakfast",
+      "sha256": "301415b5b78435560a427d050667aa1bdbacd637e39d26390dca7d0199a8b1a6",
+      "backupMatches": true,
+      "edgeAlpha": null,
+      "visualReview": "complete"
+    },
+    {
+      "key": "covers/street",
+      "sha256": "9357a5642c4bbfa497deac0486f323c905327e72997262cab08aced3a49ecd34",
+      "backupMatches": true,
+      "edgeAlpha": null,
+      "visualReview": "complete"
+    },
+    {
+      "key": "ui/order_bubble",
+      "sha256": "cecc718e38b6ebdab0d3cd672e902c0b69f5df4e7e167fa55adc5cd8ecf176f2",
+      "backupMatches": true,
+      "edgeAlpha": 0,
+      "visualReview": "complete"
+    }
+  ]
+}

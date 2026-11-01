@@ -1,0 +1,19 @@
+{
+  "asset": "customer_silhouette",
+  "source": "art/breakfast/v18/source/ui/hud/customer_silhouette.svg",
+  "export": "art/breakfast/v18/exports/ui/hud/customer_silhouette.png",
+  "runtime": "assets/resources/art/latest/ui/hud/customer_silhouette.png",
+  "sha256": "c92391331a1267ef24e660f94104b10ff0944cc00c663cb8cabe1e2b0106044a",
+  "canvas": [
+    128,
+    128
+  ],
+  "visibleBounds": [
+    12,
+    11,
+    116,
+    117
+  ],
+  "safeMarginMin": 11,
+  "description": "Warm brown complete animal head silhouette; native alpha, no threshold extraction; equal aspect."
+}

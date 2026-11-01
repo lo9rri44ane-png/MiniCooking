@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-10-31T19:58:23.181Z",
+  "fixture": "isolated new browser context only",
+  "checks": [
+    "open-all-still-grants-street-chapter8",
+    "master-off-hides-all-tools-and-revokes-raw-open-all-with-earned-result-preserved",
+    "master-reenable-restores-allowed-tools",
+    "old-close-entry-removed",
+    "second-confirmation-cancel-preserves-all-bytes",
+    "confirmed-reset-only-two-kitchen-keys",
+    "same-cached-store-bank-first-shop-stage1-energy10-no-GM",
+    "unrelated-and-audio-storage-preserved",
+    "guide-reappears-without-reload"
+  ],
+  "campaign": {
+    "version": 1,
+    "results": {},
+    "guides": [],
+    "debugAll": false
+  },
+  "energy": {
+    "version": 1,
+    "value": 10,
+    "anchor": 1793476698967,
+    "attempt": null
+  },
+  "errors": []
+}

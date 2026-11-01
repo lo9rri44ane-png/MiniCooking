@@ -1,0 +1,14 @@
+{
+  "version": "1.0.1",
+  "appid": "wx18786e6d01c6cc22",
+  "developmentUploadSucceeded": true,
+  "trialVersionSelectionVerified": false,
+  "trialSelectionBlocker": "Computer Use stopped because current browser URL could not be verified; no further browser interaction attempted",
+  "submittedForReview": false,
+  "testsPassed": 145,
+  "builtSaveVerified": true,
+  "userSaveCleared": false,
+  "localStorageOnly": true,
+  "zipSha256": "d67993034353cb6c16e65ddd85949c7977de7559ae43d497353bcfd250092f26",
+  "otherCleanupPaused": true
+}

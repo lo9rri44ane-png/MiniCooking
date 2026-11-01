@@ -1,0 +1,8388 @@
+{
+  "validation": [
+    {
+      "id": 1,
+      "hash": "1e9fc982bfec0aa9af736b2a833ce60b9922376aba70e3d71959cc5780ca0d75",
+      "optimal": 2,
+      "budget": 6,
+      "visited": 4,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 2,
+      "hash": "fb1c55d440d349e34f6e5a224f12ae686019af7e5ba6bf980e4695f1ac7ce02a",
+      "optimal": 6,
+      "budget": 9,
+      "visited": 24,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 3,
+      "hash": "03f8b98affba1877bbc2849d12b592f0db71a401d74814a6cfefcf6dc6a34378",
+      "optimal": 5,
+      "budget": 9,
+      "visited": 14,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 4,
+      "hash": "e705d02dbeea7e366b43339a6530182ff80f4186fff8f723f64a4c717222176a",
+      "optimal": 5,
+      "budget": 8,
+      "visited": 28,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 5,
+      "hash": "b909e03a1be6fc586fbb02874265e9af6ac529cf4b6ae4a3be48871477ed232b",
+      "optimal": 4,
+      "budget": 8,
+      "visited": 22,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 6,
+      "hash": "7f228d3b65256a18c6e87bf0a7a9837b5ca9982034b6f83c1b735fcf872b0cc3",
+      "optimal": 8,
+      "budget": 12,
+      "visited": 86,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 7,
+      "hash": "94a792f9f28119938db13d0e8052d0d9ac9d7444b02b9692e3e41cb6e5172d19",
+      "optimal": 7,
+      "budget": 10,
+      "visited": 67,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 8,
+      "hash": "3d86699f6a66c5e70e971ae4f92e49f075eb2e0a3b1f75f5ebee9402a8a80ce9",
+      "optimal": 8,
+      "budget": 12,
+      "visited": 73,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 9,
+      "hash": "3ee84b90153899a8e7878cfbe13dfa955b8a9acdf4a2bcc64f5bcaeb00b7e584",
+      "optimal": 10,
+      "budget": 13,
+      "visited": 89,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 10,
+      "hash": "ccefbe721ede9ebc3ea9fb0de043465813188155038f93bf510a20d5737aa6ad",
+      "optimal": 11,
+      "budget": 12,
+      "visited": 90,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 11,
+      "hash": "cbaea24ad46166901256a40da8ad42d6a091d6aa8c45181eb77119125070e08b",
+      "optimal": 14,
+      "budget": 16,
+      "visited": 263,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 12,
+      "hash": "f8a3be4ca125b42e0ea743ae82c67f6a89fdc798642786c070646fe32da82411",
+      "optimal": 5,
+      "budget": 9,
+      "visited": 35,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 13,
+      "hash": "0a3678334e678a63824704fb6ba5c530daf10063221d84885ed1c2d68b567608",
+      "optimal": 8,
+      "budget": 12,
+      "visited": 257,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 14,
+      "hash": "eada902fbda9093e29525211264c57e2f98d9859cda67a6e31517e9b7c19024c",
+      "optimal": 11,
+      "budget": 13,
+      "visited": 213,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 15,
+      "hash": "3bed6cbefa712aea77f0f3f7fa64382dab6a2409b18d308cd1d9b1efd168010b",
+      "optimal": 10,
+      "budget": 13,
+      "visited": 126,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 16,
+      "hash": "6ace1e2a936a636cd236564366e69181deeebad112a4fec4e7d799c64e58c9ce",
+      "optimal": 10,
+      "budget": 12,
+      "visited": 77,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 17,
+      "hash": "991f7baabf5b6dd8c480a4a77f5e11a0c9007554ae640c7de2b88d21f2734462",
+      "optimal": 11,
+      "budget": 14,
+      "visited": 127,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 18,
+      "hash": "469bcbffff5487761730c1b2552f77f735967fb54032220e085205b2e95495a1",
+      "optimal": 10,
+      "budget": 12,
+      "visited": 103,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 19,
+      "hash": "f28b6118b5c64f2dfabc0d85c2b4999ce9a5ae1ae9ba3c774455c3ebfedfe4a2",
+      "optimal": 14,
+      "budget": 18,
+      "visited": 140,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 20,
+      "hash": "53181ead4c286b6a74f6547dab4ba6520a0bf7c23142a4f756a94d5f89c19141",
+      "optimal": 13,
+      "budget": 15,
+      "visited": 206,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 21,
+      "hash": "0a929c542bdc15487081e7f1d7080497df812356ea2396df496fd2b700cdffbb",
+      "optimal": 12,
+      "budget": 16,
+      "visited": 337,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 22,
+      "hash": "6917c6432622c92771df3e77ff7e99bbf14f9fa8bbcb683a477097987b9b6b1c",
+      "optimal": 16,
+      "budget": 18,
+      "visited": 146,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 23,
+      "hash": "04089c202c47e10049cf0a55f5a7a80e2f7cb7fb3cba43807efc2aed2ba55c8c",
+      "optimal": 12,
+      "budget": 15,
+      "visited": 413,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 24,
+      "hash": "8cca9b3a306605f7122630317eae766d0e7f3b3d5853a99c949c5cc7ed04c5c3",
+      "optimal": 14,
+      "budget": 18,
+      "visited": 987,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 25,
+      "hash": "27d8c79569ab8827884a377b21bba6d045836986103702cf513130dd0c935f9f",
+      "optimal": 8,
+      "budget": 11,
+      "visited": 203,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 26,
+      "hash": "1ec96524a1a99bf32a0ec538f7e101223e6bba031021f9ec08695966d291f993",
+      "optimal": 15,
+      "budget": 17,
+      "visited": 368,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 27,
+      "hash": "20467ae592298e54c4e9b6df816cf93ccbbd41816448a108f36fea4c3544a19a",
+      "optimal": 11,
+      "budget": 14,
+      "visited": 295,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 28,
+      "hash": "8c5d4502acc5a09706b9391515eb60269289a4b3dcd39203820f4c3a59b05c95",
+      "optimal": 14,
+      "budget": 18,
+      "visited": 356,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 29,
+      "hash": "de82e4c7ce157957fb5479fe5ec93322f0ed3a571b49d151317eb8fb51e4f85e",
+      "optimal": 14,
+      "budget": 18,
+      "visited": 206,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 30,
+      "hash": "35f3b45d89f57862307fa9e5fb5c45409066eda51d9f6418c28333faded83b14",
+      "optimal": 15,
+      "budget": 16,
+      "visited": 543,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 31,
+      "hash": "61029732fe7600fa54dcaf846e9bafdd94f05f1a2c0d36b778238a4333bdf743",
+      "optimal": 13,
+      "budget": 16,
+      "visited": 163,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 32,
+      "hash": "09f3808a234ab4b90ac61de2237a4db372e60a4accef1640fe8d4e3aa268f92c",
+      "optimal": 13,
+      "budget": 15,
+      "visited": 232,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 33,
+      "hash": "a01543559ce932694da4c662edb9e40b8cdfcd70db87b4a8180ddea244e3d1dc",
+      "optimal": 16,
+      "budget": 19,
+      "visited": 1499,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 34,
+      "hash": "dbe54c4a92dfaa5be2cdb0c77254ce5525a25e36d6b6d9ee489315f4e328c87e",
+      "optimal": 12,
+      "budget": 15,
+      "visited": 562,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 35,
+      "hash": "534ca454de4b505f13637977df4166db9d38527ffa9f13f8da4e285d7a4d0f91",
+      "optimal": 14,
+      "budget": 16,
+      "visited": 1696,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 36,
+      "hash": "88b3f2c31b4d63f4374565c31d42189d3a1a2c8cc20c9fa3eeb5ad98a69af793",
+      "optimal": 9,
+      "budget": 12,
+      "visited": 241,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 37,
+      "hash": "543c928ce010c9c45111060d7bd5b3e0e72d5f419849cefff6aa5177bd48ee4e",
+      "optimal": 9,
+      "budget": 12,
+      "visited": 120,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 38,
+      "hash": "13d7d2dabb7a2af2d1ef6594ffae9c723f16393d49f8f17009a4b5fd7e5948bf",
+      "optimal": 17,
+      "budget": 21,
+      "visited": 722,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 39,
+      "hash": "92bc29425be3e3d7abbcfaa6b74667cb0e9ff85cfad409982a73e40ef4bdf445",
+      "optimal": 11,
+      "budget": 15,
+      "visited": 336,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 40,
+      "hash": "52fe0428dc23d6b18c16155f76ba38922ab6023c88fd6827f8fd74aa63dd1072",
+      "optimal": 14,
+      "budget": 15,
+      "visited": 156,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 41,
+      "hash": "410517cbb95f82bfe761ffe5e2d58983dce917f736e393ea41c0988facd811fb",
+      "optimal": 5,
+      "budget": 10,
+      "visited": 20,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 42,
+      "hash": "25ef5b95721b1a163ccde493dd99410898952b579022c36fd993a3f8be3f9bf5",
+      "optimal": 5,
+      "budget": 10,
+      "visited": 30,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 43,
+      "hash": "0c943b0e13ea602cb67cde75b1642af3d94d400ac6f3e9487af596ed3cbfc75c",
+      "optimal": 7,
+      "budget": 12,
+      "visited": 43,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 44,
+      "hash": "69c3fb04806e33d1af4a8b024a81079a16863ffd4250ff2ab4bbcee857bc50ea",
+      "optimal": 6,
+      "budget": 11,
+      "visited": 21,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 45,
+      "hash": "bd174c50a0dde8d0020a694d74a4e06dd2bedfe9016ef1dd0417ccb6bb6bc3ea",
+      "optimal": 7,
+      "budget": 12,
+      "visited": 23,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 46,
+      "hash": "118784f3ad4df14b8a693afe827a8403f2a90aa3dcef93e3b3deccc9dec78e8d",
+      "optimal": 14,
+      "budget": 17,
+      "visited": 988,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 47,
+      "hash": "520c01a57c4d91722e41c42c7388d61cd81e596acaf48414fdcc4786c3af2547",
+      "optimal": 21,
+      "budget": 24,
+      "visited": 1791,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 48,
+      "hash": "bbba714d03edcdf3ee44fe48d4e504d50bd69312d79f8184a0ae4e48391f4489",
+      "optimal": 15,
+      "budget": 18,
+      "visited": 1106,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 49,
+      "hash": "ad33e1806d1397b0c4f06dc628b22e826b1b0eb78e223a32b8fab84ced8deb16",
+      "optimal": 20,
+      "budget": 23,
+      "visited": 1263,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 50,
+      "hash": "96f4277c2aa629775f751cf691ad3e48084a92af01994ff822b7d60a658bb6ef",
+      "optimal": 13,
+      "budget": 16,
+      "visited": 418,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 51,
+      "hash": "80bab998febd839a8e4f4d2e5d261d12449f8b999f84094a97366b9b612f73c0",
+      "optimal": 26,
+      "budget": 29,
+      "visited": 1094,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 52,
+      "hash": "6d521b4ce7f2d3c1cd57b2ab7b3dba8ecbbbede618a8f2511d194ff5827537d3",
+      "optimal": 18,
+      "budget": 21,
+      "visited": 748,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 53,
+      "hash": "4adbf6761a4b5d29ca010bdf937674fa3b759ca574867b624e2ffa960900b846",
+      "optimal": 23,
+      "budget": 26,
+      "visited": 1125,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 54,
+      "hash": "453df9b09834c41ea7cc0f558f018020bdc5b16f9023e1f4e61cf2d73a1b3577",
+      "optimal": 31,
+      "budget": 34,
+      "visited": 1155,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 55,
+      "hash": "3146c501892212eb7f76bec858d342b1b059883057f858d864ec8d7e4c882421",
+      "optimal": 19,
+      "budget": 22,
+      "visited": 788,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 56,
+      "hash": "351a77c294c84bb771720c3d5810d85400d4fc202f441686349e7fd9723ddd65",
+      "optimal": 36,
+      "budget": 38,
+      "visited": 3161,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 57,
+      "hash": "41bb66d2980c9ad6b6131a90018c603d32b58c70246c06f994af9fd99c987739",
+      "optimal": 15,
+      "budget": 17,
+      "visited": 723,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 58,
+      "hash": "92ed30a83b9c08673514e11b269375121e44a1afa8f115d402c6c19a39e0f1c6",
+      "optimal": 26,
+      "budget": 28,
+      "visited": 1494,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 59,
+      "hash": "527a0862dfae0defd4994548aaa7c408bd20370d1c4fa4188341da58d8e25b9d",
+      "optimal": 20,
+      "budget": 22,
+      "visited": 679,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 60,
+      "hash": "4fa10934513933612de77feb7eea5d0cdb0e9c856b796f401ee9c9bb83050a9c",
+      "optimal": 18,
+      "budget": 20,
+      "visited": 2554,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 61,
+      "hash": "902acc186ccf02299c1c075a346444e511426b022679c98360a7bab44df87047",
+      "optimal": 23,
+      "budget": 25,
+      "visited": 2258,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 62,
+      "hash": "ac0e599d8953af3d19ab314f18ffe6b789625ca8fbecbc04d258e3f209e25527",
+      "optimal": 23,
+      "budget": 25,
+      "visited": 146,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 63,
+      "hash": "d404b8a3fa22b5f3105bcafd7e7bfa0fcf34162f4812937e8df7470eec021fa6",
+      "optimal": 18,
+      "budget": 20,
+      "visited": 2241,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 64,
+      "hash": "5acd244f029476431ecc9b053bd49ece5f4c57e16d8e87479ad87d3e470f84bf",
+      "optimal": 24,
+      "budget": 26,
+      "visited": 907,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 65,
+      "hash": "5b39814956725f39515e4f3c6ec0cece8dc0c41583fbc76dcc74f901b8253e29",
+      "optimal": 21,
+      "budget": 23,
+      "visited": 1602,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 66,
+      "hash": "33635852da2e430cc08b6f77bbc01bf4db47e319178bb7065141efc69d3cb0d2",
+      "optimal": 29,
+      "budget": 31,
+      "visited": 267,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 67,
+      "hash": "518ea999a63af6793db5f14499c475f9e5e3cf463e3f43d566d186fe852cf13a",
+      "optimal": 16,
+      "budget": 18,
+      "visited": 940,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 68,
+      "hash": "9f9fa014accaf9dca95398dcf803fac9dadf1f611b34c94845fe9337efefc18e",
+      "optimal": 30,
+      "budget": 32,
+      "visited": 308,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 69,
+      "hash": "7d6bf6b0538a313d6ba1a2fbcd8f30d7ebc35d7fda452e78fe4f302478c6d85f",
+      "optimal": 19,
+      "budget": 21,
+      "visited": 1946,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 70,
+      "hash": "c8f29d6c44a461da36469d65f20c5e7aa57908afb03488351d91352f5fb705d1",
+      "optimal": 22,
+      "budget": 24,
+      "visited": 2972,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 71,
+      "hash": "ffca22154c8d7df045e489428c9d73b0ff93f73216fee0af18bfca50df96e55c",
+      "optimal": 28,
+      "budget": 29,
+      "visited": 593,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 72,
+      "hash": "10966ef0b6c3390deea0c3b7d1abde81fbfe6d7b1f39ab022f723334aea9af48",
+      "optimal": 27,
+      "budget": 28,
+      "visited": 241,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 73,
+      "hash": "5b1d2694f643fbb037b784ea97d5639e0245156fb0266cf43567d153fca752ed",
+      "optimal": 16,
+      "budget": 17,
+      "visited": 687,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 74,
+      "hash": "a60b31f4e199ebf4bed0a7b7b19dca50fc1d99c8bfb670fb0ed019178a682ced",
+      "optimal": 17,
+      "budget": 18,
+      "visited": 737,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 75,
+      "hash": "4e2ed5d6eb62f510577911d6ecc91048ec6794b435f6a696f1ca4fa7989fe729",
+      "optimal": 17,
+      "budget": 18,
+      "visited": 1368,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 76,
+      "hash": "9866eba22ed10187c03485988853cfd4d71d96e5a4a6c6b4961cd2f631d73902",
+      "optimal": 26,
+      "budget": 27,
+      "visited": 2677,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 77,
+      "hash": "86b8a101239808cd4f8333ec1fbb4f223110e3c53d183bc7536b20e51b6ac1bb",
+      "optimal": 25,
+      "budget": 26,
+      "visited": 1148,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 78,
+      "hash": "60b7aad018beb8a143b5d7f546419de5fdead13010579d4bba1a24bcf87ba290",
+      "optimal": 34,
+      "budget": 35,
+      "visited": 2707,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 79,
+      "hash": "a03f631d00e3261c1dd4bb828ac3c55be41c365c2c831297cb7fdec332086ba6",
+      "optimal": 25,
+      "budget": 26,
+      "visited": 1886,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 80,
+      "hash": "5e37f62611bc86b1958eed752397d4138ec9edabbbd438d1d3c7ca11a6c104ca",
+      "optimal": 21,
+      "budget": 22,
+      "visited": 7676,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 81,
+      "hash": "48544984de6cf9c279359ace42eddc2782db9ff8c580fae5c750e88e1cfe7007",
+      "optimal": 6,
+      "budget": 11,
+      "visited": 28,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 82,
+      "hash": "4fdda42934e84e8a2f94cdcc238a7cbf3c0187baf5cb21998349ef9500614753",
+      "optimal": 7,
+      "budget": 12,
+      "visited": 29,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 83,
+      "hash": "9391714a120e7bd1ebfc4f28f84921a49d46a90ca08440cf0d6a38c10bf671ae",
+      "optimal": 8,
+      "budget": 13,
+      "visited": 40,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 84,
+      "hash": "b41ad8b0538b0fdc7b3ca4ea2ea3da398efbc71f2613c627f5d8e881926fa65f",
+      "optimal": 6,
+      "budget": 11,
+      "visited": 28,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 85,
+      "hash": "9fcfaf2f4e77ff6ac3135c5fe1e4c5c4f3397b23d1c514cb3ce774310846ea3d",
+      "optimal": 5,
+      "budget": 10,
+      "visited": 23,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 86,
+      "hash": "ef2af552fcbb0f152b470274f192bebdca954a2f5677b2524e6e2dd9fedae443",
+      "optimal": 11,
+      "budget": 14,
+      "visited": 197,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 87,
+      "hash": "7e01742d011b19d377a1d40fde2657ef88ffb5b8748f0b24709a695d1235166c",
+      "optimal": 14,
+      "budget": 17,
+      "visited": 271,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 88,
+      "hash": "91926c362efc5c65757b684173429eb2b04e613e4cfd3c87185913adae49940a",
+      "optimal": 11,
+      "budget": 14,
+      "visited": 160,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 89,
+      "hash": "e702ce818c625c636e4d076eefcee866a5ac5780d7a2fc0c100beb9c53c0c10c",
+      "optimal": 9,
+      "budget": 13,
+      "visited": 107,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 90,
+      "hash": "98c9459c2c623bc6290febbf019be1b579b4935549e04b3367b6dcd866881497",
+      "optimal": 12,
+      "budget": 15,
+      "visited": 187,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 91,
+      "hash": "49126eef824febb7969677f92c05ec0d2978e00aa8bd0590f2b7f0cad3179f58",
+      "optimal": 16,
+      "budget": 19,
+      "visited": 301,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 92,
+      "hash": "faa57e665871f7b5f6884bb4b38563eb881409f5956fb49c3c405c4d1fa15e27",
+      "optimal": 26,
+      "budget": 28,
+      "visited": 318,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 93,
+      "hash": "05c99f35631d4fb44411cfa5b13b1e99ad14df8e43fcbc9019f2d4c2ac5033fd",
+      "optimal": 11,
+      "budget": 14,
+      "visited": 285,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 94,
+      "hash": "46ede41e8723eb5b4112dfa80cbe50d5695d797cf701a03390cabf31715c9ec4",
+      "optimal": 18,
+      "budget": 21,
+      "visited": 89,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 95,
+      "hash": "c62dea00b00337ddb37bf2b1a026f21e24f52c7e8c1186f776e3c19a390c97d8",
+      "optimal": 18,
+      "budget": 21,
+      "visited": 283,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 96,
+      "hash": "b6b45d4f013849aed6d971ebc11a9940417042b6cf9199a20f61e1982e49b59f",
+      "optimal": 18,
+      "budget": 20,
+      "visited": 207,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 97,
+      "hash": "8d1a8dc7594537d2c37ce2fa30ae774cec4202c23dc350442a314d4ee7ee9c23",
+      "optimal": 23,
+      "budget": 25,
+      "visited": 2432,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 98,
+      "hash": "3636f78ba70deb6d299585ef6dae3df92b3bda2bb211e5510b3daae0055db811",
+      "optimal": 11,
+      "budget": 13,
+      "visited": 312,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 99,
+      "hash": "e15896f8d1719d4ec2e5d72dbe3c18de3e6c85aeb2590e92caa91ba447bd650d",
+      "optimal": 14,
+      "budget": 16,
+      "visited": 615,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 100,
+      "hash": "4c1a6579a571d92465d6de82c1605ec2e075ff617daa5611a96ae54b2e620823",
+      "optimal": 17,
+      "budget": 19,
+      "visited": 827,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 101,
+      "hash": "2dd6be375ceacd7c647ea2e839b7373f8c7b3b4df65f4c4cc11da545dc62397d",
+      "optimal": 22,
+      "budget": 24,
+      "visited": 1226,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 102,
+      "hash": "397be57dc0fd9e906b3242ba25e0691986e94c834f05d2dafa55c7ffc2edf529",
+      "optimal": 26,
+      "budget": 28,
+      "visited": 1072,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 103,
+      "hash": "67c95c4db6f43303d4896996c20f47a671affee0ce76ff8973a67c0d30862b27",
+      "optimal": 23,
+      "budget": 25,
+      "visited": 548,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 104,
+      "hash": "3cfd7bb5ea13599184773aa8b308c50249d5ce69582ce50f5b72bb5a1a2da8b8",
+      "optimal": 18,
+      "budget": 20,
+      "visited": 1531,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 105,
+      "hash": "b898a26fd8f9c5629cf8ea9ef5b0fcc9a5e8d8853f32da8ef93def30ab2238c6",
+      "optimal": 25,
+      "budget": 27,
+      "visited": 3780,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 106,
+      "hash": "ddb306bd3d567e60c016c5f2935959d9a258f9734e3865ba54aa820c9e960606",
+      "optimal": 27,
+      "budget": 29,
+      "visited": 1203,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 107,
+      "hash": "e3f6abc4fb759f921ff1d0b71f868f3fc043d3ca6560b048000f438ece8ed098",
+      "optimal": 24,
+      "budget": 26,
+      "visited": 2227,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 108,
+      "hash": "60bc0958be5f49691797c34e9179845cba03ac7d7055d514365401dc43305eef",
+      "optimal": 27,
+      "budget": 29,
+      "visited": 1500,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 109,
+      "hash": "aa043cc8f9c5e3d01d08a1d8e20f8f4f2dd9ab1437164245c6bc40e36ba58eb0",
+      "optimal": 20,
+      "budget": 22,
+      "visited": 1339,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 110,
+      "hash": "612bf1b88577378163492b48eb8cbf8eaf693340c8de269780dd29584ae23608",
+      "optimal": 25,
+      "budget": 27,
+      "visited": 967,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 111,
+      "hash": "fc91a324a73cb29a2ecf9bdcbc9111d02399fec6a6a3df1b93c2f272353cba9e",
+      "optimal": 21,
+      "budget": 22,
+      "visited": 139,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 112,
+      "hash": "e2ee4c462e8b3102222b8f7105f5371920b147c7ea3b162288684f0a88561fc1",
+      "optimal": 15,
+      "budget": 17,
+      "visited": 563,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 113,
+      "hash": "4234c0dc05096f871ac1a3d921ec933b49f9b04b3a44c83c6a7673b7351405f1",
+      "optimal": 20,
+      "budget": 21,
+      "visited": 151,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 114,
+      "hash": "9dd4b873fcb61c65a86ca23697165706fe4bbee5278c554bf7bc0339bbb540fa",
+      "optimal": 23,
+      "budget": 24,
+      "visited": 344,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 115,
+      "hash": "d90309a1bc2f3cc619b34962bc38c71da8e0bdf4b5bbcea6d7ac24f1908953d7",
+      "optimal": 20,
+      "budget": 21,
+      "visited": 1589,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 116,
+      "hash": "6c6dc24bd9b054c2bb59fe6472e7587c017b5908b887ca0aac972809ef699616",
+      "optimal": 20,
+      "budget": 21,
+      "visited": 1145,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 117,
+      "hash": "5b8c1eea8a338685763bae7b7e9462e6a895b65ee67f49cfad0eeaa74aa4af80",
+      "optimal": 17,
+      "budget": 19,
+      "visited": 2133,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 118,
+      "hash": "74d5986b4d98b257dfff7df87c9688d0c8c10d689c7e89e2c663cc5203721783",
+      "optimal": 18,
+      "budget": 19,
+      "visited": 1170,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 119,
+      "hash": "b80b1d43e72bd00b470d4a25a36dcdc7db425559ce4fb832975a299207dec8da",
+      "optimal": 17,
+      "budget": 18,
+      "visited": 358,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 120,
+      "hash": "1a9c54cb973f59c933c8537d141be2d6caae4215486917554211133263d79dc5",
+      "optimal": 18,
+      "budget": 19,
+      "visited": 206,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 121,
+      "hash": "374bb7f3fdac4848534452ea1c5dd3843a6e821742e4dbd4291fc1dfcece9071",
+      "optimal": 4,
+      "budget": 9,
+      "visited": 12,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 122,
+      "hash": "da36acfc2a0f300867799393cd9a50b20ccb9badc1a7c62590cc84944e9750fb",
+      "optimal": 5,
+      "budget": 10,
+      "visited": 20,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 123,
+      "hash": "ff9e4cb4c792904f09c6dd7424e701ac11459cdbfde60c57d6d19dd822f973b2",
+      "optimal": 3,
+      "budget": 8,
+      "visited": 8,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 124,
+      "hash": "195caf588d44aba4e765dc26d368c7008568d47f62e65147929ef4a31a5339d2",
+      "optimal": 4,
+      "budget": 9,
+      "visited": 15,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 125,
+      "hash": "48d3b3da712df243c1fbdc00e2fdfe971ab2936d6b516777fb9b20dfb37b054d",
+      "optimal": 4,
+      "budget": 9,
+      "visited": 11,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 126,
+      "hash": "b33a7adc2f5265a42c9d89de23b7b388bd8314a5c3debdcb4e249308027b6c3b",
+      "optimal": 9,
+      "budget": 12,
+      "visited": 64,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 127,
+      "hash": "0a9614f1105ccb1f0fff68edd2526fb7a5e257fbaa01f7d2b8bb1fd217299fed",
+      "optimal": 14,
+      "budget": 17,
+      "visited": 312,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 128,
+      "hash": "b1bc05fd63b14831c7c7871f5df77996bf026adfe83b66150bd567b20a562c3e",
+      "optimal": 13,
+      "budget": 16,
+      "visited": 94,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 129,
+      "hash": "60d4719efe863a07357e226c76476489286ca0d5c3db85fee6c9f9b6adb210a8",
+      "optimal": 14,
+      "budget": 17,
+      "visited": 372,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 130,
+      "hash": "4d242d5bda417c67f90d6a5779c85fb246912785dd8cd157cc2844e3e1a91922",
+      "optimal": 12,
+      "budget": 15,
+      "visited": 164,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 131,
+      "hash": "d6b4f8f29daf6d1e7a7179a29a72c3c374a9bceec944d5467ba70bd967fdda60",
+      "optimal": 20,
+      "budget": 23,
+      "visited": 382,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 132,
+      "hash": "7745c1cee4b6fb2106d65a600f6befd772fbddf9ede9436654f451656f9b88ca",
+      "optimal": 16,
+      "budget": 19,
+      "visited": 90,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 133,
+      "hash": "70fc45b493a83bf0922e31b9d34c5b2ca2b10d2fc74d8b3ffc8d4945e0791694",
+      "optimal": 20,
+      "budget": 23,
+      "visited": 861,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 134,
+      "hash": "1b51d467de6a901dc91e5a9b1a2e2bb274d35571ab53d42b3782309f93074553",
+      "optimal": 30,
+      "budget": 33,
+      "visited": 791,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 135,
+      "hash": "5fe2f2510d4ce7cfa01e4ba952f5abe77ab4183f55e6003e509c4278f2f306c5",
+      "optimal": 19,
+      "budget": 22,
+      "visited": 296,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 136,
+      "hash": "619f4f42165e26f9e504e356a229bbcf516bab2ecafdb860e731d9c1c36aec4c",
+      "optimal": 24,
+      "budget": 26,
+      "visited": 431,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 137,
+      "hash": "c59c034a7ca4d577d0ea644ba4f932843b3aad5e2315497d7daa53cf4b534e93",
+      "optimal": 26,
+      "budget": 28,
+      "visited": 544,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 138,
+      "hash": "fc682ee9793e5b84709b59f8b4ef8bf813606b87446df18f3261e3b0fe0551a0",
+      "optimal": 17,
+      "budget": 19,
+      "visited": 419,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 139,
+      "hash": "b1643ee63362304b1f23c723c84ee6eeae860b3695d6d96ae2e6c3c8ed921ba9",
+      "optimal": 19,
+      "budget": 21,
+      "visited": 1251,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 140,
+      "hash": "d0d9d05362e0bd77538e112af77f2441a610bed4d0ab2ca58b4873fc877c4824",
+      "optimal": 22,
+      "budget": 24,
+      "visited": 331,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 141,
+      "hash": "dba0b6067948ae9c68785c68a046a919b66c97be692ebeaaeddc2e8471e79e1a",
+      "optimal": 30,
+      "budget": 32,
+      "visited": 1420,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 142,
+      "hash": "b6e582d9921d77ea6d3140376866cfe48cef4606c96a69d16e69b00c5d6fe19a",
+      "optimal": 26,
+      "budget": 28,
+      "visited": 734,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 143,
+      "hash": "1d98e28946ff454b4effcd442dc54af7262a15ab5d38f61703cb8c37cf8ef555",
+      "optimal": 25,
+      "budget": 27,
+      "visited": 1009,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 144,
+      "hash": "162e894ff5c9458abd623f3f11a56b7b27a171d5c27dfcaf60c0bcd51ab01f01",
+      "optimal": 17,
+      "budget": 19,
+      "visited": 421,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 145,
+      "hash": "dad50a08ace5bd368bc0a0145a0f5ea48f2b98e9fe5b66e5cf8e279d29a75136",
+      "optimal": 18,
+      "budget": 20,
+      "visited": 480,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 146,
+      "hash": "535000177b6fedcf151ea0e11486a8c7c933a5eff4f72ebc7f6617d3c7be0530",
+      "optimal": 18,
+      "budget": 20,
+      "visited": 483,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 147,
+      "hash": "e409527f1b5d7e7d844ebf690f9e7f4c00ddce3ab4416d4f57f18a0d63471a42",
+      "optimal": 17,
+      "budget": 19,
+      "visited": 656,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 148,
+      "hash": "0338cc3d373ff1647f51d78f583ae01d81d54fe171c2ee518a7750fe19fac176",
+      "optimal": 22,
+      "budget": 24,
+      "visited": 143,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 149,
+      "hash": "525cd4e55491e50d706a22b707422edb99fbf196567c7fe4301086f0e99b106c",
+      "optimal": 16,
+      "budget": 18,
+      "visited": 1636,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 150,
+      "hash": "c264c01c7b5377fdeae20bc54f4c841d25a251fa12b251963dddc4994e84a212",
+      "optimal": 17,
+      "budget": 19,
+      "visited": 145,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 151,
+      "hash": "4a400a4b6fae83d3362905b8eed3b11e1fb16045ab02e1de8f7d6f8c3168b0cc",
+      "optimal": 29,
+      "budget": 30,
+      "visited": 1233,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 152,
+      "hash": "0b33b523a6ecba051151a53e6cae15d6881c121a8e8566298083e20fc1cda3b5",
+      "optimal": 24,
+      "budget": 25,
+      "visited": 226,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 153,
+      "hash": "f89a1bf21d548c7c3605ae59f248ca5b56f86edee0cd1ea55140c08c0e979c98",
+      "optimal": 35,
+      "budget": 36,
+      "visited": 494,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 154,
+      "hash": "8f5cdf3322e0b7e99fb0b100bcf2fcf64a78edbf32aa484a692fdba9910735d2",
+      "optimal": 31,
+      "budget": 32,
+      "visited": 4367,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 155,
+      "hash": "d807e1b65077839b7bf98447495a13f7f446023f03b6e1a8fb26f72314f9418c",
+      "optimal": 32,
+      "budget": 33,
+      "visited": 4098,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 156,
+      "hash": "d33dfcb3ac39e0537594b91cb278ad6f2ffefa9d861c1d8ae6e196bc4b9a304e",
+      "optimal": 36,
+      "budget": 37,
+      "visited": 422,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 157,
+      "hash": "d86dac6cacea066f81aad7dad4dee67373d4d9728b8276faba4a4bc181d4de7e",
+      "optimal": 24,
+      "budget": 25,
+      "visited": 237,
+      "winningReplay": true,
+      "ruleRevision": null
+    },
+    {
+      "id": 158,
+      "hash": "a95871d7b0b961118625081e935540e160e17a0181e89a6ad5012a6f729d6042",
+      "optimal": 31,
+      "budget": 32,
+      "visited": 2124,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 159,
+      "hash": "2bfe654b8b7cf7b43bb0206a40b932d0d302845e88e96b27abab6f40e44faf93",
+      "optimal": 28,
+      "budget": 29,
+      "visited": 1158,
+      "winningReplay": true,
+      "ruleRevision": "mechanics-v18"
+    },
+    {
+      "id": 160,
+      "hash": "2b669670553213e030f60414bea52af9ab5d45922bac0b34871dc255466b7e29",
+      "optimal": 25,
+      "budget": 26,
+      "visited": 1714,
+      "winningReplay": true,
+      "ruleRevision": null
+    }
+  ],
+  "report": [
+    {
+      "id": 41,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 20
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 6,
+          "visited": 19
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "down",
+          "up",
+          "right"
+        ],
+        "visited": 30
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 6,
+          "visited": 21
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 43
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 13
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "attempt": 30,
+      "mechanic": "stop-pad",
+      "optimal": 6,
+      "budget": 11,
+      "solution": [
+        "right",
+        "down",
+        "left",
+        "right",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "left",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 21
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 10
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 23
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 12
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "attempt": 46,
+      "mechanic": "stop-pad",
+      "optimal": 14,
+      "budget": 17,
+      "solution": [
+        "down",
+        "right",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "down",
+          "left",
+          "up",
+          "right"
+        ],
+        "visited": 988
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 599
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 577
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 13,
+          "visited": 683
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "down",
+          "left",
+          "right",
+          "down",
+          "left",
+          "right",
+          "left",
+          "up",
+          "left"
+        ],
+        "visited": 1791
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 619
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "attempt": 20,
+      "mechanic": "stop-pad",
+      "optimal": 15,
+      "budget": 18,
+      "solution": [
+        "right",
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "left",
+        "up",
+        "up",
+        "down",
+        "right",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "left",
+          "up",
+          "up",
+          "down",
+          "right",
+          "down",
+          "right"
+        ],
+        "visited": 1106
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 16,
+          "visited": 929
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 14,
+          "visited": 702
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "attempt": 3,
+      "mechanic": "stop-pad",
+      "optimal": 20,
+      "budget": 23,
+      "solution": [
+        "right",
+        "down",
+        "right",
+        "up",
+        "up",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "right",
+          "up",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right",
+          "left",
+          "up"
+        ],
+        "visited": 1263
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 472
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 833
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 884
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up"
+        ],
+        "visited": 418
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 66
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "attempt": 5,
+      "mechanic": "stop-pad",
+      "optimal": 26,
+      "budget": 29,
+      "solution": [
+        "down",
+        "right",
+        "up",
+        "right",
+        "down",
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "left",
+        "down",
+        "right",
+        "down",
+        "right",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "down",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "up"
+        ],
+        "visited": 1094
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 61
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 25,
+          "visited": 597
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "attempt": 48,
+      "mechanic": "stop-pad",
+      "optimal": 18,
+      "budget": 21,
+      "solution": [
+        "left",
+        "right",
+        "down",
+        "down",
+        "up",
+        "left",
+        "left",
+        "up",
+        "down",
+        "left",
+        "down",
+        "up",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "right",
+          "down",
+          "down",
+          "up",
+          "left",
+          "left",
+          "up",
+          "down",
+          "left",
+          "down",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left"
+        ],
+        "visited": 748
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 433
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 17,
+          "visited": 577
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 17,
+          "visited": 605
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "down",
+          "up",
+          "left",
+          "right"
+        ],
+        "visited": 1125
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 22,
+          "visited": 707
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "attempt": 29,
+      "mechanic": "stop-pad",
+      "optimal": 31,
+      "budget": 34,
+      "solution": [
+        "left",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "up",
+        "right",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down"
+        ],
+        "visited": 1155
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 30,
+          "visited": 989
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 511
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "attempt": 13,
+      "mechanic": "stop-pad",
+      "optimal": 19,
+      "budget": 22,
+      "solution": [
+        "right",
+        "down",
+        "left",
+        "right",
+        "left",
+        "up",
+        "down",
+        "right",
+        "left",
+        "up",
+        "right",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "left",
+          "right",
+          "left",
+          "up",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down"
+        ],
+        "visited": 788
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 281
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 545
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 177
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "down",
+          "left",
+          "right",
+          "up",
+          "right",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "down",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down"
+        ],
+        "visited": 3161
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 35,
+          "visited": 2216
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "attempt": 136,
+      "mechanic": "stop-pad",
+      "optimal": 15,
+      "budget": 17,
+      "solution": [
+        "left",
+        "down",
+        "up",
+        "right",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "left",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "up",
+          "right",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 723
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 14,
+          "visited": 670
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 125
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "attempt": 57,
+      "mechanic": "stop-pad",
+      "optimal": 26,
+      "budget": 28,
+      "solution": [
+        "right",
+        "left",
+        "down",
+        "down",
+        "right",
+        "down",
+        "right",
+        "up",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "right",
+        "down",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "down",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 1494
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 25,
+          "visited": 1114
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 25,
+          "visited": 1027
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 772
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 679
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 471
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "attempt": 138,
+      "mechanic": "stop-pad",
+      "optimal": 18,
+      "budget": 20,
+      "solution": [
+        "down",
+        "right",
+        "up",
+        "right",
+        "down",
+        "up",
+        "left",
+        "right",
+        "down",
+        "up",
+        "left",
+        "down",
+        "left",
+        "down",
+        "right",
+        "right",
+        "up",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "right",
+          "right",
+          "up",
+          "right"
+        ],
+        "visited": 2554
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 17,
+          "visited": 1615
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 471
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "attempt": 79,
+      "mechanic": "stop-pad",
+      "optimal": 23,
+      "budget": 25,
+      "solution": [
+        "left",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "up",
+        "right",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right",
+        "down",
+        "right",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 2258
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1347
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 22,
+          "visited": 999
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 22,
+          "visited": 1805
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up"
+        ],
+        "visited": 146
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 28
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "up",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 2241
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 17,
+          "visited": 1117
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 773
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "left"
+        ],
+        "visited": 907
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 320
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 23,
+          "visited": 756
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 370
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 1602
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 20,
+          "visited": 1444
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "right",
+          "up",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 267
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 28,
+          "visited": 213
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 28,
+          "visited": 214
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "attempt": 128,
+      "mechanic": "stop-pad",
+      "optimal": 16,
+      "budget": 18,
+      "solution": [
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "down",
+        "right",
+        "up",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "right",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "down",
+          "right",
+          "up",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up"
+        ],
+        "visited": 940
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 698
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 767
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 641
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "up",
+          "right",
+          "up",
+          "right",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right"
+        ],
+        "visited": 308
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 29,
+          "visited": 250
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "left",
+          "down",
+          "left",
+          "down",
+          "down",
+          "right",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "right",
+          "left",
+          "down",
+          "right",
+          "left"
+        ],
+        "visited": 1946
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 1167
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 1616
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 2972
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1185
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1093
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1674
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "right",
+          "left",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "down",
+          "up",
+          "right"
+        ],
+        "visited": 593
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 390
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "up",
+          "right",
+          "up",
+          "up",
+          "left",
+          "down",
+          "left",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left"
+        ],
+        "visited": 241
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 26,
+          "visited": 205
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 17
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "left",
+          "down",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "left",
+          "down",
+          "right",
+          "right",
+          "up",
+          "up",
+          "left"
+        ],
+        "visited": 687
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 349
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 542
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 625
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 737
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 16,
+          "visited": 450
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "left",
+          "down",
+          "right",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up"
+        ],
+        "visited": 1368
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 666
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 795
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "attempt": 71,
+      "mechanic": "stop-pad",
+      "optimal": 26,
+      "budget": 27,
+      "solution": [
+        "left",
+        "up",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "right",
+        "up",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 2677
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 27,
+          "visited": 923
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 27,
+          "visited": 1548
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 25,
+          "visited": 2243
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "left",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "up",
+          "left",
+          "down",
+          "right",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 1148
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 544
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "attempt": 6,
+      "mechanic": "stop-pad",
+      "optimal": 34,
+      "budget": 35,
+      "solution": [
+        "left",
+        "up",
+        "left",
+        "up",
+        "down",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "right",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up"
+        ],
+        "visited": 2707
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1489
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 877
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 1886
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 615
+        },
+        {
+          "kind": "stopPads",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 46
+        },
+        {
+          "kind": "stopPads",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 714
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "right",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down"
+        ],
+        "visited": 7676
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 22,
+          "visited": 2855
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 28
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 28
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 16
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 29
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 23
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 13
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 40
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 10,
+          "visited": 50
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "optimal",
+          "optimal": 10,
+          "visited": 30
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right"
+        ],
+        "visited": 28
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 32
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 21
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "up",
+          "right",
+          "down"
+        ],
+        "visited": 23
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 6,
+          "visited": 29
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "optimal",
+          "optimal": 6,
+          "visited": 16
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "down",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up"
+        ],
+        "visited": 197
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 144
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 85
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left"
+        ],
+        "visited": 271
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 181
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 98
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right"
+        ],
+        "visited": 160
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 12,
+          "visited": 144
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "optimal",
+          "optimal": 12,
+          "visited": 84
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right"
+        ],
+        "visited": 107
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 12,
+          "visited": 152
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "optimal",
+          "optimal": 12,
+          "visited": 86
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right"
+        ],
+        "visited": 187
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 129
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 71
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 301
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 90
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 48
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "left",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "down",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 318
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 311
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 166
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 285
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 184
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 102
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "attempt": 20,
+      "mechanic": "door-toggle",
+      "optimal": 18,
+      "budget": 21,
+      "solution": [
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 89
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 21,
+          "visited": 134
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "optimal",
+          "optimal": 21,
+          "visited": 71
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "attempt": 66,
+      "mechanic": "door-toggle",
+      "optimal": 18,
+      "budget": 21,
+      "solution": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "up",
+        "left",
+        "right",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up"
+        ],
+        "visited": 283
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 224
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 147
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up"
+        ],
+        "visited": 207
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 159
+        },
+        {
+          "kind": "doors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 74
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 59
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "attempt": 31,
+      "mechanic": "door-toggle",
+      "optimal": 23,
+      "budget": 25,
+      "solution": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "right",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up"
+        ],
+        "visited": 2432
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 2165
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1090
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "attempt": 17,
+      "mechanic": "door-toggle",
+      "optimal": 11,
+      "budget": 13,
+      "solution": [
+        "left",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 312
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 283
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 204
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "attempt": 10,
+      "mechanic": "door-toggle",
+      "optimal": 14,
+      "budget": 16,
+      "solution": [
+        "left",
+        "up",
+        "down",
+        "right",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down"
+        ],
+        "visited": 615
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 810
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 622
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "attempt": 23,
+      "mechanic": "door-toggle",
+      "optimal": 17,
+      "budget": 19,
+      "solution": [
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 827
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 511
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 501
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "attempt": 111,
+      "mechanic": "door-toggle",
+      "optimal": 22,
+      "budget": 24,
+      "solution": [
+        "up",
+        "right",
+        "left",
+        "down",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 1226
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 674
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 337
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "down",
+          "left",
+          "down",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 1072
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 25,
+          "visited": 1158
+        },
+        {
+          "kind": "doors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 695
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 317
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "attempt": 13,
+      "mechanic": "door-toggle",
+      "optimal": 23,
+      "budget": 25,
+      "solution": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "up",
+        "down",
+        "right",
+        "up",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "up",
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left"
+        ],
+        "visited": 548
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 631
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 354
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "attempt": 61,
+      "mechanic": "door-toggle",
+      "optimal": 18,
+      "budget": 20,
+      "solution": [
+        "right",
+        "left",
+        "up",
+        "right",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "right",
+        "up",
+        "right",
+        "left",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "up",
+          "right",
+          "left",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right"
+        ],
+        "visited": 1531
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 581
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 299
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 3780
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 24,
+          "visited": 2227
+        },
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 2522
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1554
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 1203
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 738
+        },
+        {
+          "kind": "doors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 378
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 124
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "attempt": 52,
+      "mechanic": "door-toggle",
+      "optimal": 24,
+      "budget": 26,
+      "solution": [
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 2227
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1494
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1005
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "attempt": 74,
+      "mechanic": "door-toggle",
+      "optimal": 27,
+      "budget": 29,
+      "solution": [
+        "right",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "right",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 1500
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 901
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 452
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "up",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "right",
+          "left",
+          "right",
+          "up",
+          "right"
+        ],
+        "visited": 1339
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 568
+        },
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1166
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 703
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down"
+        ],
+        "visited": 967
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 701
+        },
+        {
+          "kind": "doors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 701
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 516
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "up",
+          "down"
+        ],
+        "visited": 139
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 20,
+          "visited": 133
+        },
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 144
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 119
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "up",
+          "down",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "left"
+        ],
+        "visited": 563
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 17,
+          "visited": 710
+        },
+        {
+          "kind": "doors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 915
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 540
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "attempt": 5,
+      "mechanic": "door-toggle",
+      "optimal": 20,
+      "budget": 21,
+      "solution": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "right",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 151
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 83
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 83
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "attempt": 35,
+      "mechanic": "door-toggle",
+      "optimal": 23,
+      "budget": 24,
+      "solution": [
+        "right",
+        "left",
+        "down",
+        "right",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up"
+        ],
+        "visited": 344
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 17
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 10
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "left",
+          "right",
+          "up",
+          "right",
+          "down",
+          "down",
+          "left",
+          "down"
+        ],
+        "visited": 1589
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 985
+        },
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1007
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 520
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "attempt": 2,
+      "mechanic": "door-toggle",
+      "optimal": 20,
+      "budget": 21,
+      "solution": [
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "up",
+        "right",
+        "left",
+        "down",
+        "left",
+        "up",
+        "left",
+        "right",
+        "down",
+        "left",
+        "down",
+        "right",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "left",
+          "down",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up"
+        ],
+        "visited": 1145
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 58
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 45
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "down",
+          "left",
+          "down",
+          "up",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 2133
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 16,
+          "visited": 1194
+        },
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1775
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1143
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "down"
+        ],
+        "visited": 1170
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 17,
+          "visited": 1233
+        },
+        {
+          "kind": "doors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1072
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 755
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "attempt": 4,
+      "mechanic": "door-toggle",
+      "optimal": 17,
+      "budget": 18,
+      "solution": [
+        "down",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "left",
+        "right",
+        "up",
+        "right",
+        "up",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "left",
+          "right",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left"
+        ],
+        "visited": 358
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 300
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 240
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "up",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "down",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up"
+        ],
+        "visited": 206
+      },
+      "checks": [
+        {
+          "kind": "doors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 151
+        },
+        {
+          "kind": "doors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 141
+        },
+        {
+          "kind": "all-switches-disabled",
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 64
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "attempt": 53,
+      "mechanic": "conveyor",
+      "optimal": 4,
+      "budget": 9,
+      "solution": [
+        "down",
+        "down",
+        "right",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "down",
+          "right",
+          "up"
+        ],
+        "visited": 12
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 6,
+          "visited": 21
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "attempt": 36,
+      "mechanic": "conveyor",
+      "optimal": 5,
+      "budget": 10,
+      "solution": [
+        "right",
+        "left",
+        "up",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "up",
+          "down",
+          "right"
+        ],
+        "visited": 20
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 6,
+          "visited": 23
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "down",
+          "left"
+        ],
+        "visited": 8
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 7,
+          "visited": 18
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "attempt": 8,
+      "mechanic": "conveyor",
+      "optimal": 4,
+      "budget": 9,
+      "solution": [
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 15
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 22
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "right",
+          "down",
+          "up"
+        ],
+        "visited": 11
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 5,
+          "visited": 20
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "attempt": 170,
+      "mechanic": "conveyor",
+      "optimal": 9,
+      "budget": 12,
+      "solution": [
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "down",
+        "left",
+        "up",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "up"
+        ],
+        "visited": 64
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 10,
+          "visited": 84
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 8,
+          "visited": 50
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 10,
+          "visited": 77
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "left",
+          "down"
+        ],
+        "visited": 312
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 13,
+          "visited": 475
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "attempt": 41,
+      "mechanic": "conveyor",
+      "optimal": 13,
+      "budget": 16,
+      "solution": [
+        "down",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "left",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 94
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 14,
+          "visited": 108
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 199
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "attempt": 16,
+      "mechanic": "conveyor",
+      "optimal": 14,
+      "budget": 17,
+      "solution": [
+        "right",
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "left",
+        "up",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "up",
+          "left",
+          "up",
+          "right",
+          "left",
+          "up",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "up"
+        ],
+        "visited": 372
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 13,
+          "visited": 338
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 167
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 13,
+          "visited": 295
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "up",
+          "down",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down"
+        ],
+        "visited": 164
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 230
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 382
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 21,
+          "visited": 616
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 327
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "attempt": 301,
+      "mechanic": "conveyor",
+      "optimal": 16,
+      "budget": 19,
+      "solution": [
+        "up",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "left",
+        "up",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "left",
+          "up",
+          "right"
+        ],
+        "visited": 90
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 46
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 43
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 88
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up",
+          "down",
+          "right",
+          "left"
+        ],
+        "visited": 861
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 21,
+          "visited": 975
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "attempt": 196,
+      "mechanic": "conveyor",
+      "optimal": 30,
+      "budget": 33,
+      "solution": [
+        "down",
+        "left",
+        "left",
+        "up",
+        "left",
+        "up",
+        "down",
+        "right",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "up",
+        "left",
+        "up",
+        "left",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "down",
+        "left",
+        "up",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "left",
+          "left",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "up",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "down",
+          "left",
+          "up",
+          "left",
+          "up"
+        ],
+        "visited": 791
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 29,
+          "visited": 419
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 98
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "down",
+          "left",
+          "left",
+          "up",
+          "right",
+          "right",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "left",
+          "right",
+          "right",
+          "up"
+        ],
+        "visited": 296
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 20,
+          "visited": 425
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 604
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 16,
+          "visited": 182
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "attempt": 91,
+      "mechanic": "conveyor",
+      "optimal": 24,
+      "budget": 26,
+      "solution": [
+        "left",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "down",
+        "left",
+        "down",
+        "up",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "up",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down"
+        ],
+        "visited": 431
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 23,
+          "visited": 769
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "attempt": 161,
+      "mechanic": "conveyor",
+      "optimal": 26,
+      "budget": 28,
+      "solution": [
+        "up",
+        "right",
+        "right",
+        "left",
+        "down",
+        "right",
+        "left",
+        "right",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "left",
+        "right",
+        "left",
+        "up",
+        "right",
+        "right",
+        "up",
+        "down",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "right",
+          "left",
+          "down",
+          "right",
+          "left",
+          "right",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "left",
+          "up",
+          "right",
+          "right",
+          "up",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 544
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 109
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 690
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "down",
+          "up",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right"
+        ],
+        "visited": 419
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 617
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 183
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 445
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "left",
+          "up",
+          "down",
+          "right",
+          "left",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down"
+        ],
+        "visited": 1251
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 506
+        },
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 447
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "right",
+          "down",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "up",
+          "down",
+          "down",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "up"
+        ],
+        "visited": 331
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 577
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 274
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "attempt": 1293,
+      "mechanic": "conveyor",
+      "optimal": 30,
+      "budget": 32,
+      "solution": [
+        "up",
+        "left",
+        "left",
+        "up",
+        "right",
+        "up",
+        "up",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "right",
+        "up",
+        "up",
+        "left",
+        "right",
+        "down",
+        "down",
+        "up",
+        "up",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "left",
+          "up",
+          "right",
+          "up",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "right",
+          "up",
+          "up",
+          "left",
+          "right",
+          "down",
+          "down",
+          "up",
+          "up",
+          "left",
+          "up"
+        ],
+        "visited": 1420
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 32,
+          "visited": 519
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 198
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 23,
+          "visited": 3127
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "left",
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "down",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down"
+        ],
+        "visited": 734
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 27,
+          "visited": 1082
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "attempt": 198,
+      "mechanic": "conveyor",
+      "optimal": 25,
+      "budget": 27,
+      "solution": [
+        "down",
+        "up",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "up",
+        "left",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down"
+        ],
+        "visited": 1009
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 22,
+          "visited": 1281
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 26,
+          "visited": 1158
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "attempt": 342,
+      "mechanic": "conveyor",
+      "optimal": 17,
+      "budget": 19,
+      "solution": [
+        "left",
+        "down",
+        "down",
+        "right",
+        "right",
+        "up",
+        "right",
+        "up",
+        "left",
+        "down",
+        "right",
+        "left",
+        "down",
+        "right",
+        "right",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "down",
+          "right",
+          "right",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "left",
+          "down",
+          "right",
+          "right",
+          "down",
+          "right"
+        ],
+        "visited": 421
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 467
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 269
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 86
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "attempt": 15,
+      "mechanic": "conveyor",
+      "optimal": 18,
+      "budget": 20,
+      "solution": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "up",
+        "left",
+        "down",
+        "down",
+        "right",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "down",
+          "right",
+          "up",
+          "left"
+        ],
+        "visited": 480
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 310
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "attempt": 63,
+      "mechanic": "conveyor",
+      "optimal": 18,
+      "budget": 20,
+      "solution": [
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "left",
+        "right",
+        "right",
+        "up",
+        "down",
+        "left",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "down",
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "left",
+          "right",
+          "right",
+          "up",
+          "down",
+          "left",
+          "left",
+          "up",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 483
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 1156
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 16,
+          "visited": 393
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "attempt": 1297,
+      "mechanic": "conveyor",
+      "optimal": 17,
+      "budget": 19,
+      "solution": [
+        "up",
+        "left",
+        "down",
+        "right",
+        "right",
+        "up",
+        "down",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "down",
+          "right",
+          "right",
+          "up",
+          "down",
+          "right",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right",
+          "up"
+        ],
+        "visited": 656
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 16,
+          "visited": 693
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 284
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 681
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "left",
+          "left",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 143
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 20,
+          "visited": 347
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right"
+        ],
+        "visited": 1636
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 596
+        },
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 15,
+          "visited": 1560
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 338
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "attempt": 173,
+      "mechanic": "conveyor",
+      "optimal": 17,
+      "budget": 19,
+      "solution": [
+        "left",
+        "up",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "right",
+        "up",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "left",
+        "right"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "left",
+          "up",
+          "up",
+          "left",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "left",
+          "right"
+        ],
+        "visited": 145
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 19,
+          "visited": 151
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 18,
+          "visited": 153
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 128
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "attempt": 183,
+      "mechanic": "conveyor",
+      "optimal": 29,
+      "budget": 30,
+      "solution": [
+        "right",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "right",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "up",
+        "right",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "up",
+          "right",
+          "up"
+        ],
+        "visited": 1233
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1321
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "attempt": 33,
+      "mechanic": "conveyor",
+      "optimal": 24,
+      "budget": 25,
+      "solution": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "left",
+        "down",
+        "left",
+        "up",
+        "left",
+        "right",
+        "down",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "left",
+          "down",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "up",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "left"
+        ],
+        "visited": 226
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 77
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 25,
+          "visited": 1220
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "attempt": 239,
+      "mechanic": "conveyor",
+      "optimal": 35,
+      "budget": 36,
+      "solution": [
+        "right",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "left",
+        "down",
+        "right",
+        "left",
+        "up",
+        "left",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "up",
+        "up",
+        "left",
+        "down",
+        "left",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "down",
+        "down",
+        "up",
+        "up",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "right",
+          "up",
+          "right",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "down",
+          "right",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "up",
+          "left",
+          "down",
+          "left",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "down",
+          "down",
+          "up",
+          "up",
+          "left"
+        ],
+        "visited": 494
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 509
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 31,
+          "visited": 1237
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 184
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "up",
+          "left",
+          "right",
+          "up",
+          "right",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "down",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "left"
+        ],
+        "visited": 4367
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 30,
+          "visited": 4961
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "attempt": 98,
+      "mechanic": "conveyor",
+      "optimal": 32,
+      "budget": 33,
+      "solution": [
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "left",
+        "right",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right",
+        "down",
+        "down",
+        "left",
+        "right",
+        "up",
+        "right",
+        "up",
+        "down",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "left",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "up",
+          "left",
+          "down",
+          "left",
+          "up",
+          "down",
+          "right",
+          "down",
+          "down",
+          "left",
+          "right",
+          "up",
+          "right",
+          "up",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up"
+        ],
+        "visited": 4098
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 33,
+          "visited": 4200
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 33,
+          "visited": 9303
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "attempt": 329,
+      "mechanic": "conveyor",
+      "optimal": 36,
+      "budget": 37,
+      "solution": [
+        "down",
+        "down",
+        "left",
+        "down",
+        "right",
+        "up",
+        "up",
+        "right",
+        "right",
+        "left",
+        "left",
+        "right",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "left",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "right",
+        "left",
+        "up",
+        "down",
+        "right",
+        "up",
+        "up",
+        "right",
+        "right",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "down",
+          "left",
+          "down",
+          "right",
+          "up",
+          "up",
+          "right",
+          "right",
+          "left",
+          "left",
+          "right",
+          "right",
+          "down",
+          "left",
+          "right",
+          "up",
+          "left",
+          "left",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "left",
+          "right",
+          "left",
+          "up",
+          "down",
+          "right",
+          "up",
+          "up",
+          "right",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 422
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 25,
+          "visited": 800
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 13
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "optimal",
+          "optimal": 31,
+          "visited": 316
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "down",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "left",
+          "right",
+          "down",
+          "left",
+          "up",
+          "right",
+          "up",
+          "up",
+          "left"
+        ],
+        "visited": 237
+      },
+      "checks": [
+        {
+          "kind": "stopPads",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 23,
+          "visited": 236
+        },
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 23,
+          "visited": 574
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "attempt": 23,
+      "mechanic": "conveyor",
+      "optimal": 31,
+      "budget": 32,
+      "solution": [
+        "up",
+        "right",
+        "down",
+        "down",
+        "up",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "right",
+        "up",
+        "left",
+        "right",
+        "down",
+        "right",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "right",
+        "left",
+        "down",
+        "up",
+        "down",
+        "right",
+        "down",
+        "right",
+        "down",
+        "left"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "up",
+          "right",
+          "down",
+          "down",
+          "up",
+          "up",
+          "left",
+          "down",
+          "right",
+          "up",
+          "right",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "down",
+          "right",
+          "up",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "up",
+          "down",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left"
+        ],
+        "visited": 2124
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "optimal",
+          "optimal": 28,
+          "visited": 2771
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 270
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "attempt": 260,
+      "mechanic": "conveyor",
+      "optimal": 28,
+      "budget": 29,
+      "solution": [
+        "down",
+        "right",
+        "down",
+        "down",
+        "left",
+        "down",
+        "right",
+        "left",
+        "up",
+        "right",
+        "up",
+        "right",
+        "up",
+        "down",
+        "up",
+        "left",
+        "right",
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "down",
+        "left",
+        "down",
+        "left",
+        "up"
+      ],
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "down",
+          "down",
+          "left",
+          "down",
+          "right",
+          "left",
+          "up",
+          "right",
+          "up",
+          "right",
+          "up",
+          "down",
+          "up",
+          "left",
+          "right",
+          "down",
+          "right",
+          "down",
+          "left",
+          "up",
+          "down",
+          "down",
+          "left",
+          "down",
+          "left",
+          "up"
+        ],
+        "visited": 1158
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1516
+        },
+        {
+          "kind": "conveyors",
+          "index": 1,
+          "status": "optimal",
+          "optimal": 29,
+          "visited": 750
+        },
+        {
+          "kind": "conveyors",
+          "index": 2,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 1066
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "reused": true,
+      "base": {
+        "status": "optimal",
+        "path": [
+          "down",
+          "right",
+          "up",
+          "down",
+          "up",
+          "left",
+          "up",
+          "right",
+          "left",
+          "down",
+          "left",
+          "right",
+          "down",
+          "left",
+          "right",
+          "up",
+          "up",
+          "right",
+          "up",
+          "down",
+          "up",
+          "left",
+          "down",
+          "up",
+          "right"
+        ],
+        "visited": 1714
+      },
+      "checks": [
+        {
+          "kind": "conveyors",
+          "index": 0,
+          "status": "unsolvable",
+          "optimal": null,
+          "visited": 70
+        }
+      ]
+    }
+  ],
+  "seed": 170041,
+  "algorithm": "xorshift32; shipping Rules BFS; individual mechanism disabled; unknown rejected",
+  "first40": [
+    {
+      "id": 1,
+      "hash": "1e9fc982bfec0aa9af736b2a833ce60b9922376aba70e3d71959cc5780ca0d75"
+    },
+    {
+      "id": 2,
+      "hash": "fb1c55d440d349e34f6e5a224f12ae686019af7e5ba6bf980e4695f1ac7ce02a"
+    },
+    {
+      "id": 3,
+      "hash": "03f8b98affba1877bbc2849d12b592f0db71a401d74814a6cfefcf6dc6a34378"
+    },
+    {
+      "id": 4,
+      "hash": "e705d02dbeea7e366b43339a6530182ff80f4186fff8f723f64a4c717222176a"
+    },
+    {
+      "id": 5,
+      "hash": "b909e03a1be6fc586fbb02874265e9af6ac529cf4b6ae4a3be48871477ed232b"
+    },
+    {
+      "id": 6,
+      "hash": "7f228d3b65256a18c6e87bf0a7a9837b5ca9982034b6f83c1b735fcf872b0cc3"
+    },
+    {
+      "id": 7,
+      "hash": "94a792f9f28119938db13d0e8052d0d9ac9d7444b02b9692e3e41cb6e5172d19"
+    },
+    {
+      "id": 8,
+      "hash": "3d86699f6a66c5e70e971ae4f92e49f075eb2e0a3b1f75f5ebee9402a8a80ce9"
+    },
+    {
+      "id": 9,
+      "hash": "3ee84b90153899a8e7878cfbe13dfa955b8a9acdf4a2bcc64f5bcaeb00b7e584"
+    },
+    {
+      "id": 10,
+      "hash": "ccefbe721ede9ebc3ea9fb0de043465813188155038f93bf510a20d5737aa6ad"
+    },
+    {
+      "id": 11,
+      "hash": "cbaea24ad46166901256a40da8ad42d6a091d6aa8c45181eb77119125070e08b"
+    },
+    {
+      "id": 12,
+      "hash": "f8a3be4ca125b42e0ea743ae82c67f6a89fdc798642786c070646fe32da82411"
+    },
+    {
+      "id": 13,
+      "hash": "0a3678334e678a63824704fb6ba5c530daf10063221d84885ed1c2d68b567608"
+    },
+    {
+      "id": 14,
+      "hash": "eada902fbda9093e29525211264c57e2f98d9859cda67a6e31517e9b7c19024c"
+    },
+    {
+      "id": 15,
+      "hash": "3bed6cbefa712aea77f0f3f7fa64382dab6a2409b18d308cd1d9b1efd168010b"
+    },
+    {
+      "id": 16,
+      "hash": "6ace1e2a936a636cd236564366e69181deeebad112a4fec4e7d799c64e58c9ce"
+    },
+    {
+      "id": 17,
+      "hash": "991f7baabf5b6dd8c480a4a77f5e11a0c9007554ae640c7de2b88d21f2734462"
+    },
+    {
+      "id": 18,
+      "hash": "469bcbffff5487761730c1b2552f77f735967fb54032220e085205b2e95495a1"
+    },
+    {
+      "id": 19,
+      "hash": "f28b6118b5c64f2dfabc0d85c2b4999ce9a5ae1ae9ba3c774455c3ebfedfe4a2"
+    },
+    {
+      "id": 20,
+      "hash": "53181ead4c286b6a74f6547dab4ba6520a0bf7c23142a4f756a94d5f89c19141"
+    },
+    {
+      "id": 21,
+      "hash": "0a929c542bdc15487081e7f1d7080497df812356ea2396df496fd2b700cdffbb"
+    },
+    {
+      "id": 22,
+      "hash": "6917c6432622c92771df3e77ff7e99bbf14f9fa8bbcb683a477097987b9b6b1c"
+    },
+    {
+      "id": 23,
+      "hash": "04089c202c47e10049cf0a55f5a7a80e2f7cb7fb3cba43807efc2aed2ba55c8c"
+    },
+    {
+      "id": 24,
+      "hash": "8cca9b3a306605f7122630317eae766d0e7f3b3d5853a99c949c5cc7ed04c5c3"
+    },
+    {
+      "id": 25,
+      "hash": "27d8c79569ab8827884a377b21bba6d045836986103702cf513130dd0c935f9f"
+    },
+    {
+      "id": 26,
+      "hash": "1ec96524a1a99bf32a0ec538f7e101223e6bba031021f9ec08695966d291f993"
+    },
+    {
+      "id": 27,
+      "hash": "20467ae592298e54c4e9b6df816cf93ccbbd41816448a108f36fea4c3544a19a"
+    },
+    {
+      "id": 28,
+      "hash": "8c5d4502acc5a09706b9391515eb60269289a4b3dcd39203820f4c3a59b05c95"
+    },
+    {
+      "id": 29,
+      "hash": "de82e4c7ce157957fb5479fe5ec93322f0ed3a571b49d151317eb8fb51e4f85e"
+    },
+    {
+      "id": 30,
+      "hash": "35f3b45d89f57862307fa9e5fb5c45409066eda51d9f6418c28333faded83b14"
+    },
+    {
+      "id": 31,
+      "hash": "61029732fe7600fa54dcaf846e9bafdd94f05f1a2c0d36b778238a4333bdf743"
+    },
+    {
+      "id": 32,
+      "hash": "09f3808a234ab4b90ac61de2237a4db372e60a4accef1640fe8d4e3aa268f92c"
+    },
+    {
+      "id": 33,
+      "hash": "a01543559ce932694da4c662edb9e40b8cdfcd70db87b4a8180ddea244e3d1dc"
+    },
+    {
+      "id": 34,
+      "hash": "dbe54c4a92dfaa5be2cdb0c77254ce5525a25e36d6b6d9ee489315f4e328c87e"
+    },
+    {
+      "id": 35,
+      "hash": "534ca454de4b505f13637977df4166db9d38527ffa9f13f8da4e285d7a4d0f91"
+    },
+    {
+      "id": 36,
+      "hash": "88b3f2c31b4d63f4374565c31d42189d3a1a2c8cc20c9fa3eeb5ad98a69af793"
+    },
+    {
+      "id": 37,
+      "hash": "543c928ce010c9c45111060d7bd5b3e0e72d5f419849cefff6aa5177bd48ee4e"
+    },
+    {
+      "id": 38,
+      "hash": "13d7d2dabb7a2af2d1ef6594ffae9c723f16393d49f8f17009a4b5fd7e5948bf"
+    },
+    {
+      "id": 39,
+      "hash": "92bc29425be3e3d7abbcfaa6b74667cb0e9ff85cfad409982a73e40ef4bdf445"
+    },
+    {
+      "id": 40,
+      "hash": "52fe0428dc23d6b18c16155f76ba38922ab6023c88fd6827f8fd74aa63dd1072"
+    }
+  ]
+}

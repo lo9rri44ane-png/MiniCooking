@@ -1,0 +1,26 @@
+{
+  "id": "V18-HUD-001",
+  "asset": "customer_silhouette",
+  "canvas": [
+    128,
+    128
+  ],
+  "visibleBounds": [
+    12,
+    11,
+    116,
+    117
+  ],
+  "safetyMargin": 11,
+  "sourceComplete": true,
+  "nativeAlpha": true,
+  "subjectClipped": false,
+  "neighborFragments": false,
+  "nonUniformScale": false,
+  "reviewedBackgrounds": [
+    "dark",
+    "light",
+    "checker"
+  ],
+  "contactSheet": "art/breakfast/v18/previews/customer-silhouette-audit.png"
+}

@@ -1,4 +1,6 @@
-import {Node,Graphics,Color,Button,Vec3,Tween,tween,Label} from 'cc';
+import {SwipeDirectionCue} from './SwipeDirectionCue';
+import {breakfastImage,breakfastSurface} from './BreakfastArt';
+import {Node,Graphics,Color,Button,Vec3,Tween,tween,Label,LabelOutline,UIOpacity} from 'cc';
 import {uiNode} from '../../framework/cocos/UIService';
 import {TutorialFlow} from './TutorialFlow';
 import type {GuideSequence,GuideEvent,GuideStep} from './TutorialFlow';
@@ -18,10 +20,10 @@ function compactDialogues(sequences:GuideSequence[]):GuideSequence[]{return sequ
  while(text.length>52){let cut=52;for(let i=51;i>=25;i--)if('。！；，'.includes(text[i])){cut=i+1;break;}parts.push({...step,text:text.slice(0,cut)});text=text.slice(cut);}if(text)parts.push({...step,text});return parts;
 })}));}
 export class TutorialView {
- readonly flow:TutorialFlow;private parent:Node;private options:TutorialOptions;private layer:Node|null=null;private stopped=false;private pending=false;private saved=new Set<string>();private animated:Node[]=[];private message:Label|null=null;
+ readonly flow:TutorialFlow;private parent:Node;private options:TutorialOptions;private layer:Node|null=null;private stopped=false;private pending=false;private saved=new Set<string>();private animated:object[]=[];private message:Label|null=null;private swipeCue:SwipeDirectionCue|null=null;
  constructor(parent:Node,sequences:GuideSequence[],options:TutorialOptions){this.parent=parent;this.flow=new TutorialFlow(compactDialogues(sequences));this.options=options;this.render();}
  get active():boolean{return !this.stopped&&!this.flow.done;}
- private clear():void{for(const n of this.animated)Tween.stopAllByTarget(n);this.animated=[];if(this.layer){this.layer.removeFromParent();this.layer.destroy();this.layer=null;}this.message=null;}
+ private clear():void{this.swipeCue?.dispose();this.swipeCue=null;for(const n of this.animated)Tween.stopAllByTarget(n);this.animated=[];if(this.layer){this.layer.removeFromParent();this.layer.destroy();this.layer=null;}this.message=null;}
  stop():void{this.stopped=true;this.clear();}
  private advance(event:GuideEvent):void{if(!this.active||!this.flow.advance(event))return;for(const id of this.flow.completed)if(!this.saved.has(id)){this.saved.add(id);this.options.completed(id);}this.render();}
  private perform(operation:()=>Promise<boolean>,event:GuideEvent):void{
@@ -49,18 +51,25 @@ export class TutorialView {
   const layer=uiNode(this.parent,'TutorialOverlay',0,0,720,1280);this.layer=layer;
   const target=(step.kind==='click'||step.kind==='swipe')&&step.target?this.options.target(step.target):undefined;
   if(target)this.outline(layer,step.kind==='swipe'?{...target,width:Math.max(1,target.width-42),height:Math.max(1,target.height-42)}:target,step.kind==='click',()=>this.perform(()=>this.options.activate?.(step.target!)||Promise.resolve(true),{type:'target',target:step.target!}));
+  if(step.kind==='click'&&target){
+   const aimX=target.x+Math.min(48,target.width*.18),aimY=target.y,dy=target.y>280?-58:58,dx=50;
+   const arrow=uiNode(layer,'GuideClickArrow',aimX+dx,aimY+dy,92,62);breakfastImage(arrow,'ClickArrowArt','v15/ui/guide_arrow',0,0,92,62);arrow.angle=Math.atan2(-dy,-dx)*180/Math.PI;
+   const opacity=arrow.getComponent(UIOpacity)||arrow.addComponent(UIOpacity);opacity.opacity=190;
+   tween(arrow).to(.65,{position:new Vec3(aimX+dx*.84,aimY+dy*.84,0),scale:new Vec3(1.06,1.06,1)},{easing:'sineInOut'}).to(.65,{position:new Vec3(aimX+dx,aimY+dy,0),scale:new Vec3(.96,.96,1)},{easing:'sineInOut'}).union().repeatForever().start();
+   tween(opacity).to(.65,{opacity:255},{easing:'sineInOut'}).to(.65,{opacity:190},{easing:'sineInOut'}).union().repeatForever().start();this.animated.push(arrow,opacity);
+  }
   for(const id of step.focus||[]){const focus=this.options.target(id);if(focus)this.outline(layer,focus,false,undefined,'GuideFocus-'+id);}
-  if(step.kind==='swipe'){const board=this.options.target('board');if(board){const finger=uiNode(layer,'GuideSwipeArrow',board.x,board.y,110,70);label(finger,({right:'→',left:'←',up:'↑',down:'↓'} as Record<Direction,string>)[step.direction!],0,0,110,70,56,'#E49A0B');const v=({right:[70,0],left:[-70,0],up:[0,70],down:[0,-70]} as Record<Direction,number[]>)[step.direction!];tween(finger).to(.85,{position:new Vec3(board.x+v[0],board.y+v[1],0)}).delay(.15).set({position:new Vec3(board.x,board.y,0)}).union().repeatForever().start();this.animated.push(finger);}}
+  if(step.kind==='swipe'){const board=this.options.target('board');if(board)this.swipeCue=new SwipeDirectionCue(layer,step.direction!,board.x,board.y);}
   // This replaces only the level title/tip strip. Board, orders, bag and controls stay uncovered.
-  const dock=rect(layer,'GuideDock',0,520,700,104,'#153E3B',12);const border=dock.getComponent(Graphics)!;border.lineWidth=4;border.strokeColor=new Color(255,201,48,255);border.roundRect(-348,-50,696,100,11);border.stroke();
-  const heading=label(dock,`操作引导 · ${sequence.title} ${this.flow.stepIndex+1}/${sequence.steps.length}`,-74,38,510,22,17,'#FFD96D');heading.isBold=true;
-  this.message=label(dock,step.text,-74,-13,510,74,22,'#FFFFFF');this.message.isBold=true;
-  if(step.kind==='dialog')action(dock,'继续',270,15,118,38,()=>this.advance({type:'next'}));
+  const dock=rect(layer,'GuideDock',0,515,700,166,'#153E3B',12);breakfastSurface(dock,'v13/ui/guide');const border=dock.getComponent(Graphics)!;border.lineWidth=4;border.strokeColor=new Color(255,201,48,255);border.roundRect(-348,-50,696,100,11);border.stroke();
+  const heading=label(dock,`${sequence.title} · ${this.flow.stepIndex+1}/${sequence.steps.length}`,-5,18,355,18,13,'#8D5124');heading.isBold=true;
+  this.message=label(dock,step.text,-5,-18,355,50,18,'#704421');this.message.isBold=true;
+  if(step.kind==='dialog')action(dock,'继续',245,15,108,38,()=>this.advance({type:'next'}));
   else if(step.kind==='demo'){
    const points=this.options.demo();if(points.length){const finger=rect(layer,'GuideDemoFinger',points[0][0],points[0][1],18,18,'#EDBE53',9);let animation=tween(finger);for(const p of points.slice(1))animation=animation.to(.7,{position:new Vec3(p[0],p[1],0)}).delay(.15);animation.start();this.animated.push(finger);}
-   action(dock,'我来试试',270,15,118,38,()=>this.advance({type:'next'}));
-  }else{const cue=rect(dock,'GuideActionCue',270,15,118,38,'#FFD05B',8);const cueText=label(cue,step.kind==='swipe'?`向${directionText[step.direction!]}滑动`:'点击高亮处',0,0,112,36,20,'#153E3B');cueText.isBold=true;}
-  action(dock,'跳过本次',270,-29,118,32,()=>this.stop(),'#8D7B5C');
+   action(dock,'我来试试',245,15,108,38,()=>this.advance({type:'next'}));
+  }else{const cue=rect(dock,'GuideActionCue',245,15,108,38,'#FFD05B',8);breakfastSurface(cue,'v13/ui/confirm_button');const cueText=label(cue,step.kind==='swipe'?`向${directionText[step.direction!]}滑动`:step.target==='orders'?'点击订单':'点击高亮',18,0,64,30,16,'#FFF9E8');cueText.isBold=true;cueText.enableWrapText=false;const outline=cueText.getComponent(LabelOutline)||cueText.addComponent(LabelOutline);outline.color=new Color(120,66,31);outline.width=1;}
+  if(!sequence.mandatory)action(dock,'跳过本次',245,-28,126,40,()=>this.stop(),'#8D7B5C');
  }
 }
 

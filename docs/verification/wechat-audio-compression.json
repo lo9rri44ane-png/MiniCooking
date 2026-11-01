@@ -1,0 +1,236 @@
+[
+  {
+    "uuid": "09e6d398-36d0-4279-82a5-bfcd8b0a4fdd",
+    "bytesBefore": 120242,
+    "bytesAfter": 60144,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 2.2675736961463855e-05,
+    "rmsChangeDb": -8.776654024554691e-07
+  },
+  {
+    "uuid": "0df062a2-57d6-4db7-846a-5477dc4cb7b5",
+    "bytesBefore": 2540540,
+    "bytesAfter": 1270292,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.4687038511613845e-06
+  },
+  {
+    "uuid": "13c289a5-b005-439f-b491-4a8d287f8766",
+    "bytesBefore": 12444,
+    "bytesAfter": 6244,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.3448176041730616e-07
+  },
+  {
+    "uuid": "1f100b49-4cfb-42e1-b9c9-1149c5dec04f",
+    "bytesBefore": 2552662,
+    "bytesAfter": 1276352,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 2.2675736961019766e-05,
+    "rmsChangeDb": -3.066522226788995e-07
+  },
+  {
+    "uuid": "22a456f8-a779-48f6-b4a2-11e888b292df",
+    "bytesBefore": 75014,
+    "bytesAfter": 37528,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 2.2675736961463855e-05,
+    "rmsChangeDb": -1.2807965282141392e-05
+  },
+  {
+    "uuid": "291eb946-396d-42be-93a9-6222ca964dbe",
+    "bytesBefore": 78444,
+    "bytesAfter": 39244,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -4.745491230192789e-05
+  },
+  {
+    "uuid": "2c135749-e7ee-4b65-954c-14d510d5221b",
+    "bytesBefore": 176444,
+    "bytesAfter": 88244,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -4.1013392965823565e-07
+  },
+  {
+    "uuid": "2e14a4d6-c65d-4a91-96d7-861a1b07e8b4",
+    "bytesBefore": 2370860,
+    "bytesAfter": 1185452,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.0753769692053141e-06
+  },
+  {
+    "uuid": "2f573b08-f347-44b6-b858-29102990e71c",
+    "bytesBefore": 46464,
+    "bytesAfter": 23254,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -2.545496947673055e-07
+  },
+  {
+    "uuid": "45aaf59b-92dd-46de-9c8f-ba4088be934c",
+    "bytesBefore": 88244,
+    "bytesAfter": 44144,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.871866219864781e-07
+  },
+  {
+    "uuid": "54cf50f8-51e3-44d2-859c-c4d37f35a951",
+    "bytesBefore": 176484,
+    "bytesAfter": 88264,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.1493148488738267e-06
+  },
+  {
+    "uuid": "6833fb3a-5f07-475c-9e81-c09e4ce397b9",
+    "bytesBefore": 176444,
+    "bytesAfter": 88244,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -0.0010855903386311485
+  },
+  {
+    "uuid": "7308ecb6-f687-43ec-975d-cb2dfcd1dace",
+    "bytesBefore": 10248,
+    "bytesAfter": 5146,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -9.133007874212415e-08
+  },
+  {
+    "uuid": "7d331646-8347-4b5b-b62a-1ba3f687768a",
+    "bytesBefore": 19778,
+    "bytesAfter": 9912,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 2.2675736961463855e-05,
+    "rmsChangeDb": -1.8288540316595738e-07
+  },
+  {
+    "uuid": "80fa528d-bc54-413b-b375-05ae7fa2dff0",
+    "bytesBefore": 8212,
+    "bytesAfter": 4128,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.8922189686569662e-07
+  },
+  {
+    "uuid": "99076a7c-bbff-4e05-87de-9e9766bf1d10",
+    "bytesBefore": 18566,
+    "bytesAfter": 9304,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 2.26757369614361e-05,
+    "rmsChangeDb": -3.6090842306073196e-07
+  },
+  {
+    "uuid": "9ae768e1-e47a-4485-877f-ac9e63cbda93",
+    "bytesBefore": 11512,
+    "bytesAfter": 5778,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -9.13142145908051e-08
+  },
+  {
+    "uuid": "9c802771-afb3-401d-bd5b-3f1eee5cf26f",
+    "bytesBefore": 141164,
+    "bytesAfter": 70604,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -2.845754277164484e-07
+  },
+  {
+    "uuid": "a2309826-eb88-4354-a740-f59659f6b24d",
+    "bytesBefore": 25174,
+    "bytesAfter": 12608,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 2.2675736961463855e-05,
+    "rmsChangeDb": -1.507764657287403e-07
+  },
+  {
+    "uuid": "ad700a20-b483-4857-8820-4a63f6020fe5",
+    "bytesBefore": 13132,
+    "bytesAfter": 6588,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -9.674963870025593e-08
+  },
+  {
+    "uuid": "b832d0e8-e802-4bda-add0-b9881efcd61c",
+    "bytesBefore": 15832,
+    "bytesAfter": 7938,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -2.9676032186936017e-07
+  },
+  {
+    "uuid": "c00e8208-a33f-4abb-97c4-a524a3a02ba7",
+    "bytesBefore": 75116,
+    "bytesAfter": 37580,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.7237826239454642e-06
+  },
+  {
+    "uuid": "cb5c28b7-da14-4344-907f-ea5dab6a0974",
+    "bytesBefore": 176444,
+    "bytesAfter": 88244,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -0.00011247856143375237
+  },
+  {
+    "uuid": "d0ee0743-3444-47f1-b572-810c275bfe23",
+    "bytesBefore": 13448,
+    "bytesAfter": 6746,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.7151687024896097e-07
+  },
+  {
+    "uuid": "e0dfd110-5a9f-4c31-84f6-8f74e59d24db",
+    "bytesBefore": 114704,
+    "bytesAfter": 57374,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -1.738501984995031e-07
+  },
+  {
+    "uuid": "e3137061-57fd-4ac1-831a-513dabcafce7",
+    "bytesBefore": 5108,
+    "bytesAfter": 2576,
+    "sampleRate": 22050,
+    "channels": 1,
+    "durationErrorSeconds": 0.0,
+    "rmsChangeDb": -8.251020078161164e-08
+  }
+]

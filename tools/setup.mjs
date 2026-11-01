@@ -4,4 +4,4 @@ const py=spawnSync('python',['--version'],{encoding:'utf8'});if(py.error||py.sta
 const npmCli=process.env.npm_execpath;if(!npmCli)throw Error('请通过npm run setup执行初始化。');
 function run(args,cwd=root){const r=spawnSync(process.execPath,[npmCli,...args],{cwd,stdio:'inherit'});if(r.error)throw r.error;if(r.status!==0)throw Error('依赖安装/编译失败，请检查网络、Node版本和上方错误后重试。');}
 run(['ci','--ignore-scripts']);run(['ci','--ignore-scripts'],join(root,'extensions/cocos-mcp-server'));run(['run','build'],join(root,'extensions/cocos-mcp-server'));
-console.log('\n依赖与Cocos MCP扩展准备完成。请用Creator3.8.8打开本目录，等待导入后预览assets/scene/main.scene。\n自动化浏览器验证是可选项：npm run setup:browser；打开Creator预览后npm run verify:ui。');
+console.log('\n依赖与Cocos MCP扩展准备完成。请用Creator3.8.8打开本目录，等待导入后预览assets/scene/main.scene。\n自动化浏览器验证是可选项：npm run setup:browser；打开Creator预览后npm run verify:mechanics。');

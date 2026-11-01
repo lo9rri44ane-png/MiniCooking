@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import{bagLayout,orderIngredientLayout}from'../assets/scripts/features/kitchen/KitchenHudLayout.ts';
+test('7/8 bag slots stay compact and centered inside tray',()=>{for(const n of [7,8]){const l=bagLayout(n);assert.equal(l.centers.length,n);assert.ok(l.gap<=72);assert.ok(l.centers[0]-l.size/2>=-280);assert.ok(l.centers.at(-1)+l.size/2<=280);assert.equal(l.centers[0]+l.centers.at(-1),0);}});
+test('ingredient rows retain visible size and center complete content inside the approved bubble for 1/2/3 recipes',()=>{for(const n of [1,2,3]){const l=orderIngredientLayout(n);assert.ok(l.iconSize>=38);assert.equal(l.centers.length,n);const left=l.centers[0]-l.iconSize/2,right=l.deviceX+l.deviceSize/2;assert.equal(left+right,0);assert.ok(left>=-90&&right<=90);assert.ok(l.centers.at(-1)+l.iconSize/2<l.deviceX-l.deviceSize/2);}});

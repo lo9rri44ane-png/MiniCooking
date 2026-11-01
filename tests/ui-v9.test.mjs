@@ -1,0 +1,14 @@
+import {readHistoricalFile as readFile} from './retired-art.mjs';
+import {activeOrArchived} from './retired-art.mjs';
+import test from 'node:test';import assert from 'node:assert/strict';
+import {rewardedBagPort} from '../assets/scripts/features/kitchen/KitchenBuildFlags.ts';
+import {collectionIcon,CHAPTER_SERIES} from '../assets/scripts/features/kitchen/ChapterCollection.ts';
+import {KitchenSession} from '../assets/scripts/features/kitchen/Session.ts';
+import {EnergyBank} from '../assets/scripts/features/kitchen/Energy.ts';
+import {LEVELS} from '../assets/scripts/features/kitchen/Levels.ts';
+import {readFile as unusedNativeReadFile,stat} from 'node:fs/promises';import {createHash} from 'node:crypto';
+const session=()=>new KitchenSession(LEVELS[0],new EnergyBank({getItem:()=>null,setItem:()=>{},removeItem:()=>{}}));
+test('preview bypass is explicit and production result remains real',async()=>{let calls=0;const production={showRewardedAd:async()=>{calls++;return {ok:false,status:'unsupported'};}};assert.equal((await rewardedBagPort(production,true).showRewardedAd()).status,'completed');assert.equal(calls,0);assert.equal(await session().unlockAdSlot(rewardedBagPort(production,false)),false);assert.equal(calls,1);});
+test('test expansion grants once; exited session rejects delayed grant',async()=>{const s=session(),port=rewardedBagPort({showRewardedAd:async()=>{throw Error('not called')}},true);assert.equal(await s.unlockAdSlot(port),true);assert.equal(await s.unlockAdSlot(port),false);assert.equal(s.level.capacity,s.base.capacity+1);const exited=session();exited.exit();assert.equal(await exited.unlockAdSlot(port),false);});
+test('every chapter has ten distinct collection illustrations without new game state',()=>{assert.equal(CHAPTER_SERIES.length,8);for(let c=0;c<8;c++)assert.equal(new Set(Array.from({length:10},(_,i)=>collectionIcon(c,i))).size,10);});
+test('v9 exported art has reviewed complete silhouettes, identical backups and imported sprite identities',async()=>{const base='art/breakfast/v9/manifests/',m=JSON.parse(await readFile(base+'assets.json')),review=JSON.parse(await readFile(base+'visual-review.json')),ids=new Set();assert.equal(m.assets.length,99);for(const a of m.assets){const bytes=await readFile(await activeOrArchived(a.runtime));assert.equal(createHash('sha256').update(bytes).digest('hex'),a.sha256);assert.deepEqual(bytes,await readFile(a.backup));assert.equal(review.reviewed[a.key],a.sha256);if(!a.fullBleed)assert.equal(a.edgeAlpha,0);const meta=JSON.parse(await readFile(await activeOrArchived(a.runtime+'.meta'))),sf=Object.values(meta.subMetas).find(x=>x.importer==='sprite-frame');assert.ok(sf?.uuid);assert.ok(!ids.has(sf.uuid));ids.add(sf.uuid);assert.ok((await stat(a.source)).size>0);}for(let c=0;c<8;c++)for(let i=0;i<10;i++)assert.ok(m.assets.some(a=>'v9/'+a.key===collectionIcon(c,i)));});

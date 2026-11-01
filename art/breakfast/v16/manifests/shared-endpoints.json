@@ -1,0 +1,40 @@
+{
+  "shared": [
+    {
+      "deleted": "assets/resources/art/latest/characters/customers/dog/appear/frame_11.png",
+      "target": "assets/resources/art/latest/characters/customers/dog/idle/frame_00.png",
+      "key": "characters/customers/dog/appear/frame_11",
+      "sha256": "cfd08d28cb58c1ec2a95a4c067f6d9abe21fb4eea263af7ac3553eeb1fb2f6c7"
+    },
+    {
+      "deleted": "assets/resources/art/latest/characters/customers/dog/disappear/frame_00.png",
+      "target": "assets/resources/art/latest/characters/customers/dog/idle/frame_00.png",
+      "key": "characters/customers/dog/disappear/frame_00",
+      "sha256": "cfd08d28cb58c1ec2a95a4c067f6d9abe21fb4eea263af7ac3553eeb1fb2f6c7"
+    },
+    {
+      "deleted": "assets/resources/art/latest/characters/customers/rabbit/appear/frame_11.png",
+      "target": "assets/resources/art/latest/characters/customers/rabbit/idle/frame_00.png",
+      "key": "characters/customers/rabbit/appear/frame_11",
+      "sha256": "d8835c9bd077984e6167ac13f6d131b152649235993325147ac449e0aa0bfc24"
+    },
+    {
+      "deleted": "assets/resources/art/latest/characters/customers/rabbit/disappear/frame_00.png",
+      "target": "assets/resources/art/latest/characters/customers/rabbit/idle/frame_00.png",
+      "key": "characters/customers/rabbit/disappear/frame_00",
+      "sha256": "d8835c9bd077984e6167ac13f6d131b152649235993325147ac449e0aa0bfc24"
+    },
+    {
+      "deleted": "assets/resources/art/latest/characters/customers/bear/appear/frame_11.png",
+      "target": "assets/resources/art/latest/characters/customers/bear/idle/frame_00.png",
+      "key": "characters/customers/bear/appear/frame_11",
+      "sha256": "b2832a0b9f6d1a2f07e3ecd6c88a00a2dc550b69bf7f35b8ba27971a02158726"
+    },
+    {
+      "deleted": "assets/resources/art/latest/characters/customers/bear/disappear/frame_00.png",
+      "target": "assets/resources/art/latest/characters/customers/bear/idle/frame_00.png",
+      "key": "characters/customers/bear/disappear/frame_00",
+      "sha256": "b2832a0b9f6d1a2f07e3ecd6c88a00a2dc550b69bf7f35b8ba27971a02158726"
+    }
+  ]
+}

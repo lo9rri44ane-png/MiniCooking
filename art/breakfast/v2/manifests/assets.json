@@ -1,0 +1,618 @@
+{
+  "version": 2,
+  "reference": "art/breakfast/v2/source/reference/approved-gameplay.png",
+  "policy": "No clipped silhouettes; no nonuniform scale; visual review required",
+  "sources": [
+    {
+      "path": "art/breakfast/v2/source/reference/approved-gameplay.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "e5d9e7c7603ea413a9e464f28f0fcbd10d9425dca276b057890a12616832f02b"
+    },
+    {
+      "path": "art/breakfast/v2/source/plates/props-v2.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "41767690147b415daff6be309082dc9d83e728c51d41f61f9da355159fc275d0"
+    },
+    {
+      "path": "art/breakfast/v2/source/plates/tiles-ui-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b4545119894b1542f7735cd66435258f1c349c545ff537df6ebd1cf3ea662a85"
+    },
+    {
+      "path": "art/breakfast/source/characters/characters-v1.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "ca59a30d778732b4455ea6bec2e40310366850b04995661c2b7e652ac8cd13c6"
+    },
+    {
+      "path": "art/breakfast/v2/source/plates/buttons-v2.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "0f904e433a71c298289c8656e5d5e952ea40e8561693d8561eef0dece39c1b0d"
+    },
+    {
+      "path": "art/breakfast/v2/source/plates/clean-plate-final-v2.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "3dafbadf88f16fe32ed53a173f5976c913c02fc2cb46b2131ebaf7328e674819"
+    },
+    {
+      "path": "art/breakfast/v2/source/plates/clean-plate-v2.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "a4abd4fa966d8fe7618eba6ff42463638eae2220c7b4d7d3414d653894c5f469"
+    }
+  ],
+  "assets": [
+    {
+      "key": "ingredients/leaf",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 62,
+        "top": 82,
+        "width": 225,
+        "height": 211,
+        "sourceMargin": 62,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/ingredients/leaf.png",
+      "runtime": "assets/resources/art/breakfast-v2/ingredients/leaf.png",
+      "width": 256,
+      "height": 242,
+      "kind": "sprite",
+      "sha256": "852052de05c9b86684eed1e13c621b4d7d88fc406fbce5da02f3a23f4e05ff1a",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ingredients/tomato",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 375,
+        "top": 84,
+        "width": 210,
+        "height": 200,
+        "sourceMargin": 84,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/ingredients/tomato.png",
+      "runtime": "assets/resources/art/breakfast-v2/ingredients/tomato.png",
+      "width": 250,
+      "height": 240,
+      "kind": "sprite",
+      "sha256": "d6d815e69a7d955dd7b647b91a63359dc01f096d1bf4846d14e113bd88d313dd",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ingredients/bread",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 685,
+        "top": 88,
+        "width": 200,
+        "height": 201,
+        "sourceMargin": 88,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/ingredients/bread.png",
+      "runtime": "assets/resources/art/breakfast-v2/ingredients/bread.png",
+      "width": 240,
+      "height": 241,
+      "kind": "sprite",
+      "sha256": "6e31f268e19d5a6cf23c6c11056c875ae273fa17e1e789b2e1e5a55c1feb25b8",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ingredients/cheese",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 997,
+        "top": 89,
+        "width": 186,
+        "height": 185,
+        "sourceMargin": 71,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/ingredients/cheese.png",
+      "runtime": "assets/resources/art/breakfast-v2/ingredients/cheese.png",
+      "width": 226,
+      "height": 225,
+      "kind": "sprite",
+      "sha256": "5ece9afd93a320b438852a08324c6985c42af1034c84627428821e301b50dc56",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ingredients/water",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 99,
+        "top": 391,
+        "width": 153,
+        "height": 190,
+        "sourceMargin": 99,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/ingredients/water.png",
+      "runtime": "assets/resources/art/breakfast-v2/ingredients/water.png",
+      "width": 193,
+      "height": 230,
+      "kind": "sprite",
+      "sha256": "fd55aadea666fb7239018dcd08fd2fdb5c95d2965612b3c7b739d677fcd8c6b6",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ingredients/berry",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 387,
+        "top": 371,
+        "width": 194,
+        "height": 223,
+        "sourceMargin": 371,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/ingredients/berry.png",
+      "runtime": "assets/resources/art/breakfast-v2/ingredients/berry.png",
+      "width": 228,
+      "height": 256,
+      "kind": "sprite",
+      "sha256": "9e667a9e7306f89482c674adade27063aa38242e18d0044b5e78fbf97d8c3938",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ingredients/meat",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 672,
+        "top": 402,
+        "width": 235,
+        "height": 185,
+        "sourceMargin": 347,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/ingredients/meat.png",
+      "runtime": "assets/resources/art/breakfast-v2/ingredients/meat.png",
+      "width": 256,
+      "height": 209,
+      "kind": "sprite",
+      "sha256": "eaf816f2560c5cc575fb49609dfabce1c8ac58d243ea7b70f156d585790e6a78",
+      "visualReview": "pending"
+    },
+    {
+      "key": "devices/table",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 973,
+        "top": 380,
+        "width": 238,
+        "height": 219,
+        "sourceMargin": 43,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/devices/table.png",
+      "runtime": "assets/resources/art/breakfast-v2/devices/table.png",
+      "width": 256,
+      "height": 239,
+      "kind": "sprite",
+      "sha256": "070c5b0fc28cdb5fadca6f6ebe94657bf17268c5d4803f7eebc73c31a6dd97f9",
+      "visualReview": "pending"
+    },
+    {
+      "key": "devices/pan",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 56,
+        "top": 657,
+        "width": 236,
+        "height": 238,
+        "sourceMargin": 56,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/devices/pan.png",
+      "runtime": "assets/resources/art/breakfast-v2/devices/pan.png",
+      "width": 254,
+      "height": 256,
+      "kind": "sprite",
+      "sha256": "99a77483636ac426b375f57f74d3066665adc5294f7b4a8a3ed09488878bc2ed",
+      "visualReview": "pending"
+    },
+    {
+      "key": "devices/drink",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 401,
+        "top": 643,
+        "width": 183,
+        "height": 259,
+        "sourceMargin": 352,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 21
+      },
+      "backup": "art/breakfast/v2/exports/devices/drink.png",
+      "runtime": "assets/resources/art/breakfast-v2/devices/drink.png",
+      "width": 191,
+      "height": 256,
+      "kind": "sprite",
+      "sha256": "80401d0eb41111cabd7afb61c083f4b9e5d57b4a2a5d085f7615cda874f7ab3a",
+      "visualReview": "pending"
+    },
+    {
+      "key": "dishes/salad",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 659,
+        "top": 680,
+        "width": 249,
+        "height": 208,
+        "sourceMargin": 346,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/dishes/salad.png",
+      "runtime": "assets/resources/art/breakfast-v2/dishes/salad.png",
+      "width": 256,
+      "height": 220,
+      "kind": "sprite",
+      "sha256": "b082594dae28015508636ec2bc28f10a19ccd53a6fcc53b7fb751110d1f9010c",
+      "visualReview": "pending"
+    },
+    {
+      "key": "dishes/toast",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 969,
+        "top": 689,
+        "width": 242,
+        "height": 196,
+        "sourceMargin": 43,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/dishes/toast.png",
+      "runtime": "assets/resources/art/breakfast-v2/dishes/toast.png",
+      "width": 256,
+      "height": 214,
+      "kind": "sprite",
+      "sha256": "8a56d783c49797a170883c21ac2008735c35242ef64bdcd1df2535c3fe552752",
+      "visualReview": "pending"
+    },
+    {
+      "key": "dishes/deluxe",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 51,
+        "top": 963,
+        "width": 265,
+        "height": 223,
+        "sourceMargin": 51,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 22
+      },
+      "backup": "art/breakfast/v2/exports/dishes/deluxe.png",
+      "runtime": "assets/resources/art/breakfast-v2/dishes/deluxe.png",
+      "width": 256,
+      "height": 221,
+      "kind": "sprite",
+      "sha256": "6897601df076df64788d0a8c53dc53dee887d79a2b172ddb48d2a11ba94eb6ef",
+      "visualReview": "pending"
+    },
+    {
+      "key": "dishes/juice",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 404,
+        "top": 942,
+        "width": 152,
+        "height": 245,
+        "sourceMargin": 67,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/dishes/juice.png",
+      "runtime": "assets/resources/art/breakfast-v2/dishes/juice.png",
+      "width": 172,
+      "height": 256,
+      "kind": "sprite",
+      "sha256": "f67d1bb7de0cf794d464a7e56ee0a4216c1032505f9637dfc175eccf8251ab60",
+      "visualReview": "pending"
+    },
+    {
+      "key": "dishes/burger",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 661,
+        "top": 970,
+        "width": 229,
+        "height": 218,
+        "sourceMargin": 66,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/dishes/burger.png",
+      "runtime": "assets/resources/art/breakfast-v2/dishes/burger.png",
+      "width": 256,
+      "height": 246,
+      "kind": "sprite",
+      "sha256": "57345ae0ab982241fad06df98210838a7e220d1393a2b4e4f4d92a8471f08bb3",
+      "visualReview": "pending"
+    },
+    {
+      "key": "board/wall",
+      "source": "art/breakfast/v2/source/plates/props-v2.png",
+      "sourceBounds": {
+        "left": 982,
+        "top": 953,
+        "width": 220,
+        "height": 234,
+        "sourceMargin": 52,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "backup": "art/breakfast/v2/exports/board/wall.png",
+      "runtime": "assets/resources/art/breakfast-v2/board/wall.png",
+      "width": 243,
+      "height": 256,
+      "kind": "sprite",
+      "sha256": "9ef7354953e3c3ef8d48c6ff252f390d803f527980160fd50cbe4eaea1272ccf",
+      "visualReview": "pending"
+    },
+    {
+      "key": "board/floor_a",
+      "source": "art/breakfast/v2/source/plates/tiles-ui-v2.png",
+      "sourceBounds": {
+        "left": 240,
+        "top": 119,
+        "width": 348,
+        "height": 339,
+        "sourceMargin": 119,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 28
+      },
+      "backup": "art/breakfast/v2/exports/board/floor_a.png",
+      "runtime": "assets/resources/art/breakfast-v2/board/floor_a.png",
+      "width": 256,
+      "height": 250,
+      "kind": "sprite",
+      "sha256": "7e8bb1b33f58a6a7a359b16c68917297f9979583c4439058f1492cdabb1ea27f",
+      "visualReview": "pending"
+    },
+    {
+      "key": "board/floor_b",
+      "source": "art/breakfast/v2/source/plates/tiles-ui-v2.png",
+      "sourceBounds": {
+        "left": 948,
+        "top": 119,
+        "width": 347,
+        "height": 340,
+        "sourceMargin": 119,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 28
+      },
+      "backup": "art/breakfast/v2/exports/board/floor_b.png",
+      "runtime": "assets/resources/art/breakfast-v2/board/floor_b.png",
+      "width": 256,
+      "height": 252,
+      "kind": "sprite",
+      "sha256": "c16f656decd81c367adfedf256eb9509fc56b06eb45c25fc8697577ab1f62d0c",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/bag_slot",
+      "source": "art/breakfast/v2/source/plates/tiles-ui-v2.png",
+      "sourceBounds": {
+        "left": 235,
+        "top": 580,
+        "width": 358,
+        "height": 357,
+        "sourceMargin": 87,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 29
+      },
+      "backup": "art/breakfast/v2/exports/ui/bag_slot.png",
+      "runtime": "assets/resources/art/breakfast-v2/ui/bag_slot.png",
+      "width": 256,
+      "height": 255,
+      "kind": "sprite",
+      "sha256": "101afa54fcee4eb82c4b6dbff18cc62a85b109ea94be5e206d210d488dd9bb2a",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/ad_tab",
+      "source": "art/breakfast/v2/source/plates/tiles-ui-v2.png",
+      "sourceBounds": {
+        "left": 887,
+        "top": 656,
+        "width": 465,
+        "height": 206,
+        "sourceMargin": 162,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 38
+      },
+      "backup": "art/breakfast/v2/exports/ui/ad_tab.png",
+      "runtime": "assets/resources/art/breakfast-v2/ui/ad_tab.png",
+      "width": 256,
+      "height": 133,
+      "kind": "sprite",
+      "sha256": "6d836ed2cd5d240044bdaf41e78e3dba7fd9ea797d4d599d6ef6c22d62efb7f4",
+      "visualReview": "pending"
+    },
+    {
+      "key": "board/station",
+      "source": "art/breakfast/v2/source/plates/tiles-ui-v2.png",
+      "sourceBounds": {
+        "left": 948,
+        "top": 119,
+        "width": 347,
+        "height": 340,
+        "sourceMargin": 119,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 28
+      },
+      "backup": "art/breakfast/v2/exports/board/station.png",
+      "runtime": "assets/resources/art/breakfast-v2/board/station.png",
+      "width": 256,
+      "height": 252,
+      "kind": "sprite",
+      "sha256": "c16f656decd81c367adfedf256eb9509fc56b06eb45c25fc8697577ab1f62d0c",
+      "visualReview": "pending"
+    },
+    {
+      "key": "characters/chef_idle",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "sourceBounds": {
+        "left": 104,
+        "top": 22,
+        "width": 256,
+        "height": 396,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "backup": "art/breakfast/v2/exports/characters/chef_idle.png",
+      "runtime": "assets/resources/art/breakfast-v2/characters/chef_idle.png",
+      "width": 213,
+      "height": 304,
+      "kind": "sprite",
+      "sha256": "ad7a949320dc0a1aa9e6e8073555182fbfbe1ac951484ed897f5f2d310c292e5",
+      "visualReview": "pending"
+    },
+    {
+      "key": "characters/chef_slide",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "sourceBounds": {
+        "left": 532,
+        "top": 31,
+        "width": 311,
+        "height": 387,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "backup": "art/breakfast/v2/exports/characters/chef_slide.png",
+      "runtime": "assets/resources/art/breakfast-v2/characters/chef_slide.png",
+      "width": 254,
+      "height": 304,
+      "kind": "sprite",
+      "sha256": "9a56e6d9f525d3f6f2de94dfb19657fd3592c0d8f185ff942922f448a6a59371",
+      "visualReview": "pending"
+    },
+    {
+      "key": "characters/chef_cook",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "sourceBounds": {
+        "left": 961,
+        "top": 19,
+        "width": 265,
+        "height": 398,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "backup": "art/breakfast/v2/exports/characters/chef_cook.png",
+      "runtime": "assets/resources/art/breakfast-v2/characters/chef_cook.png",
+      "width": 218,
+      "height": 304,
+      "kind": "sprite",
+      "sha256": "35c9076e45c6cbc58d391f26ee37b79ef0a5f90758cab7447eee4e8a2d6ea7f1",
+      "visualReview": "pending"
+    },
+    {
+      "key": "characters/chef_win",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "sourceBounds": {
+        "left": 1402,
+        "top": 25,
+        "width": 305,
+        "height": 396,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "backup": "art/breakfast/v2/exports/characters/chef_win.png",
+      "runtime": "assets/resources/art/breakfast-v2/characters/chef_win.png",
+      "width": 245,
+      "height": 304,
+      "kind": "sprite",
+      "sha256": "1004eb3fcdd75b80d8459357b17ddfc71266d2d2042dbfe51df5ffad4e4c50b4",
+      "visualReview": "pending"
+    },
+    {
+      "key": "characters/chef_fail",
+      "source": "art/breakfast/source/characters/characters-v1.png",
+      "sourceBounds": {
+        "left": 98,
+        "top": 460,
+        "width": 248,
+        "height": 389,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "backup": "art/breakfast/v2/exports/characters/chef_fail.png",
+      "runtime": "assets/resources/art/breakfast-v2/characters/chef_fail.png",
+      "width": 211,
+      "height": 304,
+      "kind": "sprite",
+      "sha256": "914ff8d4f3ffb5395f1ab7a6f4aa1a409381c29908939d6fb7856cb6d84601e3",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/undo_button",
+      "source": "art/breakfast/v2/source/plates/buttons-v2.png",
+      "sourceBounds": {
+        "left": 112,
+        "top": 138,
+        "width": 718,
+        "height": 491,
+        "sourceMargin": 95,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 58
+      },
+      "backup": "art/breakfast/v2/exports/ui/undo_button.png",
+      "runtime": "assets/resources/art/breakfast-v2/ui/undo_button.png",
+      "width": 256,
+      "height": 186,
+      "kind": "sprite",
+      "sha256": "098a0140ad11be3b000b74cba77271423bbb263d51561935f0d6bc689dd510e6",
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/overtime_button",
+      "source": "art/breakfast/v2/source/plates/buttons-v2.png",
+      "sourceBounds": {
+        "left": 1323,
+        "top": 114,
+        "width": 739,
+        "height": 515,
+        "sourceMargin": 95,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 60
+      },
+      "backup": "art/breakfast/v2/exports/ui/overtime_button.png",
+      "runtime": "assets/resources/art/breakfast-v2/ui/overtime_button.png",
+      "width": 256,
+      "height": 189,
+      "kind": "sprite",
+      "sha256": "4093336aac585f1372cef0ac580e1dfe63d457d2a4769f6f6c5cbb05da8d62fb",
+      "visualReview": "pending"
+    },
+    {
+      "key": "backgrounds/clean_plate",
+      "source": "art/breakfast/v2/source/plates/clean-plate-final-v2.png",
+      "sourceBounds": null,
+      "backup": "art/breakfast/v2/exports/backgrounds/clean_plate.png",
+      "runtime": "assets/resources/art/breakfast-v2/backgrounds/clean_plate.png",
+      "width": 941,
+      "height": 1672,
+      "kind": "full-bleed-background",
+      "sha256": "f850e25f2ba9106e46b6f5ec430575814e1d689eb1a042248c4b675a46e4e18e",
+      "visualReview": "pending"
+    }
+  ]
+}

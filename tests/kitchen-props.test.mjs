@@ -1,3 +1,4 @@
+import {beforeEach} from 'node:test';import {gmAccess} from '../assets/scripts/features/kitchen/GMAccess.ts';beforeEach(()=>gmAccess.set(true));
 import test from 'node:test';import assert from 'node:assert/strict';
 import {EnergyBank,RECOVERY_MS} from '../assets/scripts/features/kitchen/Energy.ts';
 import {KitchenSession} from '../assets/scripts/features/kitchen/Session.ts';

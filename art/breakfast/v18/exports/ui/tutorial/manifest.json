@@ -1,0 +1,19 @@
+{
+  "version": 18,
+  "key": "ui/swipe_direction",
+  "source": "art/breakfast/v18/source/ui/tutorial/swipe_direction.svg",
+  "backup": "art/breakfast/v18/exports/ui/tutorial/swipe_direction.png",
+  "runtime": "assets/resources/art/latest/ui/tutorial/swipe_direction.png",
+  "width": 256,
+  "height": 128,
+  "sha256": "fe128ae21675728a0668a3261754521fe22575b31f1eed7f18e7801cf5cb140e",
+  "crop": [
+    0,
+    0,
+    256,
+    128
+  ],
+  "safeMarginPx": 8,
+  "visualReview": "passed: 2026-11-01 manually inspected full outline on dark, cream and board-green; no clipping, complete white border",
+  "contactSheet": "art/breakfast/v18/exports/ui/tutorial/contact-sheet.png"
+}

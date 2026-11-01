@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-10-30T09:32:38.161Z",
-  "signature": "61768328aea230ff61aa2c7b8aad735d812bd79071bc3d051e46a848c96166c2",
+  "verifiedAt": "2026-10-31T14:44:07.027Z",
+  "signature": "0924b7c37eb98b3873a883f16e93fdd7eb20a708dca888e38099d5e5e43bc53a",
   "geometry": {
     "dock": {
       "x": 0,
@@ -19,69 +19,79 @@
   },
   "chefSamples": [
     {
-      "scale": 1.0550921842354228,
-      "x": -195,
-      "y": -195,
-      "opacity": 179.5775994511663
-    },
-    {
-      "scale": 1.0824988320089364,
-      "x": -195,
-      "y": -195,
-      "opacity": 219.16497956846365
-    },
-    {
-      "scale": 1.0897247846898792,
-      "x": -195,
-      "y": -195,
-      "opacity": 229.6024667742699
-    },
-    {
-      "scale": 1.0741294929211072,
-      "x": -195,
-      "y": -195,
-      "opacity": 207.075934219377
-    },
-    {
-      "scale": 1.04068694113659,
-      "x": -195,
-      "y": -195,
-      "opacity": 158.7700260861855
-    },
-    {
-      "scale": 1.0121426975520662,
-      "x": -195,
-      "y": -195,
-      "opacity": 117.53945201965118
-    },
-    {
+      "frame": "3b885568-00b4-4fbb-973d-9323d72e4cb8@f9941",
       "scale": 1,
-      "x": -195,
-      "y": -195,
-      "opacity": 100
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
     },
     {
-      "scale": 1.0088357869437121,
-      "x": -195,
-      "y": -195,
-      "opacity": 112.76280336313974
+      "frame": "6c9f7459-b697-4679-9e69-d6d0188253be@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
     },
     {
-      "scale": 1.0363056854312318,
-      "x": -195,
-      "y": -195,
-      "opacity": 152.44154562289032
+      "frame": "6c9f7459-b697-4679-9e69-d6d0188253be@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
     },
     {
-      "scale": 1.068391780437128,
-      "x": -195,
-      "y": -195,
-      "opacity": 198.78812729807362
+      "frame": "2010680c-db70-4b3a-92ec-be142b65bf33@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
+    },
+    {
+      "frame": "4b8ab2cf-b482-4576-903c-8896245f2e38@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
+    },
+    {
+      "frame": "3b885568-00b4-4fbb-973d-9323d72e4cb8@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
+    },
+    {
+      "frame": "6c9f7459-b697-4679-9e69-d6d0188253be@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
+    },
+    {
+      "frame": "2010680c-db70-4b3a-92ec-be142b65bf33@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
+    },
+    {
+      "frame": "4b8ab2cf-b482-4576-903c-8896245f2e38@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
+    },
+    {
+      "frame": "3b885568-00b4-4fbb-973d-9323d72e4cb8@f9941",
+      "scale": 1,
+      "x": -213.83788883085072,
+      "y": -210.2911795961743,
+      "halo": false
     }
   ],
   "checks": [
     "high-contrast-action-guide-without-continue",
-    "chef-breathes-and-halo-pulses-without-moving-cell",
+    "chef-real-sequence-without-halo-or-cell-drift",
     "two-consecutive-real-swipes-win-with-no-dialogue-clicks",
     "prop-and-device-guides-advance-by-target-click",
     "recipe-action-guide-opens-real-panel"

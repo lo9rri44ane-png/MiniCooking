@@ -3,6 +3,11 @@ export interface StoragePort {
     setItem(key: string, value: string): void;
     removeItem(key: string): void;
 }
+/** WeChat returns an empty string for absent keys; preserve all nonempty values. */
+export function readStoredValue(storage: StoragePort, key: string): string | null {
+    const raw = storage.getItem(key);
+    return raw === null || raw === undefined || raw === '' ? null : raw;
+}
 export class SaveStore<T> {
     private storage: StoragePort;
     private key: string;
@@ -11,7 +16,7 @@ export class SaveStore<T> {
     private validate: (value: unknown) => boolean;
     constructor(storage: StoragePort, key: string, version: number, defaults: () => T, validate: (value: unknown) => boolean) { this.storage = storage; this.key = key; this.version = version; this.defaults = defaults; this.validate = validate; }
     load(): T {
-        const raw = this.storage.getItem(this.key);
+        const raw = readStoredValue(this.storage, this.key);
         if (raw === null)
             return this.defaults();
         let item: unknown;
@@ -30,8 +35,9 @@ export class SaveStore<T> {
         return saved.data as T;
     }
     save(value: T): void { if (!this.validate(value))
-        throw Error('拒绝保存无效数据'); const existing = this.storage.getItem(this.key); if (existing !== null)
+        throw Error('拒绝保存无效数据'); const existing = readStoredValue(this.storage, this.key); if (existing !== null)
         this.load(); this.storage.setItem(this.key, JSON.stringify({ version: this.version, data: value })); }
     /** Reset is explicit; callers must obtain the player's intent before using it. */
     reset(): T { const value = this.defaults(); this.storage.removeItem(this.key); this.save(value); return value; }
 }
+

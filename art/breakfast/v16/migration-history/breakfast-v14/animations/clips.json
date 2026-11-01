@@ -1,0 +1,519 @@
+{
+  "version": 14,
+  "clips": {
+    "hamster/idle_empty": {
+      "frames": [
+        "art/breakfast-v14/hamster/idle_empty/frame_00",
+        "art/breakfast-v14/hamster/idle_empty/frame_01",
+        "art/breakfast-v14/hamster/idle_empty/frame_02",
+        "art/breakfast-v14/hamster/idle_empty/frame_03",
+        "art/breakfast-v14/hamster/idle_empty/frame_04",
+        "art/breakfast-v14/hamster/idle_empty/frame_05",
+        "art/breakfast-v14/hamster/idle_empty/frame_06",
+        "art/breakfast-v14/hamster/idle_empty/frame_07",
+        "art/breakfast-v14/hamster/idle_empty/frame_08",
+        "art/breakfast-v14/hamster/idle_empty/frame_09",
+        "art/breakfast-v14/hamster/idle_empty/frame_10",
+        "art/breakfast-v14/hamster/idle_empty/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/idle_small": {
+      "frames": [
+        "art/breakfast-v14/hamster/idle_small/frame_00",
+        "art/breakfast-v14/hamster/idle_small/frame_01",
+        "art/breakfast-v14/hamster/idle_small/frame_02",
+        "art/breakfast-v14/hamster/idle_small/frame_03",
+        "art/breakfast-v14/hamster/idle_small/frame_04",
+        "art/breakfast-v14/hamster/idle_small/frame_05",
+        "art/breakfast-v14/hamster/idle_small/frame_06",
+        "art/breakfast-v14/hamster/idle_small/frame_07",
+        "art/breakfast-v14/hamster/idle_small/frame_08",
+        "art/breakfast-v14/hamster/idle_small/frame_09",
+        "art/breakfast-v14/hamster/idle_small/frame_10",
+        "art/breakfast-v14/hamster/idle_small/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/idle_full": {
+      "frames": [
+        "art/breakfast-v14/hamster/idle_full/frame_00",
+        "art/breakfast-v14/hamster/idle_full/frame_01",
+        "art/breakfast-v14/hamster/idle_full/frame_02",
+        "art/breakfast-v14/hamster/idle_full/frame_03",
+        "art/breakfast-v14/hamster/idle_full/frame_04",
+        "art/breakfast-v14/hamster/idle_full/frame_05",
+        "art/breakfast-v14/hamster/idle_full/frame_06",
+        "art/breakfast-v14/hamster/idle_full/frame_07",
+        "art/breakfast-v14/hamster/idle_full/frame_08",
+        "art/breakfast-v14/hamster/idle_full/frame_09",
+        "art/breakfast-v14/hamster/idle_full/frame_10",
+        "art/breakfast-v14/hamster/idle_full/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/move_up": {
+      "frames": [
+        "art/breakfast-v14/hamster/move_up/frame_00",
+        "art/breakfast-v14/hamster/move_up/frame_01",
+        "art/breakfast-v14/hamster/move_up/frame_02",
+        "art/breakfast-v14/hamster/move_up/frame_03",
+        "art/breakfast-v14/hamster/move_up/frame_04",
+        "art/breakfast-v14/hamster/move_up/frame_05",
+        "art/breakfast-v14/hamster/move_up/frame_06",
+        "art/breakfast-v14/hamster/move_up/frame_07",
+        "art/breakfast-v14/hamster/move_up/frame_08",
+        "art/breakfast-v14/hamster/move_up/frame_09",
+        "art/breakfast-v14/hamster/move_up/frame_10",
+        "art/breakfast-v14/hamster/move_up/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/move_down": {
+      "frames": [
+        "art/breakfast-v14/hamster/move_down/frame_00",
+        "art/breakfast-v14/hamster/move_down/frame_01",
+        "art/breakfast-v14/hamster/move_down/frame_02",
+        "art/breakfast-v14/hamster/move_down/frame_03",
+        "art/breakfast-v14/hamster/move_down/frame_04",
+        "art/breakfast-v14/hamster/move_down/frame_05",
+        "art/breakfast-v14/hamster/move_down/frame_06",
+        "art/breakfast-v14/hamster/move_down/frame_07",
+        "art/breakfast-v14/hamster/move_down/frame_08",
+        "art/breakfast-v14/hamster/move_down/frame_09",
+        "art/breakfast-v14/hamster/move_down/frame_10",
+        "art/breakfast-v14/hamster/move_down/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/move_right": {
+      "frames": [
+        "art/breakfast-v14/hamster/move_right/frame_00",
+        "art/breakfast-v14/hamster/move_right/frame_01",
+        "art/breakfast-v14/hamster/move_right/frame_02",
+        "art/breakfast-v14/hamster/move_right/frame_03",
+        "art/breakfast-v14/hamster/move_right/frame_04",
+        "art/breakfast-v14/hamster/move_right/frame_05",
+        "art/breakfast-v14/hamster/move_right/frame_06",
+        "art/breakfast-v14/hamster/move_right/frame_07",
+        "art/breakfast-v14/hamster/move_right/frame_08",
+        "art/breakfast-v14/hamster/move_right/frame_09",
+        "art/breakfast-v14/hamster/move_right/frame_10",
+        "art/breakfast-v14/hamster/move_right/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/move_left": {
+      "frames": [
+        "art/breakfast-v14/hamster/move_left/frame_00",
+        "art/breakfast-v14/hamster/move_left/frame_01",
+        "art/breakfast-v14/hamster/move_left/frame_02",
+        "art/breakfast-v14/hamster/move_left/frame_03",
+        "art/breakfast-v14/hamster/move_left/frame_04",
+        "art/breakfast-v14/hamster/move_left/frame_05",
+        "art/breakfast-v14/hamster/move_left/frame_06",
+        "art/breakfast-v14/hamster/move_left/frame_07",
+        "art/breakfast-v14/hamster/move_left/frame_08",
+        "art/breakfast-v14/hamster/move_left/frame_09",
+        "art/breakfast-v14/hamster/move_left/frame_10",
+        "art/breakfast-v14/hamster/move_left/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/work_up": {
+      "frames": [
+        "art/breakfast-v14/hamster/work_up/frame_00",
+        "art/breakfast-v14/hamster/work_up/frame_01",
+        "art/breakfast-v14/hamster/work_up/frame_02",
+        "art/breakfast-v14/hamster/work_up/frame_03",
+        "art/breakfast-v14/hamster/work_up/frame_04",
+        "art/breakfast-v14/hamster/work_up/frame_05",
+        "art/breakfast-v14/hamster/work_up/frame_06",
+        "art/breakfast-v14/hamster/work_up/frame_07",
+        "art/breakfast-v14/hamster/work_up/frame_08",
+        "art/breakfast-v14/hamster/work_up/frame_09",
+        "art/breakfast-v14/hamster/work_up/frame_10",
+        "art/breakfast-v14/hamster/work_up/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/work_down": {
+      "frames": [
+        "art/breakfast-v14/hamster/work_down/frame_00",
+        "art/breakfast-v14/hamster/work_down/frame_01",
+        "art/breakfast-v14/hamster/work_down/frame_02",
+        "art/breakfast-v14/hamster/work_down/frame_03",
+        "art/breakfast-v14/hamster/work_down/frame_04",
+        "art/breakfast-v14/hamster/work_down/frame_05",
+        "art/breakfast-v14/hamster/work_down/frame_06",
+        "art/breakfast-v14/hamster/work_down/frame_07",
+        "art/breakfast-v14/hamster/work_down/frame_08",
+        "art/breakfast-v14/hamster/work_down/frame_09",
+        "art/breakfast-v14/hamster/work_down/frame_10",
+        "art/breakfast-v14/hamster/work_down/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/work_left": {
+      "frames": [
+        "art/breakfast-v14/hamster/work_left/frame_00",
+        "art/breakfast-v14/hamster/work_left/frame_01",
+        "art/breakfast-v14/hamster/work_left/frame_02",
+        "art/breakfast-v14/hamster/work_left/frame_03",
+        "art/breakfast-v14/hamster/work_left/frame_04",
+        "art/breakfast-v14/hamster/work_left/frame_05",
+        "art/breakfast-v14/hamster/work_left/frame_06",
+        "art/breakfast-v14/hamster/work_left/frame_07",
+        "art/breakfast-v14/hamster/work_left/frame_08",
+        "art/breakfast-v14/hamster/work_left/frame_09",
+        "art/breakfast-v14/hamster/work_left/frame_10",
+        "art/breakfast-v14/hamster/work_left/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/work_right": {
+      "frames": [
+        "art/breakfast-v14/hamster/work_right/frame_00",
+        "art/breakfast-v14/hamster/work_right/frame_01",
+        "art/breakfast-v14/hamster/work_right/frame_02",
+        "art/breakfast-v14/hamster/work_right/frame_03",
+        "art/breakfast-v14/hamster/work_right/frame_04",
+        "art/breakfast-v14/hamster/work_right/frame_05",
+        "art/breakfast-v14/hamster/work_right/frame_06",
+        "art/breakfast-v14/hamster/work_right/frame_07",
+        "art/breakfast-v14/hamster/work_right/frame_08",
+        "art/breakfast-v14/hamster/work_right/frame_09",
+        "art/breakfast-v14/hamster/work_right/frame_10",
+        "art/breakfast-v14/hamster/work_right/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "hamster/full": {
+      "frames": [
+        "art/breakfast-v14/hamster/full/frame_00",
+        "art/breakfast-v14/hamster/full/frame_01",
+        "art/breakfast-v14/hamster/full/frame_02",
+        "art/breakfast-v14/hamster/full/frame_03",
+        "art/breakfast-v14/hamster/full/frame_04",
+        "art/breakfast-v14/hamster/full/frame_05",
+        "art/breakfast-v14/hamster/full/frame_06",
+        "art/breakfast-v14/hamster/full/frame_07",
+        "art/breakfast-v14/hamster/full/frame_08",
+        "art/breakfast-v14/hamster/full/frame_09",
+        "art/breakfast-v14/hamster/full/frame_10",
+        "art/breakfast-v14/hamster/full/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "hamster/win": {
+      "frames": [
+        "art/breakfast-v14/hamster/win/frame_00",
+        "art/breakfast-v14/hamster/win/frame_01",
+        "art/breakfast-v14/hamster/win/frame_02",
+        "art/breakfast-v14/hamster/win/frame_03",
+        "art/breakfast-v14/hamster/win/frame_04",
+        "art/breakfast-v14/hamster/win/frame_05",
+        "art/breakfast-v14/hamster/win/frame_06",
+        "art/breakfast-v14/hamster/win/frame_07",
+        "art/breakfast-v14/hamster/win/frame_08",
+        "art/breakfast-v14/hamster/win/frame_09",
+        "art/breakfast-v14/hamster/win/frame_10",
+        "art/breakfast-v14/hamster/win/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/dog/appear": {
+      "frames": [
+        "art/breakfast-v14/customers/dog/appear/frame_00",
+        "art/breakfast-v14/customers/dog/appear/frame_01",
+        "art/breakfast-v14/customers/dog/appear/frame_02",
+        "art/breakfast-v14/customers/dog/appear/frame_03",
+        "art/breakfast-v14/customers/dog/appear/frame_04",
+        "art/breakfast-v14/customers/dog/appear/frame_05",
+        "art/breakfast-v14/customers/dog/appear/frame_06",
+        "art/breakfast-v14/customers/dog/appear/frame_07",
+        "art/breakfast-v14/customers/dog/appear/frame_08",
+        "art/breakfast-v14/customers/dog/appear/frame_09",
+        "art/breakfast-v14/customers/dog/appear/frame_10",
+        "art/breakfast-v14/customers/dog/appear/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/dog/idle": {
+      "frames": [
+        "art/breakfast-v14/customers/dog/idle/frame_00",
+        "art/breakfast-v14/customers/dog/idle/frame_01",
+        "art/breakfast-v14/customers/dog/idle/frame_02",
+        "art/breakfast-v14/customers/dog/idle/frame_03",
+        "art/breakfast-v14/customers/dog/idle/frame_04",
+        "art/breakfast-v14/customers/dog/idle/frame_05",
+        "art/breakfast-v14/customers/dog/idle/frame_06",
+        "art/breakfast-v14/customers/dog/idle/frame_07",
+        "art/breakfast-v14/customers/dog/idle/frame_08",
+        "art/breakfast-v14/customers/dog/idle/frame_09",
+        "art/breakfast-v14/customers/dog/idle/frame_10",
+        "art/breakfast-v14/customers/dog/idle/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "customers/dog/celebrate": {
+      "frames": [
+        "art/breakfast-v14/customers/dog/celebrate/frame_00",
+        "art/breakfast-v14/customers/dog/celebrate/frame_01",
+        "art/breakfast-v14/customers/dog/celebrate/frame_02",
+        "art/breakfast-v14/customers/dog/celebrate/frame_03",
+        "art/breakfast-v14/customers/dog/celebrate/frame_04",
+        "art/breakfast-v14/customers/dog/celebrate/frame_05",
+        "art/breakfast-v14/customers/dog/celebrate/frame_06",
+        "art/breakfast-v14/customers/dog/celebrate/frame_07",
+        "art/breakfast-v14/customers/dog/celebrate/frame_08",
+        "art/breakfast-v14/customers/dog/celebrate/frame_09",
+        "art/breakfast-v14/customers/dog/celebrate/frame_10",
+        "art/breakfast-v14/customers/dog/celebrate/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/dog/disappear": {
+      "frames": [
+        "art/breakfast-v14/customers/dog/disappear/frame_00",
+        "art/breakfast-v14/customers/dog/disappear/frame_01",
+        "art/breakfast-v14/customers/dog/disappear/frame_02",
+        "art/breakfast-v14/customers/dog/disappear/frame_03",
+        "art/breakfast-v14/customers/dog/disappear/frame_04",
+        "art/breakfast-v14/customers/dog/disappear/frame_05",
+        "art/breakfast-v14/customers/dog/disappear/frame_06",
+        "art/breakfast-v14/customers/dog/disappear/frame_07",
+        "art/breakfast-v14/customers/dog/disappear/frame_08",
+        "art/breakfast-v14/customers/dog/disappear/frame_09",
+        "art/breakfast-v14/customers/dog/disappear/frame_10",
+        "art/breakfast-v14/customers/dog/disappear/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/rabbit/appear": {
+      "frames": [
+        "art/breakfast-v14/customers/rabbit/appear/frame_00",
+        "art/breakfast-v14/customers/rabbit/appear/frame_01",
+        "art/breakfast-v14/customers/rabbit/appear/frame_02",
+        "art/breakfast-v14/customers/rabbit/appear/frame_03",
+        "art/breakfast-v14/customers/rabbit/appear/frame_04",
+        "art/breakfast-v14/customers/rabbit/appear/frame_05",
+        "art/breakfast-v14/customers/rabbit/appear/frame_06",
+        "art/breakfast-v14/customers/rabbit/appear/frame_07",
+        "art/breakfast-v14/customers/rabbit/appear/frame_08",
+        "art/breakfast-v14/customers/rabbit/appear/frame_09",
+        "art/breakfast-v14/customers/rabbit/appear/frame_10",
+        "art/breakfast-v14/customers/rabbit/appear/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/rabbit/idle": {
+      "frames": [
+        "art/breakfast-v14/customers/rabbit/idle/frame_00",
+        "art/breakfast-v14/customers/rabbit/idle/frame_01",
+        "art/breakfast-v14/customers/rabbit/idle/frame_02",
+        "art/breakfast-v14/customers/rabbit/idle/frame_03",
+        "art/breakfast-v14/customers/rabbit/idle/frame_04",
+        "art/breakfast-v14/customers/rabbit/idle/frame_05",
+        "art/breakfast-v14/customers/rabbit/idle/frame_06",
+        "art/breakfast-v14/customers/rabbit/idle/frame_07",
+        "art/breakfast-v14/customers/rabbit/idle/frame_08",
+        "art/breakfast-v14/customers/rabbit/idle/frame_09",
+        "art/breakfast-v14/customers/rabbit/idle/frame_10",
+        "art/breakfast-v14/customers/rabbit/idle/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "customers/rabbit/celebrate": {
+      "frames": [
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_00",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_01",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_02",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_03",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_04",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_05",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_06",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_07",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_08",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_09",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_10",
+        "art/breakfast-v14/customers/rabbit/celebrate/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/rabbit/disappear": {
+      "frames": [
+        "art/breakfast-v14/customers/rabbit/disappear/frame_00",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_01",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_02",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_03",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_04",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_05",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_06",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_07",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_08",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_09",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_10",
+        "art/breakfast-v14/customers/rabbit/disappear/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/bear/appear": {
+      "frames": [
+        "art/breakfast-v14/customers/bear/appear/frame_00",
+        "art/breakfast-v14/customers/bear/appear/frame_01",
+        "art/breakfast-v14/customers/bear/appear/frame_02",
+        "art/breakfast-v14/customers/bear/appear/frame_03",
+        "art/breakfast-v14/customers/bear/appear/frame_04",
+        "art/breakfast-v14/customers/bear/appear/frame_05",
+        "art/breakfast-v14/customers/bear/appear/frame_06",
+        "art/breakfast-v14/customers/bear/appear/frame_07",
+        "art/breakfast-v14/customers/bear/appear/frame_08",
+        "art/breakfast-v14/customers/bear/appear/frame_09",
+        "art/breakfast-v14/customers/bear/appear/frame_10",
+        "art/breakfast-v14/customers/bear/appear/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/bear/idle": {
+      "frames": [
+        "art/breakfast-v14/customers/bear/idle/frame_00",
+        "art/breakfast-v14/customers/bear/idle/frame_01",
+        "art/breakfast-v14/customers/bear/idle/frame_02",
+        "art/breakfast-v14/customers/bear/idle/frame_03",
+        "art/breakfast-v14/customers/bear/idle/frame_04",
+        "art/breakfast-v14/customers/bear/idle/frame_05",
+        "art/breakfast-v14/customers/bear/idle/frame_06",
+        "art/breakfast-v14/customers/bear/idle/frame_07",
+        "art/breakfast-v14/customers/bear/idle/frame_08",
+        "art/breakfast-v14/customers/bear/idle/frame_09",
+        "art/breakfast-v14/customers/bear/idle/frame_10",
+        "art/breakfast-v14/customers/bear/idle/frame_11"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "customers/bear/celebrate": {
+      "frames": [
+        "art/breakfast-v14/customers/bear/celebrate/frame_00",
+        "art/breakfast-v14/customers/bear/celebrate/frame_01",
+        "art/breakfast-v14/customers/bear/celebrate/frame_02",
+        "art/breakfast-v14/customers/bear/celebrate/frame_03",
+        "art/breakfast-v14/customers/bear/celebrate/frame_04",
+        "art/breakfast-v14/customers/bear/celebrate/frame_05",
+        "art/breakfast-v14/customers/bear/celebrate/frame_06",
+        "art/breakfast-v14/customers/bear/celebrate/frame_07",
+        "art/breakfast-v14/customers/bear/celebrate/frame_08",
+        "art/breakfast-v14/customers/bear/celebrate/frame_09",
+        "art/breakfast-v14/customers/bear/celebrate/frame_10",
+        "art/breakfast-v14/customers/bear/celebrate/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "customers/bear/disappear": {
+      "frames": [
+        "art/breakfast-v14/customers/bear/disappear/frame_00",
+        "art/breakfast-v14/customers/bear/disappear/frame_01",
+        "art/breakfast-v14/customers/bear/disappear/frame_02",
+        "art/breakfast-v14/customers/bear/disappear/frame_03",
+        "art/breakfast-v14/customers/bear/disappear/frame_04",
+        "art/breakfast-v14/customers/bear/disappear/frame_05",
+        "art/breakfast-v14/customers/bear/disappear/frame_06",
+        "art/breakfast-v14/customers/bear/disappear/frame_07",
+        "art/breakfast-v14/customers/bear/disappear/frame_08",
+        "art/breakfast-v14/customers/bear/disappear/frame_09",
+        "art/breakfast-v14/customers/bear/disappear/frame_10",
+        "art/breakfast-v14/customers/bear/disappear/frame_11"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "fx/smoke_appear": {
+      "frames": [
+        "art/breakfast-v3/fx/smoke_appear/frame_00",
+        "art/breakfast-v3/fx/smoke_appear/frame_01",
+        "art/breakfast-v3/fx/smoke_appear/frame_02",
+        "art/breakfast-v3/fx/smoke_appear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "fx/smoke_disappear": {
+      "frames": [
+        "art/breakfast-v3/fx/smoke_disappear/frame_00",
+        "art/breakfast-v3/fx/smoke_disappear/frame_01",
+        "art/breakfast-v3/fx/smoke_disappear/frame_02",
+        "art/breakfast-v3/fx/smoke_disappear/frame_03"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "environment/sunlight": {
+      "frames": [
+        "art/breakfast-v3/environment/sunlight/frame_00",
+        "art/breakfast-v3/environment/sunlight/frame_01",
+        "art/breakfast-v3/environment/sunlight/frame_02",
+        "art/breakfast-v3/environment/sunlight/frame_03"
+      ],
+      "fps": 0.5,
+      "loop": true
+    }
+  },
+  "boards": {
+    "4": {
+      "topHalfWidth": 233.93416927899688,
+      "bottomHalfWidth": 280.01567398119124,
+      "topY": 244.36990595611286,
+      "bottomY": -243.2476489028213,
+      "farScale": 0.94,
+      "nearScale": 1.04
+    },
+    "5": {
+      "topHalfWidth": 236.69724770642202,
+      "bottomHalfWidth": 275.47956630525437,
+      "topY": 239.9808173477898,
+      "bottomY": -239.418682235196,
+      "farScale": 0.94,
+      "nearScale": 1.04
+    },
+    "6": {
+      "topHalfWidth": 235.33225283630472,
+      "bottomHalfWidth": 279.82171799027554,
+      "topY": 222.63371150729336,
+      "bottomY": -222.26094003241496,
+      "farScale": 0.94,
+      "nearScale": 1.04
+    }
+  },
+  "actorCanvas": {
+    "width": 256,
+    "height": 256,
+    "anchorX": 128,
+    "anchorY": 236,
+    "chefAnchorFromBottom": 0.078125,
+    "targetCoreMaxExtent": 216
+  }
+}

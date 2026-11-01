@@ -1,0 +1,601 @@
+{
+  "at": "2026-10-31T17:04:21.003Z",
+  "automaticChecks": "SHA256, runtime backup equality, no nonzero alpha at sprite canvas edges, battle below y260 identical",
+  "manualReviewRequired": true,
+  "assets": [
+    {
+      "key": "backgrounds/loading",
+      "sha256": "418ab71ed9bdc208941028f130cde44dbdda58033182da997005aceae3e7f2bb",
+      "backupMatchesRuntime": true,
+      "edgeChecked": false
+    },
+    {
+      "key": "backgrounds/home",
+      "sha256": "b52e130b14c922b105de61b131a6e9c2ecbf376b78c389034174449d4e1fbbe7",
+      "backupMatchesRuntime": true,
+      "edgeChecked": false
+    },
+    {
+      "key": "backgrounds/notebook",
+      "sha256": "db38592e7d1290f2418b48e4efefcd598e94517cc7a4ba5d6595179a7cb9bdd1",
+      "backupMatchesRuntime": true,
+      "edgeChecked": false
+    },
+    {
+      "key": "backgrounds/battle",
+      "sha256": "4a01a065e84a82399e7beda2cc361f13f895f5288c2ecad2fd3795b3c368435c",
+      "backupMatchesRuntime": true,
+      "edgeChecked": false
+    },
+    {
+      "key": "ui/panel",
+      "sha256": "eafabaa88243ca86806de00a778421199edfa49a7bf1bbc3d91ab56ac64e5596",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/button_primary",
+      "sha256": "38c91eb68c21cbbb04fc98da0022018b634deda0b1cd98a31c257d885c408bee",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/button_secondary",
+      "sha256": "b3f1d566957e3c035a2515fcdc564b93bf45dc651895a0f2a253fc9648ca4d3d",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/button_neutral",
+      "sha256": "3c924a4b370e148a36da3a5f98b2095160f632bb2f770b85528fa43c53685504",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/compact_primary",
+      "sha256": "91f6edf6d81a647dbdaf9cef48831c9e5028967a800b805709daa5428aca5270",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/compact_secondary",
+      "sha256": "6401904b4120e7ac1abb76cd5c77f977892e24a0973f17a3c860bee746b37f52",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/compact_neutral",
+      "sha256": "c373820932df3f7470e313c5b9d2377dff7d3be1f3b33a1e65632469126fcc65",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/undo_button",
+      "sha256": "302f0711db4ed6e29f3069cc549e91815183645a244f170877aec5a27980e14a",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/overtime_button",
+      "sha256": "f67c5e85fff5acabe440ee3c3e4ceaf9095458c4a7213edb4d1e6e6e83abb743",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/pause_button",
+      "sha256": "d1cf00460dcf7b0ef32bd7953f1fd8a168563547284fdd014568e69a7ce43e29",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/banner",
+      "sha256": "61e11118562237c7c1a40ac605a596364299aec953f7447a72c207a457415bfc",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/card",
+      "sha256": "4ef2f373ce0c765d2eb2bb3aeea974134171d1076c32ad63f14185a91dd71b46",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/restaurant_card",
+      "sha256": "b586defcf4a49d699226ea6b33b7251dae8737044231cb0f5bb3e34f20f8b2e4",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/guide",
+      "sha256": "cf4123b4ac5edb3fda6b9b875ac935634ac241b15ecb4c52afd1710d231d2c3a",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "ui/energy",
+      "sha256": "10362246524847bea8054179a1a42b39f38811387711333a8f7d89a138051ec3",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_01",
+      "sha256": "335922b5570a195499f7d061f21c27b1bbf6a1dc63f73e48ed28604421f4e5bb",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_02",
+      "sha256": "0719f64c417d589af469e3083ec8473c365c50b164fec004b7f1d77873ff1a8e",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_03",
+      "sha256": "88ae314d00ee5ae8fd8f4c802fc5f2efd5784d9541cfa830c89b5139e55a7887",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_04",
+      "sha256": "0fb0e9927329bc30ccdbafd32eba350011d5682fb357a6dfcc7d00c5ffe97686",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_05",
+      "sha256": "bc2cc61c7c6692bb1436f6ed7ec3eb29cbe20a7df4ca43c5375086ed5d0605b4",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_06",
+      "sha256": "7b061dbc2d83d36d14b62d655f9349879ef862e21c8598e24e2728470f4a96d6",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_07",
+      "sha256": "7eba676f39a9f76d9b484174d6cceeae82c17283ecc2c87eb0c8ce0785c1b0ec",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_08",
+      "sha256": "e84be60c2fc9fc346c31e5c530ad7e0a8f39ab015bce631d8154aaf1eee83e8e",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_09",
+      "sha256": "fa5d157714685dc260f8137c02399173378eae42ed6baeebf9ec437a435e41e7",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_1/item_10",
+      "sha256": "39492e32b841f3ea8a59389013ca71002a271e2fb6184e9ed8e6701061eea47d",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_01",
+      "sha256": "25ce9de7e990fde06e95bba321396d7befd5bbdda8ba9dce29187f8844e53d47",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_02",
+      "sha256": "94a9bab1e89dd6d3aa04a02a61b6767e5b9d72c9481bbb24316cc95e52eafb4f",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_03",
+      "sha256": "7ffa1184e9e7c4d9760b350f7f678dfeb42582054bc9b00c1e4f303607b6e31a",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_04",
+      "sha256": "a013cbd41d22dde33d3ba0835d2c978b382645aae5c1778dddf0fcda5f935c3b",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_05",
+      "sha256": "690eea0e9ae37046546feb8cbc98ebb6902e563c4bff767b80ad7395bb89618f",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_06",
+      "sha256": "0b448a940d20c8905534237ff94a4c4d21717cd0cb64388ce5b3433760d70d02",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_07",
+      "sha256": "1da1520fb22bcffd23cdb21621bf3740814e286305f980f8046e63d3e861e37c",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_08",
+      "sha256": "54bbb1ba6d4f4db918f6617bb1ccd8d81e7fd885096e00100936753d83be8cc4",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_09",
+      "sha256": "b60a5ee22642e0a9f7db26f3b3defddeb026c3f8a56bcd9ff6b26f74fe6eeea5",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_2/item_10",
+      "sha256": "507edecc3240df93dc6bd002b61b23a560a967e780496a4dfbe6a79450a2c36a",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_01",
+      "sha256": "c8e78287a39b7ce09613af4b7af42bc53eb3bf86c76563ca4323271683e802e7",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_02",
+      "sha256": "523b1cfa09be5686697903c9d679beb8aa8d575e8fa832bd617a03bc2b2aede5",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_03",
+      "sha256": "0a82178b94586cbd58bbcf695c65ef4b51558034cd46f32c9cc029e9c6960191",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_04",
+      "sha256": "702d00f9d79c31403e173008e2ed0c51638c493c197f91faddf879c24dd1c4ea",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_05",
+      "sha256": "e2418e7437f0ebec9406382f868d62d9107cc6a500ab991a9b0f4b8553e6e27c",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_06",
+      "sha256": "34b949851c2c4d1d3f7b47e2c28ac3335e1b2038d6e35448467b1508b68b08ed",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_07",
+      "sha256": "af7fb1bce36e197bada95675e6e2f5a841b3ac639aafce3e3224737490baf0a7",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_08",
+      "sha256": "a25014dede584841c31912152e484ca7d490bb749fa69f0d7d0a95ed0c25ba5c",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_09",
+      "sha256": "e1d5ca422f32687f76502354479bb665ab44bf512a940a02fc044ed64d0cae1f",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_3/item_10",
+      "sha256": "066d371ed76deeeaaa7b3bf2980cf0870cb588347d25a1286618843b1944e83b",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_01",
+      "sha256": "05f2314b1ce2ff43b78674a1db241c2a8f71b44841d6373824d936df48c98270",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_02",
+      "sha256": "ae05934148668cfeb8538cd89a38e8be66aa6b1c31c446d5e703356af356f088",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_03",
+      "sha256": "9a6dcbc7cb7856ecc321f7b68f27d14f0f373b23a5275c016f19527c660a067a",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_04",
+      "sha256": "4264f369fec9c28df8b58f2f3e0276930254a67952e62077e4465d4241c5fc9b",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_05",
+      "sha256": "ac35ea3cc0839875ddfb10e50c777c7179ae20a56134428de759b99d4ff77b3b",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_06",
+      "sha256": "c099e1f9ebbd00ea7c0a84eff9a29983578bf63b420ba3b391e65bcaed6a7a0d",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_07",
+      "sha256": "cc9d21543544b1415b4cc5ae4253d5352ce4e988368658bfaa49c2b8cdd7ec09",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_08",
+      "sha256": "f791a907ae8362d69ca0a1007b4775989af2c433d3ed37b900ae0247e750cbee",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_09",
+      "sha256": "bdcc21e40bf6403a4c6ece69de19e7b7b4fb997fa040ec056193c41dcde55751",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_4/item_10",
+      "sha256": "e95fbc215226880acb7cf0079059e282b2cc0d2a32d84edc9ae979823ce6624c",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_01",
+      "sha256": "c34c6ee74d5016fced0ccb611194976c0ffbbdfcff8face502202e163ee091c4",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_02",
+      "sha256": "f58e0fd3f2a75168bfbf183c2dc8baf574f76b3001e489af347372eb850ce80d",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_03",
+      "sha256": "a6cf5a9f443ad4f0fd5c13ea5e6209bae864afa746cae7edf0107c52d0571f26",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_04",
+      "sha256": "b26de39eab78a01eea24acfd34a9d5ae20f53b02929a182c28db25466a6d52fd",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_05",
+      "sha256": "673c40b4bfb0f8db8e05735da58b4af2910f7d366ecc4e55f1611aeef84b7ac6",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_06",
+      "sha256": "e16a6aaca872d823eb9a846f478492942f7c4a8073cde1555109ecd9ab2cdb97",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_07",
+      "sha256": "f685b91ed2d833153ff947e21a8a649528a334c26cf187220b31c00bd665999f",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_08",
+      "sha256": "325725d0b8694328e6f4ef9d80d7a16fdfaabb7e04471abc570a1d8e04736b05",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_09",
+      "sha256": "8c9037799bbdfb13889437feda25cc68441ae474582029cf7f8a1c6b2f74c90e",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_5/item_10",
+      "sha256": "bd1121b1cba2b1881c51a0c07deef8b8211a7ace2a310c61435dd2af7e90a67e",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_01",
+      "sha256": "99244924442f731bd2b95156eaf61444252b86350186373505f46841ffcb1e66",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_02",
+      "sha256": "bdd649a50e6d7b5660cd6a0c103b7f9b8c034c88c3dcb8c9890947aa03cc1560",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_03",
+      "sha256": "0fc0dc1436b48afb2de7fc4158d8a6cc6ba2e6e2263b5ac18f610b9fb29bd5dc",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_04",
+      "sha256": "b26e30ba5fd2e76b6e9a6fd22093581772d2f35b41a81d911e4c02f1593b75b7",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_05",
+      "sha256": "13df10c452c98f0355edb19892d7e57f409406946274d5e3184884cff7f707d8",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_06",
+      "sha256": "935a2d2cabfd87671fd1459ceed19bc26fd5fa7b7db205b30345cbc79862c4a1",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_07",
+      "sha256": "6300309f7317fff0a52b76bcda61af9eeae7dfc7be549091dccaf2e6a14da43b",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_08",
+      "sha256": "da5a6f31349663575e56b2e0203724ca925bd91c45611e53d74612edb134873b",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_09",
+      "sha256": "98d5cfef3cd4e460b4952b6b57352b667f3dd512d481f72dd9b52961f9d0e64d",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_6/item_10",
+      "sha256": "027b150254964e4312cc893e51593f5e37572c3ed8e72a955fde44fa714b6095",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_01",
+      "sha256": "19ee222527c57381dd426956740b54c5f025ed065248c5d4bdd9c0e8baa5bb27",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_02",
+      "sha256": "45c26ff8f623cfa6658aa3a923097ad793536c5288c8ac0b62655f3842ff72f4",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_03",
+      "sha256": "fdcb9ff661c82cd4f2f2a51639dc4e8f17f84ec5d3f3e4ec8dcee54fade2816f",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_04",
+      "sha256": "41cdd5ee0e6ef1cd4a71d101561f218b5d4966fc52e8b021b22a480aa488796a",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_05",
+      "sha256": "8207b831038dbb842ea15f3c7efb806de24fe02b3aae30b8b71b47416a359836",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_06",
+      "sha256": "77f235b6960006d46263c6e1916ad83b1f8b1b5652a1a4af7ee206c8fbad4dc1",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_07",
+      "sha256": "0a4d780e4f0259c1e1bb7fd2e6cd52117e27653e0d1660adaedc5864c5d4fa75",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_08",
+      "sha256": "28e35304b5a9fe0b10626fa6e5ae52f0fc77c584eeb3bc8b2b8f86592dd2787c",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_09",
+      "sha256": "b1d10977083745547f81bf5fe2a344e9df6c8b00fc8c37e23bc11e81e239ae4d",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_7/item_10",
+      "sha256": "caf13a4a6aad8f651b2ddb79a1e8e7d5cab7172792b92b5e803214b24bfdfb2e",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_01",
+      "sha256": "7f47484d84d6aa945c5a97304794c7f4d4131d7f79bcfb0a60dbf9845f96b82e",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_02",
+      "sha256": "fd73d659dbf179a698db2eaff2fd79a37266ec40f9993756ecdad49c0581e1ce",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_03",
+      "sha256": "cb42531ad850c9e7e8e9a247098efb7c06137ea0ffb648282a94315d63df6202",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_04",
+      "sha256": "eee76485f221a226df207b73d9f81ec1e5aab66e6ffeb8ff3dcb04a67c912943",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_05",
+      "sha256": "6e8714d8785f03b26cff392a49bc843c4e113a3723a6d9555b5beb69acdb98e3",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_06",
+      "sha256": "8b4432c11cf52cb45fe8ffdb37533ebad7f990a81b3e3fc4f4a12e3bd941f37f",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_07",
+      "sha256": "57e66efe48c6ef266a2619b676a3fbc02a10d6ae6ce4f0d6b604da0b0fc9bd9a",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_08",
+      "sha256": "9acc419aedb529f51df933156db8459ec1e2242833bbe06e497d018ec8565bc7",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_09",
+      "sha256": "d5d15f4aaa128ae1c6fc84e10fa2198074dcf48aef0c32fa8d6659e0dbec6d10",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    },
+    {
+      "key": "collection/chapter_8/item_10",
+      "sha256": "a038edbee2c7ba3408655ed1d0cfb843ad2913473b5f1eba9e0df731afb260b6",
+      "backupMatchesRuntime": true,
+      "edgeChecked": true
+    }
+  ]
+}

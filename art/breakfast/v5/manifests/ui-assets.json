@@ -1,0 +1,268 @@
+{
+  "version": 5,
+  "sources": [
+    {
+      "path": "art/breakfast/v5/source/ui/steps-panel.png",
+      "width": 2098,
+      "height": 749,
+      "sha256": "6e661936b9b79e863682a8575a1c9ce4440738de83841d41eaf43b95b1022462"
+    },
+    {
+      "path": "art/breakfast/v5/source/ui/digits.png",
+      "width": 1983,
+      "height": 793,
+      "sha256": "40abf05e6fc7b56663b04bb3975be9e5ddb4b24fc77bc0344e69bc668074a114"
+    }
+  ],
+  "assets": [
+    {
+      "key": "ui/steps_panel",
+      "source": "art/breakfast/v5/source/ui/steps-panel.png",
+      "sourceBounds": {
+        "left": 107,
+        "top": 95,
+        "width": 1883,
+        "height": 554,
+        "sourceMargin": 95,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/steps_panel.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/steps_panel.png",
+      "width": 1360,
+      "height": 457,
+      "sha256": "44614f85ca4d9de7914d51d2c9707f109952cf0055ce7c18d1b77b2634216c1f",
+      "uniformScale": 1,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/0",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 83,
+        "top": 33,
+        "width": 310,
+        "height": 355,
+        "sourceMargin": 33,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/0.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/0.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "ca196113d811df857d296c7fcf004d637ee0e4c192a606ec3e70fe11bcb9b29b",
+      "uniformScale": 0.2782608695652174,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/1",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 494,
+        "top": 29,
+        "width": 255,
+        "height": 358,
+        "sourceMargin": 29,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/1.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/1.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "a8ea8707292a0d113479b4e68fa749af5531a2623ec09ef925b7d0fa699e6430",
+      "uniformScale": 0.27586206896551724,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/2",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 855,
+        "top": 29,
+        "width": 300,
+        "height": 353,
+        "sourceMargin": 29,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/2.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/2.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "81e6d6294865b16b2e3d48f2936a040b793dffcf035369c6e90be62c395bcd11",
+      "uniformScale": 0.27988338192419826,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/3",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 1246,
+        "top": 29,
+        "width": 291,
+        "height": 359,
+        "sourceMargin": 29,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/3.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/3.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "35a968c27bbc5b473a03439cc8963deb60702ac6119ac78cfa1bd6e863fa146f",
+      "uniformScale": 0.27507163323782235,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/4",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 1612,
+        "top": 25,
+        "width": 326,
+        "height": 367,
+        "sourceMargin": 25,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/4.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/4.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "690cb05fd76156061063f5a10e683ddecf25cd325a4ab68337d455d1868b61ff",
+      "uniformScale": 0.2689075630252101,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/5",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 73,
+        "top": 410,
+        "width": 299,
+        "height": 357,
+        "sourceMargin": 26,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/5.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/5.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "1bd3454edd9619f8f8b18bd2c2c3956f039c8753f386e64eff24f428d2660b0a",
+      "uniformScale": 0.276657060518732,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/6",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 459,
+        "top": 407,
+        "width": 302,
+        "height": 360,
+        "sourceMargin": 26,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/6.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/6.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "878e9fbaecad5165ab37e3098373c12842b6d395c8f90fa00156c60df4f44474",
+      "uniformScale": 0.2742857142857143,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/7",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 843,
+        "top": 412,
+        "width": 313,
+        "height": 355,
+        "sourceMargin": 26,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/7.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/7.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "4b2ae6faf2ea600862c87cfb07718adaca3014ff9778f91132f3380d9ee3dd19",
+      "uniformScale": 0.2782608695652174,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/8",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 1234,
+        "top": 409,
+        "width": 312,
+        "height": 358,
+        "sourceMargin": 26,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/8.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/8.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "eff23a57eaedeafe3616cebdacf6b1446be8f83042b094d2d72297cb017591ae",
+      "uniformScale": 0.27586206896551724,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    },
+    {
+      "key": "ui/digits/9",
+      "source": "art/breakfast/v5/source/ui/digits.png",
+      "sourceBounds": {
+        "left": 1637,
+        "top": 410,
+        "width": 289,
+        "height": 356,
+        "sourceMargin": 27,
+        "method": "complete-component-plus-original-soft-edge"
+      },
+      "backup": "art/breakfast/v5/exports/ui/digits/9.png",
+      "runtime": "assets/resources/art/breakfast-v5/ui/digits/9.png",
+      "width": 112,
+      "height": 128,
+      "sha256": "645a1c008f811ea8db27f458c46b7dd80a4aabd0f3b58482e3f8e20353fb16e9",
+      "uniformScale": 0.2774566473988439,
+      "baseline": 112,
+      "visibleHeight": 96,
+      "slotWidth": 112,
+      "slotHeight": 128,
+      "visualReview": "pending"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "engine": "3.8.8",
+  "platform": "web-mobile",
+  "debug": false,
+  "sourceMaps": false,
+  "md5Cache": true,
+  "files": 1573,
+  "bytes": 89680425,
+  "zip": "build\\MiniCooking-v18-HTML5.zip",
+  "zipBytes": 86042712,
+  "zipSha256": "726133db6db334ae88f5a15b3f52f987af35fff8fae25799a3673cdb29cbe3fd",
+  "serverSubdirectoryVerified": "/minicooking/",
+  "requiresBackend": false,
+  "publicHosting": false
+}

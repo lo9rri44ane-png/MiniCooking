@@ -1,0 +1,748 @@
+{
+  "version": 2,
+  "count": 29,
+  "limitation": "Transparent padding does not prove source completeness. Visual silhouette review required.",
+  "assets": [
+    {
+      "key": "ingredients/leaf",
+      "sha256": "852052de05c9b86684eed1e13c621b4d7d88fc406fbce5da02f3a23f4e05ff1a",
+      "reviewedSha256": "852052de05c9b86684eed1e13c621b4d7d88fc406fbce5da02f3a23f4e05ff1a",
+      "lowAlphaPixelCount": 3293,
+      "sourceBounds": {
+        "left": 62,
+        "top": 82,
+        "width": 225,
+        "height": 211,
+        "sourceMargin": 62,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 19,
+        "top": 19,
+        "right": 19,
+        "bottom": 19
+      },
+      "minimumExportMargin": 19,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ingredients/tomato",
+      "sha256": "d6d815e69a7d955dd7b647b91a63359dc01f096d1bf4846d14e113bd88d313dd",
+      "reviewedSha256": "d6d815e69a7d955dd7b647b91a63359dc01f096d1bf4846d14e113bd88d313dd",
+      "lowAlphaPixelCount": 2107,
+      "sourceBounds": {
+        "left": 375,
+        "top": 84,
+        "width": 210,
+        "height": 200,
+        "sourceMargin": 84,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 20,
+        "top": 20,
+        "right": 20,
+        "bottom": 20
+      },
+      "minimumExportMargin": 20,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ingredients/bread",
+      "sha256": "6e31f268e19d5a6cf23c6c11056c875ae273fa17e1e789b2e1e5a55c1feb25b8",
+      "reviewedSha256": "6e31f268e19d5a6cf23c6c11056c875ae273fa17e1e789b2e1e5a55c1feb25b8",
+      "lowAlphaPixelCount": 1947,
+      "sourceBounds": {
+        "left": 685,
+        "top": 88,
+        "width": 200,
+        "height": 201,
+        "sourceMargin": 88,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 20,
+        "top": 20,
+        "right": 20,
+        "bottom": 20
+      },
+      "minimumExportMargin": 20,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ingredients/cheese",
+      "sha256": "5ece9afd93a320b438852a08324c6985c42af1034c84627428821e301b50dc56",
+      "reviewedSha256": "5ece9afd93a320b438852a08324c6985c42af1034c84627428821e301b50dc56",
+      "lowAlphaPixelCount": 3488,
+      "sourceBounds": {
+        "left": 997,
+        "top": 89,
+        "width": 186,
+        "height": 185,
+        "sourceMargin": 71,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 20,
+        "top": 20,
+        "right": 20,
+        "bottom": 20
+      },
+      "minimumExportMargin": 20,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ingredients/water",
+      "sha256": "fd55aadea666fb7239018dcd08fd2fdb5c95d2965612b3c7b739d677fcd8c6b6",
+      "reviewedSha256": "fd55aadea666fb7239018dcd08fd2fdb5c95d2965612b3c7b739d677fcd8c6b6",
+      "lowAlphaPixelCount": 3458,
+      "sourceBounds": {
+        "left": 99,
+        "top": 391,
+        "width": 153,
+        "height": 190,
+        "sourceMargin": 99,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 20,
+        "top": 20,
+        "right": 20,
+        "bottom": 20
+      },
+      "minimumExportMargin": 20,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ingredients/berry",
+      "sha256": "9e667a9e7306f89482c674adade27063aa38242e18d0044b5e78fbf97d8c3938",
+      "reviewedSha256": "9e667a9e7306f89482c674adade27063aa38242e18d0044b5e78fbf97d8c3938",
+      "lowAlphaPixelCount": 2715,
+      "sourceBounds": {
+        "left": 387,
+        "top": 371,
+        "width": 194,
+        "height": 223,
+        "sourceMargin": 371,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 19,
+        "top": 20,
+        "right": 19,
+        "bottom": 20
+      },
+      "minimumExportMargin": 19,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ingredients/meat",
+      "sha256": "eaf816f2560c5cc575fb49609dfabce1c8ac58d243ea7b70f156d585790e6a78",
+      "reviewedSha256": "eaf816f2560c5cc575fb49609dfabce1c8ac58d243ea7b70f156d585790e6a78",
+      "lowAlphaPixelCount": 2673,
+      "sourceBounds": {
+        "left": 672,
+        "top": 402,
+        "width": 235,
+        "height": 185,
+        "sourceMargin": 347,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 19,
+        "top": 18,
+        "right": 18,
+        "bottom": 19
+      },
+      "minimumExportMargin": 18,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "devices/table",
+      "sha256": "070c5b0fc28cdb5fadca6f6ebe94657bf17268c5d4803f7eebc73c31a6dd97f9",
+      "reviewedSha256": "070c5b0fc28cdb5fadca6f6ebe94657bf17268c5d4803f7eebc73c31a6dd97f9",
+      "lowAlphaPixelCount": 3600,
+      "sourceBounds": {
+        "left": 973,
+        "top": 380,
+        "width": 238,
+        "height": 219,
+        "sourceMargin": 43,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 18,
+        "top": 18,
+        "right": 18,
+        "bottom": 18
+      },
+      "minimumExportMargin": 18,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "devices/pan",
+      "sha256": "99a77483636ac426b375f57f74d3066665adc5294f7b4a8a3ed09488878bc2ed",
+      "reviewedSha256": "99a77483636ac426b375f57f74d3066665adc5294f7b4a8a3ed09488878bc2ed",
+      "lowAlphaPixelCount": 3441,
+      "sourceBounds": {
+        "left": 56,
+        "top": 657,
+        "width": 236,
+        "height": 238,
+        "sourceMargin": 56,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 18,
+        "top": 18,
+        "right": 18,
+        "bottom": 19
+      },
+      "minimumExportMargin": 18,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "devices/drink",
+      "sha256": "80401d0eb41111cabd7afb61c083f4b9e5d57b4a2a5d085f7615cda874f7ab3a",
+      "reviewedSha256": "80401d0eb41111cabd7afb61c083f4b9e5d57b4a2a5d085f7615cda874f7ab3a",
+      "lowAlphaPixelCount": 2863,
+      "sourceBounds": {
+        "left": 401,
+        "top": 643,
+        "width": 183,
+        "height": 259,
+        "sourceMargin": 352,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 21
+      },
+      "margin": {
+        "left": 17,
+        "top": 18,
+        "right": 17,
+        "bottom": 17
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "dishes/salad",
+      "sha256": "b082594dae28015508636ec2bc28f10a19ccd53a6fcc53b7fb751110d1f9010c",
+      "reviewedSha256": "b082594dae28015508636ec2bc28f10a19ccd53a6fcc53b7fb751110d1f9010c",
+      "lowAlphaPixelCount": 2641,
+      "sourceBounds": {
+        "left": 659,
+        "top": 680,
+        "width": 249,
+        "height": 208,
+        "sourceMargin": 346,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 17,
+        "top": 18,
+        "right": 17,
+        "bottom": 18
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "dishes/toast",
+      "sha256": "8a56d783c49797a170883c21ac2008735c35242ef64bdcd1df2535c3fe552752",
+      "reviewedSha256": "8a56d783c49797a170883c21ac2008735c35242ef64bdcd1df2535c3fe552752",
+      "lowAlphaPixelCount": 2386,
+      "sourceBounds": {
+        "left": 969,
+        "top": 689,
+        "width": 242,
+        "height": 196,
+        "sourceMargin": 43,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 18,
+        "top": 18,
+        "right": 18,
+        "bottom": 18
+      },
+      "minimumExportMargin": 18,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "dishes/deluxe",
+      "sha256": "6897601df076df64788d0a8c53dc53dee887d79a2b172ddb48d2a11ba94eb6ef",
+      "reviewedSha256": "6897601df076df64788d0a8c53dc53dee887d79a2b172ddb48d2a11ba94eb6ef",
+      "lowAlphaPixelCount": 1973,
+      "sourceBounds": {
+        "left": 51,
+        "top": 963,
+        "width": 265,
+        "height": 223,
+        "sourceMargin": 51,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 22
+      },
+      "margin": {
+        "left": 18,
+        "top": 18,
+        "right": 18,
+        "bottom": 18
+      },
+      "minimumExportMargin": 18,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "dishes/juice",
+      "sha256": "f67d1bb7de0cf794d464a7e56ee0a4216c1032505f9637dfc175eccf8251ab60",
+      "reviewedSha256": "f67d1bb7de0cf794d464a7e56ee0a4216c1032505f9637dfc175eccf8251ab60",
+      "lowAlphaPixelCount": 2673,
+      "sourceBounds": {
+        "left": 404,
+        "top": 942,
+        "width": 152,
+        "height": 245,
+        "sourceMargin": 67,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 18,
+        "top": 18,
+        "right": 17,
+        "bottom": 18
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "dishes/burger",
+      "sha256": "57345ae0ab982241fad06df98210838a7e220d1393a2b4e4f4d92a8471f08bb3",
+      "reviewedSha256": "57345ae0ab982241fad06df98210838a7e220d1393a2b4e4f4d92a8471f08bb3",
+      "lowAlphaPixelCount": 2529,
+      "sourceBounds": {
+        "left": 661,
+        "top": 970,
+        "width": 229,
+        "height": 218,
+        "sourceMargin": 66,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 19,
+        "top": 20,
+        "right": 19,
+        "bottom": 19
+      },
+      "minimumExportMargin": 19,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "board/wall",
+      "sha256": "9ef7354953e3c3ef8d48c6ff252f390d803f527980160fd50cbe4eaea1272ccf",
+      "reviewedSha256": "9ef7354953e3c3ef8d48c6ff252f390d803f527980160fd50cbe4eaea1272ccf",
+      "lowAlphaPixelCount": 3315,
+      "sourceBounds": {
+        "left": 982,
+        "top": 953,
+        "width": 220,
+        "height": 234,
+        "sourceMargin": 52,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 20
+      },
+      "margin": {
+        "left": 19,
+        "top": 19,
+        "right": 18,
+        "bottom": 19
+      },
+      "minimumExportMargin": 18,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "board/floor_a",
+      "sha256": "7e8bb1b33f58a6a7a359b16c68917297f9979583c4439058f1492cdabb1ea27f",
+      "reviewedSha256": "7e8bb1b33f58a6a7a359b16c68917297f9979583c4439058f1492cdabb1ea27f",
+      "lowAlphaPixelCount": 2036,
+      "sourceBounds": {
+        "left": 240,
+        "top": 119,
+        "width": 348,
+        "height": 339,
+        "sourceMargin": 119,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 28
+      },
+      "margin": {
+        "left": 17,
+        "top": 17,
+        "right": 17,
+        "bottom": 17
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "board/floor_b",
+      "sha256": "c16f656decd81c367adfedf256eb9509fc56b06eb45c25fc8697577ab1f62d0c",
+      "reviewedSha256": "c16f656decd81c367adfedf256eb9509fc56b06eb45c25fc8697577ab1f62d0c",
+      "lowAlphaPixelCount": 1640,
+      "sourceBounds": {
+        "left": 948,
+        "top": 119,
+        "width": 347,
+        "height": 340,
+        "sourceMargin": 119,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 28
+      },
+      "margin": {
+        "left": 17,
+        "top": 17,
+        "right": 17,
+        "bottom": 18
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ui/bag_slot",
+      "sha256": "101afa54fcee4eb82c4b6dbff18cc62a85b109ea94be5e206d210d488dd9bb2a",
+      "reviewedSha256": "101afa54fcee4eb82c4b6dbff18cc62a85b109ea94be5e206d210d488dd9bb2a",
+      "lowAlphaPixelCount": 1600,
+      "sourceBounds": {
+        "left": 235,
+        "top": 580,
+        "width": 358,
+        "height": 357,
+        "sourceMargin": 87,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 29
+      },
+      "margin": {
+        "left": 17,
+        "top": 17,
+        "right": 17,
+        "bottom": 17
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ui/ad_tab",
+      "sha256": "6d836ed2cd5d240044bdaf41e78e3dba7fd9ea797d4d599d6ef6c22d62efb7f4",
+      "reviewedSha256": "6d836ed2cd5d240044bdaf41e78e3dba7fd9ea797d4d599d6ef6c22d62efb7f4",
+      "lowAlphaPixelCount": 668,
+      "sourceBounds": {
+        "left": 887,
+        "top": 656,
+        "width": 465,
+        "height": 206,
+        "sourceMargin": 162,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 38
+      },
+      "margin": {
+        "left": 17,
+        "top": 17,
+        "right": 17,
+        "bottom": 17
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "board/station",
+      "sha256": "c16f656decd81c367adfedf256eb9509fc56b06eb45c25fc8697577ab1f62d0c",
+      "reviewedSha256": "c16f656decd81c367adfedf256eb9509fc56b06eb45c25fc8697577ab1f62d0c",
+      "lowAlphaPixelCount": 1640,
+      "sourceBounds": {
+        "left": 948,
+        "top": 119,
+        "width": 347,
+        "height": 340,
+        "sourceMargin": 119,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 28
+      },
+      "margin": {
+        "left": 17,
+        "top": 17,
+        "right": 17,
+        "bottom": 18
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "characters/chef_idle",
+      "sha256": "ad7a949320dc0a1aa9e6e8073555182fbfbe1ac951484ed897f5f2d310c292e5",
+      "reviewedSha256": "ad7a949320dc0a1aa9e6e8073555182fbfbe1ac951484ed897f5f2d310c292e5",
+      "lowAlphaPixelCount": 2106,
+      "sourceBounds": {
+        "left": 104,
+        "top": 22,
+        "width": 256,
+        "height": 396,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "margin": {
+        "left": 24,
+        "top": 24,
+        "right": 24,
+        "bottom": 24
+      },
+      "minimumExportMargin": 24,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "characters/chef_slide",
+      "sha256": "9a56e6d9f525d3f6f2de94dfb19657fd3592c0d8f185ff942922f448a6a59371",
+      "reviewedSha256": "9a56e6d9f525d3f6f2de94dfb19657fd3592c0d8f185ff942922f448a6a59371",
+      "lowAlphaPixelCount": 2178,
+      "sourceBounds": {
+        "left": 532,
+        "top": 31,
+        "width": 311,
+        "height": 387,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "margin": {
+        "left": 24,
+        "top": 24,
+        "right": 24,
+        "bottom": 24
+      },
+      "minimumExportMargin": 24,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "characters/chef_cook",
+      "sha256": "35c9076e45c6cbc58d391f26ee37b79ef0a5f90758cab7447eee4e8a2d6ea7f1",
+      "reviewedSha256": "35c9076e45c6cbc58d391f26ee37b79ef0a5f90758cab7447eee4e8a2d6ea7f1",
+      "lowAlphaPixelCount": 1691,
+      "sourceBounds": {
+        "left": 961,
+        "top": 19,
+        "width": 265,
+        "height": 398,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "margin": {
+        "left": 24,
+        "top": 24,
+        "right": 24,
+        "bottom": 24
+      },
+      "minimumExportMargin": 24,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "characters/chef_win",
+      "sha256": "1004eb3fcdd75b80d8459357b17ddfc71266d2d2042dbfe51df5ffad4e4c50b4",
+      "reviewedSha256": "1004eb3fcdd75b80d8459357b17ddfc71266d2d2042dbfe51df5ffad4e4c50b4",
+      "lowAlphaPixelCount": 2125,
+      "sourceBounds": {
+        "left": 1402,
+        "top": 25,
+        "width": 305,
+        "height": 396,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "margin": {
+        "left": 24,
+        "top": 24,
+        "right": 24,
+        "bottom": 24
+      },
+      "minimumExportMargin": 24,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "characters/chef_fail",
+      "sha256": "914ff8d4f3ffb5395f1ab7a6f4aa1a409381c29908939d6fb7856cb6d84601e3",
+      "reviewedSha256": "914ff8d4f3ffb5395f1ab7a6f4aa1a409381c29908939d6fb7856cb6d84601e3",
+      "lowAlphaPixelCount": 1899,
+      "sourceBounds": {
+        "left": 98,
+        "top": 460,
+        "width": 248,
+        "height": 389,
+        "padding": 24,
+        "method": "verified-complete-original-pose"
+      },
+      "margin": {
+        "left": 24,
+        "top": 24,
+        "right": 24,
+        "bottom": 24
+      },
+      "minimumExportMargin": 24,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ui/undo_button",
+      "sha256": "098a0140ad11be3b000b74cba77271423bbb263d51561935f0d6bc689dd510e6",
+      "reviewedSha256": "098a0140ad11be3b000b74cba77271423bbb263d51561935f0d6bc689dd510e6",
+      "lowAlphaPixelCount": 1329,
+      "sourceBounds": {
+        "left": 112,
+        "top": 138,
+        "width": 718,
+        "height": 491,
+        "sourceMargin": 95,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 58
+      },
+      "margin": {
+        "left": 18,
+        "top": 18,
+        "right": 17,
+        "bottom": 18
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "ui/overtime_button",
+      "sha256": "4093336aac585f1372cef0ac580e1dfe63d457d2a4769f6f6c5cbb05da8d62fb",
+      "reviewedSha256": "4093336aac585f1372cef0ac580e1dfe63d457d2a4769f6f6c5cbb05da8d62fb",
+      "lowAlphaPixelCount": 1278,
+      "sourceBounds": {
+        "left": 1323,
+        "top": 114,
+        "width": 739,
+        "height": 515,
+        "sourceMargin": 95,
+        "method": "complete-core-with-original-RGBA-feathered-neighbourhood",
+        "padding": 60
+      },
+      "margin": {
+        "left": 18,
+        "top": 17,
+        "right": 18,
+        "bottom": 18
+      },
+      "minimumExportMargin": 17,
+      "edgePixels": 0,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": false
+    },
+    {
+      "key": "backgrounds/clean_plate",
+      "sha256": "f850e25f2ba9106e46b6f5ec430575814e1d689eb1a042248c4b675a46e4e18e",
+      "reviewedSha256": "f850e25f2ba9106e46b6f5ec430575814e1d689eb1a042248c4b675a46e4e18e",
+      "lowAlphaPixelCount": 0,
+      "sourceBounds": null,
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "minimumExportMargin": 0,
+      "edgePixels": 5222,
+      "visualReview": "complete",
+      "visualReviewBasis": "Manually inspected numbered v2 contact sheet 2026-10-31: full silhouette, soft alpha edge and no adjacent fragments visible",
+      "fullBleedException": true
+    }
+  ]
+}
