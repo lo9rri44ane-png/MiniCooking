@@ -1,0 +1,2152 @@
+{
+  "at": "2026-11-02T10:43:49.072Z",
+  "input": "real mouse body drags and 420ms hold before lifting any carried food",
+  "checks": [
+    {
+      "level": 1,
+      "action": {
+        "entityId": "pan3",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray3",
+        "dx": 0,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray0",
+        "dx": -1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray1",
+        "dx": -1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "pan3",
+        "dx": -1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "pan2",
+        "dx": 2,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "pan2",
+        "dx": -1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray1",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "food3",
+        "dx": 4,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray3",
+        "dx": -2,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "pan3",
+        "dx": -1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "food2",
+        "dx": -2,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray2",
+        "dx": 1,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 1
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "pan2",
+        "dx": -1,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "food1",
+        "dx": -4,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray1",
+        "dx": -1,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 2
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "pan1",
+        "dx": -5,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "food0",
+        "dx": 2,
+        "dy": 2
+      },
+      "hold": true,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "tray0",
+        "dx": -1,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 3
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray4",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray4",
+        "dx": 0,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan2",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray2",
+        "dx": -2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "buffer0",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray0",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "buffer0",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray4",
+        "dx": 2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan4",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray2",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan5",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray0",
+        "dx": -2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "food5",
+        "dx": -2,
+        "dy": 3
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray5",
+        "dx": 6,
+        "dy": -4
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan5",
+        "dx": -4,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "food4",
+        "dx": -1,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray4",
+        "dx": -1,
+        "dy": -4
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 1
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan4",
+        "dx": -2,
+        "dy": -6
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "food3",
+        "dx": 1,
+        "dy": 6
+      },
+      "hold": true,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray3",
+        "dx": -6,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 2
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan3",
+        "dx": -1,
+        "dy": 7
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "food2",
+        "dx": 2,
+        "dy": 2
+      },
+      "hold": true,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray2",
+        "dx": 0,
+        "dy": 4
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 3
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan2",
+        "dx": 6,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "food1",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray1",
+        "dx": -3,
+        "dy": -5
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 4
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "pan1",
+        "dx": -7,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "food0",
+        "dx": -4,
+        "dy": 1
+      },
+      "hold": true,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "tray0",
+        "dx": -2,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 6,
+      "washed": 5
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray7",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "buffer0",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "buffer2",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray2",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan7",
+        "dx": 1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "buffer2",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray2",
+        "dx": 1,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan6",
+        "dx": 1,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray2",
+        "dx": -1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan2",
+        "dx": -1,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan2",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan6",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray7",
+        "dx": 2,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan6",
+        "dx": 2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray5",
+        "dx": -1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray7",
+        "dx": -2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food7",
+        "dx": -2,
+        "dy": 1
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray7",
+        "dx": 3,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan7",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food6",
+        "dx": -3,
+        "dy": 5
+      },
+      "hold": true,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray6",
+        "dx": 2,
+        "dy": -7
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 1
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan6",
+        "dx": -6,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food5",
+        "dx": -1,
+        "dy": -1
+      },
+      "hold": true,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray5",
+        "dx": -1,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan5",
+        "dx": 2,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food4",
+        "dx": -3,
+        "dy": -3
+      },
+      "hold": true,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray4",
+        "dx": -3,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 3
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan4",
+        "dx": -2,
+        "dy": 4
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food3",
+        "dx": 6,
+        "dy": 5
+      },
+      "hold": true,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray3",
+        "dx": -3,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 4
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan3",
+        "dx": 3,
+        "dy": 6
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food2",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray2",
+        "dx": 0,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 6,
+      "washed": 5
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan2",
+        "dx": 1,
+        "dy": 4
+      },
+      "hold": false,
+      "delivered": 6,
+      "washed": 6
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food1",
+        "dx": 0,
+        "dy": 6
+      },
+      "hold": true,
+      "delivered": 6,
+      "washed": 6
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray1",
+        "dx": 3,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 7,
+      "washed": 6
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "pan1",
+        "dx": 3,
+        "dy": 7
+      },
+      "hold": false,
+      "delivered": 7,
+      "washed": 7
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "food0",
+        "dx": -1,
+        "dy": 2
+      },
+      "hold": true,
+      "delivered": 7,
+      "washed": 7
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "tray0",
+        "dx": 2,
+        "dy": -4
+      },
+      "hold": false,
+      "delivered": 8,
+      "washed": 7
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan9",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray5",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan4",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray1",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan9",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray7",
+        "dx": 2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan7",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan7",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan9",
+        "dx": -1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "buffer1",
+        "dx": 2,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray7",
+        "dx": 0,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray9",
+        "dx": -1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan8",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "buffer1",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan7",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan3",
+        "dx": -1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "buffer3",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray1",
+        "dx": -1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "buffer1",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "buffer2",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food9",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray9",
+        "dx": -1,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan9",
+        "dx": 5,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food8",
+        "dx": 2,
+        "dy": 3
+      },
+      "hold": true,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray8",
+        "dx": 4,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 1
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan8",
+        "dx": 2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food7",
+        "dx": 5,
+        "dy": 3
+      },
+      "hold": true,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray7",
+        "dx": -1,
+        "dy": -4
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 2
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan7",
+        "dx": 8,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food6",
+        "dx": -1,
+        "dy": 1
+      },
+      "hold": true,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray6",
+        "dx": -1,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 3
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan6",
+        "dx": -2,
+        "dy": 4
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food5",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray5",
+        "dx": -3,
+        "dy": -5
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 4
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan5",
+        "dx": -3,
+        "dy": -7
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food4",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray4",
+        "dx": -3,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 6,
+      "washed": 5
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan4",
+        "dx": -2,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 6,
+      "washed": 6
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food3",
+        "dx": 6,
+        "dy": 6
+      },
+      "hold": true,
+      "delivered": 6,
+      "washed": 6
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray3",
+        "dx": -7,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 7,
+      "washed": 6
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan3",
+        "dx": -1,
+        "dy": 4
+      },
+      "hold": false,
+      "delivered": 7,
+      "washed": 7
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food2",
+        "dx": -5,
+        "dy": 4
+      },
+      "hold": true,
+      "delivered": 7,
+      "washed": 7
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray2",
+        "dx": 3,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 8,
+      "washed": 7
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan2",
+        "dx": -6,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 8,
+      "washed": 8
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food1",
+        "dx": 1,
+        "dy": -4
+      },
+      "hold": true,
+      "delivered": 8,
+      "washed": 8
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray1",
+        "dx": -2,
+        "dy": 9
+      },
+      "hold": false,
+      "delivered": 9,
+      "washed": 8
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "pan1",
+        "dx": 3,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 9,
+      "washed": 9
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "food0",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": true,
+      "delivered": 9,
+      "washed": 9
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "tray0",
+        "dx": 5,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 10,
+      "washed": 9
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "buffer4",
+        "dx": 1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "buffer4",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan4",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray3",
+        "dx": -2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan8",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray10",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan11",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray11",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray4",
+        "dx": 2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray10",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray11",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray9",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray8",
+        "dx": 2,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "buffer4",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray5",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray7",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan4",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray7",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan4",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan8",
+        "dx": 2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray11",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan4",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan11",
+        "dx": -2,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan9",
+        "dx": -1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food11",
+        "dx": 2,
+        "dy": 4
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray11",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan11",
+        "dx": 3,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food10",
+        "dx": 1,
+        "dy": 7
+      },
+      "hold": true,
+      "delivered": 1,
+      "washed": 1
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray10",
+        "dx": -3,
+        "dy": -9
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 1
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan10",
+        "dx": -2,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food9",
+        "dx": -2,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 2,
+      "washed": 2
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray9",
+        "dx": 5,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 2
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan9",
+        "dx": 3,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food8",
+        "dx": -1,
+        "dy": 8
+      },
+      "hold": true,
+      "delivered": 3,
+      "washed": 3
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray8",
+        "dx": -1,
+        "dy": -9
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 3
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan8",
+        "dx": -7,
+        "dy": 7
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food7",
+        "dx": -1,
+        "dy": -3
+      },
+      "hold": true,
+      "delivered": 4,
+      "washed": 4
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray7",
+        "dx": -2,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 4
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan7",
+        "dx": -3,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food6",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 5,
+      "washed": 5
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray6",
+        "dx": 0,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 6,
+      "washed": 5
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan6",
+        "dx": -2,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 6,
+      "washed": 6
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food5",
+        "dx": -1,
+        "dy": -7
+      },
+      "hold": true,
+      "delivered": 6,
+      "washed": 6
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray5",
+        "dx": 0,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 7,
+      "washed": 6
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan5",
+        "dx": -6,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 7,
+      "washed": 7
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food4",
+        "dx": -1,
+        "dy": -3
+      },
+      "hold": true,
+      "delivered": 7,
+      "washed": 7
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray4",
+        "dx": -6,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 8,
+      "washed": 7
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan4",
+        "dx": -7,
+        "dy": -4
+      },
+      "hold": false,
+      "delivered": 8,
+      "washed": 8
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food3",
+        "dx": -5,
+        "dy": 10
+      },
+      "hold": true,
+      "delivered": 8,
+      "washed": 8
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray3",
+        "dx": -3,
+        "dy": -4
+      },
+      "hold": false,
+      "delivered": 9,
+      "washed": 8
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan3",
+        "dx": -8,
+        "dy": 6
+      },
+      "hold": false,
+      "delivered": 9,
+      "washed": 9
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food2",
+        "dx": 5,
+        "dy": -4
+      },
+      "hold": true,
+      "delivered": 9,
+      "washed": 9
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray2",
+        "dx": -2,
+        "dy": 6
+      },
+      "hold": false,
+      "delivered": 10,
+      "washed": 9
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan2",
+        "dx": 3,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 10,
+      "washed": 10
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food1",
+        "dx": -1,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 10,
+      "washed": 10
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray1",
+        "dx": 5,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 11,
+      "washed": 10
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "pan1",
+        "dx": 4,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 11,
+      "washed": 11
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "food0",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 11,
+      "washed": 11
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "tray0",
+        "dx": 6,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 12,
+      "washed": 11
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "size": [
+      6,
+      7
+    ],
+    "orders": 4,
+    "pieces": 8,
+    "occupied": 18,
+    "proofActions": 19,
+    "seedMethod": "reverse construction + reversible container scramble",
+    "optimal": false
+  },
+  {
+    "id": 2,
+    "size": [
+      7,
+      8
+    ],
+    "orders": 6,
+    "pieces": 14,
+    "occupied": 24,
+    "proofActions": 29,
+    "seedMethod": "reverse construction + reversible container scramble",
+    "optimal": false
+  },
+  {
+    "id": 3,
+    "size": [
+      8,
+      9
+    ],
+    "orders": 8,
+    "pieces": 19,
+    "occupied": 40,
+    "proofActions": 39,
+    "seedMethod": "reverse construction + reversible container scramble",
+    "optimal": false
+  },
+  {
+    "id": 4,
+    "size": [
+      8,
+      10
+    ],
+    "orders": 10,
+    "pieces": 24,
+    "occupied": 48,
+    "proofActions": 49,
+    "seedMethod": "reverse construction + reversible container scramble",
+    "optimal": false
+  },
+  {
+    "id": 5,
+    "size": [
+      8,
+      12
+    ],
+    "orders": 12,
+    "pieces": 29,
+    "occupied": 60,
+    "proofActions": 59,
+    "seedMethod": "reverse construction + reversible container scramble",
+    "optimal": false
+  }
+]

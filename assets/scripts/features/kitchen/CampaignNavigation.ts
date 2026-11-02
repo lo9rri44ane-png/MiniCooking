@@ -53,6 +53,7 @@ export function registerCampaignNavigation(ui:UIService,store:CampaignStore,bank
  const actor=uiNode(n,'HomeHamster',0,-70,310,310),player=animationPlayer(actor,310,310);let dead=false,index=0;
  const keys=['idle_empty','idle_small','idle_full','work_down','win'];const play=()=>{if(!dead)void playKitchenClip(player,'hamster/'+keys[index++%keys.length],true);};play();const timer=setInterval(play,4000);
  action(n,'选择餐厅',0,-325,400,80,()=>go('restaurants'));const pending=firstOpen();action(n,pending?'继续 · 第'+globalLevelNumber(pending.id,RESTAURANTS)+'关':'继续 · 已全部通关',0,-420,400,80,()=>pending?tryEnter(pending):go('restaurants'));
+ action(n,'Demo2 · 装盘试玩',0,-605,430,55,()=>go('demo2-select'));
  action(n,'设置',-145,-515,260,60,()=>go('settings'),'#827B68');action(n,'框架检查',145,-515,260,60,()=>go('diagnostics'),'#827B68');return {node:n,dispose:()=>{dead=true;clearInterval(timer);player.stop();}};
  }};
 }

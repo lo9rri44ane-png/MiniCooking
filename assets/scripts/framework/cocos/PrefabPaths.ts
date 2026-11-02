@@ -1,5 +1,6 @@
 /** Engine-independent asset locations shared by runtime, native authoring and verification. */
 const groups:Record<string,readonly string[]>={
+ demo2:['Demo2SelectPage','Demo2PlayPage','Demo2Board','Demo2Block','Demo2Food','Demo2Exit','Demo2OrderIcon','Demo2Washer'],
  pages:['HomePage','RestaurantsPage','LevelSelectPage','KitchenPage','SettingsPage','RulesPage','DiagnosticsPage'],
  actors:['Chef','ChefBody','CustomerActor','CartoonSmoke'],
  board:['MechanismTile','Board','BoardCell','Wall','Station','IngredientTile','DeviceTile','RequiredDevice'],

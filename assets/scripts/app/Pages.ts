@@ -1,3 +1,4 @@
+import {registerDemo2Pages} from '../features/demo2/Demo2Pages';
 import {registerSettingsScreens} from './SettingsScreens';
 import {gmAccess} from '../features/kitchen/GMAccess';
 import {breakfastImage} from '../features/kitchen/BreakfastArt';
@@ -19,6 +20,7 @@ export function registerPages(ui: UIService, events: EventBus<AppEvents>, platfo
     const page = (name:string) => { const node = kitchenRoot(name);pageArt(node); node.layer = Layers.Enum.UI_2D; (node.getComponent(UITransform)||node.addComponent(UITransform)).setContentSize(720, 1280); const size = ui.safe.getComponent(UITransform)!.contentSize, scale = Math.min(size.width / 720, size.height / 1280); node.setScale(scale, scale, 1); return node; };
     const heading=(node:Node,value:string,y:number)=>{breakfastImage(node,'PageHeading','v9/ui/banner',0,y,560,110);const title=text(node,value,0,y,480,70,34);title.isBold=true;title.color=new Color().fromHEX('#704421');};
     const fail = (error: unknown) => ui.popup('操作未完成', String(error));
+    registerDemo2Pages(ui);
     const kitchen = registerKitchenPages(ui, platform);
     ui.register('home', kitchen.home);
     registerSettingsScreens(ui,getSettings,saveSettings);

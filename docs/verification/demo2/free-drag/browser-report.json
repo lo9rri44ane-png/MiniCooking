@@ -1,0 +1,896 @@
+{
+  "at": "2026-11-02T10:15:34.393Z",
+  "engine": "Cocos Creator 3.8.8 preview",
+  "input": "real Playwright mouse drag + 430ms hold extraction + loaded-tray body drag",
+  "checks": [
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": -1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "trayF",
+        "dx": -1,
+        "dy": 1
+      },
+      "valid": true,
+      "body": true,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "trayF",
+        "dx": 1,
+        "dy": -1
+      },
+      "valid": true,
+      "body": true,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": 1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": -1,
+        "dy": 2
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 1,
+        "dy": -2
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": 1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": 4
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "trayE",
+        "dx": 0,
+        "dy": 1
+      },
+      "valid": false,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": -1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": -4
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodE",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "trayE",
+        "dx": 0,
+        "dy": 6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 0
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "panE",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": -1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 1,
+      "action": {
+        "entityId": "trayF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 1
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "foodE",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "trayE",
+        "dx": 0,
+        "dy": 6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 0
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "panE",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": -1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "trayF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 1
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "panF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "foodDtop",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "foodDbottom",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 2,
+      "action": {
+        "entityId": "trayD",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "foodE",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "trayE",
+        "dx": 0,
+        "dy": 6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 0
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "panE",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": -1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "trayF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 1
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "panF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "foodD",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "trayD",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "panD",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 2
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "panD",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 3
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "foodA",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 3
+    },
+    {
+      "level": 3,
+      "action": {
+        "entityId": "trayA",
+        "dx": 6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 3
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "foodE",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "trayE",
+        "dx": 0,
+        "dy": 6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 0
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "panE",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": -1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "trayF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 1
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "panF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "foodD",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "trayD",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 2
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "panD",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 2
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "panD",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 3
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "foodA",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 3
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "trayA",
+        "dx": 6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 3
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "panA",
+        "dx": 6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 4
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "foodC",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 4
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "panC",
+        "dx": 0,
+        "dy": 1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 4
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "panC",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 5
+    },
+    {
+      "level": 4,
+      "action": {
+        "entityId": "trayC",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 5,
+      "returned": 5
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "foodF",
+        "dx": 0,
+        "dy": -1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 0,
+      "returned": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "trayF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 0
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "panF",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "foodD",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 1,
+      "returned": 1
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "trayD",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 1
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "panD",
+        "dx": 1,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 1
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "panD",
+        "dx": 0,
+        "dy": -6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "foodA",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 2,
+      "returned": 2
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "trayA",
+        "dx": 6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 2
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "panA",
+        "dx": 6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 3
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "foodE",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 3,
+      "returned": 3
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "trayE",
+        "dx": 0,
+        "dy": 6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 3
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "panE",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 4
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "foodC",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 4
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "panC",
+        "dx": 0,
+        "dy": 1
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 4
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "panC",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 4,
+      "returned": 5
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "trayC",
+        "dx": -6,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 5,
+      "returned": 5
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "foodB",
+        "dx": 4,
+        "dy": 0
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 5,
+      "returned": 5
+    },
+    {
+      "level": 5,
+      "action": {
+        "entityId": "trayB",
+        "dx": 0,
+        "dy": 6
+      },
+      "valid": true,
+      "body": false,
+      "delivered": 6,
+      "returned": 5
+    }
+  ],
+  "errors": []
+}

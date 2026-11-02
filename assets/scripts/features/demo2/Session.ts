@@ -1,0 +1,3 @@
+import type {Action,Level,State} from './Types';
+import {actDrag,initialState} from './Rules';
+export class Session{state:State;private history:State[]=[];level:Level;constructor(level:Level){this.level=level;this.state=initialState(level);} move(action:Action):boolean{const next=actDrag(this.level,this.state,action);if(next===this.state)return false;if(next.delivered.length!==this.state.delivered.length||next.returned.length!==this.state.returned.length)this.history=[];else this.history.push(this.state);this.state=next;return true;}act(action:Action){return this.move(action);}undo():boolean{const previous=this.history.pop();if(!previous)return false;this.state=previous;return true;}restart(){this.reset();}reset(){this.state=initialState(this.level);this.history=[];}}

@@ -3,7 +3,7 @@ export const SOUND_KEYS=['click','step','pickup1','pickup2','pickup3','blocked',
 export const MUSIC_KEYS=['music','music_battle_1','music_battle_2'] as const;
 export const audioPath=(key:string)=>'audio/breakfast/'+key;
 export const MENU_MUSIC_VOLUME=.55,BATTLE_MUSIC_VOLUME=.42;
-export function selectKitchenMusic(page:string):Promise<void>{return audio?.setMusicPlaylist((page==='kitchen'?['music_battle_1','music_battle_2']:['music']).map(audioPath),page==='kitchen'?BATTLE_MUSIC_VOLUME:MENU_MUSIC_VOLUME)||Promise.resolve();}
+export function selectKitchenMusic(page:string):Promise<void>{return audio?.setMusicPlaylist(((page==='kitchen'||page==='demo2')?['music_battle_1','music_battle_2']:['music']).map(audioPath),(page==='kitchen'||page==='demo2')?BATTLE_MUSIC_VOLUME:MENU_MUSIC_VOLUME)||Promise.resolve();}
 export type SoundKey=typeof SOUND_KEYS[number];
 export const soundPath=(key:SoundKey)=>'audio/breakfast/'+key;
 let audio:AudioService|null=null,counter=0;
