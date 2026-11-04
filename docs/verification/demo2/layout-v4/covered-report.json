@@ -1,0 +1,12 @@
+{
+  "level": 6,
+  "food": "food1",
+  "exposedCell": {
+    "x": 4,
+    "y": 3
+  },
+  "directDragBlocked": true,
+  "holdDragBlocked": true,
+  "noPreview": true,
+  "errors": []
+}

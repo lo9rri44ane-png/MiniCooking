@@ -25,3 +25,7 @@ archives和发布ZIP是本地文件，默认被.gitignore忽略；换机需要�
 ## 本次整理结果
 
 2026-11-01：项目skill45→11，日常工具22个；1046份历史文件移出日常目录，主档案合并56份同字节副本。145项测试、530个微信原生资源哈希和全部基准assets文件校验通过。运行素材无重复可删项，未改动当前美术或已确认的1.0.1包；原件和当前测试fixture仍保留。完整结果见docs/verification/maintenance-summary.json。
+
+2026-11-03：Demo2极限借盒的未选中候选与一次性筛选脚本在本地archives/2026-11-03/demo2-extreme-search；当前作者入口、完整组合与已验证12～19关记录仍在tools及docs/demo2，见EXTREME.md。
+
+2026-11-03：Demo2极限借盒未选中候选和一次性筛选脚本归档本地archives/2026-11-03/demo2-extreme-search；保留当前author/build/search入口与两个verified记录集，详见docs/demo2/EXTREME.md。

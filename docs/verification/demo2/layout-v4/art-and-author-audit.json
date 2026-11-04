@@ -1,0 +1,33 @@
+{
+  "waffleEmptyQuadrantAlphaPixels": 0,
+  "defaultAuthorMutationsBlocked": true,
+  "levelDataUnchanged": true,
+  "levelDataSha256": "9118c1685c61cbc3433088be031d82d283566707d6719cb53f8876614d85a1f6",
+  "uuids": [
+    {
+      "path": "assets/resources/art/latest/demo2/food-fish-i2h.png.meta",
+      "uuid": "2c60a894-c654-4da4-8536-0afa65f43e08",
+      "retained": true
+    },
+    {
+      "path": "assets/resources/art/latest/demo2/food-bread-i2h.png.meta",
+      "uuid": "d7c63822-3d4a-4118-a67b-8a9598033f5b",
+      "retained": true
+    },
+    {
+      "path": "assets/resources/art/latest/demo2/food-berry-i2h.png.meta",
+      "uuid": "488c1786-4ab2-4bb4-8463-16c6e538df66",
+      "retained": "new resource from previous local round"
+    },
+    {
+      "path": "assets/resources/art/latest/demo2/food-omelette-i2v.png.meta",
+      "uuid": "a29eaffc-41b1-46fc-bb3f-09409702bf6c",
+      "retained": true
+    },
+    {
+      "path": "assets/resources/art/latest/demo2/food-waffle-l3.png.meta",
+      "uuid": "0673f8c3-f9f0-4acf-b1c2-61f79ef2739c",
+      "retained": true
+    }
+  ]
+}

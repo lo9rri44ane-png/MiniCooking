@@ -1,0 +1,38 @@
+[
+  {
+    "id": 6,
+    "foods": 7,
+    "compositeOrders": 1,
+    "patterns": []
+  },
+  {
+    "id": 7,
+    "foods": 9,
+    "compositeOrders": 1,
+    "patterns": []
+  },
+  {
+    "id": 8,
+    "foods": 10,
+    "compositeOrders": 2,
+    "patterns": []
+  },
+  {
+    "id": 9,
+    "foods": 13,
+    "compositeOrders": 3,
+    "patterns": []
+  },
+  {
+    "id": 10,
+    "foods": 13,
+    "compositeOrders": 3,
+    "patterns": []
+  },
+  {
+    "id": 11,
+    "foods": 15,
+    "compositeOrders": 3,
+    "patterns": []
+  }
+]

@@ -6,10 +6,18 @@
       7
     ],
     "orders": 4,
-    "pieces": 8,
+    "foodCount": 4,
+    "compositeOrders": 0,
+    "compositePatterns": [],
+    "pieces": 4,
     "occupied": 18,
-    "proofActions": 19,
-    "seedMethod": "reverse construction + reversible container scramble",
+    "totalCells": 42,
+    "occupancy": 0.42857142857142855,
+    "lockedCells": 0,
+    "availableEmptyCells": 24,
+    "proofActions": 16,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [],
     "optimal": false
   },
   {
@@ -19,10 +27,18 @@
       8
     ],
     "orders": 6,
-    "pieces": 14,
-    "occupied": 24,
-    "proofActions": 29,
-    "seedMethod": "reverse construction + reversible container scramble",
+    "foodCount": 6,
+    "compositeOrders": 0,
+    "compositePatterns": [],
+    "pieces": 7,
+    "occupied": 22,
+    "totalCells": 56,
+    "occupancy": 0.39285714285714285,
+    "lockedCells": 0,
+    "availableEmptyCells": 34,
+    "proofActions": 24,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [],
     "optimal": false
   },
   {
@@ -32,10 +48,18 @@
       9
     ],
     "orders": 8,
-    "pieces": 19,
-    "occupied": 40,
-    "proofActions": 39,
-    "seedMethod": "reverse construction + reversible container scramble",
+    "foodCount": 8,
+    "compositeOrders": 0,
+    "compositePatterns": [],
+    "pieces": 10,
+    "occupied": 38,
+    "totalCells": 72,
+    "occupancy": 0.5277777777777778,
+    "lockedCells": 0,
+    "availableEmptyCells": 34,
+    "proofActions": 32,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [],
     "optimal": false
   },
   {
@@ -45,10 +69,18 @@
       10
     ],
     "orders": 10,
-    "pieces": 24,
-    "occupied": 48,
-    "proofActions": 49,
-    "seedMethod": "reverse construction + reversible container scramble",
+    "foodCount": 10,
+    "compositeOrders": 0,
+    "compositePatterns": [],
+    "pieces": 13,
+    "occupied": 46,
+    "totalCells": 80,
+    "occupancy": 0.575,
+    "lockedCells": 0,
+    "availableEmptyCells": 34,
+    "proofActions": 40,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [],
     "optimal": false
   },
   {
@@ -58,10 +90,668 @@
       12
     ],
     "orders": 12,
-    "pieces": 29,
-    "occupied": 60,
-    "proofActions": 59,
-    "seedMethod": "reverse construction + reversible container scramble",
+    "foodCount": 12,
+    "compositeOrders": 0,
+    "compositePatterns": [],
+    "pieces": 16,
+    "occupied": 58,
+    "totalCells": 96,
+    "occupancy": 0.6041666666666666,
+    "lockedCells": 0,
+    "availableEmptyCells": 38,
+    "proofActions": 48,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 6,
+    "size": [
+      7,
+      8
+    ],
+    "orders": 6,
+    "foodCount": 7,
+    "compositeOrders": 1,
+    "compositePatterns": [
+      "3+1"
+    ],
+    "pieces": 14,
+    "occupied": 40,
+    "totalCells": 56,
+    "occupancy": 0.7142857142857143,
+    "lockedCells": 9,
+    "availableEmptyCells": 16,
+    "proofActions": 44,
+    "directAssemblyExitCount": 1,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [
+      {
+        "id": "reserve",
+        "cells": [
+          {
+            "x": 4,
+            "y": 4
+          },
+          {
+            "x": 5,
+            "y": 4
+          },
+          {
+            "x": 6,
+            "y": 4
+          },
+          {
+            "x": 4,
+            "y": 5
+          },
+          {
+            "x": 5,
+            "y": 5
+          },
+          {
+            "x": 6,
+            "y": 5
+          },
+          {
+            "x": 4,
+            "y": 6
+          },
+          {
+            "x": 5,
+            "y": 6
+          },
+          {
+            "x": 6,
+            "y": 6
+          }
+        ],
+        "requiredDeliveries": 1
+      }
+    ],
+    "optimal": false
+  },
+  {
+    "id": 7,
+    "size": [
+      8,
+      9
+    ],
+    "orders": 8,
+    "foodCount": 9,
+    "compositeOrders": 1,
+    "compositePatterns": [
+      "2+2"
+    ],
+    "pieces": 18,
+    "occupied": 48,
+    "totalCells": 72,
+    "occupancy": 0.6666666666666666,
+    "lockedCells": 8,
+    "availableEmptyCells": 24,
+    "proofActions": 51,
+    "directAssemblyExitCount": 4,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [
+      {
+        "id": "reserve",
+        "cells": [
+          {
+            "x": 2,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 4,
+            "y": 4
+          },
+          {
+            "x": 5,
+            "y": 4
+          },
+          {
+            "x": 2,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 4,
+            "y": 5
+          },
+          {
+            "x": 5,
+            "y": 5
+          }
+        ],
+        "requiredDeliveries": 2
+      }
+    ],
+    "optimal": false
+  },
+  {
+    "id": 8,
+    "size": [
+      8,
+      9
+    ],
+    "orders": 8,
+    "foodCount": 10,
+    "compositeOrders": 2,
+    "compositePatterns": [
+      "1+1",
+      "3+1"
+    ],
+    "pieces": 16,
+    "occupied": 46,
+    "totalCells": 72,
+    "occupancy": 0.6388888888888888,
+    "lockedCells": 6,
+    "availableEmptyCells": 26,
+    "proofActions": 54,
+    "directAssemblyExitCount": 3,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [
+      {
+        "id": "reserve",
+        "cells": [
+          {
+            "x": 5,
+            "y": 6
+          },
+          {
+            "x": 6,
+            "y": 6
+          },
+          {
+            "x": 7,
+            "y": 6
+          },
+          {
+            "x": 5,
+            "y": 7
+          },
+          {
+            "x": 6,
+            "y": 7
+          },
+          {
+            "x": 7,
+            "y": 7
+          }
+        ],
+        "requiredDeliveries": 1,
+        "color": "red"
+      }
+    ],
+    "optimal": false
+  },
+  {
+    "id": 9,
+    "size": [
+      8,
+      10
+    ],
+    "orders": 10,
+    "foodCount": 13,
+    "compositeOrders": 3,
+    "compositePatterns": [
+      "1+1",
+      "1+1",
+      "2+2"
+    ],
+    "pieces": 20,
+    "occupied": 58,
+    "totalCells": 80,
+    "occupancy": 0.725,
+    "lockedCells": 12,
+    "availableEmptyCells": 22,
+    "proofActions": 86,
+    "directAssemblyExitCount": 2,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [
+      {
+        "id": "reserve",
+        "cells": [
+          {
+            "x": 4,
+            "y": 4
+          },
+          {
+            "x": 5,
+            "y": 4
+          },
+          {
+            "x": 6,
+            "y": 4
+          },
+          {
+            "x": 7,
+            "y": 4
+          },
+          {
+            "x": 4,
+            "y": 5
+          },
+          {
+            "x": 5,
+            "y": 5
+          },
+          {
+            "x": 6,
+            "y": 5
+          },
+          {
+            "x": 7,
+            "y": 5
+          },
+          {
+            "x": 4,
+            "y": 6
+          },
+          {
+            "x": 5,
+            "y": 6
+          },
+          {
+            "x": 6,
+            "y": 6
+          },
+          {
+            "x": 7,
+            "y": 6
+          }
+        ],
+        "requiredDeliveries": 1,
+        "color": "blue"
+      }
+    ],
+    "optimal": false
+  },
+  {
+    "id": 10,
+    "size": [
+      8,
+      10
+    ],
+    "orders": 10,
+    "foodCount": 13,
+    "compositeOrders": 3,
+    "compositePatterns": [
+      "1+1",
+      "1+1",
+      "3+1"
+    ],
+    "pieces": 21,
+    "occupied": 57,
+    "totalCells": 80,
+    "occupancy": 0.7125,
+    "lockedCells": 14,
+    "availableEmptyCells": 23,
+    "proofActions": 107,
+    "directAssemblyExitCount": 0,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [
+      {
+        "id": "reserve-a",
+        "cells": [
+          {
+            "x": 6,
+            "y": 5
+          },
+          {
+            "x": 7,
+            "y": 5
+          },
+          {
+            "x": 6,
+            "y": 6
+          },
+          {
+            "x": 7,
+            "y": 6
+          },
+          {
+            "x": 6,
+            "y": 7
+          },
+          {
+            "x": 7,
+            "y": 7
+          },
+          {
+            "x": 6,
+            "y": 8
+          },
+          {
+            "x": 7,
+            "y": 8
+          }
+        ],
+        "requiredDeliveries": 1
+      },
+      {
+        "id": "reserve-b",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ],
+        "requiredDeliveries": 3
+      }
+    ],
+    "optimal": false
+  },
+  {
+    "id": 11,
+    "size": [
+      8,
+      12
+    ],
+    "orders": 12,
+    "foodCount": 15,
+    "compositeOrders": 3,
+    "compositePatterns": [
+      "1+1",
+      "1+1",
+      "2+2"
+    ],
+    "pieces": 30,
+    "occupied": 70,
+    "totalCells": 96,
+    "occupancy": 0.7291666666666666,
+    "lockedCells": 12,
+    "availableEmptyCells": 26,
+    "proofActions": 129,
+    "directAssemblyExitCount": 1,
+    "seedMethod": "reverse construction + validated blockers/relocation chains + mixed composite foods",
+    "lockedAreas": [
+      {
+        "id": "reserve-a",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ],
+        "requiredDeliveries": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "reserve-b",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ],
+        "requiredDeliveries": 4
+      }
+    ],
+    "optimal": false
+  },
+  {
+    "id": 12,
+    "size": [
+      4,
+      4
+    ],
+    "orders": 2,
+    "foodCount": 8,
+    "compositeOrders": 2,
+    "compositePatterns": [
+      "1+1+1+1",
+      "1+1+1+1"
+    ],
+    "pieces": 2,
+    "occupied": 16,
+    "totalCells": 16,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 13,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 13,
+    "size": [
+      5,
+      4
+    ],
+    "orders": 3,
+    "foodCount": 9,
+    "compositeOrders": 2,
+    "compositePatterns": [
+      "1+1+1+1",
+      "1+1+1+1"
+    ],
+    "pieces": 3,
+    "occupied": 20,
+    "totalCells": 20,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 16,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 14,
+    "size": [
+      4,
+      6
+    ],
+    "orders": 3,
+    "foodCount": 8,
+    "compositeOrders": 3,
+    "compositePatterns": [
+      "1+1+1+1",
+      "3+1",
+      "2+2"
+    ],
+    "pieces": 3,
+    "occupied": 24,
+    "totalCells": 24,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 17,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 15,
+    "size": [
+      4,
+      5
+    ],
+    "orders": 3,
+    "foodCount": 9,
+    "compositeOrders": 2,
+    "compositePatterns": [
+      "1+1+1+1",
+      "1+1+1+1"
+    ],
+    "pieces": 3,
+    "occupied": 20,
+    "totalCells": 20,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 17,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 16,
+    "size": [
+      4,
+      6
+    ],
+    "orders": 3,
+    "foodCount": 8,
+    "compositeOrders": 3,
+    "compositePatterns": [
+      "1+1+1+1",
+      "3+1",
+      "2+2"
+    ],
+    "pieces": 3,
+    "occupied": 24,
+    "totalCells": 24,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 18,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 17,
+    "size": [
+      5,
+      4
+    ],
+    "orders": 3,
+    "foodCount": 9,
+    "compositeOrders": 2,
+    "compositePatterns": [
+      "1+1+1+1",
+      "1+1+1+1"
+    ],
+    "pieces": 3,
+    "occupied": 20,
+    "totalCells": 20,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 20,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 18,
+    "size": [
+      5,
+      6
+    ],
+    "orders": 4,
+    "foodCount": 14,
+    "compositeOrders": 4,
+    "compositePatterns": [
+      "1+1+1+1",
+      "1+1+1+1",
+      "1+1+1+1",
+      "2+1"
+    ],
+    "pieces": 4,
+    "occupied": 30,
+    "totalCells": 30,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 30,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
+    "optimal": false
+  },
+  {
+    "id": 19,
+    "size": [
+      6,
+      5
+    ],
+    "orders": 4,
+    "foodCount": 12,
+    "compositeOrders": 4,
+    "compositePatterns": [
+      "1+1+1+1",
+      "2+1",
+      "1+1+1+1",
+      "3+1"
+    ],
+    "pieces": 4,
+    "occupied": 30,
+    "totalCells": 30,
+    "occupancy": 1,
+    "lockedCells": 0,
+    "availableEmptyCells": 0,
+    "proofActions": 29,
+    "seedMethod": "full-board exact tiling + complete catalog recipes + verified storage search",
+    "lockedAreas": [],
     "optimal": false
   }
 ]

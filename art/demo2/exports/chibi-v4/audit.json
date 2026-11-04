@@ -1,0 +1,185 @@
+[
+  {
+    "resource": "art/latest/demo2/food-fish-i2h",
+    "source": "art/demo2/source/chibi-v4/fish.png",
+    "sourceCrop": [
+      7,
+      36,
+      1758,
+      813
+    ],
+    "size": [
+      512,
+      256
+    ],
+    "visibleBounds": [
+      15,
+      16,
+      481,
+      223
+    ],
+    "fill": [
+      0.939453125,
+      0.87109375
+    ],
+    "safeMargin": 0.03,
+    "sha256": "82e20d1249868608a8087921fd2ce51d670893e40c85f6b87555ee50c3945305"
+  },
+  {
+    "resource": "art/latest/demo2/food-bread-i2h",
+    "source": "art/demo2/source/chibi-v4/bread.png",
+    "sourceCrop": [
+      8,
+      16,
+      1758,
+      855
+    ],
+    "size": [
+      512,
+      256
+    ],
+    "visibleBounds": [
+      15,
+      11,
+      481,
+      234
+    ],
+    "fill": [
+      0.939453125,
+      0.9140625
+    ],
+    "safeMargin": 0.03,
+    "sha256": "e2470d303b3f3d89f131750de7a4b612fb328766cc5387db655617925f15be3d"
+  },
+  {
+    "resource": "art/latest/demo2/food-berry-i2h",
+    "source": "art/demo2/source/chibi-v4/berry.png",
+    "sourceCrop": [
+      6,
+      22,
+      1764,
+      840
+    ],
+    "size": [
+      512,
+      256
+    ],
+    "visibleBounds": [
+      15,
+      13,
+      481,
+      229
+    ],
+    "fill": [
+      0.939453125,
+      0.89453125
+    ],
+    "safeMargin": 0.03,
+    "sha256": "72919417e2de58b6a5871172a1fc30910236e5d10c6bf55a980045a3154b23e7"
+  },
+  {
+    "resource": "art/latest/demo2/food-omelette-i2v",
+    "source": "art/demo2/source/chibi-v4/omelette.png",
+    "sourceCrop": [
+      8,
+      6,
+      869,
+      1759
+    ],
+    "size": [
+      256,
+      512
+    ],
+    "visibleBounds": [
+      9,
+      15,
+      238,
+      481
+    ],
+    "fill": [
+      0.9296875,
+      0.939453125
+    ],
+    "safeMargin": 0.03,
+    "sha256": "048ad6e95bcf4be347c5efdd0396c276f1f9ea07d433a661da3690bf54dd8a6c"
+  },
+  {
+    "resource": "art/latest/demo2/food-waffle-l3",
+    "source": "art/demo2/source/chibi-v4/waffle.png",
+    "sourceCrop": [
+      9,
+      16,
+      1236,
+      1224
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "visibleBounds": [
+      20,
+      38,
+      461,
+      456
+    ],
+    "fill": [
+      0.900390625,
+      0.890625
+    ],
+    "safeMargin": 0.03,
+    "emptyLQuadrant": true,
+    "sha256": "63c1fdafd8af7cf46156652f684f07b9040b81de37ce3e82872ec7067c6aa1d5"
+  },
+  {
+    "resource": "art/latest/demo2/order-bubble-double",
+    "source": "art/demo2/source/chibi-v4/bubble-double.png",
+    "sourceCrop": [
+      10,
+      12,
+      1751,
+      851
+    ],
+    "size": [
+      768,
+      384
+    ],
+    "visibleBounds": [
+      23,
+      16,
+      722,
+      351
+    ],
+    "fill": [
+      0.9401041666666666,
+      0.9140625
+    ],
+    "safeMargin": 0.03,
+    "sha256": "c7f38db7d90e47701805354c5937e0cbad65a77b1552a575048aa57f3425c6f5"
+  },
+  {
+    "resource": "art/latest/demo2/order-bubble-single",
+    "source": "art/demo2/source/chibi-v4/bubble-single.png",
+    "sourceCrop": [
+      83,
+      25,
+      1073,
+      1197
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "visibleBounds": [
+      40,
+      15,
+      431,
+      481
+    ],
+    "fill": [
+      0.841796875,
+      0.939453125
+    ],
+    "safeMargin": 0.03,
+    "sha256": "0785c0d85113ced1b8ca54acac4515343c09e7d5c6d01f04edebd1eca25b8370"
+  }
+]

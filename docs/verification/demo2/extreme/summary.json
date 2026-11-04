@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-03",
+  "engine": "3.8.8",
+  "newLevels": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "fullCatalog": {
+    "shapeOrientations": 28,
+    "packings": 958,
+    "square4Packings": 61,
+    "scope": "existing8foods, fixed orientation, connected1..4cell boxes, color independent"
+  },
+  "tests": {
+    "pass": 202,
+    "fail": 0
+  },
+  "typecheck": true,
+  "allInitialOccupancy": 1,
+  "allLegalFirstMovesAreFoodStorage": true,
+  "strictNoTemporaryPackingFirstDelivery": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "strongerCounterfactualFor18And19": "not-run, no impossibility claim",
+  "singleCustomerWindow": [
+    18,
+    19
+  ],
+  "largeFoods": {
+    "18": 14,
+    "19": 13
+  },
+  "realPointer": {
+    "originalEightActions": 160,
+    "singleWindowRetestActions": 59,
+    "latestLevel19Mixed211RetestActions": 32,
+    "currentProofActionsTotal": 163,
+    "note": "Original19 and old single-window19 evidence superseded by latest32-action mixed2+1+1 replay; first6 and level18 remain valid."
+  },
+  "errors": [],
+  "optimalityProven": false,
+  "published": false,
+  "levelDataSha256": "51f496a5e809c9802c80c4929a4ae2b29b9edecd2acac3165a3ac0e10b0e15f8",
+  "base": {
+    "first11Sha256": "5bda41ac46ca26d35e602d1ee31b4a682423a11c19c48a34431d80e0088fd5c3",
+    "untouched": true,
+    "added": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+}

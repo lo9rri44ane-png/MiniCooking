@@ -1,0 +1,13 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {Demo2Customers,Demo2Countdown} from '../assets/scripts/features/demo2/Demo2Flow.ts';
+const orders=Array.from({length:9},(_,i)=>({id:'o'+i,shape:[{x:0,y:0}],foods:[{kind:'tart'}]}));
+test('three customers hold at most two box requests, require readiness, and only refill after departure',()=>{
+ const q=new Demo2Customers(orders);for(let i=0;i<3;i++)q.fill(i);assert.equal(q.remainingCustomers,5);assert.deepEqual(q.active([]),[]);
+ for(let i=0;i<3;i++)q.ready(i,q.slots[i].generation);assert.equal(q.active([]).length,6);assert.equal(q.beginLeave(0,['o0']),false);
+ assert.equal(q.beginLeave(0,['o0','o1']),true);assert.equal(q.remainingCustomers,5);q.fill(0);assert.equal(q.slots[0].orders[0].id,'o0');
+ const gen=q.slots[0].generation;assert.equal(q.finishLeave(0,gen-1),false);assert.equal(q.finishLeave(0,gen),true);assert.equal(q.remainingCustomers,4);q.fill(0);
+ assert.deepEqual(q.slots[0].orders.map(o=>o.id),['o6','o7']);assert.ok(!q.active([]).includes('o6'));assert.equal(q.ready(0,gen),false);q.ready(0,q.slots[0].generation);assert.ok(q.active([]).includes('o6'));
+});
+test('four-food recipes fit a box and each customer still receives at most two boxes',()=>{const shape=[{x:0,y:0},{x:1,y:0},{x:0,y:1},{x:1,y:1}],q=new Demo2Customers([{id:'a',shape,foods:[{},{},{},{}]},...orders]);q.fill(0);assert.equal(q.slots[0].orders.length,2);assert.equal(q.slots[0].orders[0].foods.length,4);q.fill(1);assert.equal(q.slots[1].orders.length,2);});
+test('300-second timer pauses exactly, clamps expiry, and ignores backward clock',()=>{const c=new Demo2Countdown(300,1000);assert.equal(c.remaining(11000),290);c.setRunning(false,11000);assert.equal(c.remaining(61000),290);c.setRunning(true,61000);assert.equal(c.remaining(62000),289);assert.equal(c.remaining(60000),289);assert.equal(c.remaining(63000),288);assert.equal(c.remaining(400000),0);assert.equal(c.remaining(500000),0);});
+test('single-customer window keeps later boxes pending until departure and next arrival',()=>{const q=new Demo2Customers(orders.slice(0,4),1);for(let i=0;i<3;i++){q.fill(i);q.ready(i,q.slots[i].generation);}assert.deepEqual(q.active([]),['o0','o1']);assert.equal(q.remainingCustomers,2);assert.equal(q.beginLeave(0,['o0']),false);q.fill(0);assert.deepEqual(q.slots[0].orders.map(o=>o.id),['o0','o1']);assert.equal(q.beginLeave(0,['o0','o1']),true);assert.deepEqual(q.active(['o0','o1']),[]);q.finishLeave(0,q.slots[0].generation);q.fill(0);assert.deepEqual(q.active(['o0','o1']),[]);q.ready(0,q.slots[0].generation);assert.deepEqual(q.active(['o0','o1']),['o2','o3']);assert.throws(()=>new Demo2Customers(orders,0));});

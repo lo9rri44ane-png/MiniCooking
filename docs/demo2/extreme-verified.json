@@ -1,0 +1,2931 @@
+[
+  {
+    "seed": 6,
+    "template": 2,
+    "level": {
+      "id": 12,
+      "name": "借盒满盘",
+      "width": 4,
+      "height": 4,
+      "timeLimitSeconds": 300,
+      "entities": [
+        {
+          "id": "box0",
+          "type": "tray",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "box1",
+          "type": "tray",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "foods": [
+        {
+          "id": "food0-0",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 3
+        },
+        {
+          "id": "food0-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 0
+        },
+        {
+          "id": "food0-2",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "food0-3",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "food1-0",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "food1-1",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 3
+        },
+        {
+          "id": "food1-2",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 0
+        },
+        {
+          "id": "food1-3",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "orders": [
+        {
+          "id": "order0",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order1",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      ],
+      "exits": [
+        {
+          "side": "right",
+          "start": 1,
+          "width": 2,
+          "color": "red"
+        },
+        {
+          "side": "left",
+          "start": 1,
+          "width": 2,
+          "color": "blue"
+        }
+      ],
+      "solution": [
+        {
+          "entityId": "food0-0",
+          "dx": 0,
+          "dy": -2
+        },
+        {
+          "entityId": "food0-0",
+          "dx": -2,
+          "dy": 0
+        },
+        {
+          "entityId": "food1-3",
+          "dx": 1,
+          "dy": -2
+        },
+        {
+          "entityId": "food0-2",
+          "dx": -2,
+          "dy": -2
+        },
+        {
+          "entityId": "food1-1",
+          "dx": 2,
+          "dy": -1
+        },
+        {
+          "entityId": "food1-2",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "entityId": "food1-2",
+          "dx": -2,
+          "dy": 1
+        },
+        {
+          "entityId": "food0-1",
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "entityId": "food0-1",
+          "dx": -3,
+          "dy": 1
+        },
+        {
+          "entityId": "box1",
+          "dx": -1,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-3",
+          "dx": 3,
+          "dy": 1
+        },
+        {
+          "entityId": "food1-0",
+          "dx": 2,
+          "dy": 2
+        },
+        {
+          "entityId": "box0",
+          "dx": 1,
+          "dy": 0
+        }
+      ]
+    },
+    "proof": {
+      "noTemporaryFirstDelivery": {
+        "status": "exhausted",
+        "path": [],
+        "visited": 1,
+        "expanded": 1,
+        "elapsedMs": 9
+      },
+      "allowedFirstDelivery": {
+        "status": "budget",
+        "visited": 5862,
+        "expanded": 612,
+        "elapsedMs": 4002,
+        "path": []
+      },
+      "winning": {
+        "status": "solved",
+        "visited": 828,
+        "expanded": 33,
+        "elapsedMs": 427
+      },
+      "inCount": 8,
+      "outCount": 3,
+      "loadedMoves": 2
+    }
+  },
+  {
+    "seed": 8,
+    "template": 2,
+    "level": {
+      "id": 13,
+      "name": "借盒满盘",
+      "width": 5,
+      "height": 4,
+      "timeLimitSeconds": 300,
+      "entities": [
+        {
+          "id": "box0",
+          "type": "tray",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "box1",
+          "type": "tray",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "box2",
+          "type": "tray",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "foods": [
+        {
+          "id": "food2-0",
+          "kind": "fish",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 0
+        },
+        {
+          "id": "food0-0",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "food0-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": "food0-2",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "food0-3",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "food1-0",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "food1-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 4,
+          "y": 2
+        },
+        {
+          "id": "food1-2",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "food1-3",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "orders": [
+        {
+          "id": "order0",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order1",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order2",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "fish",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "exits": [
+        {
+          "side": "right",
+          "start": 1,
+          "width": 2,
+          "color": "red"
+        },
+        {
+          "side": "left",
+          "start": 1,
+          "width": 2,
+          "color": "blue"
+        },
+        {
+          "side": "bottom",
+          "start": 1,
+          "width": 2,
+          "color": "green"
+        }
+      ],
+      "solution": [
+        {
+          "entityId": "food1-3",
+          "dx": 2,
+          "dy": 0
+        },
+        {
+          "entityId": "food1-3",
+          "dx": -1,
+          "dy": -3
+        },
+        {
+          "entityId": "food0-0",
+          "dx": -2,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-0",
+          "dx": 1,
+          "dy": -2
+        },
+        {
+          "entityId": "food0-1",
+          "dx": -2,
+          "dy": 1
+        },
+        {
+          "entityId": "food0-2",
+          "dx": -3,
+          "dy": 0
+        },
+        {
+          "entityId": "food1-1",
+          "dx": -2,
+          "dy": 0
+        },
+        {
+          "entityId": "food2-0",
+          "dx": 0,
+          "dy": 3
+        },
+        {
+          "entityId": "food1-2",
+          "dx": 2,
+          "dy": 1
+        },
+        {
+          "entityId": "food1-0",
+          "dx": 1,
+          "dy": 2
+        },
+        {
+          "entityId": "box1",
+          "dx": -1,
+          "dy": 0
+        },
+        {
+          "entityId": "food1-2",
+          "dx": 1,
+          "dy": -2
+        },
+        {
+          "entityId": "box0",
+          "dx": 3,
+          "dy": 1
+        },
+        {
+          "entityId": "food0-3",
+          "dx": 1,
+          "dy": 3
+        },
+        {
+          "entityId": "box1",
+          "dx": -1,
+          "dy": -1
+        },
+        {
+          "entityId": "box2",
+          "dx": -2,
+          "dy": 1
+        }
+      ]
+    },
+    "proof": {
+      "noTemporaryFirstDelivery": {
+        "status": "exhausted",
+        "path": [],
+        "visited": 1,
+        "expanded": 1,
+        "elapsedMs": 4
+      },
+      "allowedFirstDelivery": {
+        "status": "budget",
+        "visited": 6338,
+        "expanded": 537,
+        "elapsedMs": 4004,
+        "path": []
+      },
+      "winning": {
+        "status": "solved",
+        "visited": 1273,
+        "expanded": 37,
+        "elapsedMs": 514
+      },
+      "inCount": 9,
+      "outCount": 3,
+      "loadedMoves": 4
+    }
+  },
+  {
+    "seed": 32,
+    "template": 0,
+    "level": {
+      "id": 14,
+      "name": "借盒满盘",
+      "width": 4,
+      "height": 6,
+      "timeLimitSeconds": 300,
+      "entities": [
+        {
+          "id": "box0",
+          "type": "tray",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "box1",
+          "type": "tray",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "box2",
+          "type": "tray",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 4
+        }
+      ],
+      "foods": [
+        {
+          "id": "food1-0",
+          "kind": "waffle",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "food2-0",
+          "kind": "fish",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "food2-1",
+          "kind": "bread",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "food0-0",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 4
+        },
+        {
+          "id": "food0-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 5
+        },
+        {
+          "id": "food0-2",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 5
+        },
+        {
+          "id": "food0-3",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 4
+        },
+        {
+          "id": "food1-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 0
+        }
+      ],
+      "orders": [
+        {
+          "id": "order0",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order1",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "waffle",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "order2",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "fish",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "bread",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            }
+          ]
+        }
+      ],
+      "exits": [
+        {
+          "side": "right",
+          "start": 1,
+          "width": 2,
+          "color": "red"
+        },
+        {
+          "side": "left",
+          "start": 1,
+          "width": 2,
+          "color": "blue"
+        },
+        {
+          "side": "bottom",
+          "start": 1,
+          "width": 2,
+          "color": "green"
+        }
+      ],
+      "solution": [
+        {
+          "entityId": "food0-3",
+          "dx": 1,
+          "dy": -2
+        },
+        {
+          "entityId": "food1-0",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "entityId": "food1-0",
+          "dx": 2,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-1",
+          "dx": -1,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-1",
+          "dx": 0,
+          "dy": -3
+        },
+        {
+          "entityId": "food0-0",
+          "dx": -3,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-0",
+          "dx": 0,
+          "dy": -2
+        },
+        {
+          "entityId": "food0-2",
+          "dx": -3,
+          "dy": -1
+        },
+        {
+          "entityId": "food0-2",
+          "dx": 0,
+          "dy": -1
+        },
+        {
+          "entityId": "box0",
+          "dx": 0,
+          "dy": -1
+        },
+        {
+          "entityId": "box1",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "entityId": "food2-0",
+          "dx": -2,
+          "dy": 3
+        },
+        {
+          "entityId": "food1-1",
+          "dx": -2,
+          "dy": 2
+        },
+        {
+          "entityId": "box0",
+          "dx": 3,
+          "dy": 0
+        },
+        {
+          "entityId": "box1",
+          "dx": -3,
+          "dy": -3
+        },
+        {
+          "entityId": "food2-1",
+          "dx": -1,
+          "dy": 5
+        },
+        {
+          "entityId": "box2",
+          "dx": 1,
+          "dy": 1
+        }
+      ]
+    },
+    "proof": {
+      "noTemporaryFirstDelivery": {
+        "status": "exhausted",
+        "path": [],
+        "visited": 416,
+        "expanded": 416,
+        "elapsedMs": 1940
+      },
+      "allowedFirstDelivery": {
+        "status": "budget",
+        "visited": 7753,
+        "expanded": 580,
+        "elapsedMs": 4002,
+        "path": []
+      },
+      "winning": {
+        "status": "solved",
+        "visited": 1138,
+        "expanded": 50,
+        "elapsedMs": 415
+      },
+      "inCount": 8,
+      "outCount": 4,
+      "loadedMoves": 5
+    }
+  },
+  {
+    "seed": 5,
+    "template": 2,
+    "level": {
+      "id": 15,
+      "name": "借盒满盘",
+      "width": 4,
+      "height": 5,
+      "timeLimitSeconds": 300,
+      "entities": [
+        {
+          "id": "box0",
+          "type": "tray",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "box1",
+          "type": "tray",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 0
+        },
+        {
+          "id": "box2",
+          "type": "tray",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "foods": [
+        {
+          "id": "food2-0",
+          "kind": "fish",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": "food0-0",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "food0-1",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 4
+        },
+        {
+          "id": "food0-2",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "food0-3",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 3
+        },
+        {
+          "id": "food1-0",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "food1-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 3
+        },
+        {
+          "id": "food1-2",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "food1-3",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "orders": [
+        {
+          "id": "order0",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order1",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order2",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "fish",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "exits": [
+        {
+          "side": "right",
+          "start": 1,
+          "width": 2,
+          "color": "red"
+        },
+        {
+          "side": "left",
+          "start": 1,
+          "width": 2,
+          "color": "blue"
+        },
+        {
+          "side": "bottom",
+          "start": 1,
+          "width": 2,
+          "color": "green"
+        }
+      ],
+      "solution": [
+        {
+          "entityId": "food0-0",
+          "dx": 1,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-0",
+          "dx": 1,
+          "dy": 2
+        },
+        {
+          "entityId": "food0-2",
+          "dx": 3,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-2",
+          "dx": -1,
+          "dy": 2
+        },
+        {
+          "entityId": "box2",
+          "dx": 0,
+          "dy": -1
+        },
+        {
+          "entityId": "food1-0",
+          "dx": 2,
+          "dy": -2
+        },
+        {
+          "entityId": "food1-2",
+          "dx": 2,
+          "dy": -2
+        },
+        {
+          "entityId": "food1-1",
+          "dx": 1,
+          "dy": -2
+        },
+        {
+          "entityId": "food0-3",
+          "dx": 3,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-1",
+          "dx": 2,
+          "dy": -1
+        },
+        {
+          "entityId": "food2-0",
+          "dx": -1,
+          "dy": -4
+        },
+        {
+          "entityId": "box2",
+          "dx": 1,
+          "dy": 5
+        },
+        {
+          "entityId": "box0",
+          "dx": -1,
+          "dy": 0
+        },
+        {
+          "entityId": "food1-3",
+          "dx": 0,
+          "dy": -3
+        },
+        {
+          "entityId": "box0",
+          "dx": 1,
+          "dy": 0
+        },
+        {
+          "entityId": "box1",
+          "dx": -3,
+          "dy": 1
+        },
+        {
+          "entityId": "box0",
+          "dx": 1,
+          "dy": -1
+        }
+      ]
+    },
+    "proof": {
+      "noTemporaryFirstDelivery": {
+        "status": "exhausted",
+        "path": [],
+        "visited": 1,
+        "expanded": 1,
+        "elapsedMs": 2
+      },
+      "allowedFirstDelivery": {
+        "status": "budget",
+        "visited": 6718,
+        "expanded": 602,
+        "elapsedMs": 4016,
+        "path": []
+      },
+      "winning": {
+        "status": "solved",
+        "visited": 835,
+        "expanded": 24,
+        "elapsedMs": 347
+      },
+      "inCount": 9,
+      "outCount": 2,
+      "loadedMoves": 5
+    }
+  },
+  {
+    "seed": 24,
+    "template": 0,
+    "level": {
+      "id": 16,
+      "name": "借盒满盘",
+      "width": 4,
+      "height": 6,
+      "timeLimitSeconds": 300,
+      "entities": [
+        {
+          "id": "box0",
+          "type": "tray",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 4
+        },
+        {
+          "id": "box1",
+          "type": "tray",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "box2",
+          "type": "tray",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "foods": [
+        {
+          "id": "food1-0",
+          "kind": "waffle",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "x": 2,
+          "y": 3
+        },
+        {
+          "id": "food2-0",
+          "kind": "fish",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "food2-1",
+          "kind": "bread",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 5
+        },
+        {
+          "id": "food0-0",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": "food0-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 0
+        },
+        {
+          "id": "food0-2",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "food0-3",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "food1-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "orders": [
+        {
+          "id": "order0",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order1",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "waffle",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "order2",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "fish",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "bread",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            }
+          ]
+        }
+      ],
+      "exits": [
+        {
+          "side": "right",
+          "start": 1,
+          "width": 2,
+          "color": "red"
+        },
+        {
+          "side": "left",
+          "start": 1,
+          "width": 2,
+          "color": "blue"
+        },
+        {
+          "side": "bottom",
+          "start": 1,
+          "width": 2,
+          "color": "green"
+        }
+      ],
+      "solution": [
+        {
+          "entityId": "food2-0",
+          "dx": -2,
+          "dy": 0
+        },
+        {
+          "entityId": "food2-0",
+          "dx": 1,
+          "dy": -2
+        },
+        {
+          "entityId": "food0-3",
+          "dx": -2,
+          "dy": -1
+        },
+        {
+          "entityId": "food0-2",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "entityId": "food0-2",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "entityId": "food0-3",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "entityId": "food1-0",
+          "dx": -2,
+          "dy": -1
+        },
+        {
+          "entityId": "food0-0",
+          "dx": -1,
+          "dy": 0
+        },
+        {
+          "entityId": "food0-1",
+          "dx": -2,
+          "dy": 2
+        },
+        {
+          "entityId": "box2",
+          "dx": 1,
+          "dy": 0
+        },
+        {
+          "entityId": "box1",
+          "dx": -1,
+          "dy": -1
+        },
+        {
+          "entityId": "box0",
+          "dx": 0,
+          "dy": -1
+        },
+        {
+          "entityId": "food0-0",
+          "dx": -3,
+          "dy": 3
+        },
+        {
+          "entityId": "food2-1",
+          "dx": 0,
+          "dy": -4
+        },
+        {
+          "entityId": "food1-1",
+          "dx": 1,
+          "dy": 4
+        },
+        {
+          "entityId": "box0",
+          "dx": 0,
+          "dy": -1
+        },
+        {
+          "entityId": "box2",
+          "dx": -1,
+          "dy": 5
+        },
+        {
+          "entityId": "box0",
+          "dx": 3,
+          "dy": -1
+        }
+      ]
+    },
+    "proof": {
+      "noTemporaryFirstDelivery": {
+        "status": "exhausted",
+        "path": [],
+        "visited": 1,
+        "expanded": 1,
+        "elapsedMs": 2
+      },
+      "allowedFirstDelivery": {
+        "status": "budget",
+        "visited": 7687,
+        "expanded": 713,
+        "elapsedMs": 4004,
+        "path": []
+      },
+      "winning": {
+        "status": "solved",
+        "visited": 1551,
+        "expanded": 40,
+        "elapsedMs": 530
+      },
+      "inCount": 8,
+      "outCount": 4,
+      "loadedMoves": 6
+    }
+  },
+  {
+    "seed": 7,
+    "template": 2,
+    "level": {
+      "id": 17,
+      "name": "借盒满盘",
+      "width": 5,
+      "height": 4,
+      "timeLimitSeconds": 300,
+      "entities": [
+        {
+          "id": "box0",
+          "type": "tray",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "box1",
+          "type": "tray",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "box2",
+          "type": "tray",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "foods": [
+        {
+          "id": "food2-0",
+          "kind": "fish",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 3
+        },
+        {
+          "id": "food0-0",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 3,
+          "y": 0
+        },
+        {
+          "id": "food0-1",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "food0-2",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "food0-3",
+          "kind": "tart",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 4,
+          "y": 0
+        },
+        {
+          "id": "food1-0",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "food1-1",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "food1-2",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 3
+        },
+        {
+          "id": "food1-3",
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "orders": [
+        {
+          "id": "order0",
+          "color": "red",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "tart",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order1",
+          "color": "blue",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 0
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 1
+            },
+            {
+              "kind": "sushi",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "id": "order2",
+          "color": "green",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "foods": [
+            {
+              "kind": "fish",
+              "shape": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                }
+              ],
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "exits": [
+        {
+          "side": "right",
+          "start": 1,
+          "width": 2,
+          "color": "red"
+        },
+        {
+          "side": "left",
+          "start": 1,
+          "width": 2,
+          "color": "blue"
+        },
+        {
+          "side": "bottom",
+          "start": 1,
+          "width": 2,
+          "color": "green"
+        }
+      ],
+      "solution": [
+        {
+          "entityId": "food0-1",
+          "dx": -2,
+          "dy": -1
+        },
+        {
+          "entityId": "food2-0",
+          "dx": -1,
+          "dy": -1
+        },
+        {
+          "entityId": "food2-0",
+          "dx": 2,
+          "dy": -1
+        },
+        {
+          "entityId": "food1-2",
+          "dx": 4,
+          "dy": -1
+        },
+        {
+          "entityId": "food1-0",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "entityId": "food1-0",
+          "dx": 2,
+          "dy": 0
+        },
+        {
+          "entityId": "food1-1",
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "entityId": "food1-1",
+          "dx": 3,
+          "dy": 2
+        },
+        {
+          "entityId": "food1-3",
+          "dx": -1,
+          "dy": 2
+        },
+        {
+          "entityId": "food0-0",
+          "dx": -2,
+          "dy": 1
+        },
+        {
+          "entityId": "food1-3",
+          "dx": 2,
+          "dy": 1
+        },
+        {
+          "entityId": "box0",
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "entityId": "food0-3",
+          "dx": -2,
+          "dy": 3
+        },
+        {
+          "entityId": "food0-2",
+          "dx": -3,
+          "dy": 2
+        },
+        {
+          "entityId": "box2",
+          "dx": -2,
+          "dy": 0
+        },
+        {
+          "entityId": "box1",
+          "dx": 0,
+          "dy": -2
+        },
+        {
+          "entityId": "box0",
+          "dx": 2,
+          "dy": 0
+        },
+        {
+          "entityId": "box2",
+          "dx": 1,
+          "dy": 3
+        },
+        {
+          "entityId": "box1",
+          "dx": -4,
+          "dy": 1
+        },
+        {
+          "entityId": "box0",
+          "dx": 1,
+          "dy": -1
+        }
+      ]
+    },
+    "proof": {
+      "noTemporaryFirstDelivery": {
+        "status": "exhausted",
+        "path": [],
+        "visited": 5,
+        "expanded": 5,
+        "elapsedMs": 23
+      },
+      "allowedFirstDelivery": {
+        "status": "budget",
+        "visited": 5637,
+        "expanded": 558,
+        "elapsedMs": 4003,
+        "path": []
+      },
+      "winning": {
+        "status": "solved",
+        "visited": 3880,
+        "expanded": 92,
+        "elapsedMs": 2394
+      },
+      "inCount": 9,
+      "outCount": 4,
+      "loadedMoves": 7
+    }
+  }
+]

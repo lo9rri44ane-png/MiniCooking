@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-03",
+  "engine": "3.8.8",
+  "levelDataSha256": "dad4da44972dd8cf37f1bf0e489a84a2107be9bb5eece1f72cdb1956f79a5882",
+  "tests": {
+    "pass": 180,
+    "fail": 0
+  },
+  "typecheck": true,
+  "shippingRuleReplayLevels": 11,
+  "realPointer": {
+    "initialAllLevels": 11,
+    "initialGestures": 496,
+    "finalRegionRetestPassed": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "finalStandaloneLevel11": {
+      "gestures": 72,
+      "delivered": 12,
+      "errors": []
+    },
+    "note": "One prolonged concurrent run failed an order assertion at level11; independent final-layout replay passed. No false all-pass recorded for failed run."
+  },
+  "clock": {
+    "pauseSixtySeconds": true,
+    "resumeConsumesTime": true,
+    "expirySingleModal": true,
+    "retryResetsTime": true,
+    "isolatedBrowser": true,
+    "errors": []
+  },
+  "art": {
+    "sprites": 8,
+    "originalAndExports": "art/demo2",
+    "contours": "art/demo2/exports/chibi-v3/contour-audit.json",
+    "visualChecked": [
+      "light",
+      "dark",
+      "actual board"
+    ]
+  },
+  "published": false
+}

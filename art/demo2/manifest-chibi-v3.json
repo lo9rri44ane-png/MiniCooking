@@ -1,0 +1,127 @@
+{
+  "source": "art/demo2/source/chibi-v3/foods-atlas.png",
+  "generatedWith": "built-in image_gen, transparent sprite atlas; sharp alpha connectivity exports",
+  "style": "Demo1 soft matte chibi; no photo texture",
+  "assets": [
+    {
+      "resource": "art/latest/demo2/food-lasagna-o4",
+      "sourceCrop": [
+        44,
+        69,
+        355,
+        337
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "safeMargin": 0.05,
+      "sha256": "1c7288e1128b009e2e8ad20fdcc64ceca4a335957bf0013d2d3667be227c0ba0"
+    },
+    {
+      "resource": "art/latest/demo2/food-waffle-l3",
+      "sourceCrop": [
+        479,
+        61,
+        343,
+        345
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "safeMargin": 0.05,
+      "sha256": "6096c2972671cac4158d949326b0d39b78373eda90484b0e75e7b8f9c638b850"
+    },
+    {
+      "resource": "art/latest/demo2/food-fish-i2h",
+      "sourceCrop": [
+        887,
+        117,
+        435,
+        231
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "safeMargin": 0.05,
+      "sha256": "920a4cf56a25a7e1a24f9ffe2d82702488babe613502ea2a5bce44353ae12994"
+    },
+    {
+      "resource": "art/latest/demo2/food-omelette-i2v",
+      "sourceCrop": [
+        1414,
+        25,
+        265,
+        393
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "safeMargin": 0.05,
+      "sha256": "8ea6d84a97b77ed9a758c3734f7879819803c03f0bf9dce5d9bb4a58675fe3e3"
+    },
+    {
+      "resource": "art/latest/demo2/food-bread-i2h",
+      "sourceCrop": [
+        12,
+        537,
+        421,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "safeMargin": 0.05,
+      "sha256": "53fd263133f2ae2e33270bd7af783386489d6f6d6799c72b2e03e9a5c7def31c"
+    },
+    {
+      "resource": "art/latest/demo2/food-tart-i1",
+      "sourceCrop": [
+        461,
+        477,
+        385,
+        373
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "safeMargin": 0.05,
+      "sha256": "7d9e8b631450d9cabc378b0990fbc3e677c7fce0b3d32cae666d06d131d27880"
+    },
+    {
+      "resource": "art/latest/demo2/food-berry-i2h",
+      "sourceCrop": [
+        877,
+        534,
+        441,
+        251
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "safeMargin": 0.05,
+      "sha256": "65621d25a9ed27d4dbc8f9ca4d47cca5fbfe4bc0228779f727fdacb27a577f32"
+    },
+    {
+      "resource": "art/latest/demo2/food-sushi-i1",
+      "sourceCrop": [
+        1380,
+        490,
+        341,
+        360
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "safeMargin": 0.05,
+      "sha256": "5dce20ac5df484d7527023144283ada5c67a9bb0368eec88ce5fd23baa34ae03"
+    }
+  ]
+}

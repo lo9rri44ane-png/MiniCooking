@@ -6,20 +6,20 @@ export function initialState(l:Level):State{return {entities:clone(l.entities),f
 export function act(l:Level,s:State,a:Action):State {return straight(l,s,a,false);}
 function straight(l:Level,s:State,a:Action,transit:boolean,foodPass?:Set<string>):State {
  if(s.won||!Number.isInteger(a.dx)||!Number.isInteger(a.dy)||(!a.dx&&!a.dy)||(a.dx&&a.dy))return s;
- const n:State=clone(s);const e=n.entities.find(e=>e.id===a.entityId);const f=n.foods.find(f=>f.id===a.entityId);const obj=e||f;if(!obj)return s;
+ const locked=lockedCells(l,s);const original=[...s.entities,...s.foods].find(o=>o.id===a.entityId),sourceFood=s.foods.find(f=>f.id===a.entityId),carrier=sourceFood?.carrierId?s.entities.find(e=>e.id===sourceFood.carrierId):undefined;if(original&&cells(original).some(p=>locked.has(key(p)))||carrier&&cells(carrier).some(p=>locked.has(key(p))))return s; const n:State=clone(s);const e=n.entities.find(e=>e.id===a.entityId);const f=n.foods.find(f=>f.id===a.entityId);const obj=e||f;if(!obj)return s;
  const length=Math.abs(a.dx||a.dy),dx=Math.sign(a.dx),dy=Math.sign(a.dy);
  const allowed=foodPass||foodContainers(s,a);if(f)delete f.carrierId;
  for(let step=0;step<length;step++) {
  obj.x+=dx;obj.y+=dy;if(e)n.foods.filter(f=>f.carrierId===e.id).forEach(f=>{f.x+=dx;f.y+=dy;});
- const c=cells(obj);if(e){if(n.entities.some(other=>other.id!==e.id&&cells(other).some(p=>c.some(q=>key(p)===key(q)))))return s;if(n.foods.some(other=>other.carrierId!==e.id&&cells(other).some(p=>c.some(q=>key(p)===key(q)))))return s;}
+ const c=cells(obj);if(c.some(p=>locked.has(key(p))))return s;if(e){if(n.entities.some(other=>other.id!==e.id&&cells(other).some(p=>c.some(q=>key(p)===key(q)))))return s;if(n.foods.some(other=>other.carrierId!==e.id&&cells(other).some(p=>c.some(q=>key(p)===key(q)))))return s;}
  const outside=c.some(p=>p.x<0||p.y<0||p.x>=l.width||p.y>=l.height);
  if(outside){
  if(!e)return s;
  const side=dx<0?'left':dx>0?'right':dy<0?'top':'bottom';const axis=c.map(p=>dx?p.y:p.x);
  const exit=l.exits.find(ex=>ex.side===side&&axis.every(v=>v>=ex.start&&v<ex.start+ex.width)&&(e.type==='pan'||ex.color===e.color));if(!exit)return s;
  const carried=n.foods.filter(f=>f.carrierId===e.id);
- if(e.type==='pan'){if(carried.length)return s;n.returned.push(e.id);}else{
- const order=l.orders.find(o=>!n.delivered.includes(o.id)&&o.color===e.color&&same(o.shape,e.shape)&&o.foods.length===carried.length&&recipeMatches(o.foods,carried,e));
+ if(e.type==='pan'){return s;}else{
+ const order=l.orders.find(o=>!n.delivered.includes(o.id)&&(s.activeOrderIds===undefined||s.activeOrderIds.includes(o.id))&&o.color===e.color&&same(o.shape,e.shape)&&o.foods.length===carried.length&&recipeMatches(o.foods,carried,e));
  if(!order||!same(carried.flatMap(cells),c))return s;n.delivered.push(order.id);
  }
  n.entities=n.entities.filter(x=>x.id!==e.id);n.foods=n.foods.filter(x=>x.carrierId!==e.id);n.won=n.delivered.length===l.orders.length;return n;
@@ -80,3 +80,5 @@ function foodContainers(s:State,a:Action):Set<string>{
  for(const e of s.entities)if(target.every(p=>cells(e).some(q=>key(p)===key(q))))allowed.add(e.id);
  return allowed;
 }
+
+export function lockedCells(l:Level,s:State):Set<string>{return new Set((l.lockedAreas||[]).filter(a=>s.delivered.filter(id=>!a.color||l.orders.find(o=>o.id===id)?.color===a.color).length<a.requiredDeliveries).flatMap(a=>a.cells.map(key)));}

@@ -1,0 +1,8 @@
+{
+  "pauseSixtySeconds": true,
+  "resumeConsumesTime": true,
+  "expirySingleModal": true,
+  "retryResetsTime": true,
+  "isolatedBrowser": true,
+  "errors": []
+}

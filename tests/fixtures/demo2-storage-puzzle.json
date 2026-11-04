@@ -1,0 +1,273 @@
+{
+  "id": 12,
+  "name": "借盒满盘",
+  "width": 4,
+  "height": 4,
+  "timeLimitSeconds": 300,
+  "entities": [
+    {
+      "id": "box0",
+      "type": "tray",
+      "color": "red",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "x": 2,
+      "y": 1
+    },
+    {
+      "id": "box1",
+      "type": "tray",
+      "color": "blue",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "x": 0,
+      "y": 1
+    },
+    {
+      "id": "box2",
+      "type": "tray",
+      "color": "green",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "x": 2,
+      "y": 3
+    }
+  ],
+  "foods": [
+    {
+      "id": "food0-0",
+      "kind": "waffle",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "x": 0,
+      "y": 2
+    },
+    {
+      "id": "food1-0",
+      "kind": "fish",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "x": 2,
+      "y": 0
+    },
+    {
+      "id": "food2-0",
+      "kind": "bread",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "food0-1",
+      "kind": "sushi",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "x": 1,
+      "y": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": "order0",
+      "color": "red",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "foods": [
+        {
+          "kind": "waffle",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "kind": "sushi",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "x": 1,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "order1",
+      "color": "blue",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "foods": [
+        {
+          "kind": "fish",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "order2",
+      "color": "green",
+      "shape": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "foods": [
+        {
+          "kind": "bread",
+          "shape": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "exits": [
+    {
+      "side": "right",
+      "start": 1,
+      "width": 2,
+      "color": "red"
+    },
+    {
+      "side": "left",
+      "start": 1,
+      "width": 1,
+      "color": "blue"
+    },
+    {
+      "side": "bottom",
+      "start": 1,
+      "width": 2,
+      "color": "green"
+    }
+  ],
+  "solution": []
+}

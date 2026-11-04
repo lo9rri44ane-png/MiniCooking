@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "source": "art/demo2/source/foods-chroma.png",
+  "generatedWith": "built-in imagegen, cyan alpha export sharp",
+  "assets": [
+    {
+      "resource": "art/latest/demo2/food-lasagna-o4",
+      "size": [
+        512,
+        512
+      ],
+      "sourceCrop": [
+        30,
+        35,
+        450,
+        440
+      ],
+      "safeMargin": 0.03,
+      "sha256": "4043fdb6efb02ee113415e2593adf0e79f6df45dffe59328410a47c15cdfa6cd"
+    },
+    {
+      "resource": "art/latest/demo2/food-waffle-l3",
+      "size": [
+        512,
+        512
+      ],
+      "sourceCrop": [
+        550,
+        45,
+        410,
+        435
+      ],
+      "safeMargin": 0.03,
+      "sha256": "bc3b45b12c848b45db3ad399df3abc57b14927e94dfd9dc33de40f580fb7a45e"
+    },
+    {
+      "resource": "art/latest/demo2/food-fish-i2h",
+      "size": [
+        512,
+        256
+      ],
+      "sourceCrop": [
+        1025,
+        130,
+        485,
+        270
+      ],
+      "safeMargin": 0.03,
+      "sha256": "fe0def53008c02afc99bb12e3928740bfba477d9a4c4cef98bb4b8315e2ec7d6"
+    },
+    {
+      "resource": "art/latest/demo2/food-omelette-i2v",
+      "size": [
+        256,
+        512
+      ],
+      "sourceCrop": [
+        110,
+        530,
+        270,
+        460
+      ],
+      "safeMargin": 0.03,
+      "sha256": "b63a406424286b2217379424da28f973051fb598f9f7d16eb429632bceef0468"
+    },
+    {
+      "resource": "art/latest/demo2/food-bread-i2h",
+      "size": [
+        512,
+        256
+      ],
+      "sourceCrop": [
+        480,
+        640,
+        535,
+        250
+      ],
+      "safeMargin": 0.03,
+      "sha256": "7906a62b9bad39b425dc695709334ed7c060795ccb60c7fa18e2bf1c9257368c"
+    },
+    {
+      "resource": "art/latest/demo2/food-tart-i1",
+      "size": [
+        256,
+        256
+      ],
+      "sourceCrop": [
+        1060,
+        555,
+        425,
+        420
+      ],
+      "safeMargin": 0.03,
+      "sha256": "b0566ae65217428eee278158384930af662a3a46d261a717b9eff579e77f6452"
+    },
+    {
+      "resource": "art/latest/demo2/washer-conveyor",
+      "size": [
+        768,
+        256
+      ],
+      "safeMargin": 0.03,
+      "source": "art/demo2/source/washer-chroma.png",
+      "sha256": "aecfa7f64979ab3b9dc8974f397bf4ceab6a71ac93fb13b58e9479802c1d015b"
+    },
+    {
+      "resource": "art/latest/demo2/board-floor-a",
+      "size": [
+        128,
+        128
+      ],
+      "source": "deterministic sage tile",
+      "sha256": "7b5c7764c6171413dbad88fb027275e9f700a00c9f923b39456f62eb6e511098"
+    },
+    {
+      "resource": "art/latest/demo2/board-floor-b",
+      "size": [
+        128,
+        128
+      ],
+      "source": "deterministic sage tile",
+      "sha256": "b68277c8d197e044c7df4ca9adcce849c043547837c6acd7e2daeafaae6ebed4"
+    }
+  ],
+  "notes": "95% similarity target unmeasured. Whole sprites fit shape bounds. L notch upper right. Floors are optional deterministic 128px sage tiles.",
+  "sourceSha256": "25248a4bfad57426e41d29a6996c1649a96fe1cc47669ba6274b08139577b3fa"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 6,
+    "directAssemblyExitCount": 1,
+    "examples": [
+      {
+        "order": "order5",
+        "tray": "shift-0",
+        "foodIds": [
+          "food5"
+        ],
+        "assemblySteps": 2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "directAssemblyExitCount": 4,
+    "examples": [
+      {
+        "order": "order7",
+        "tray": "tray7",
+        "foodIds": [
+          "food7"
+        ],
+        "assemblySteps": 2
+      },
+      {
+        "order": "order6",
+        "tray": "tray6",
+        "foodIds": [
+          "food6"
+        ],
+        "assemblySteps": 2
+      },
+      {
+        "order": "order5",
+        "tray": "tray5",
+        "foodIds": [
+          "food5"
+        ],
+        "assemblySteps": 2
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "directAssemblyExitCount": 3,
+    "examples": [
+      {
+        "order": "order4",
+        "tray": "tray4",
+        "foodIds": [
+          "food4"
+        ],
+        "assemblySteps": 2
+      },
+      {
+        "order": "order3",
+        "tray": "tray3",
+        "foodIds": [
+          "food3"
+        ],
+        "assemblySteps": 2
+      },
+      {
+        "order": "order2",
+        "tray": "tray2",
+        "foodIds": [
+          "food6",
+          "food7"
+        ],
+        "assemblySteps": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "directAssemblyExitCount": 2,
+    "examples": [
+      {
+        "order": "order3",
+        "tray": "tray6",
+        "foodIds": [
+          "food7-part0",
+          "food7-part1"
+        ],
+        "assemblySteps": 3
+      },
+      {
+        "order": "order5",
+        "tray": "tray5",
+        "foodIds": [
+          "food5"
+        ],
+        "assemblySteps": 2
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "directAssemblyExitCount": 0,
+    "examples": []
+  },
+  {
+    "id": 11,
+    "directAssemblyExitCount": 1,
+    "examples": [
+      {
+        "order": "order10",
+        "tray": "tray10",
+        "foodIds": [
+          "food10"
+        ],
+        "assemblySteps": 2
+      }
+    ]
+  }
+]

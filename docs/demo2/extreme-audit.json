@@ -1,0 +1,218 @@
+[
+  {
+    "id": 12,
+    "name": "八味错盒",
+    "size": [
+      4,
+      4
+    ],
+    "foods": 8,
+    "orders": 2,
+    "customerSlots": 3,
+    "occupied": 16,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 13,
+    "temporaryPackings": 3,
+    "extractions": 3,
+    "loadedMoves": 2,
+    "peakCarriedFoods": 6,
+    "noTemporaryFirstDelivery": {
+      "status": "exhausted",
+      "path": [],
+      "visited": 1,
+      "expanded": 1,
+      "elapsedMs": 7
+    },
+    "optimal": false,
+    "levelSha256": "2f280343ffa1ed61c3561c72c601bcb65baf47a713ac1ff4e461cc8610deb89d"
+  },
+  {
+    "id": 13,
+    "name": "夹缝换装",
+    "size": [
+      5,
+      4
+    ],
+    "foods": 9,
+    "orders": 3,
+    "customerSlots": 3,
+    "occupied": 20,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 16,
+    "temporaryPackings": 3,
+    "extractions": 3,
+    "loadedMoves": 4,
+    "peakCarriedFoods": 8,
+    "noTemporaryFirstDelivery": {
+      "status": "exhausted",
+      "path": [],
+      "visited": 1,
+      "expanded": 1,
+      "elapsedMs": 5
+    },
+    "optimal": false,
+    "levelSha256": "d44ac2d5bb5ff9aa6b345ade0e0d23245667dec177171419190b1a5e67cea556"
+  },
+  {
+    "id": 14,
+    "name": "连盒借位",
+    "size": [
+      4,
+      6
+    ],
+    "foods": 8,
+    "orders": 3,
+    "customerSlots": 3,
+    "occupied": 24,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 17,
+    "temporaryPackings": 4,
+    "extractions": 4,
+    "loadedMoves": 5,
+    "peakCarriedFoods": 7,
+    "noTemporaryFirstDelivery": {
+      "status": "exhausted",
+      "path": [],
+      "visited": 104,
+      "expanded": 104,
+      "elapsedMs": 455
+    },
+    "optimal": false,
+    "levelSha256": "b798bc6f0007a5dc722ea854acce96285fd29ad30dde3bc869b6fcb0e0821f4b"
+  },
+  {
+    "id": 15,
+    "name": "回收再组",
+    "size": [
+      4,
+      5
+    ],
+    "foods": 9,
+    "orders": 3,
+    "customerSlots": 3,
+    "occupied": 20,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 17,
+    "temporaryPackings": 2,
+    "extractions": 2,
+    "loadedMoves": 5,
+    "peakCarriedFoods": 8,
+    "noTemporaryFirstDelivery": {
+      "status": "exhausted",
+      "path": [],
+      "visited": 1,
+      "expanded": 1,
+      "elapsedMs": 2
+    },
+    "optimal": false,
+    "levelSha256": "0bfe60ab2158ad5069d732cfefbd5f1b449e24281cbc97b6015036aad8d71ebd"
+  },
+  {
+    "id": 16,
+    "name": "满载接力",
+    "size": [
+      4,
+      6
+    ],
+    "foods": 8,
+    "orders": 3,
+    "customerSlots": 3,
+    "occupied": 24,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 18,
+    "temporaryPackings": 3,
+    "extractions": 4,
+    "loadedMoves": 6,
+    "peakCarriedFoods": 6,
+    "noTemporaryFirstDelivery": {
+      "status": "exhausted",
+      "path": [],
+      "visited": 1,
+      "expanded": 1,
+      "elapsedMs": 3
+    },
+    "optimal": false,
+    "levelSha256": "bd430f629fa79d39af28b85224124af7f89a4fb8a7d4435ea4f7074053e6aac3"
+  },
+  {
+    "id": 17,
+    "name": "交叉出餐",
+    "size": [
+      5,
+      4
+    ],
+    "foods": 9,
+    "orders": 3,
+    "customerSlots": 3,
+    "occupied": 20,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 20,
+    "temporaryPackings": 4,
+    "extractions": 4,
+    "loadedMoves": 7,
+    "peakCarriedFoods": 9,
+    "noTemporaryFirstDelivery": {
+      "status": "exhausted",
+      "path": [],
+      "visited": 5,
+      "expanded": 5,
+      "elapsedMs": 18
+    },
+    "optimal": false,
+    "levelSha256": "d0c8694c0742470be1e930f75a6f2052a33d9d03b39b40cab1b2635ae02a40c7"
+  },
+  {
+    "id": 18,
+    "name": "十四味满盘",
+    "size": [
+      5,
+      6
+    ],
+    "foods": 14,
+    "orders": 4,
+    "customerSlots": 1,
+    "occupied": 30,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 30,
+    "temporaryPackings": 5,
+    "extractions": 6,
+    "loadedMoves": 9,
+    "peakCarriedFoods": 13,
+    "noTemporaryFirstDelivery": {
+      "status": "not-run"
+    },
+    "optimal": false,
+    "levelSha256": "0c7b9ab552fea63101d1540df4c66a2140ca82ba5e1cfcb6aa140d14c2e4a5d9"
+  },
+  {
+    "id": 19,
+    "name": "十三味封局",
+    "size": [
+      6,
+      5
+    ],
+    "foods": 13,
+    "orders": 4,
+    "customerSlots": 1,
+    "occupied": 30,
+    "occupancy": 1,
+    "allInitialMovesAreFoodStorage": true,
+    "solutionActions": 32,
+    "temporaryPackings": 4,
+    "extractions": 5,
+    "loadedMoves": 9,
+    "peakCarriedFoods": 11,
+    "noTemporaryFirstDelivery": {
+      "status": "not-run"
+    },
+    "optimal": false,
+    "levelSha256": "01a5a434b6eceef7d6e44963107dcc502fb8a1f7f7ef93614bae81dca7115bc0"
+  }
+]

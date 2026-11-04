@@ -1,0 +1,82 @@
+[
+  {
+    "file": "assets/resources/art/latest/demo2/food-lasagna-o4.png",
+    "bounds": [
+      29,
+      41,
+      482,
+      469
+    ],
+    "safe": true
+  },
+  {
+    "file": "assets/resources/art/latest/demo2/food-waffle-l3.png",
+    "bounds": [
+      31,
+      30,
+      480,
+      481
+    ],
+    "safe": true
+  },
+  {
+    "file": "assets/resources/art/latest/demo2/food-fish-i2h.png",
+    "bounds": [
+      42,
+      16,
+      468,
+      239
+    ],
+    "safe": true
+  },
+  {
+    "file": "assets/resources/art/latest/demo2/food-omelette-i2v.png",
+    "bounds": [
+      15,
+      87,
+      240,
+      423
+    ],
+    "safe": true
+  },
+  {
+    "file": "assets/resources/art/latest/demo2/food-bread-i2h.png",
+    "bounds": [
+      69,
+      16,
+      441,
+      239
+    ],
+    "safe": true
+  },
+  {
+    "file": "assets/resources/art/latest/demo2/food-tart-i1.png",
+    "bounds": [
+      15,
+      18,
+      240,
+      236
+    ],
+    "safe": true
+  },
+  {
+    "file": "assets/resources/art/latest/demo2/food-berry-i2h.png",
+    "bounds": [
+      56,
+      16,
+      453,
+      239
+    ],
+    "safe": true
+  },
+  {
+    "file": "assets/resources/art/latest/demo2/food-sushi-i1.png",
+    "bounds": [
+      21,
+      15,
+      234,
+      240
+    ],
+    "safe": true
+  }
+]

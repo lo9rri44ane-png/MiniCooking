@@ -1,0 +1,656 @@
+{
+  "at": "2026-11-02T19:26:28.580Z",
+  "input": "real mouse body drags and 420ms hold before lifting any carried food",
+  "checks": [
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food0-1",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food0-2",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food1-3",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food2-3",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food2-0",
+        "dx": 0,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food1-0",
+        "dx": 2,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food1-1",
+        "dx": 3,
+        "dy": 4
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food0-0",
+        "dx": -1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food0-0",
+        "dx": 0,
+        "dy": 2
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food1-2",
+        "dx": -2,
+        "dy": 3
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food2-1",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food3-1",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food0-2",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food2-2",
+        "dx": -1,
+        "dy": 4
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box1",
+        "dx": -2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food2-1",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food0-3",
+        "dx": -4,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box2",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food3-1",
+        "dx": -3,
+        "dy": 1
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food3-0",
+        "dx": -1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food0-3",
+        "dx": 1,
+        "dy": 3
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food1-2",
+        "dx": 3,
+        "dy": 1
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box1",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box2",
+        "dx": 1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box3",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box1",
+        "dx": -2,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "food3-0",
+        "dx": -1,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box0",
+        "dx": 4,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box2",
+        "dx": -2,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 0
+    },
+    {
+      "level": 18,
+      "action": {
+        "entityId": "box3",
+        "dx": 0,
+        "dy": -3
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food0-0",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food0-1",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food0-3",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food1-0",
+        "dx": 2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food1-1",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food3-0",
+        "dx": 0,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food0-2",
+        "dx": 1,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food1-3",
+        "dx": 1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food2-1",
+        "dx": -2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food1-2",
+        "dx": -2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food0-3",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food3-1",
+        "dx": -2,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food2-0",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food1-3",
+        "dx": 2,
+        "dy": 1
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box3",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food0-2",
+        "dx": 1,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box2",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food2-0",
+        "dx": -1,
+        "dy": 0
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box1",
+        "dx": 0,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 0,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box0",
+        "dx": 3,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box3",
+        "dx": 0,
+        "dy": 1
+      },
+      "hold": false,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food3-0",
+        "dx": -5,
+        "dy": -2
+      },
+      "hold": true,
+      "delivered": 1,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box3",
+        "dx": 2,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 2,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food2-1",
+        "dx": 5,
+        "dy": 0
+      },
+      "hold": true,
+      "delivered": 2,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food1-2",
+        "dx": 4,
+        "dy": -1
+      },
+      "hold": true,
+      "delivered": 2,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box1",
+        "dx": -5,
+        "dy": -2
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box2",
+        "dx": 0,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "food2-0",
+        "dx": -2,
+        "dy": -1
+      },
+      "hold": false,
+      "delivered": 3,
+      "washed": 0
+    },
+    {
+      "level": 19,
+      "action": {
+        "entityId": "box2",
+        "dx": 1,
+        "dy": 2
+      },
+      "hold": false,
+      "delivered": 4,
+      "washed": 0
+    }
+  ],
+  "errors": []
+}

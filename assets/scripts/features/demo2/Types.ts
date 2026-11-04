@@ -5,6 +5,6 @@ export interface Entity {id:string;type:'tray'|'pan';shape:Shape;x:number;y:numb
 export interface Food {id:string;kind:string;shape:Shape;x:number;y:number;carrierId?:string}
 export interface Order {id:string;color:Color;shape:Shape;foods:{kind:string;shape:Shape;x:number;y:number}[]}
 export interface Exit {side:'top'|'bottom'|'left'|'right';start:number;width:number;color:Color}
-export interface State {entities:Entity[];foods:Food[];delivered:string[];returned:string[];won:boolean}
+export interface State {entities:Entity[];foods:Food[];delivered:string[];returned:string[];won:boolean;activeOrderIds?:string[]}
 export interface Action {entityId:string;dx:number;dy:number}
-export interface Level {id:number;name:string;width:number;height:number;entities:Entity[];foods:Food[];orders:Order[];exits:Exit[];solution:Action[]}
+export interface Level {id:number;name:string;width:number;height:number;entities:Entity[];foods:Food[];orders:Order[];exits:Exit[];solution:Action[];timeLimitSeconds?:number;customerSlots?:number;lockedAreas?:{id:string;cells:Cell[];requiredDeliveries:number;color?:Color}[]}

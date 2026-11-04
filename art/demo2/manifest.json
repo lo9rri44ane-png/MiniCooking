@@ -1,127 +1,238 @@
 {
-  "version": 2,
-  "source": "art/demo2/source/foods-chroma.png",
-  "generatedWith": "built-in imagegen, cyan alpha export sharp",
+  "source": "art/demo2/source/chibi-v3/foods-atlas.png",
+  "generatedWith": "built-in image_gen; v3 retained sprites plus v4 individual regenerated sprites, alpha-connected proportional exports",
+  "style": "Demo1 soft matte chibi; no photo texture",
   "assets": [
     {
       "resource": "art/latest/demo2/food-lasagna-o4",
+      "sourceCrop": [
+        44,
+        69,
+        355,
+        337
+      ],
       "size": [
         512,
         512
       ],
-      "sourceCrop": [
-        30,
-        35,
-        450,
-        440
-      ],
-      "safeMargin": 0.03,
-      "sha256": "4043fdb6efb02ee113415e2593adf0e79f6df45dffe59328410a47c15cdfa6cd"
-    },
-    {
-      "resource": "art/latest/demo2/food-waffle-l3",
-      "size": [
-        512,
-        512
-      ],
-      "sourceCrop": [
-        550,
-        45,
-        410,
-        435
-      ],
-      "safeMargin": 0.03,
-      "sha256": "bc3b45b12c848b45db3ad399df3abc57b14927e94dfd9dc33de40f580fb7a45e"
-    },
-    {
-      "resource": "art/latest/demo2/food-fish-i2h",
-      "size": [
-        512,
-        256
-      ],
-      "sourceCrop": [
-        1025,
-        130,
-        485,
-        270
-      ],
-      "safeMargin": 0.03,
-      "sha256": "fe0def53008c02afc99bb12e3928740bfba477d9a4c4cef98bb4b8315e2ec7d6"
-    },
-    {
-      "resource": "art/latest/demo2/food-omelette-i2v",
-      "size": [
-        256,
-        512
-      ],
-      "sourceCrop": [
-        110,
-        530,
-        270,
-        460
-      ],
-      "safeMargin": 0.03,
-      "sha256": "b63a406424286b2217379424da28f973051fb598f9f7d16eb429632bceef0468"
-    },
-    {
-      "resource": "art/latest/demo2/food-bread-i2h",
-      "size": [
-        512,
-        256
-      ],
-      "sourceCrop": [
-        480,
-        640,
-        535,
-        250
-      ],
-      "safeMargin": 0.03,
-      "sha256": "7906a62b9bad39b425dc695709334ed7c060795ccb60c7fa18e2bf1c9257368c"
+      "safeMargin": 0.05,
+      "sha256": "1c7288e1128b009e2e8ad20fdcc64ceca4a335957bf0013d2d3667be227c0ba0"
     },
     {
       "resource": "art/latest/demo2/food-tart-i1",
+      "sourceCrop": [
+        461,
+        477,
+        385,
+        373
+      ],
       "size": [
         256,
         256
       ],
-      "sourceCrop": [
-        1060,
-        555,
-        425,
-        420
-      ],
-      "safeMargin": 0.03,
-      "sha256": "b0566ae65217428eee278158384930af662a3a46d261a717b9eff579e77f6452"
+      "safeMargin": 0.05,
+      "sha256": "7d9e8b631450d9cabc378b0990fbc3e677c7fce0b3d32cae666d06d131d27880"
     },
     {
-      "resource": "art/latest/demo2/washer-conveyor",
+      "resource": "art/latest/demo2/food-sushi-i1",
+      "sourceCrop": [
+        1380,
+        490,
+        341,
+        360
+      ],
       "size": [
-        768,
+        256,
         256
       ],
+      "safeMargin": 0.05,
+      "sha256": "5dce20ac5df484d7527023144283ada5c67a9bb0368eec88ce5fd23baa34ae03"
+    },
+    {
+      "resource": "art/latest/demo2/food-fish-i2h",
+      "source": "art/demo2/source/chibi-v4/fish.png",
+      "sourceCrop": [
+        7,
+        36,
+        1758,
+        813
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "visibleBounds": [
+        15,
+        16,
+        481,
+        223
+      ],
+      "fill": [
+        0.939453125,
+        0.87109375
+      ],
       "safeMargin": 0.03,
-      "source": "art/demo2/source/washer-chroma.png",
-      "sha256": "aecfa7f64979ab3b9dc8974f397bf4ceab6a71ac93fb13b58e9479802c1d015b"
+      "sha256": "82e20d1249868608a8087921fd2ce51d670893e40c85f6b87555ee50c3945305"
     },
     {
-      "resource": "art/latest/demo2/board-floor-a",
-      "size": [
-        128,
-        128
+      "resource": "art/latest/demo2/food-bread-i2h",
+      "source": "art/demo2/source/chibi-v4/bread.png",
+      "sourceCrop": [
+        8,
+        16,
+        1758,
+        855
       ],
-      "source": "deterministic sage tile",
-      "sha256": "7b5c7764c6171413dbad88fb027275e9f700a00c9f923b39456f62eb6e511098"
+      "size": [
+        512,
+        256
+      ],
+      "visibleBounds": [
+        15,
+        11,
+        481,
+        234
+      ],
+      "fill": [
+        0.939453125,
+        0.9140625
+      ],
+      "safeMargin": 0.03,
+      "sha256": "e2470d303b3f3d89f131750de7a4b612fb328766cc5387db655617925f15be3d"
     },
     {
-      "resource": "art/latest/demo2/board-floor-b",
-      "size": [
-        128,
-        128
+      "resource": "art/latest/demo2/food-berry-i2h",
+      "source": "art/demo2/source/chibi-v4/berry.png",
+      "sourceCrop": [
+        6,
+        22,
+        1764,
+        840
       ],
-      "source": "deterministic sage tile",
-      "sha256": "b68277c8d197e044c7df4ca9adcce849c043547837c6acd7e2daeafaae6ebed4"
+      "size": [
+        512,
+        256
+      ],
+      "visibleBounds": [
+        15,
+        13,
+        481,
+        229
+      ],
+      "fill": [
+        0.939453125,
+        0.89453125
+      ],
+      "safeMargin": 0.03,
+      "sha256": "72919417e2de58b6a5871172a1fc30910236e5d10c6bf55a980045a3154b23e7"
+    },
+    {
+      "resource": "art/latest/demo2/food-omelette-i2v",
+      "source": "art/demo2/source/chibi-v4/omelette.png",
+      "sourceCrop": [
+        8,
+        6,
+        869,
+        1759
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "visibleBounds": [
+        9,
+        15,
+        238,
+        481
+      ],
+      "fill": [
+        0.9296875,
+        0.939453125
+      ],
+      "safeMargin": 0.03,
+      "sha256": "048ad6e95bcf4be347c5efdd0396c276f1f9ea07d433a661da3690bf54dd8a6c"
+    },
+    {
+      "resource": "art/latest/demo2/food-waffle-l3",
+      "source": "art/demo2/source/chibi-v4/waffle.png",
+      "sourceCrop": [
+        9,
+        16,
+        1236,
+        1224
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        20,
+        38,
+        461,
+        456
+      ],
+      "fill": [
+        0.900390625,
+        0.890625
+      ],
+      "safeMargin": 0.03,
+      "emptyLQuadrant": true,
+      "sha256": "63c1fdafd8af7cf46156652f684f07b9040b81de37ce3e82872ec7067c6aa1d5"
+    },
+    {
+      "resource": "art/latest/demo2/order-bubble-double",
+      "source": "art/demo2/source/chibi-v4/bubble-double.png",
+      "sourceCrop": [
+        10,
+        12,
+        1751,
+        851
+      ],
+      "size": [
+        768,
+        384
+      ],
+      "visibleBounds": [
+        23,
+        16,
+        722,
+        351
+      ],
+      "fill": [
+        0.9401041666666666,
+        0.9140625
+      ],
+      "safeMargin": 0.03,
+      "sha256": "c7f38db7d90e47701805354c5937e0cbad65a77b1552a575048aa57f3425c6f5"
+    },
+    {
+      "resource": "art/latest/demo2/order-bubble-single",
+      "source": "art/demo2/source/chibi-v4/bubble-single.png",
+      "sourceCrop": [
+        83,
+        25,
+        1073,
+        1197
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        40,
+        15,
+        431,
+        481
+      ],
+      "fill": [
+        0.841796875,
+        0.939453125
+      ],
+      "safeMargin": 0.03,
+      "sha256": "0785c0d85113ced1b8ca54acac4515343c09e7d5c6d01f04edebd1eca25b8370"
     }
   ],
-  "notes": "95% similarity target unmeasured. Whole sprites fit shape bounds. L notch upper right. Floors are optional deterministic 128px sage tiles.",
-  "sourceSha256": "25248a4bfad57426e41d29a6996c1649a96fe1cc47669ba6274b08139577b3fa"
+  "version": 4,
+  "reference": "art/breakfast/v2/source/reference/approved-gameplay.png",
+  "notes": "Individual chibi food generation; tight proportional fit; L artwork translated intact inside occupied cells; dedicated single/double-order bubbles"
 }
